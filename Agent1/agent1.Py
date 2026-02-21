@@ -90,13 +90,13 @@ class TextIngestionAgent:
             print("no file to process")
             return {}
 
-        # حفظ trace_index.csv
+        # save trace_index.csv
         with open(self.config.TRACE_CSV, "w", newline="", encoding="utf-8") as csvfile:
             writer = csv.DictWriter(csvfile, fieldnames=trace_records[0].keys())
             writer.writeheader()
             writer.writerows(trace_records)
 
-        # حفظ معلومات تفصيلية لكل ملف
+        
         documents_info = []
         for r in trace_records:
             info = {
