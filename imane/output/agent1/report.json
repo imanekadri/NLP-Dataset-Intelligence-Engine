@@ -1,0 +1,21 @@
+{
+  "agent": "TextIngestionAgent",
+  "timestamp": "2026-02-24T22:23:46.741267",
+  "stats": {
+    "total_docs": 126,
+    "languages": [
+      "fr",
+      "en",
+      "ca",
+      "ar"
+    ],
+    "formats": [
+      ".csv",
+      ".pdf",
+      ".json"
+    ],
+    "duplicates": 2,
+    "avg_length": 87950,
+    "total_size_mb": 75.884
+  }
+}
