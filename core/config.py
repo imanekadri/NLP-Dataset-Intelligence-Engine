@@ -11,7 +11,7 @@ class GlobalConfig:
     OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "../output")
     
     ENCODINGS_TO_TRY = ['utf-8', 'latin-1', 'iso-8859-1', 'cp1252', 'utf-16']
-    SUPPORTED_FORMATS = ['.txt', '.csv', '.json', '.xml', '.pdf', '.docx', '.log', '.py', '.js']
+    SUPPORTED_FORMATS = ['.txt', '.csv', '.json', '.xml', '.pdf', '.docx', '.log', '.py', '.js', '.html', '.htm', '.png', '.jpg', '.jpeg', '.tiff', '.bmp']
 
 
 #####################Agent1

@@ -1,6 +1,8 @@
 # core/utils.py
 import os
 import pytesseract
+from bs4 import BeautifulSoup
+from PIL import Image
 import PyPDF2
 from pdf2image import convert_from_path
 from docx import Document
@@ -14,8 +16,16 @@ from langdetect import detect, DetectorFactory
 
 
 ############### agent1  #############
-# Set Tesseract OCR path
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+# Configure Tesseract OCR path if provided via env or on Windows
+if os.name == 'nt':
+    # default Windows install path (override with TESSERACT_CMD env var if needed)
+    pytesseract.pytesseract.tesseract_cmd = os.environ.get(
+        'TESSERACT_CMD', r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+    )
+else:
+    # on Linux/macOS, allow override but otherwise expect tesseract on PATH
+    if os.environ.get('TESSERACT_CMD'):
+        pytesseract.pytesseract.tesseract_cmd = os.environ.get('TESSERACT_CMD')
 
 def extract_text_from_file(file_path, encodings_to_try):
     """Extract text from any supported file type"""
@@ -54,17 +64,45 @@ def extract_text_from_file(file_path, encodings_to_try):
 
         if not text.strip():
             try:
-                images = convert_from_path(file_path, poppler_path=r"C:\Program Files\poppler-25.12.0\Library\bin")
+                # convert PDF pages to images; on Linux/macOS poppler should be on PATH
+                poppler_path = os.environ.get('POPPLER_PATH')
+                if poppler_path:
+                    images = convert_from_path(file_path, poppler_path=poppler_path)
+                else:
+                    images = convert_from_path(file_path)
                 ocr_texts = [pytesseract.image_to_string(img) for img in images]
                 text = "\n".join(ocr_texts)
             except Exception as e:
                 raise ValueError(f"OCR failed for {file_path}: {e}")
         return text
 
+    # Image files (OCR)
+    elif ext in [".png", ".jpg", ".jpeg", ".tiff", ".bmp"]:
+        try:
+            img = Image.open(file_path)
+            return pytesseract.image_to_string(img)
+        except Exception as e:
+            raise ValueError(f"OCR failed for image {file_path}: {e}")
+
     # DOCX files
     elif ext == ".docx":
         doc = Document(file_path)
         return "\n".join([p.text for p in doc.paragraphs])
+
+    # HTML files
+    elif ext in [".html", ".htm"]:
+        for enc in encodings_to_try:
+            try:
+                with open(file_path, "r", encoding=enc) as f:
+                    raw = f.read()
+                soup = BeautifulSoup(raw, "lxml")
+                for s in soup(["script", "style"]):
+                    s.extract()
+                text = soup.get_text(separator="\n", strip=True)
+                return text
+            except Exception:
+                continue
+        raise ValueError(f"Cannot read html file {file_path} with any encoding")
 
     else:  # fallback
         for enc in encodings_to_try:
@@ -75,6 +113,49 @@ def extract_text_from_file(file_path, encodings_to_try):
                 continue
         raise ValueError(f"Cannot read file {file_path} with any encoding")
     
+
+def extract_html_metadata(file_path, encodings_to_try):
+    """Return metadata from an HTML file: title, meta description, headings, links, json-ld."""
+    for enc in encodings_to_try:
+        try:
+            with open(file_path, "r", encoding=enc) as f:
+                raw = f.read()
+            soup = BeautifulSoup(raw, "lxml")
+            title = soup.title.string.strip() if soup.title and soup.title.string else ""
+
+            meta_desc = ""
+            m = soup.find("meta", attrs={"name": "description"})
+            if m and m.get("content"):
+                meta_desc = m.get("content").strip()
+
+            headings = []
+            for h in soup.find_all(["h1", "h2", "h3"]):
+                if h.text:
+                    headings.append(h.text.strip())
+
+            links = []
+            for a in soup.find_all("a", href=True):
+                links.append(a["href"])
+
+            json_ld = []
+            for s in soup.find_all("script", type=lambda v: v and "application/ld+json" in v):
+                try:
+                    payload = json.loads(s.string) if s.string else None
+                except Exception:
+                    payload = None
+                if payload:
+                    json_ld.append(payload)
+
+            return {
+                "title": title,
+                "meta_description": meta_desc,
+                "headings": headings,
+                "links": links,
+                "json_ld": json_ld,
+            }
+        except Exception:
+            continue
+    return {}
 
 
 ########## agent2 ###################

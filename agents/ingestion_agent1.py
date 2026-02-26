@@ -4,7 +4,7 @@ import json
 import hashlib
 from datetime import datetime
 from langdetect import detect
-from core.utils import extract_text_from_file
+from core.utils import extract_text_from_file, extract_html_metadata
 from core.config import agent1_config as config
 
 def _hash_file(path):
@@ -50,8 +50,15 @@ def run_ingestion(state):
             try:
                 text = extract_text_from_file(file_path, config.ENCODINGS_TO_TRY)
             except Exception as e:
-                print(f"Error reading {file_path}: {e}")
+                print(f"Error extracting text from {file_path}: {e}")
                 continue
+            html_meta = {}
+            if ext in ['.html', '.htm']:
+                try:
+                    html_meta = extract_html_metadata(file_path, config.ENCODINGS_TO_TRY)
+                except Exception:
+                    html_meta = {}
+            
             if not text or not text.strip():
                 continue
 
@@ -78,7 +85,19 @@ def run_ingestion(state):
                 "words": len(text.split()),
                 "char_count": len(text),
                 "timestamp": datetime.now().isoformat(),
+                "metadata": html_meta
             }
+
+            # if HTML had JSON-LD payloads, save them as a separate json file
+            if ext in ['.html', '.htm'] and html_meta.get('json_ld'):
+                try:
+                    json_ld_path = os.path.join(config.EXTRACTED_DIR, f"{file_id}.json")
+                    with open(json_ld_path, "w", encoding="utf-8") as jf:
+                        json.dump(html_meta.get('json_ld'), jf, ensure_ascii=False, indent=2)
+                    trace_info['json_ld_path'] = json_ld_path
+                    extracted_files.append(json_ld_path)
+                except Exception:
+                    pass
 
             trace_records.append(trace_info)
             extracted_files.append(extracted_path)
@@ -88,8 +107,14 @@ def run_ingestion(state):
     # save trace_index.csv
     trace_csv_path = os.path.join(config.AGENT_OUTPUT_DIR, "trace_index.csv")
     if trace_records:
+        # ensure CSV contains all possible keys (some traces may have extra fields like json_ld_path)
+        fieldnames = []
+        for r in trace_records:
+            for k in r.keys():
+                if k not in fieldnames:
+                    fieldnames.append(k)
         with open(trace_csv_path, "w", newline="", encoding="utf-8") as f:
-            writer = csv.DictWriter(f, fieldnames=trace_records[0].keys())
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
             writer.writeheader()
             writer.writerows(trace_records)
 
@@ -122,10 +147,12 @@ def run_ingestion(state):
             "length": r["char_count"],
             "word_count": r["words"],
             "text_sample": open(r["extracted_path"], "r", encoding="utf-8").read()[:200],
-            "metadata": {"source": r["origin_path"]},
+            "metadata": r.get("metadata", {"source": r["origin_path"]}),
             "extended_path": r["extracted_path"],
             "hash_md5": _hash_file(r["origin_path"])
         }
+        if r.get('json_ld_path'):
+            info['json_ld_path'] = r.get('json_ld_path')
         documents_info.append(info)
 
     with open(documents_info_path, "w", encoding="utf-8") as f:

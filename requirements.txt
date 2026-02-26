@@ -119,3 +119,4 @@ wasabi==1.1.3
 wcwidth==0.6.0
 weasel==0.4.3
 wrapt==2.1.1
+beautifulsoup4==4.12.2
