@@ -1,11 +1,11 @@
-from core.llm_provider import LLMProvider
+from agent45.core.llm_provider import LLMProvider
 from .config import SemanticBrainConfig
 from .prompt import SYSTEM_PROMPT, build_prompt
 from .validator import validate_output
 from .domain_detector import DomainDetector
 from .ner_analyzer import NERAnalyzer
 from .topic_modeler import TopicModeler
-from core.logger import logger
+from agent45.core.logger import logger
 
 
 class DatasetBrainAgent:
@@ -42,6 +42,7 @@ class DatasetBrainAgent:
 
         # The agent doesn't care if it's Llama or Claude, the provider handles it!
         raw_output = self.llm.generate(SYSTEM_PROMPT, user_prompt)
+        print(f"DEBUG - RAW AI OUTPUT: {user_prompt}")  #
         print(f"DEBUG - RAW AI OUTPUT: {raw_output}")  #
         validated = validate_output(raw_output)
 

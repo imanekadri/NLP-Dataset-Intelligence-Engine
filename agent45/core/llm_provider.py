@@ -1,7 +1,7 @@
 import os
 import anthropic
 from openai import OpenAI
-from core.logger import logger
+from agent45.core.logger import logger
 from dotenv import load_dotenv
 
 load_dotenv()

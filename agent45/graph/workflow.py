@@ -1,5 +1,5 @@
 from langgraph.graph import StateGraph, END
-from agents.semantic_brain.agent import DatasetBrainAgent
+from agent45.agents.semantic_brain.agent import DatasetBrainAgent
 from graph.state import GraphState
 from core.logger import logger
 
