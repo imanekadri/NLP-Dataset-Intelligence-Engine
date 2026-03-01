@@ -1,29 +1,13 @@
-ACCOUNTANT
-Summary
-Accomplished and results-oriented 
-finance professionalÂ 
- who consistently meets deadlines and increases department revenue. Highly skilled at
-increasing productivity through detailed cost analysis.
-Highlights
-Microsoft Office : Intermediate in all the Microsoft Office components( Excel, Word,
-PowerPoint, Outlook and Access); Very familiar with ( Macros, V-look ups, calculating
-formulas and manipulating reports as well as smart view) Running query reports and
-creating reports.Â 
-SAP PeopleSoft: Navigate within Resource one to
-retrieve financial reports and run queries;Financial
-modelingÂ Superior time management;Complex
-problem solving
-Accomplishments
-Led the development of a reconciliation systemÂ to increase productivity and efficiency.
- 
-Increased effectiveness by 
-25
- % through compliance
-enforcement and implementation of a new quality control system.
+SUPERVISOR ACCOUNTANT
+Professional Summary
+Ability to work in a fast paced, deadline driven environment, independently or as a team.
+Core Qualifications
+Microsoft Office, advanced Excel, PowerPoint, MS Access, Atlas, Windows 95 - XP, Harvard Graphics, QuickBooks, NGS Systems (Net
+Global Solutions Systems), People Soft, SAP, Quicken, Nanovision, 2-Tier, Phoenix (E1), and Business Objects.
 Experience
-Accountant
+Supervisor Accountant
  
-Aug 2014
+July 2015
  
 to 
 Current
@@ -35,20 +19,23 @@ City
  
 , 
 State
-Analyze federal, state and private Â documents, including restricted and non-restricted grant contracts.
-Create financial models and analysis for all Â accounts within our department.
-Present monthly financial report to principal investigators to provide brief summary of their funding.
-Increase productivity Â by fifteen percent within the department by analyzing all open PO's.
-Analyze and evaluate operation of financial systems, prepare recommendations and documents to update fiscal services and other related
-policies and procedures with respect to operating systems.
-Streamlined reconciliation process to a more accurate, efficient and automated process.
-Completes special projects as assigned by the department Administrator.
-Staff Accountant
+Performed financial reporting activities for the Ichthys Project.
+Specific responsibilities included the following Financial Reporting including variance analysis of P&L's and Balance Sheet.
+Project accounting including billing and month end closeout for assigned projects.
+Sarbanes Oxley compliance/FCPA - Quarterly testing of internal controls.
+Responsible for preparing budgeting and forecasting.
+Account reconciliations and analysis of balance sheet accounts.
+Monitoring of project accounts receivables, unbilled, unearned and financial performance.
+Responsible for preparing Backlog Roll Forward for Ichthys.
+Prepare PowerPoint presentations, charts, and graphs.
+Attend Monthly and Quarter PSR/PFSR meeting.
+Performance of ad-hoc request and special projects as required.
+Lead Accountant
  
-Dec 2012
+July 2008
  
 to 
-Aug 2014
+July 2015
  
 Company Name
  
@@ -57,23 +44,22 @@ City
  
 , 
 State
-Full cycle accountant for several operating companies within Sysco Foods Company; completed and issued weekly, monthly, and quarterly
-financial statements to the operating companies for review and submit to the corporate office.
-Uplaod and run reports in business objects for CFO ofoperating company to review.
-Verified journal ledger entries of cash and check payments, purchases, expenses and trial balances by examining and authenticating
-inventory items.
-Prepared monthly P&L for several operating companies within the Sysco Corporation and research variances, reviewed transactions in the
-GL for accuracy, and researched transactions that deviate from the purpose of the account.
-Reconciled aging AR transactions and performed financial analysis, identified and explained deviations from planned or historical data.
-Assisted in evaluating control systems in the accounting process to ensure operating companies comply with GAAP as well as provided the
-necessary information to both internal and external auditors on an as needed basis.
-Reviewed account reconciliation from other accountants in a timely manner.
-Accountant /Auditor
+Performed financial reporting activities within the Government, Infrastructure and Minerals product line.
+Specific responsibilities included the following Financial Reporting including variance analysis of P&L's and Balance Sheet.
+Project accounting including billing and month end closeout for assigned projects.
+Sarbanes Oxley compliance - Quarterly testing of internal controls.
+Assist with budgeting and forecasting.
+Account reconciliations and analysis of balance sheet accounts.
+Monitoring of project accounts receivables, unbilled, unearned and financial performance.
+Responsible for preparing Backlog Roll Forward for Infrastructure and Minerals.
+Assist in preparing PowerPoint presentations, charts, and graphs.
+Performance of ad-hoc request and special projects as required.
+Senior Accountant
  
-Jan 2010
+December 2007
  
 to 
-Feb 2012
+June 2008
  
 Company Name
  
@@ -82,29 +68,96 @@ City
  
 , 
 State
-Served as both an accountant and auditor within the department of financial services.
-The role consisted of utilizing software applications to compile, retrieve, and summarize accounting information for analysis and reporting
-purposes.
-Examined accounting source documents for accuracy, completeness, and compliance with departmental and state rules, regulations, and
-agreements.
-Provided financial trainings for over 240 faculty and staff employees to enforce the rules and regulations of the procurement card set by set
-the State of Texas procurement regulation.
-Maintained controlling records required to ensure accuracy of all data entered into the accounting system.
-Identified and reported situations not in compliance with PVAMU internal controls, policies, and procedures, recommending improvements
-to the accounting process to optimize internal control.
-Performed duties in compliance with GAAP, company and department policies and procedures, internal controls and Sarbanes-Oxley
-requirements.
-Reviewed expense report for irregularities and recommended corrective measures to improve internal controls.
-Prepared adjusting and closing entries, statements, and analyze financial operations.
+Review the SSC general ledger accounts and make correcting entries.
+Performs account analysis and reconciliation.
+Create and maintain ad hoc reports and reporting databases such as Access and Excel.
+Monitor SSC process execution for SOX compliance, and coordinates testing activities with auditors.
+Generate and analyze process performance metrics.
+Assists in developing and testing automated tools such as Lotus Notes and SSC webpage.
+Assist in preparing PowerPoint presentations, charts, and graphs.
+Reconcile intercompany balances with 18 sister companies.
+Prepare accounts payable accruals.
+Reconcile AP accruals, payroll transactions, and fixed assets.
+Set up fixed assets in JDE for depreciation expense.
+Pay monthly lease for vehicles and gas cards.
+Prepare monthly financial reports and tax packages.
+Prepare monthly forecast analysis and summary variance explanations.
+Senior Financial Analyst
+ 
+October 2005
+ 
+to 
+October 2007
+ 
+Company Name
+ 
+ï¼​ 
+City
+ 
+, 
+State
+20th Century Fox Home Entertainment one of the world's most recognized and respected producers and distributors of films and television
+programs) Researched and analyzed licensee royalty statements, reconciled local office financial statements, evaluated company's position
+by using multiple schedules (e.g., sum cost, revenue and contribution), forecasted month-to-date, prepared and analyzed monthly forecast,
+prepared quarterly forecast statements and presented findings to senior management.
+Prepared, maintained and reviewed forecasts.
+Set up projects in PeopleSoft.
+Performed month-end close activities.
+Individually analyzed and prepared production actual.
+Analyzed and prepared month-to-date and year-to-date variance explanations.
+Prepared journal entries and coordinated with senior management to input book entries into People Soft.
+Performed financial analysis as requested.
+Prepared licensee royalty statement to be uploaded into Atlas.
+Prepared and processed journal entries to be uploaded into PeopleSoft.
+General Accountant
+ 
+June 2005
+ 
+to 
+August 2005
+ 
+Company Name
+ 
+ï¼​ 
+City
+ 
+, 
+State
+Supervised over a 120 different accounts within the United States by using Nanovision.
+Adjusted journal entries to balance general ledger.
+Handled bookkeeping monthly byusing Nanovision and Excel.
+Provided bank reconciliations for month-end closing statement for each account.
+Accountant
+ 
+September 2004
+ 
+to 
+January 2005
+ 
+Company Name
+ 
+ï¼​ 
+City
+ 
+, 
+State
+Oversaw accounts receivables operating and approval process to support production of over 150 checks weekly.
+Authorized check signer, approved all wire transfers over $1M.
+Adjusted journal entries to balance general ledger.
+Contributed to annual budget process, working with various department heads to review historical activities, trends, and future obligations.
+Handled 1099 Miscellaneous tax issues.
+2005) Managed month-end closing cycle.
 Education
-Masters of Science
+Master of Business Administration
+ 
+: 
+Business Development Strategy, Management
  
 , 
-Accounting
+May 2008
  
-May 2011
- 
-Prairie View A&M University
+Pepperdine University, Graziadio School of
+Business and Management
  
 ï¼​ 
 City
@@ -112,15 +165,16 @@ City
 , 
 State
  
-Accounting
-BBA
+Business Development Strategy, Management
+Bachelor of Science
+ 
+: 
+Finance Spanish
  
 , 
-Accounting
+May 2004
  
-Dec 2009
- 
-Prairie View A&M University
+University of New Orleans
  
 ï¼​ 
 City
@@ -128,14 +182,13 @@ City
 , 
 State
  
-Accounting
-Professional Affiliations
-CPA Candidate Participated in various community activities, including the Phi Beta Lambda and 
-National 
-Association of Black Accountants Texas
-Society of CPA's Beta Gamma Sigma Greater Women's Chamber of Society Completed all the Research Operations Curriculum in 2015
+Finance Spanish
+Languages
+Fluent in English and Spanish (proficiency has decreased due to moderate use).
 Skills
-account reconciliation, accounting system, AR, budget, business objects, closing, Contracts, Â financial analysis, financial controls, financial
-operations, financial reports, financial statements, GL, Grants, inventory, invoicing, ledger, Macros, Access, Excel, Microsoft Office, office,
-Outlook, PowerPoint, Word, Monitors, operating systems, PeopleSoft, policies, processes, procurement, reporting, Research, SAP, Sarbanes-
-Oxley, training materials, view
+Account reconciliations, accounting, accounts payable, accounts receivables, accruals, ad, AP, balance sheet, balance, bank reconciliations, billing,
+bookkeeping, book, budgeting, budget, Business Objects, charts, oral communication, CPA, databases, Fluent in English, senior management,
+finance, financial, financial analysis, financial reports, Financial Reporting, financial statements, fixed assets, forecasting, general ledger, general
+ledger accounts, Government, graphs, Harvard Graphics, JDE, Lotus Notes, Access, MS Access, Excel, Microsoft Office, office, PowerPoint,
+PowerPoint presentations, Windows 95, month-end closing, payroll, PeopleSoft, People Soft, presentations, QuickBooks, Quicken, reporting,
+SAP, SOX compliance, Sarbanes Oxley, Spanish, tax, television, variance analysis, Excellent written

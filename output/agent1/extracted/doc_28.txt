@@ -1,159 +1,156 @@
 ACCOUNTANT
 Summary
-FlexibleÂ accountant who adapts seamlessly to constantly evolving accounting processes and technology. 
-Seasoned staff accountant with ten year
-background inÂ accounting. Core competencies include detailed oriented, organized, and as well as excellent communication and time
-management skills. Handles tasks with accuracy and efficiency. Passionate and 
-motivated, with a drive for excellence.
+To achieve a job as an Accountant that utilizes my accounting, communication, analytical & leadership skills.
 Highlights
-Microsoft Excel (v-lookups, macros, pivot tables), Microsoft PowerPoint, Microsoft Access, Microsoft Word, Microsoft Outlook, JD
-Edwards/AS 400, Microsoft Accounting Office, Image Freeway, QuickBooks, SAP, LX, SAGE
+MS Office (Excel, Word, PowerPoint), SAP R/3, Adobe Reader, QuickBooks, Lacerte, Prosystems & Tax base
+Accounts Payable Processes & Management
+Invoices/Expense Reports/Payment Transactions
+Corporate Accounting & Bookkeeping
+Finalization of Trial Balance & Balance Sheet/Income Statement.
+Spreadsheets & Accounting Reports
+Tax Reporting, Planning & Filing of returns.
+Handle Customer Relations.
+Journal Entries & General Ledger
+Bank Reconciliation & General Ledger.
+Teambuilding & Staff Supervision
 Experience
+09/2014
+ 
+to 
+Current
 Accountant
  
-, 
-10/2014
+Company Name
+Working for all Clients in USA Implemented Quickbooks Accounting v.
+2013 and 2016 for all the Companies including but not limited to chart of accounts.
+Implemented Quicbooks payroll v.2016 from scratch Working on processing of journal entries, accounts 
+payable & receivables using
+Prosystems software.
+Bookkeeping of small and midsized companies Worked on bank reconciliation, cash management and financial statements analysis.
+Preparation and finalization of federal and multi state tax returns for Individuals & Corporate using Lacerte software.
+Worked on preparing and processing payroll returns and sales and use tax returns Worked on preparation of W2's and 1099.
+Lead 
+in finalizing monthly and yearly accounting closing entries.
+Perform MS Office Excel spreadsheets and databases for financial reporting for financial reporting.
+In process of learning VLookup and Pivot table.
+LeadForus, Nonprofit Organization 
+Apr'14- Nov'14 Working on processing of accounting entries.
+06/2013
  
-ï¼​ 
-Current
+to 
+11/2013
+SAP Consultant
  
 Company Name
+Configured G/L Masters, Accounts Payable, Accounts Receivable, Cash Journals, House banks, Chart of Accounts, Posting Keys,
+Customer/Vendor Accounts Groups, & Customer/ Vendor Masters Creation.
+Created Input /Output Tax & Withholding Tax, Company Specific Code (Z Code), COPA (Costing Based Profitability Analysis) &
+Number Ranges.
+Defined Fiscal year variant, Posting periods, Tolerance groups, Document types & number ranges.
+Worked on creation of new Vendor Account & Vendor Master & created monthly MIS reports.
+Posted Incoming Invoice & made payments.
+02/2011
  
-ï¼​ 
-City
- 
-, 
-State
-Manage Construction in Progress Accounts, depreciation, additions, transfers, & dispositions of tangible and intangible assets.
-Tracked all capital spending against approved capital requests.
-Reconcile the fixed assets subsidiary ledger and generate monthly ad hoc reports to effectively complete the monthly roll forward.
-Record and maintain capital leases.
-Create and monitor a system of controls, procedures, and forms for the recordation of fixed assets.
-Assist with full cycle accounting and financial reporting for month end close Prepare multiple balance sheet reconciliations.
-Perform research and analyses to determine trends, estimates, and significant changes for various P&L accounts.
-Manage property tax statements and update monthly accruals.
-Collaborate and maintain strong working relationships with the field as well as corporate finance and other corporate departments.
-Provide support, research, analysis, and information reporting as needed to the Regional Finance Directors, Plant Controllers, Operations
-Management, and Corporate Finance.
-Assist with interim & annual audit.
-Work on special projects and prepare ad hoc reports and analysis as needed.
-Senior Staff Accountant
- 
-, 
-01/2013
- 
-ï¼​ 
-10/2014
+to 
+05/2013
+Financial Analyst
  
 Company Name
+Worked with multiple clients performing two part role: as an auditor & tax preparation.
+Conducted Audit for various clients.
+Identified key operational risk factors of clients and suggested focus approach to mitigate the risk.
+Carried analytical procedures like comparing financial ratios to industry standards to evaluate performance.
+Reconciled sub-ledger & general ledger account balance.
+Performed due diligence for a private equity client to understand & evaluate a potential business.
+Lead for a project of Private Equity which involved work like setting up Companies & LLP's, preparing structure of the entities & valuation
+report, valuation of funds & client coordination.
+Prepared, Finalized & filed tax returns.
+Prepared & Reconciled journal entries, balance sheets & Income statement of various clients.
+Maintained accurate account & data reconciliation including sub-ledgers, journals & other financial documents.
+Lead as a coordinator with the internal auditors of various clients.
+Overviewed day to day operations of finance & secretarial department.
+Involved in recruiting, training, supervising & evaluating department staff.
+04/2009
  
-ï¼​ 
-City
- 
-, 
-State
-Perform a significant role in month-end close including preparation of production reports, journal entries and account reconciliations.
-Analyze financial transactions and assist in the preparation of balance sheets, P&L's and other financial reports.
-Ensure that transactions are coded accurately and financial reporting integrity is maintained.
-Review & analyze monthly product cost as well as publish and analyze monthly budget vs.
-actual reports.
-Manage Construction in Process Accounts, fixed assets, depreciation, additions, transfers, & dispositions of fixed and intangible assets.
-Conduct annual physical inventory for fixed assets for manufacturing plants, distribution centers & galleries.
-Compose Quarterly Consolidated Financial Statements for parent company.
-Generate Intercompany Foreign Currency Financial Statements.
-Observe and reconcile physical inventory.
-Calculate year-end raw materials inventory for manufacturing facilities.
-Compile analysis of corporate financial data to provide management with internal reports.
-Assist controller with interim & annual audit.
-Provide consequential analysis and support, ad hoc requests, projects and other duties assigned by the Director or VP of Finance.
-Review and explain variances to budget/forecast for production on a monthly, quarterly, and annual basis.
-Staff Accountant
- 
-, 
-02/2009
- 
-ï¼​ 
-12/2012
+to 
+12/2010
+Accountant
  
 Company Name
- 
-ï¼​ 
-City
- 
-, 
-State
-Prepare journal entries for expense allocations, accruals, corrections & adjustments.
-Manage master data in ERP system for all new inventory items.
-Prepare wire transfers for processing of inter-company payments.
-Process monthly sales commissions and commission Transfers.
-Prepare the budget forecast for annual capital budget for all construction in process accounts.
-Prepare bank account reconciliations.
-Prepared, examined, or analyzed accounting records, financial statements, or other financial reports to assess accuracy, completeness, and
-conformance to reporting and procedural standards.
-Developed, maintained, and analyzed budgets, preparing periodic reports that compare budgeted costs to actual costs.
-General Ledger Specialist
- 
-, 
-05/2001
- 
-ï¼​ 
-02/2009
- 
-Company Name
- 
-ï¼​ 
-City
- 
-, 
-State
-Post daily journal entries to general ledger.
-Reconciled fixed asset accounts and other balance sheet accounts.
-Reconciled teller daily balance sheets and prepares summary worksheet Prepared weekly FR2900 Regulation D Federal Reserve
-Requirement Report.
-Assisted in the month-end close and year-end close Analyze and correct all bank account reconciliations Execute wire transfers Assist with
-interim & annual audit.
-Perform other job-related duties and special projects.
+Reconciled journal entries & lead as coordinator with the internal audit team.
+Worked on Merger/Amalgamation, prepared agenda, notice, annual reports to compile Annual Account Prepared balance sheets & Income
+statement of various group companies.
+Worked as a liaison officer for Stock Exchange, Bankers, Solicitors & other external regulators/government bodies for mergers/acquisitions,
+agreements, dematerialization of shares.
+Worked as a legal member in preparation of Code of Conduct for a company & Drafting Agreements.
+Interacting with clients to resolve their complex issues & guide on tax planning & business valuations.
+Worked as a Support Officer to redress investor grievances.
+Worked as a team leader in preparation of MIS Reports /control charts for shareholding pattern & directorship details for Foreign
+Companies.
 Education
-2008
+Pursuing Certified Public Accountant (CPA), Boston, MA 
+CPA Candidate
  
-Keller Graduate School of Management
- 
-ï¼​ 
-City
- 
-, 
-State
- 
-Master of Business Administration
- 
-Accounting
- 
-GPA: 
-GPA: 3.67
- 
-Accounting GPA:
-3.67
-2006
- 
-DeVry University
+University of Mumbai
  
 ï¼​ 
-City
- 
-, 
 State
  
-Bachelor of Science
+, 
+India
+Mar'11
+LLB
  
-Technical Management Accounting
+: 
+Law
  
-GPA: 
-GPA: 3.66 Cum Laude, and Dean's List
-Technical Management Accounting GPA: 3.66 Cum Laude, and Dean's List
+City
+ 
+India
+ 
+Law
+Labor Laws, Constitutional law, Contract Act, Environmental law, Interpretation of Statues, Public Intern-ational law, Business Law, Company
+Law & Intellectual Property Rights.
+Company Secretary 
+Jun'07-Dec'10 
+Courses: Company Law, Economic laws, Tax Laws, Cost & Management Accounting, Information
+Technology & Systems Audit, Corporate Restructuring, Valuation, Drafting, Financial, Treasury & Forex Management, Labor law, Secretarial
+Audit, Due Diligence.
+ 
+Institute of Company Secretaries of India (ICSI)
+ 
+ï¼​ 
+State
+ 
+, 
+India
+Mar '08
+Bachelors
+ 
+: 
+Commerce
+ 
+University of Mumbai
+ 
+ï¼​ 
+State
+ 
+, 
+India
+ 
+Commerce
+Financial Accounting & Auditing, Business Management, Economics, Management Accounting, Cost 
+Accounting, Export, Business
+Communication, Business Development, Tax Management & Business law.
 Skills
-account reconciliations, Accounting, accruals, ad, AS 400, balance sheet, balance sheets, budgets, budget, controller, Corporate Finance, ERP,
-Finance, financial, financial reports, financial reporting, Financial Statements, fixed assets, forms, general ledger, Image, inventory, JD Edwards,
-ledger, Director, macros, materials, Microsoft Access, Microsoft Excel, Office, Microsoft Outlook, Microsoft PowerPoint, Microsoft Word,
-month end close, Operations 
-Management, pivot tables, Progress, QuickBooks, reporting, Requirement, research, SAGE FAS, sales, SAP, tax,
-year-end
+Accounting, accounts 
+payable, Accounts Payable, Accounts Receivable, acquisitions, Adobe, approach, Auditing, Trial Balance, balance, Balance
+Sheet, balance sheets, Bank Reconciliation, Bookkeeping, Business Communication, Business Development, Business Law, Business
+Management, cash management, charts, closing, Corporate Accounting, Cost 
+Accounting, Costing, Certified Public Accountant, CPA, client,
+Clients, Customer Relations, databases, Dec, Drafting, Due Diligence, Economics, Equity, Expense Reports, Filing, finance, Financial, Financial
+Accounting, financial reporting, financial statements, focus, Forex, funds, General Ledger, government, Information Technology, Intellectual
+Property, internal audit, Interpretation, Lacerte, team leader, Teambuilding, ledger, Law, legal, MA, mergers, Excel spreadsheets, Excel,
+Exchange, MS Office, PowerPoint, Word, MIS, processing payroll, payroll v, Pivot table, Processes, QuickBooks, Quickbooks Accounting v,
+recruiting, Reporting, sales, SAP R/3, Secretarial, Spreadsheets, Staff Supervision, supervising, Tax Laws, tax planning, Tax, tax preparation, tax
+returns, Treasury, Valuation, annual reports

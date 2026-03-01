@@ -1,182 +1,119 @@
 ACCOUNTANT
 Summary
-Several years experience in providing information and creating software solutions for business needs and efficiencies. Three plus years experience
-in varying accounting positions. Work well independently and as part of a team. Knowledgeable in use of MS Office products.
-Skills
-Excel spreadsheets
-Meticulous attention to detail
-Self-directed
-Results-oriented
-Professional and mature
-Strong problem solver
-Dedicated team player
-Understands grammar
+Senior-Level IT Finance Management Professional Highly knowledgeable, dedicated and ethical Senior-Level IT Management Professional,
+credited with 20 years of expertise in all facets of accounting, financial management, financial analysis, and controllership of IT operating & capital
+budgets within high-profile corporations. Experienced in various aspects of extensive change management in a corporate environment, outsourcing
+within transfer of duties, and streamlining processes that provide cost saving solutions and optimal performance. Exceptional leadership in solution
+management pertaining to the most complex financial questions and cost control concerns. Skilled in collaborating with all members of the
+organization to achieve business and financial objectives. Instrumental in streamlining and improving processes, enhancing productivity, and driving
+excellence in departments and talent. Strategic Business Planning Performance Evaluations Financial Standards Productivity Improvement Financial
+Planning & Analysis Training & Development Cash Flow Management Personnel Management Standards & Compliance Financial & Statistical
+Modeling Expertise with Financial Systems Training & Development Selected Career Highlights Successful in the oversight of IT operating &
+capital budgets annually, ensuring that projects and operating expenses remain on plan while keeping the project managers aligned with the budget
+constraints of each project Exceptional leadership of 32 IT capital projects that are approved and delivered annually Accolades as a Financial
+Architect for the IT department outsourcing analysis in producing decisions to transfer duties to an overseas organization resulting in a reduction of
+internal staff by 60% with a projected savings of $12M over 5 years Showcase strength in the management of IT $22M capital budget, as well as
+a $69 million operating budget Offer advancements with in-depth analysis, financial modeling, competency evaluations, and projected ease of
+transition and change management Solid performance in the management of Telecom and Data Communication expenses for over 900 retail stores
+and 3 corporate offices; focus on streamlining activities and constantly seeking opportunities for savings. As a result $2.9M in savings were initiated
+and realized to the IT operating budget by discovering vendor errors, negotiating lower rates for Cisco Smartnet router maintenance services, and
+discovered 3rd party Telco accounting errors Extensive savings to the budgets were realized in part by changing the treatment of Capital activities
+by beginning to depreciate projects once in service rather than depreciating as expenses were incurred throughout the project life cycles Serve as
+Associate Ambassador within the transition in New SAP financial system from Oracle Financials was done in-house saved over $2M by
+eliminating the use of outside Organizational Change Management consultants Real Estate Recruited and trained 35 new Real Estate Agents in all
+aspects of the business which resulted in the office moving in rank from 8th to 2nd out of 60 franchised offices within the company based upon
+total commissions earned and real estate transactions. Received the Brand Ambassador Award in two consecutive years for outstanding
+performance in real estate and also received the MPV Award for leadership.
+Highlights
+SAP Financials, Oracle Financials, PeopleSoft, Cognos Budgeting System, Microsoft Office, Advanced Excel
 Experience
-01/2009
- 
-to 
-02/2010
-Accountant
- 
 Company Name
  
-ï¼​ 
+Accountant
+ 
 City
  
 , 
 State
-Prepared, amended and reviewed individual income tax returns.
-Assisted in individual tax planning and preparation of corporate income tax returns.
-01/1993
+Company Name
+ 
+Senior Accountant
+ 
+City
+ 
+, 
+State
+Company Name
+ 
+January 2012
  
 to 
 Current
-Data Processing Manager/Programmer
  
-Company Name
+Manager / New York State Licensed Real Estate Salesperson
  
-ï¼​ 
 City
  
 , 
 State
-The nation's largest independent corn and soybean seed company, focused on developing the world's best- performing corn & soybean
-seed.
-Responsible for enhancements to software written in COBOL and CL on an IBM System i (AS/400, iSeries, Power System).
-Assist management and other staff with information needs and questions.
-Design, develop, test and document modifications to Accounts Receivable, Orders, Inventory, 
-Growers, Billing, Miscellaneous Invoicing,
-General Ledger, Accounts Payable, Payroll, Bank 
-Reconciliation and Budgeting.
-Provide information to management through reports, queries, spreadsheets, maps, written documents 
-and verbally.
-Support and train employees in software changes.
-Schedule and monitor system backup; restore information when needed.
-Design and maintain resource and password security.
-Select Accomplishments: 
-Automate emailing of statements to account managers 
-Create maps for management 
-Automate creation of cash
-management spreadsheet 
-Automate end of year sales reporting 
-Transfer grower pricing information to Accounts Payable 
-File W-2s, state
-W-2 and SUTA reports electronically 
-Payroll direct deposit and 401k benefit 
-Add/increase/remove fields in the database (account number,
-product code) 
-Developed and modified software for various marketing/pricing programs 
-Converted software from S/36 environment to
-native (OCL to CL, 1985 COBOL standards) 
-Design, develop and test underlying database used in web portal created by consultants
-Direct deposit of checks to a select group of vendors 
-Developed Bank Reconciliation and Financial Statement consolidation applications
-Program interfaces between AS/400 & KRONOS (employee and hour information) 
-Enhancement to allow access to select information by
-outside account managers via dial-up 
-Reviewed/changed programs where necessary for the year 2000 (increase year from 2 to 4 digits)
-Developed bill of lading application to interface with Inventory and Accounts Receivable.
-01/1991
+Facilitation of marketing and generating client leads Liaison between sellers and buyers & landlords and tenants in real estate transactions
+including commercial properties Manage exclusive property listings secured throughout Northern Brooklyn, NY Leadership skills in office
+management of 20 Real Estate Agents Broker application 
+approval pending with New York Department of State Successful in closing more
+than 80 real estate deals in a period of two years through strategic marketing, advertising, effective communication, customer service,
+referrals, and client reviews.
+Company Name
+ 
+January 2000
  
 to 
-01/1992
-Supervisor of Accounting
+January 2012
  
-Company Name
+Finance Manager
  
-ï¼​ 
 City
  
 , 
 State
-A member-owned, not-for-profit electric cooperative serving farms, homes & businesses in northwest IA.
-Supervised the General Accounting system, including the preparation of timely and accurate financial 
-reports and the maintenance of the
-general ledger, subsidiary ledgers and related records in 
-accordance with GAAP and the REA system of accounting.
-Supervised the non-energy related Accounts Receivable, Accounts Payable, Payroll, Cash 
-Management and Work Order accounting
-systems work performed by three people.
-Responsible for employee training and performance evaluations within the department.
-01/1991
-Programmer
+Developed and presented the annual budget to the Executive Committee.
+Consistently met or exceeded operating budget goals for the department annually barring new corporate initiatives approved after budget
+creation Supported over 20 IT leaders EVP, SVPs, VPs, Directors, and Managers by reporting risks and opportunities to the budgets in
+order to stay on track and meet or exceed budget obligations of the department Prepared 5-year long-range plan with IT leadership;
+updated annually Managed a staff with primary responsibilities including asset management, software license compliance, price negotiations
+with vendors, preparation of all IT purchase orders, accurate invoice coding, departmental journal entries, analyzing, and auditing telecom
+expenses for over 900 stores Maintained positive relationships with over 50 active vendors Facilitated monthly financial review meeting with
+IT EVP, CIO and VPs to ensure budget goals are met Financial architect responsible for evaluating the options to outsource several areas
+of the IT department, which involved: vendor evaluations, financial modeling, executive presentations, and financial analysis.
+Portions of the IT department were outsourced in late 2010.
+Reduced staff from 110 to 46 associates resulting in a projected savings of $12M over a five-year period.
+Designed, implemented, and analyzed the IT Metrics Scorecard by tracking progress vs.
+strategic plan Created template to perform cost/benefit analysis for IT business cases for proposed IS capital projects including; ROI, NPV,
+& IRR calculations Consulted in the development and processes to evaluate IS priorities and established business case methods and
+analysis with leadership of the corporate IS PMO.
+Education
+University of Phoenix
  
-Company Name
+Masters of Business Administration
  
-ï¼​ 
 City
  
 , 
 State
-Modified existing software written in COBOL on the IBM System/36 to price products according to the 
-client's specifications.
-Designed and programmed an Inventory system that interfaced with the existing invoicing system.
-01/1981
+Hampton University
  
-to 
-01/1990
-Programmer
- 
-Company Name
- 
-ï¼​ 
-City
- 
-, 
-State
-A software development company specializing in Pharmacy, Seed and Banking applications.
-Responsible for program development and modifications in COBOL (5 years) and BASIC (5 years).
-Hardware included System/36, AS/400 (36 environment), PC's, 5120, System/23 and System/34.
-Software experience included General Accounting, Seed Industry, Pharmacy, Banking and Trucking.
-Consulted with customers to determine special needsand modified software accordingly.
-Backup to the support department in providing installation, training and telephone assistance to 
-customers.
-Assisted the sales department with demonstrations and technical questions.
-Wrote software documentation.
-Designed Payroll tax calculation program to accommodate tax withholding for majority of states 
-Instrumental in design of Order Entry
-application.
-01/1980
- 
-to 
-01/1981
-Staff Accountant
- 
-Company Name
- 
-ï¼​ 
-City
- 
-, 
-State
-Bank with headquarters in Minneapolis, MN that later merged with Wells Fargo & Co.
-Responsible for the preparation of month-end financial statements, quarterly Call Reports and internal 
-reports.
-Balanced or monitored the balancing of all subsidiary ledgers to general ledger on a monthly basis.
-Reviewed income and expense accounts for proper classification.
-Wrote BASIC computer programs.
-Participated in the bank's business development program.
-Education and Training
-August 1980
-Bachelor of Arts
+Bachelor of Science Degree
  
 : 
-Accounting Mathematics Computer Science
+Finance
  
-University of Northern Iowa - Cedar Falls
+City
  
-Accounting Mathematics Computer
-Science
-May 1980
-Passed Certified Public Accountant exam,
-- State of Iowa certificate
+, 
+State
+ 
+Finance
 Skills
-accounting, General Accounting, accounting systems, Accounts Payable, Accounts Receivable, AS/400, Automate, Backup, Bank 
-Reconciliation,
-Bank Reconciliation, Banking, BASIC, Billing, Budgeting, business consulting, business development, Cash 
-Management, cash management, CL,
-COBOL, Hardware, Certified Public Accountant, client, database, train employees, employee training, Financial, financial 
-reports, financial
-statements, General Ledger, IBM, Inventory, Invoicing, KRONOS, marketing, access, Order Entry, Payroll, PC's, pricing, profit, program
-development, sales, sales reporting, software development, software documentation, spreadsheets, spreadsheet, tax, tax planning and preparation,
-tax returns, telephone, web portal, written, year 2000
+advertising, architect, asset management, auditing, Budgeting, budgets, budget, business case, closing, Cognos, client, customer service, Financials,
+Financial, financial analysis, financial modeling, leadership, Leadership skills, marketing, Excel, Microsoft Office, negotiations, office management,
+Oracle Financials, PeopleSoft, executive presentations, processes, coding, progress, Real Estate, reporting, SAP, strategic, strategic marketing,
+telecom
