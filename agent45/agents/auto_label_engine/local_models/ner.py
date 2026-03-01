@@ -8,3 +8,4 @@ class NERExtractor:
     def extract(self, text):
         doc = self.nlp(text)
         return [{"text": ent.text, "label": ent.label_} for ent in doc.ents]
+

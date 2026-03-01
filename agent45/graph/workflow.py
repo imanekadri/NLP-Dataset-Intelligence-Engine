@@ -1,7 +1,7 @@
 from langgraph.graph import StateGraph, END
 from agent45.agents.semantic_brain.agent import DatasetBrainAgent
-from graph.state import GraphState
-from core.logger import logger
+from agent45.graph.state import GraphState
+from agent45.core.logger import logger
 
 brain_agent = DatasetBrainAgent()
 def semantic_brain_node(state: GraphState) -> GraphState:

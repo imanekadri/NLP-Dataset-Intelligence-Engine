@@ -6,7 +6,12 @@ class IntentDetector:
     def __init__(self):
         self.embedder = SentenceTransformer("all-MiniLM-L6-v2")
         self.intent_examples = {
-            "cancel_order": "I want to cancel my order",
+             "cancel_order": [
+                    "I want to cancel my order",
+                    "Please cancel order 123",
+                    "Je veux annuler ma commande",
+                    "Annuler ma commande"
+                ],
             "refund": "I want a refund",
             "complaint": "I am not satisfied"
         }

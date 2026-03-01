@@ -1,19 +1,16 @@
-from .llm_client import GrokClient
+from agent45.agents.auto_label_engine.llm_client import GroqClient
 
-# Local NLP models
-from .local_models.classifier import ZeroShotClassifier
-from .local_models.ner import NERExtractor
-from .local_models.topic_modeler import TopicModeler
-from .local_models.intent_detector import IntentDetector
-from .local_models.translator import Translator
-from .local_models.sentiment import SentimentAnalyzer
-from .local_models.clustering import TextClustering
+from agent45.agents.auto_label_engine.local_models.classifier import ZeroShotClassifier
+from agent45.agents.auto_label_engine.local_models.ner import NERExtractor
+from agent45.agents.auto_label_engine.local_models.topic_modeler import TopicModeler
+from agent45.agents.auto_label_engine.local_models.intent_detector import IntentDetector
+from agent45.agents.auto_label_engine.local_models.translator import Translator
+from agent45.agents.auto_label_engine.local_models.sentiment import SentimentAnalyzer
+from agent45.agents.auto_label_engine.local_models.clustering import TextClustering
 
-# Confidence engine
-from .confidence import ConfidenceEngine
+from agent45.agents.auto_label_engine.confidence import ConfidenceEngine
 
-# LLM Tasks
-from .llm_tasks import (
+from agent45.agents.auto_label_engine.llm_tasks import (
     summarizer,
     chatbot,
     qa_generator,
@@ -30,7 +27,7 @@ class AutoLabelEngine:
         # =============================
         # 🔹 LLM CLIENT (Groq)
         # =============================
-        self.llm = GrokClient()
+        self.llm = GroqClient()
 
         # =============================
         # 🔹 LOCAL MODELS
@@ -48,7 +45,8 @@ class AutoLabelEngine:
         # =============================
         self.confidence = ConfidenceEngine()
 
-    def process(self, text: str, brain_decision: dict):
+    def process(self, text: str, brain_decision: dict,dataset_type=None):
+
 
         """
         brain_decision example:
@@ -70,7 +68,7 @@ class AutoLabelEngine:
 
         result = {"text": text}
 
-        dataset_type = brain_decision.get("dataset_type")
+        dataset_type = dataset_type or brain_decision.get("dataset_type")
         tasks = brain_decision.get("tasks", [])
 
         # =====================================================

@@ -1,23 +1,19 @@
-class SentimentAnalyzer:
-    def __init__(self):
-        self.model = pipeline(
-            "sentiment-analysis",
-            model="nlptown/bert-base-multilingual-uncased-sentiment"
-        )
+class ConfidenceEngine:
 
-    def analyze(self, text: str):
-        result = self.model(text)[0]
-        label = result["label"]
-        score = float(result["score"])
+    def compute(self, outputs: dict):
 
-        if "1" in label or "2" in label:
-            sentiment = "negative"
-        elif "3" in label:
-            sentiment = "neutral"
-        else:
-            sentiment = "positive"
+        scores = []
 
-        return {
-            "label": sentiment,
-            "score": score
-        }
+        if "classification" in outputs:
+            scores.append(outputs["classification"].get("confidence", 0))
+
+        if "sentiment" in outputs:
+            scores.append(outputs["sentiment"].get("score", 0))
+
+        if "intent_score" in outputs:
+            scores.append(outputs.get("intent_score", 0))
+
+        if not scores:
+            return 0.5
+
+        return sum(scores) / len(scores)
