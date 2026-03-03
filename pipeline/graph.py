@@ -3,7 +3,7 @@ from agents.ingestion_agent1 import run_ingestion
 from agents.profiler_agent2 import run_agent2
 from agents.semantic_brain.agent import DatasetBrainAgent
 
-brain_agent = DatasetBrainAgent()
+# brain_agent = DatasetBrainAgent()
 
 def build_graph():
 
