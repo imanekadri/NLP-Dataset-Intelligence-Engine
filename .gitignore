@@ -16,3 +16,4 @@ output/
 
 # Jupyter
 *.ipynb_checkpoints
+.env
