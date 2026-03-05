@@ -1,49 +1,22 @@
-BILLING ACCOUNTANT
+ACCOUNTANT
 Summary
-Detail-oriented billing professional with 11+ years experience applying exceptional customer service and resolving complex billing issues.
+Accomplished professional with exceptional skills developed in diverse and demanding business settings, delivering outstanding operational and
+financial performance. Has comprehensive knowledge of accounting in distribution, hospitality and service operations. Proven ability to establish
+productive relationships and lead, train, and focus staffs to improve efficiency and accomplish organizational growth and productivity objectives.
+Has a strong proficiency in identifying and responding to opportunities that improve profitability.
 Highlights
-Self-starter
-Problem resolution
-Deadline-oriented
-Microsoft Office
-Spreadsheet development
-Employee training and development
-Accomplishments
-Research
- Â 
-Investigated and analyzed client complaints to identify and resolve issues.
-Multitasking
- Â 
-Demonstrated proficiencies in telephone, e-mail, fax and front-desk reception within high-volume environment.
-Customer Service
- Â 
-Handled customers effectively by identifying needs, quickly gaining trust, approaching complex situations and resolving problems to
-maximize efficiency.
-Administration
- Â 
-Performed administration tasks such as filing, developing spreadsheets, faxing reports, photocopying collateral and scanning documents for
-inter-departmental use.
-Reporting
- Â 
-Maintained status reports to provide management with updated information for client projects.
-Training
- Â 
-Successfully trained staff in all office systems and databases, policies and procedures while focusing on minimizing errors and generating
-superior results.
-Customer Service
- Â 
-Handled customers effectively by identifying needs, quickly gaining trust, approaching complex situations and resolving problems to
-maximize efficiency.
-Data Organization
- Â 
-Improved office organization by compiling quarterly budget reports, financial spreadsheets, organizational charts and company data reports
-using advanced Microsoft Excel functions.
+Financial Statements *General Ledgers Analysis *SAP FICO Module
+Cash Management *Bank Reconciliations *Peachtree
+Budgeting and Forecasting 
+*QuickBooks Enterprise Solutions *Microsoft Office
+A/R and A/P *ADP Payroll *Database
+Human Resources *Visual Basic *ORACLE
 Experience
-01/2011
+01/2006
  
 to 
-01/2012
-Billing Accountant
+01/2014
+Accountant
  
 Company Name
  
@@ -52,21 +25,19 @@ City
  
 , 
 State
-Cross-trained and provided back-up for other customer service representatives when needed.
-Computed accurate sales prices for purchase transactions.
-Generated sales and inventory reports in Excel with data from a variety of sources, maintaining a 100% accuracy rate.
-Ranked as most effective billing representative in the department out of 18 representatives.
-Prepared a broad range of customized invoices to individuals and commercial accounts.
-Expressed appreciation and educate customers on the products and services available.
-Managed quality communication, customer support and product representation for each client.
-Worked under strict deadlines.
-Promptly responded to general inquiries from members, staff, and customers via mail, e-mail and fax.
-Guaranteed positive customer experiences and resolved all customer complaints.
-01/2009
+Management of the finance functions. Preparation of budgets, forecasts and cash flows. Maintenance of financial ledgers and accounting
+processes. Preparation of Monthly P&L and Balance Sheet.
+Implementation and maintenance multiple escrow accounts to minimize business risk.
+Research and resolve discrepancies, consultant billings by interfacing with staff members, vendors, consultants and clients.
+Build and maintain financial models for various strategic analyses.
+Timely production of statutory and internal financial reports.
+Cash management and treasury duties.
+Ensuring that appropriate systems and internal controls are implemented and maintained as well as overseeing the payroll process.
+01/2005
  
 to 
-01/2011
-Billing Representative
+01/2006
+Financial Analyst
  
 Company Name
  
@@ -75,20 +46,69 @@ City
  
 , 
 State
-Coordinate and complete administrative functions to facilitate and maintain accurate billing for customers.
-Perform task associated with processing of all non-standard/standard billing request.
-Maintenance contract, consolidations and revisions to supporting documents.
-Process all non-standard/standard billing request which include hardware billing, web submittal, E-software shipments, process credit cards
-payment, direct shipment, proformas, consolidated billings and billing due list.
-Perform non-revenue billings as well as credit adjustments, contracts and other billing requests as required.
-Maintain files of generated billing documents.
-Resolution of incorrect information to correctly bill a customer.
-Assist manager with administrative functions when necessary.
+Preparation of annual budget, quarterly forecasts, monthly variance reporting, monthly variance analysis, various projects and ad hoc
+reporting and analysis.
+Responsible for both specific and general financial activities or functions including assistance in the areas of profitability analysis, operating
+expense trends, business plan development, budgeting, cost accounting, project accounting and other areas relating to financial or
+managerial accounting and analysis.
+Maintenance of contractual documentation and correspondence for all corporate contracts and proposal files.
+Reviewing of expenses and revenues vs.
+budget and reforecast and analyzing fluctuations.
+Involvement in the direct support of operating department management by providing accurate and timely reports and analysis for influencing
+business decisions and the achievement of strategic goals.
+Managing the databases processes to support financial requests.
+01/2004
+ 
+to 
+01/2005
+Accounting Specialist
+ 
+Company Name
+ 
+ï¼​ 
+City
+ 
+, 
+State
+Execution of payment for Accounts Payable invoices by verifying transaction information, scheduling and preparing disbursements, obtaining
+authorization of payment.
+Management of revenue from Sales Orders received; calculation of charges and refunds; Identification of delinquent accounts and
+insufficient payments.
+Management of A/R and A/P aging in compliance to company standards.
+Preparation of monthly financial reports by collecting, analyzing, and summarizing account information.
+Maintenance of accounts reconciliation with transactions.
+Resolving account discrepancies by investigating documentation, issuing stop payments or adjustments.
+Maintenance of financial security by following internal accounting controls.
+01/2002
+ 
+to 
+01/2004
+Title Specialist
+ 
+Company Name
+ 
+ï¼​ 
+City
+ 
+, 
+State
+Reviews titles and mortgages documentation in a timely and thorough manner.
+Verifies pertinent information in the title search and accompanying documentation.
+Resolves problems relating to missing, incomplete, inaccurate or contradictory information contained in the title or accompanying
+documentation.
+Reviews and completes all title update requests.
+Communicates on a regular basis with clients, responding to any inquiries.
+Manage a comprehensive title examination team including practices, guidelines and processes in accordance with federal/state laws and title
+insurance underwriting guidelines.
+Manage team of examiners that will review title searches and determine necessary conditions/requirements in order to issue/provide
+marketable/clear title insurance.
+Monitoring turnaround time and service levels and manage projects.
+Establish goals and improve quality for team.
 01/2000
  
 to 
-01/2007
-Billing Specialist
+01/2002
+General Manager
  
 Company Name
  
@@ -97,52 +117,73 @@ City
  
 , 
 State
-Works a number of detailed revenue based reports and ensures the accuracy of invoicing.
-Maintains current business records received and responds to customers inquires, as well as sales and services.
-Research and resolving billing discrepancies.
-Responsible for handling monthly client billing and invoicing.
-Interfaces on the phone with customers, internal sales and service employees in resolving billing discrepancies.
-Interfaces with credit representatives to correct errors identified through the collection process.
-Occasional collection calls Process manual invoices.
-Establishes customer contracts in billing systems.
-Support multiple contract types and manage complex billing rate agreements.
-Organize invoices by billing type and maintain documentation to facilitate audits.
-Assist manager(s) in problem solving.
-Invoiced projects, periodic maintenance agreement, and transactional data consistent with contracts and/or purchase orders.
-01/1999
- 
-to 
-01/2000
-Billing Administrator
- 
-Company Name
- 
-ï¼​ 
-City
- 
-, 
-State
-Consistently billed customers in a timely manner.
-Process manual invoice.
-Maintain high level on internal and external customer satisfaction while achieving business objectives.
-Provide administrative support in the areas of revenue generation and accounts receivables.
-Work effectively with the credit, marketing and procurement department, executive management, and sales personnel to ensure best
-possible account service.
-Validates purchase orders for accuracy.
-Occasional collection calls.
+Management of a 124-room property with primary responsibility on the overall hotel operation.
+Responsible for managing up to 25 employees including hiring, coaching new employees, evaluating employees' performance and assisting
+with employee's goals.
+Prepare and review company payroll, account receivable and account payable.
+Responsible for setting-up a new direct bill application.
+In-charge in getting a prompt payment from clients on time and reviewing night audit reports.
+Analyze and determine company's revenue by using yields management system, star report and area's trend.
+Review and balance daily report and prepare bank deposit.
+Bank reconciliation, credit card charge back.
+Analyze and determine business requirements in the area of cost control, purchasing and reporting 
+requirements.
+Maximize revenue and minimize cost.
+Work well with upper management to determine company's key requirements and goal.
+Provide recommendation on business development and problem solving.
+Assist with in house sales, networking, and property tour to maximize occupancy.
+Maintain existing business by developing customer relation, providing an excellent service and customer appreciation.
+Work well with clients for new business.
 Education
-Bachelor degree
+02/2004
+Master of Business Administration
+ 
+: 
+Accountancy
+ 
+National University
+ 
+ï¼​ 
+City
+ 
+, 
+State
+ 
+Accountancy
+12/1999
+Bachelor of Science
+ 
+: 
+Hotel Management
+ 
+University of Nevada Las
+ 
+ï¼​ 
+City
+ 
+, 
+State
+ 
+Hotel Management
+05/1997
+Associate of Science
  
 : 
 Business Administration
  
-Belize America
+Parkland College
+ 
+ï¼​ 
+City
+ 
+, 
+State
  
 Business Administration
-Additional Information
-AWARDS *Recipient of achievement award for exceeding target. *Received special thanks and recognition certificate for participation on
-team that exceeds objectives.
 Skills
-Account management, accounts receivables, administrative functions, administrative support, billing, billings, billing systems, clarify, hardware,
-consolidations, contracts, credit, client, customer satisfaction, executive management, Filing, invoicing, marketing, Works, organizational skills,
-personnel, problem solving, Processes, procurement, Maintain files, maintain documentation, Research, sales, phone, type
+accounting, Accounts Payable, ADP Payroll, ad, A/P, audit reports, balance, Balance Sheet, Bank Reconciliations, Bank reconciliation, billings,
+Budgeting, budgets, budget, business development, business plan development, Cash Management, coaching, consultant, contracts, cost
+accounting, cost control, credit, clients, databases, Database, documentation, finance, financial, financial reports, Financial Statements,
+Forecasting, hiring, Human Resources, insurance, Managing, managerial accounting, Microsoft Office, Enterprise, networking, ORACLE, payroll,
+Peachtree, problem solving, processes, proposal, purchasing, quality, QuickBooks, reporting, Research, Sales, SAP, scheduling, strategic,
+treasury, trend, underwriting, monthly variance analysis, Visual Basic

@@ -1,18 +1,15 @@
-Summary
-I have many years of experience in accounting and finance including: audit, financial analysis, bank reconciliations, accounts payables/receivables,
-financial statements, month and year end reporting, and budgeting
+ACCOUNTANT
 Highlights
-MS Word, PowerPoint, Outlook, Access, and Excel (Advanced), Creative Solutions, QuickBooks, Fedielio (Hotels), Sales Tax Express, and
-other proprietary accounting software
-*Over 18 years of experience in accounting and finance including: audit, financial analysis, bank reconciliations, accounts payables/receivables,
-financial statements, month and year end reporting, and budgeting
+Microsoft Office : Intermediate in all the Microsoft Office components( Excel, Word, PowerPoint, Outlook and Access); Very familiar with (
+Macros, V-look ups, SQL, calculating formulas and manipulating reports as well as smart view) Running query reports and creating reports.
+SAP PeopleSoft: 
+Navigate within Resource one to retrieve financial reports and run queries
 Experience
-Accountant
- 
-June 2013
+08/2014
  
 to 
 Current
+Accountant
  
 Company Name
  
@@ -21,82 +18,87 @@ City
  
 , 
 State
-Responsible for all accounting processes for 45 clients Perform end-of-period closing processes; prepare financial statements, and budgets.
-Reconcile bank statements, ledger entries and journal entries.
-Balance sheet account analysis and Profit and loss account and review them Prepare and analyze financial statements and other various
-reports.
-Collection functions for accounts receivables & payables.
-Assist in budget and forecast preparation.
-Ability to manage multiple projects, priorities, deadlines and budgets.
-Working with others on Team to complete client service tasks timely and accurately.
-Review general ledger and make all correcting journal entries Support month-end and year-end close process including reconciliation of
-ledger account Complete and submit food and sales tax license documentation for small businesses.
-Accountant
- 
-February 2008
+An accountant within the Experimental Therapeutics Research department, which prepares grant, restricted and non-restricted financial
+reports to 
+PI's within the department.
+Create financial models and analysis for all restricted and non-restricted accounts within our department.
+Prepares monthly financial reports for PI's.
+Reconcile the ncRNA Core on a monthly basis.
+Assists with the completion of effort reporting as well as completes Job Data Update Form ( JDUF) via the EPAF system and expense
+transfers as needed to clear deficit.
+Assist with the preparation of operating budget.
+Assist with financial model for specific grants within our department.
+Monitors and reviews departmental transactions to ensure compliance with established financial controls in accordance with divisional and
+institutional policies and to ensure applicable revenue and expenses are captured.
+Communicates with Grants and Contracts to ensure that requests completed in a timely manner.
+Reviews Open PO on a monthly basis and close all PO's as necessary.
+Analyzes and evaluates operations of financial systems, prepares recommendations and documents to update fiscal services and other
+related policies and procedures with respect to operating systems.
+Assist with the invoicing via ILABS.
+Construct a macro-enabled reconciliation template which significantly reduces keying errors while maximize reconciliation efficiency.
+Implemented a macro-enabled reconciliation template, which increased effectiveness by twenty percent and significantly reduced keying
+errors.
+Prepares training materials within the department to increase productivity and standardized processes.
+Completes special projects as assigned by the department Administrator.
+12/2012
  
 to 
-March 2013
+08/2014
+Staff Accountant
  
 Company Name
  
 ï¼​ 
 City
-Performed bookkeeping, end-of-period closing process, prepared financial statements, and budgets.
-Managed company financial systems and budget and organized and maintained accurateaccounting records.
-Prepared company accounts and tax returns for audit.
-Prepare monthly department allocations and related journal entries, as needed Prepare and publish timely monthly financial statements and
-supporting reports Plans and supervises the work of an accounting unit engaged in the maintenance of Complex accounting.
-records and other activities related to payments of and invoices Support month-end and year-end close process including reconciliation of
-ledger account.
-Evaluates job performance and monitors and adjusts work load assignments to meet organizational deadlines.
-Accounting Manager
  
-January 2000
+, 
+State
+Full cycle accountant for several operating companies within Sysco Foods Company; completed and issued weekly, monthly, and quarterly
+financial statements to the operating companies for review and submit to the corporate office.
+Uplaod and run reports in business objects for CFO ofoperating company to review.
+Verified journal ledger entries of cash and check payments, purchases, expenses and trial balances by examining and authenticating
+inventory items.
+Prepared monthly P&L for several operating companies within the Sysco Corporation and research variances, reviewed transactions in the
+GL for accuracy, and researched transactions that deviate from the purpose of the account.
+Reconciled aging AR transactions and performed financial analysis, identified and explained deviations from planned or historical data.
+Assisted in evaluating control systems in the accounting process to ensure operating companies comply with GAAP as well as provided the
+necessary information to both internal and external auditors on an as needed basis.
+Reviewed account reconciliation from other accountants in a timely manner.
+01/2010
  
 to 
-January 2007
+02/2012
+Accountant /Auditor
  
 Company Name
  
 ï¼​ 
 City
-Journal Entries including maintenance of recurring journal entries and allocations.
-Account reconciliation and analysis: Prepaid Expenses, Deposits, Accrued Expenses, Investments, Capital Leases, Members Equity, Inter-
-company balances.
-Journal Entries including maintenance of recurring journal entries and allocations.
-Management and supervision of general accounting, intercompany accounting, and payroll accounting personnel including assigned
-supervisors, senior accountants and staff accountants as well as external resources utilized for projects on an as needed basis.
-Report on breakeven points by products.
-Report on margins by product and division.
-Planning and collecting data to determine costs of business activity such as raw material purchases, inventory and labor.
-Calculating the job orders.
-Staff Accountant Finance manager
  
-January 1996
- 
-to 
-January 2000
- 
-Company Name
- 
-ï¼​ 
-City
-Ensure an accurate and timely monthly, quarterly and year end close.
-Prepares working papers and coordinate all audit activity Provide guidance of all accounting processes including billing, A/R, A/P, GL.
-Fixed Assets and Revenue/Expense recognition Controller the daily banking requirements.
-Supports budget and forecasting activities.
-Provide training to new and existing staff as needed.
+, 
+State
+Served as both an accountant and auditor within the department of financial services.
+The role consisted of utilizing software applications to compile, retrieve, and summarize accounting information for analysis and reporting
+purposes.
+Examined accounting source documents for accuracy, completeness, and compliance with departmental and state rules, regulations, and
+agreements.
+Provided financial trainings for over 240 faculty and staff employees to enforce the rules and regulations of the procurement card set by set
+the State of Texas procurement regulation.
+Maintained controlling records required to ensure accuracy of all data entered into the accounting system.
+Identified and reported situations not in compliance with PVAMU internal controls, policies, and procedures, recommending improvements
+to the accounting process to optimize internal control.
+Performed duties in compliance with GAAP, company and department policies and procedures, internal controls and Sarbanes-Oxley
+requirements.
+Reviewed expense report for irregularities and recommended corrective measures to improve internal controls.
+Prepared adjusting and closing entries, statements, and analyze financial operations.
 Education
-Anticipate Degree
+May 2011
+Masters of Science
  
 : 
 Accounting
  
-, 
-Summer 2016
- 
-Master in Accountancy
+Prairie View A&M University
  
 ï¼​ 
 City
@@ -104,43 +106,29 @@ City
 , 
 State
  
-, 
-USA
- 
-GPA: 
-GPA: 3.48
-GPA: 3.48
-Bachelor of AccountancyAl TurathUniversityIraq
+Accounting
+Dec 2009
+BBA
  
 : 
-June1998
-Bachelor of Accountancy Degree
+Accounting
  
-: 
-July 2010
- 
-Evaluation 
-Stockholm University 
-Sweden
-Certificate of Business AdministrationSvenskabÃ¶rsrumInstituteSweden
- 
-: 
-April 2011
-Master of Accountancy
- 
-Walsh College
+Prairie View A&M University
  
 ï¼​ 
 City
  
 , 
 State
-Languages
-Strong communication skills including fluency in English, Arabic, and Swedish
+ 
+Accounting
+Professional Affiliations
+CPA Candidate Participated in various community activities, including the Phi Beta Lambda and 
+National 
+Association of Black Accountants Texas
+Society of CPA's Beta Gamma Sigma Greater Women's Chamber of Society Completed all the Research Operations Curriculum in 2015
 Skills
-Account reconciliation, accounting, general accounting, accounting software, accounts payables, accounts receivables, A/P, Arabic, Balance sheet,
-bank reconciliations, banking, billing, bookkeeping, budgeting, budgets, budget, closing, Strong communication skills, Controller, client, clients,
-documentation, English, Equity, finance, financial, financial analysis, analyze financial statements, financial statements, prepare financial statements,
-Fixed Assets, forecasting, general ledger, GL, inventory, Investments, ledger, market, Access, Excel, Outlook, PowerPoint, MS Word, monitors,
-organizational, payables, payroll, personnel, problem solving, processes, Profit, Profit and loss account, Public Accounting, Express, QuickBooks,
-reporting, Sales, supervision, Swedish, Tax, tax returns, year-end
+account reconciliation, accounting, accountant, accounting system, AR, budget, business objects, closing, Contracts, financial, financial analysis,
+financial controls, financial operations, financial reports, financial statements, GL, Grants, inventory, invoicing, ledger, Macros, Access, Excel,
+Microsoft Office, office, Outlook, PowerPoint, Word, Monitors, operating systems, PeopleSoft, policies, processes, procurement, reporting,
+Research, SAP, Sarbanes-Oxley, training materials, view

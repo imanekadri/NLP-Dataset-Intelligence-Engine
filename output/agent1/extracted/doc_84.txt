@@ -1,193 +1,140 @@
-CORPORATE ACCOUNTANT
-Summary
-Over 15 years of increasingly responsible experience in general accounting, budgeting and reporting, fixed asset management, project management,
-payroll and income tax preparation, and database administration. Eager to acquire a position in a prestigious organization, where I actively
-participate in their enhancement and my education, professional experience, and skills become a positive feature to the company.
-Capable Accountant successful at managing multiple projects and consistently meeting deadlines under pressure. Extensive knowledge of
-accounting software and processes.
-Highlights
-*SPC4 -B Co. 
-192nd Support Battalion (76P10) - Logistics experience 1989-1992
-*Acquaintance on SAGE, BANNER Financial, Infoview, SAP R3, SAP Business 1, FAS 500,
-QuickBooks, Labor Trak, Ceridian, Paychex and ADP payroll systems, MAPICS (SyteLine-
-manufacturing), 
-Vertex (taxes), 
-Outlook, 
-Word, Excel, Power Point, Lync and Pro-series software.
-Analytical reasoning
-Account reconciliation expert
-Budget forecasting expertise
-General ledger accounting
-*ISO9001 QMM Auditor,
-Crosby Certify and knowledge of
-the full spectrum leadership
-imperatives skills
-Accomplishments
-ERP Implementations
-ADP (Payroll)
-SAGE FAS (Fixed Assets)
-Syteline (Manufacturing
+STAFF ACCOUNTANT
 Experience
-Corporate Accountant 
-Jan 2011
+August 2013
  
 to 
-Jun 2015
+Current
  
 Company Name
  
-ï¼​ 
+- 
 City
  
 , 
 State
-Implemented fixed assets internal controls create depreciation schedules, files, and monitor capital expenditures to ensure all projects are
-completed within budget and in the time frame stipulated.
-Accountable for fixed assets capitalization, depreciation and amortization.
-Fixed assets software implementation - Project Lead, research software companies, compare and contrast the different options that was
-suitable to company's needs.
-Payroll-HRO module implementation support, set up conferences calls, prepared implementation presentation; training, prepared written
-progress reports to management Create process and procedures for various aspect of accounting aligned to company guidelines.
-Responsible to analyze general ledger accounts to ensure financial statements are accurate and reliable.
-Review P & L accounts and compare current to prior year and calculate % of over or under budget for decision making.
-Reconcile balance sheets account and 
-ensure adjustments are properly posted.
-Reduced closing time for monthly and quarterly close by 35% by implementing new consolidation procedures.Restructured and analyzed software
-deficiencies to improve budget reporting.Aligned all financial activity with the regulations of the GAAP.Revised and streamlined inefficient work
-procedures with automation software.
-Senior Accountant/Analyst
- 
-Jan 2010
+Accounting Manger 
+Report to CFO Manages 4 colleagues.
+The accounting department consists of 2 Accounting Clerks, 1 Financial Analyst, and 1 Volunteer.
+Lead person for all aspects of close, including preparing and entering 30 journal entries and preparation of 35 balance sheet reconciliations.
+Developed new and easier ways of doing journal entries for month end process, using Microsoft Excel.
+Have reduced journal entry keying by a day and half, allowing more time for analysis.
+Revamped old cost reporting and 990 templates, using Excel, to make the process easier for colleagues that would enter information into
+the system.
+Have cut down lead and processing time for each, making the entire submission time faster for system senior leadership.
+Selected as point person to help our system office install and run PeopleSoft Finance at St.
+Mary's Hospital.
+Directly responsible for training staff at hospital, and have assisted system in developing the financial statements that are used today.
+Assisted all hospital directors in the planning and execution of their departments AOP for the next fiscal year.
+Assisted in making a $5 million dollar turn around in total hospital EBIDA for fiscal year 2015.
+Responsible for maintaining and tracking $75 million in hospital fixed assets.
+Developed new FTE position control productivity report using complex queries and reports in Microsoft Access.
+June 2006
  
 to 
-Jan 2011
+August 2013
  
 Company Name
  
-ï¼​ 
+- 
 City
  
 , 
 State
-Responsible to prepare several reports such as; Operating expense report, 
-Sales report, Revenue, and COGS analysis report in which we
-compare prior month and prior year data for decision making.
-Prepare the Gross Profit Inventory elimination (GPIE) report to ensure that we report the proper information in our financial statements as
-per GAAP and company standards.
-Managed capital and non-capital projects; prepare fixed asset capitalization, fixed asset cycle count, review for impairment, retire assets as
-needed and other related activities.
-Responsible to create account reconciliation metric to monitor and improves process.
-Assisted Cost Accountant with inventory management, annual cycle count, reconciling inventory data and adjustments.
-Prepare AP payment package and audit invoice for possible errors.
-Confirm month end Inter-company balances and ensures amount reported in BOFC agrees to our balance.
-Review accounts receivable aging for possible past due and maintain communication with customers.
-Post and reconcile daily cash transactions.
-Accountant
- 
-Jan 2003
+Staff Accountant/ IT 
+Report to Finance Supervisor Assisted in financial month end close, by preparing over 20 journal entries and 25
+Balance Sheet reconciliations.
+Developed various sales, TGP, and other contribution margin reports, using Microsoft Access and Excel.
+Led the division in creating projects that would strip out relevant information from a report and put into Excel, using Monarch data mining
+software.
+Developed over 30 models for the division to use.
+Developed Excel macros to help make entering journal entries easier at month end.
+Corporate office started using them for their month end close.
+Assisted in developing an automated reporting system that would distribute reports to sales force, and senior management every morning.
+Led IT department and helped maintain division IT infrastructure.
+Developed reports that track all IT assets and give a check list of what to do in case of a hard drive crash or any other maintenance activity.
+This report is still used to this day at the division.
+Created a sales report in Excel that used links, macros, and formulas, to show each sales persons sales, TGP, and cases, by using a drop
+down box and selecting their name.
+December 2003
  
 to 
-Jan 2010
+June 2006
  
 Company Name
  
-ï¼​ 
+- 
 City
  
 , 
 State
-Performed general accounting duties; prepare journal entries, balance month end closing transactions, monitor inter-company transactions
-and confirmed balances at month end, prepared account analysis report and reconciliations as per company standards.
-Participated in the new ERP implementation, Sarbanes Oxley processes preparation for AP, Payroll, fixed assets and sales tax procedures.
-Prepare monthly headcount report, Payroll Added Cost (PAC) analysis report for manager's decision making.
-Responsible to prepare monthly and year-end schedules and assist controller with the preparation of the company's budget and financial
-statements.
-Fixed Assets - Reorganized fixed assets files, cycle count assets and properly record new assets to ensure that fixed assets were in
-accordance with general ledger and FAS system.
-Monitored projects, account balance and maintain communication with project manager as per company and GAAP regulations.
-Prepared monthly, quarterly, semi-annual and annual sales taxes for 35 states.
-Processed Annual Property Taxes and prepare 1099 forms.
-Improved payroll process, ensure time card information was process in a timely and accurately fashion.
-Accounts Payable Team Lead- Reorganized department, improved supplier and company communication, reduced vendor phone calls by
-processing and resolving invoices issues on a timely manner.
-Monitor vendor data master for duplication or possible fraud.
-Financial institution 
-Accounting Clerk
+Accounts Payable/ IT 
+Report to Controller Accountable for the coding and paying of all Accounts Payable invoices.
+Including getting management signature, along with following up on and invoice discrepancies.
+Assisted in getting purchase orders from warehouse and entering in our purchase order system.
+Developed a new spreadsheet to help track fuel expense and tracking for operations.
+Assisted in month end close process, and was asked to then take over the sales tax and beverage tax journal entries for the division.
+Accountable for 5 Balance Sheet reconciliations for the division.
+Developed spreadsheet to keep track of customer credits, and salesman reimbursements.
+Developed report to show how many purchase order shorts there were, by vendor and warehouse id.
+Staff Accountant
  
-Jan 2000
+March 2001
  
 to 
-Jan 2003
+December 2001
  
 Company Name
  
-ï¼​ 
+- 
 City
  
 , 
 State
-Managed to downsize account reconciliation balance from 83 to .75 million dollars on open balances.
-Processed non-sufficient funds checks, ACH, and wires.
-Reconcile over 15 bank accounts, including FED account.
-Analyzed costs and revenues to project future trends.
-Financial institution 
-Accounting Clerk
- 
-Jan 1998
- 
-to 
-Jan 2000
- 
-Company Name
- 
-ï¼​ 
-City
- 
-, 
-State
-Reconciled bank accounts cleared more than .75 million in open items.
-Monitor FED account discrepancies.
-Processed non-sufficient fund checks, ACH and monitor Puerto Rico and Orlando transactions.
-Maintain communication with Puerto Rico and Orlando Branches.
+Reported to Assistant Controller.
+Accountable for inventory for all 15 Sprint stores in our area.
+Led month end inventory counts, where each store would send me their results and I would match up to purchase order and sales to make
+sure everything tied out.
+Accountable for process of stolen, warranty and damaged phones, by making sure we received correct credit back from Sprint.
 Education
-Graduate Diploma
+IRS 990 Tax Reporting & Submission 
+*CMS Cost Reporting Submission *Property Tax Exemption Submission 
+*AOP Budget Planning
+Bachelor of Arts
  
-, 
-Business Administration 
-Universidad
- 
-2009
- 
-Metropolitan University
- 
-ï¼​ 
-City
- 
-, 
-State
-Business Administration 
-Universidad
-Bachelor of Science
- 
-, 
+: 
 Accounting
  
-2007
+, 
+May 2000
  
-Universidad del Turabo
+Western Illinois University
  
-ï¼​ 
+- 
 City
  
 , 
 State
  
 Accounting
-Languages
-Bilingual (English and Spanish)
+Associates Degree
+ 
+: 
+Accounting
+ 
+, 
+May 1997
+ 
+Black Hawk College
+ 
+- 
+City
+ 
+, 
+State
+ 
+Accounting
+St. Mary's Hospital Leadership Team
 Skills
-ISO9001, Team Lead, Logistics, MAPICS, Excel, Outlook, Power Point, Word, Works, QuickBooks, 
-SAGE, Sales, SAP, SAP R3, Sarbanes
-Oxley, self-starter, Spanish, SPC4, Vertex, Ceridian, ADP
-Improves process, Fixed Assets Administrator, Project Lead, Account Reconciliation Skill, Payroll and Budget Proficiency, Capital Expenditures
-and Inventory Management, Communications Skills, Decision making, Financial Statements Analysis, Research Skills, Fast learner,
+Accounting, Accountant, Accounts Payable, balance sheet, Budget Planning, CMS, Controller, credit, data mining, senior management, Finance,
+financial, Financial Analyst, financial statements, fixed assets, hard drive, inventory, leadership, macros, Microsoft Access, Microsoft Excel, Excel,
+office, Monarch, month end close process, month end close, next, PeopleSoft, coding, reporting, sales, spreadsheet, Supervisor, Tax, phones

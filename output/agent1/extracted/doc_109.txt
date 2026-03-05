@@ -1,146 +1,174 @@
-ACCOUNTANT
-Summary
-Personable education professional driven to inspire students to achieve personal and academic success.
-Highlights
-Knowledgeable in QuickBooks, SQL, SAP, 
-and AS400
-Highly proficient in Microsoft Office, 
-including Microsoft Word, PPT, Microsoft Excel II and Access III
+STAFF ACCOUNTANT
+Professional Profile
+To gain payroll skills
+Qualifications
+Deltek Time and Expense 8.1; Costpoint 6.1; ADP
+Enterprise HR 5.0; ADP 5.30; eTime 3A; Ceridian; SAP
+Equity Edge, Acuity 4.10; Kronos; Nextgen;
+Office Suite, accounts payable, benefits, budget, Contracts, documentation,
+general ledger, insurance,
+access, Microsoft Office Suite, Enterprise, payroll processing, personnel, policies,
+tax, training material, workshops, year-end
+Relevant Experience
+Successfully transitioned company from use of paper timesheets to an automated payroll system within 
+six months.Worked with human resources
+to develop streamlined way to track paid time off.Simplified payroll processing procedure to increase department productivity by 25%.
 Experience
-November 2013
+Staff Accountant
+ 
+08/2014
  
 to 
 Current
+ 
 Company Name
  
 City
  
 , 
 State
+Review, verify and input personnel action forms for all certified, classified, and substitute positions.
+Process times sheets with the use of the Kronos timekeeping system for all employees of the schools assigned.
+Responsible for an annual payroll of over 18 million dollars.
+Process paper time sheets for all bus and shuttle drivers.
+Responsible for entry of all direct deposit, W-4, and A-4 forms for all employees working for the Board using Nextgen accounting
+software.
+Update supervisor as required for changes or corrections needed to complete the monthly payroll processing.
+Analyze and access reports and data before finalizing the monthly payroll to identify variances or other anomalies that need to be corrected
+prior to final processing.
+Ensure employees board approved payroll changes are calculated and prorated based on the required salary schedule.
+Work closely with the supervisor and team members to ensure implementation of processes are standardized and executed in accordance
+with school board policies.
+Payroll Administrator
  
-Accountant
-Sources items through the compilation of vendor information and bidding processes Selected preferred vendors based on competitive
-pricing, products' liabilities, payment terms, and ETA's Creates auditing processes for inventory management Selects bank statements
-randomly to ensure that disbursements where authorized and signed by two individuals Ensures three way matches of requisitions, purchase
-orders, and good receipts Performs data analysis on bank statements to ensure that all reconciled items are processed in a timely manner
-Audits the database demographic to better understand clientele of the company and to maximize customer satisfaction level Completes
-month-end journal entries and month-end reports.
-Prepares bank reconciliations and ensures all reconciling items are resolved in a timely manner Organizes monthly, quarterly, and annual
-financial statements.
-September 2010
+07/2009
  
 to 
-May 2013
+01/2014
+ 
 Company Name
  
 City
  
 , 
 State
+Responsible for all payroll functions.
+Updated payroll records; including changes in employee tax exemptions, direct deposit, benefit deductions, and applicable garnishments.
+Provided timesheet training and granted access credentials for all new hires.
+Maintained payroll guidelines by writing and updating policies and procedures.
+Complied with federal, state, and local legal requirements by studying existing and new legislation.
+Maintained professional and technical knowledge by attending educational workshops, reviewing professional publications, establishing
+personal networks, and participating in professional societies.
+Independently maintained and prepared post payroll tax general ledger entries bi-weekly and at month-end close.
+Provided weekly written memos to management and staff concerning time and attendance.
+Prepared and provided all requested documents and materials for annual payroll audit.
+Tested Accounts Payable expenditures for annual Sox Audit.
+Maintained employee confidence and protects payroll operations by keeping information confidential.
+Supported organization's mission; committed to exceeding customer expectations through efficiency and quality service.
+Left this position to attend to a family medical situation that has since been resolved.
+Payroll Specialist
  
-QA/Mobile Software Tester
-Worked specifically with different accounting and business software including French ones Audited the testing process to enhance quality,
-cycle time effectiveness, and accuracy Identified correctness, completeness, security, and quality of various accounting packages Isolated
-and reported localization and functional bugs for certification programs Developed test plans, and organize and lead testing activities for new
-and existing releases Conducted regression, security, and smoke testing.
-April 2006
+03/2001
  
 to 
-January 2010
+03/2005
+ 
 Company Name
  
 City
  
 , 
 State
+Developed and processed confidential payroll documentation for approximately 300 employees located throughout the Southeast Region.
+Executed payroll budget of over $45 million through the payroll processing vendor and ensured final disbursement of funds to employees.
+Acted as Point of Contact for ADP and eTime systems for the Blood Services Division of the Alabama Gulf Coast Region.
+Conducted a study which resulted in improved accuracy of timesheet input, enhanced actual payroll output, and streamlined the payroll
+timesheet process which yielded greater efficiency.
+Managed the payroll training of department timekeepers and monitored their daily progress.
+Wrote a revised payroll.
+technical manual from vendor training material that was deemed more user friendly by the trainees.
+Provided a bi-weekly briefing to the Payroll Manager on labor issues, status of payroll, and current projects.
+Prepared and issued W-2's for the region ensuring accurate employee wage records and timely submission of tax documents in preparation
+for year-end-close.
+Left this position due to a lay-off within the company.
+Staff Accountant
  
-Procurement Specialist
-Served as the lead buyer for sixteen plants across the United States and Canada Interacted in French with plants located in French
-Speaking regions Montreal, Quebec, Viau etc.
-Selected preferred vendors based on competitive pricing, products' liabilities, payment terms, and ETA's Handled customer service
-management (CRM) inquiries from clients and vendors Performed monthly audits to ensure requisitions and purchase orders' accuracy
-Reviewed audit results with clients and team members to improve productivity and affectivity Provided day-to-day management of sourcing
-initiatives within cross-functional team Ensured three-way matches of requisitions, purchase orders, and good receipt Utilized strategic
-sourcing approach to create operation processes for clients and vendors Handled new clients implementations, integrations, and trainings
-from legacy AS400 systems to SAP Oversaw high-priority accounts which considered opting out of their contracts, worked with them on
-an individual basis to meet or exceed their expectations Prepared bid requirements, solicited responses, analyzed responses, prepared
-recommendations, and negotiated contracts to enhance efficiencies and reduce costs Administered back order reports for plants and
-expedited customer requests as needed.
-August 2005
+06/1999
  
 to 
-April 2006
+03/2001
+ 
 Company Name
  
 City
  
 , 
 State
+Processed bi-weekly and semi-monthly payroll for 180 employees throughout the United States.
+Analyzed and reviewed benefit election documentation to ensure proper selections were made by employees.
+Executed garnishment and child support orders in accordance with state laws.
+Reconciled payroll bank accounts after disbursement of funds.
+Processed accounts payable checks to be distributed to numerous company vendors.
+Prepared journal entries and made adjustments to the general ledger for month-end close.
+Payroll Specialist
  
-Freight Planning Contact
-Provided export documents for the DuPont International hazardous department Coordinated logistic arrangements, port-to-port, port to
-point, and point to point Managed clients' travel arrangements to South America, Europe, and Asia Conducted itinerary changes for clients
-from port to destination points Coordinated logistic arrangements, providing customer services and timely communications Responded to
-and resolved request or inquiries from internal and external teams.
+09/1997
+ 
+to 
+06/1999
+ 
+Company Name
+ 
+City
+ 
+, 
+State
+Responsible for the payroll execution of nearly 400 employees in the Retail Division.
+Verified application packets to ensure all required documentation was captured.
+Input pertinent information into the ADP system and ensured new associates were properly registered to receive accurate compensation.
+Received and processed all employee job verification requests from various businesses and creditors.
+Payroll Accountant
+ 
+09/1996
+ 
+to 
+09/1997
+ 
+Company Name
+ 
+City
+ 
+, 
+State
+Review confidential contractual offer letters for tenured and part-time professors to determine appropriate compensation packages.
+Contracts were negotiated with professors and upon approval, the financial conditions of the contract were executed.
+Tracked the labor funding for contracts staying within the prescribed departmental salary budget.
+Responsible for committing and obligating funds for in-house contracts and matching the final disbursements.
+Coordinated insurance and retirement benefits for all college faculty and staff.
 Education
-5 2015
-La Salle University
+MBA
  
-City
+2010
  
-, 
-State
- 
-Fraud and Forensic Accounting
- 
-Fraud and Forensic Accounting
-5 2011
 University of Phoenix
  
 City
  
 , 
 State
+B.S
  
-Accounting
+: 
+Business Adminstration
  
-MBA
+1992
  
-Accounting
-5 2005
-Pennsylvania State University
+Alabama A&M University
  
-City
- 
-, 
-State
- 
-Business Economics , International Business and French Structural Economics and International Relations
- 
-Bachelor of Science
- 
-Business Economics , International Business and French Structural Economics and International Relations
-5 2005
-Paris Chamber of Commerce
- 
-City
- 
-, 
-France
- 
-12 2011
-FMA Institute
- 
-City
- 
-, 
-State
- 
-Certified Nonprofit Accounting Professional (CNAP)
-Languages
-Fluent in French
+Business Adminstration
+Affiliations
+American Payroll Association
 Skills
-Accounting, approach, AS400, auditing, bank reconciliations, competitive, contracts, CRM, clientele, clients, customer satisfaction, customer
-services, customer service, data analysis, database, financial statements, French, Fluent in French, functional, inventory management, Access III,
-Microsoft Excel II, Microsoft Office, Microsoft Word, pricing, processes, Speaking, quality, QuickBooks, reconciling, SAP, SQL, strategic,
-travel arrangements
+accounting software, accounts payable, ADP 5.30, ADP, benefits, budgets, Ceridian, Contracts, documentation, Edge, Equity, forms, funds,
+general ledger, insurance, Kronos
+Microsoft Office Suite,networks, Payroll, payroll processing, personnel, policies, processes, publications, SAP 6.20, taxes, training material

@@ -1,134 +1,130 @@
 SENIOR ACCOUNTANT
-Professional Summary
-Senior accountant who completes accounting activities with accuracy and speed with extensive experience in full life cycle of general ledger
-accounting
-Skills
-Aderant/CMS
-Excel
-QuickBooks Pro
-SQL
-AccessÂ 
-Peachtree
-Hyperion
-Financial reporting
-US GAAP principles
-IFRS
-Bookkeeping
-Budget development
-Individual tax returns
-Essbase
-Work History
-Senior Accountant 
-Mar 2006
+Experience
+Company Name
  
-- 
+June 2011
+ 
+to 
 Current
  
-Company Name
+Senior Accountant
  
 City
  
 , 
 State
- 
-Reconcile various balance sheet accounts not limited to cash and liability accounts, including bank statements, for the purpose of maintaining
-the accuracy of the general ledger in accordance with cash, GAAP, and various international tax legislative basis.
-Perform the primary liaison function for the interim and annual audits performed by Deloitte.Â 
-Perform assigned schedules for interim and annual audits.Â 
-Assist auditors with understanding of firm's internal controls which include revenue and expenditure cycle. 
-Â 
-Review and analyze journal entries from the original accounting source and if a variance from the general ledger is found, initiate discussions
-with specialists in accounts receivable, accounts payable, payroll, and tax department to resolve the discrepancy.
-Review and analyze international payrolls inÂ aspect of income tax, local tax, consumption tax, and fringe benefit deductions for Seoul,
-Shanghai, and Tokyo office and upload into Aderant/CMS for posting into the general ledger.
-Analyze and reconcileÂ value added tax for Vienna and Seoul office
-Resolve currency fluctuation issues and record gains/losses related to currency exchange rates for the international offices of the firm by
-using currency mode journal entries.
-Analyze expatriate expenditures on monthly basis to be reported on W-2 form.
-Prepare initial K-1 schedules to be filed by tax department
-Prepare month-end various accrual journal entries including base wage, bonus, occupancy, prepaid property insurance, telecommunications,
-and catering accruals.
-Prepare and analyze expense allocations from firm general to local offices on a monthly basis.
-Review and analyze inter-company transactions for Seoul, Shanghai, Tokyo, and Vienna office
-Prepare monthly financial statements, which are shared with the partners and management of the firm.
-Assist in translation of various fixed asset invoices from Seoul and Tokyo office and other Asian offices' travel expense reports.
-Notable accomplishments: Found material misstatement in prepaid property insurance for the first quarter of '08 and made prospective
-adjustments to the related general ledger accounts.
-Provided clarity in Japanese payroll systems associated with health, welfare, and childcare allowance to the management and made
-prospective adjustments to the related general ledger accounts.
-Accountant
- 
-Jan 2005
- 
-- 
-Mar 2006
- 
+Prepare quarterly and annual financial statements for 17 multi-family communities for distribution to investors and financial institutions.
+Reconcile and account for all activity on the income statement and balance sheet including cash, fixed assets, derivatives, equity, and
+property debt.
+Coordinate and review work of external audit firms.
+Initiate capital calls and distributions for investors.
+Manage budgets and construction loan activity for approximately $100,000,000 in active construction projects in FL, MA, and MD.
 Company Name
+ 
+March 2010
+ 
+to 
+June 2011
+ 
+Associate Fund Controller
  
 City
  
 , 
 State
- 
-Maintain financial records in accordance with GAAP to be reported to a parent company and investors.
-Analyze & reconcile G/L accounts and prepare semi-annual, and end year B/S, I/S, and statement of cash flows Coordinate with
-warehouse manager to ensure daily shipping schedules.
-Communicate with outside company's designated CPAs when tax issues arise.
-Establish master employee payroll record file for information entry into payroll system.
-Receive & compute hours, make deductions for 401K, health insurance, and other adjustments thru Paychex Prepare loan applications and
-maintain factoring arrangements with A/R schedule.
-Assist in training, guidance and coordination of accounts payable, accounts receivable, and other departments and site personnel.
-Performed semi-annual inventory valuation.
-Financial Analyst
- 
-Aug 2002
- 
-- 
-Jan 2005
- 
+Performed quarterly and annual close procedures for MSREF (Morgan Stanley Real Estate Funds) 6I, the largest international real estate
+investment fund to date with $8 billion of partnership assets, and draft financial statements distributed directly to fund investors.
+Lead quarterly management fee process by performing work to draft approximately $14,000,000 in bills to fund Partners.
+Develop work plan to ensure deadlines are met, test results, delegate work to other Fund Controllers, and perform detailed review of their
+work.
+Lead MSREF 6I initiative to implement reinvestment of proceeds (ROP) methodology to reallocate approximately $120,000,000 in cash
+to-date amongst investments with deficient cash balances to cover contributions and expenses.
+Write formulas to analyze cash movement in Microsoft Excel and assist four Information Technology Vice Presidents in programming the
+partner capital sub ledger system to calculate the movement and test results.
+Wrote standard operating procedures memo for ROP to train team members.
 Company Name
+ 
+June 2007
+ 
+to 
+March 2010
+ 
+Advisory, Forensic and Audit Associate
  
 City
  
 , 
 State
+Performed research to locate red flags in numerous potential fraudulent mortgages at one of the largest bank failures in U.S.
+history.
+Developed writing skills by drafting over forty memorandums that summarized potential fraud in loans that were presented to multiple
+agencies of the Government.
+Wrote a thirty-five page corporate intelligence narrative explaining personal and Professional relationships of an individual under
+investigation.
+These tasks assisted the FBI in arresting the individual, suspected of orchestrating a two billion dollar mortgage fraud scheme.
+Performed substantive test work, analytical procedures, and testing of controls at multiple audit clients, including leading the sales and
+inventory test work of an international company with approximately one billion in annual sales.
+Audited cash, receivables, investments, inventory, payables, property, debt, equity, revenue, cost of goods sold, and expenses.
+Analyzed audit client's major accounting processes, identified control weaknesses, and recommended solutions and improvements.
+Worked on multiple phases, including fraud investigations and data analytics, of a high profile engagement involving the largest natural
+disaster relief fund in United States history and was the first to analyze, discuss, and research a series of fraud allegations received from an
+anonymous telephone hotline that lead to a new, lasting client relationship with the Federal government.
+Analyzed a series of bank accounts owned by over twenty customers of a large, domestic bank to determine the amount of funds stolen and
+trace illicit transfers made by a bank employee from each account in a multi-million dollar fraud scheme.
+August 2006
  
-Manage and forecast funds for Palm Desert National Bank sponsored 350 ATM terminals averaging 2.5 million on a weekly basis.
-Reconcile & settle, and act as lead accountant for Innobeta Systems, Inc., (affiliate of Money Marketing, Inc.).
-Prepare monthly Profit and Loss reports as to surcharge and interchange.
-Analyze communication and armor carrier expenses as a temporary M&A team member during due diligence procedure of ATM World
-Corp.
-Analyze processing costs and network fees in terms of EFTs.
-Prepare audit work papers, confirmations and other documentation to make the audit efficient and hold on audit fees in connection with
-annual audit.
-Perform analysis of general ledger accounts; prepared journal entries and adjustments to facilitate closings.
-Assist in the preparation of full financial statements and footnotes for investors and lenders.
-Review work of staff and operations to assure that certain daily procedures and reconciliations were performed routinely according to
-policies and procedures.
-Translate and prepare documents pertaining to defective parts of ComNet ATM Series assembled and distributed by Nextran Industries, a
-subsidiary company of Chungho ComNet Co., Ltd.
-Consult private investors and customer services.
+to 
+May 2007
+ 
+Accounting Tutor 
+Sole Proprietorship
+ 
+City
+ 
+, 
+State
+Held private sessions to teach financial accounting to over 25 individual client needs and wrote practice questions which resulted in grade
+improvement amongst all clients, including one who increased his exam performance by 35 percentage points after sessions.
 Education
+EMORY UNIVERSITY, Goizueta Business School
+ 
+5 2007
+ 
 Bachelor of Business Administration
  
 : 
 Accounting
  
-August 2002
- 
-TEMPLE UNIVERSITY
- 
 City
  
 , 
 State
  
-Accounting Audit Project: "Identifying potential risks that would impact the audit of Xerox Corp." Select Courses: Advance Accounting,
-Accounting Information System, Auditing & Assurance Services, Taxation
+GPA: 
+GPA: 3.63/4.0
+GPA: 3.77/4.0
+ 
+Accounting GPA: 3.63/4.0 GPA: 3.77/4.0
 Interests
-World travel/Photography/Golf/Soccer/Movie/Fashion
-Certifications
-Certified Public Accountant, New York State, Date 
-of issued: 03/04/2015, License number: 117205
+Fulton County CASA Board of Directors Member, Treasurer. 
+Plan fund raisers, review budget and financial statements, and supervise CASA
+staff in not-for-profit organization that trains volunteers to mentor children being pulled from their homes through the Fulton County court system
+for abuse and neglect. 
+CPA, Hold an active Georgia license and scored between 87 and 93 out of a possible 99 on each of the four sections of the
+CPA exam. CFE, Certified Fraud Examiner, which
+Skills
+accounting, balance sheet, budgets, client, clients, derivatives, drafting, equity, financial, financial accounting, financial statements, fixed assets,
+Funds, Government, Information Technology, inventory, investments, ledger, MA, Microsoft Excel, natural, page, payables, processes,
+programming, Real Estate, research, sales, scheme, telephone, writing skills
 Additional Information
-Activities: Vice President, APS (Accounting Professional Society) at Temple University, 2001 - 2002
+COMMUNITY SERVICE, CERTIFICATIONS AND AWARDS Fulton County CASA Board of Directors Member, Treasurer. 
+Plan
+fund raisers, review budget and financial statements, and supervise CASA staff in not-for-profit organization that trains volunteers to mentor
+children being pulled from their homes through the Fulton County court system for abuse and neglect. CPA, Hold an active Georgia license
+and scored between 87 and 93 out of a possible 99 on each of the four sections of the CPA exam. CFE, Certified Fraud Examiner, which
+requires passing four exams and two years work experience in preventing and detecting fraud. Recipient, 2007 John R. Jones Accounting
+Award. 
+Given annually by vote of Emory University Professors to recognize the top performing senior year student in academia, community
+involvement, and character. Recipient, 2006 Ben Pius Award. 
+Awarded by Emory Professors to recognize exceptional achievements by the
+highest performing junior year accounting student at Emory University.
