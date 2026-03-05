@@ -1,5 +1,6 @@
 # core/utils.py
 import os
+
 import pytesseract
 from bs4 import BeautifulSoup
 from PIL import Image
@@ -13,7 +14,14 @@ import pandas as pd
 import xml.etree.ElementTree as ET
 from collections import Counter
 from langdetect import detect, DetectorFactory
+import easyocr
 
+import numpy as np
+
+# 1. Initialize the reader ONCE at the top level of your script
+# This covers Arabic, English, and  French characters
+print("Initializing EasyOCR...")
+ocrReader = easyocr.Reader(['ar', 'en'], gpu=False)
 
 ############### agent1  #############
 # Configure Tesseract OCR path if provided via env or on Windows
@@ -27,11 +35,12 @@ else:
     if os.environ.get('TESSERACT_CMD'):
         pytesseract.pytesseract.tesseract_cmd = os.environ.get('TESSERACT_CMD')
 
+
 def extract_text_from_file(file_path, encodings_to_try):
     """Extract text from any supported file type"""
     ext = os.path.splitext(file_path)[1].lower()
     text = ""
-
+    global reader
     # Plain text files
     if ext in [".txt", ".py", ".log", ".js"]:
         for enc in encodings_to_try:
@@ -62,27 +71,39 @@ def extract_text_from_file(file_path, encodings_to_try):
         except Exception:
             text = ""
 
-        if not text.strip():
-            try:
-                # convert PDF pages to images; on Linux/macOS poppler should be on PATH
-                poppler_path = os.environ.get('POPPLER_PATH')
-                if poppler_path:
+            # If PDF is scanned (no selectable text), use EasyOCR
+            if not text.strip():
+                try:
+                    poppler_path = os.environ.get('POPPLER_PATH')
                     images = convert_from_path(file_path, poppler_path=poppler_path)
-                else:
-                    images = convert_from_path(file_path)
-                ocr_texts = [pytesseract.image_to_string(img) for img in images]
-                text = "\n".join(ocr_texts)
-            except Exception as e:
-                raise ValueError(f"OCR failed for {file_path}: {e}")
-        return text
+
+                    # Using EasyOCR instead of Tesseract for better Arabic support
+                    ocr_pages = []
+                    for img in images:
+                        img_np = np.array(img)
+                        page_text = ocrReader.readtext(img_np, detail=0)
+                        ocr_pages.append("\n".join(page_text))
+                    text = "\n".join(ocr_pages)
+                except Exception as e:
+                    raise ValueError(f"OCR failed for PDF {file_path}: {e}")
+            return text
 
     # Image files (OCR)
     elif ext in [".png", ".jpg", ".jpeg", ".tiff", ".bmp"]:
         try:
-            img = Image.open(file_path)
-            return pytesseract.image_to_string(img)
+            # 2. EasyOCR's readtext can take a file path directly
+            # detail=0 returns ONLY the text strings, making extraction easy
+            result = ocrReader.readtext(file_path, detail=0)
+
+            if not result:
+                return ""
+
+            # 3. Join the detected text lines with newlines
+            return "\n".join(result)
+
         except Exception as e:
-            raise ValueError(f"OCR failed for image {file_path}: {e}")
+            # It's helpful to know exactly which file failed
+            raise ValueError(f"EasyOCR failed for image {file_path}: {str(e)}")
 
     # DOCX files
     elif ext == ".docx":
@@ -112,7 +133,7 @@ def extract_text_from_file(file_path, encodings_to_try):
             except Exception:
                 continue
         raise ValueError(f"Cannot read file {file_path} with any encoding")
-    
+
 
 def extract_html_metadata(file_path, encodings_to_try):
     """Return metadata from an HTML file: title, meta description, headings, links, json-ld."""
@@ -219,11 +240,13 @@ def detect_structure(text):
 
     return bool(dialogue), bool(code)
 
+
 def lexical_diversity(text):
     words = text.split()
     if not words:
         return 0
     return len(set(words)) / len(words)
+
 
 # Language Detection
 def detect_languages(texts, sample_size):
@@ -237,3 +260,27 @@ def detect_languages(texts, sample_size):
             continue
 
     return dict(lang_counter)
+
+
+
+    #     if not text.strip():
+    #         try:
+    #             # convert PDF pages to images; on Linux/macOS poppler should be on PATH
+    #             poppler_path = os.environ.get('POPPLER_PATH')
+    #             if poppler_path:
+    #                 images = convert_from_path(file_path, poppler_path=poppler_path)
+    #             else:
+    #                 images = convert_from_path(file_path)
+    #             ocr_texts = [pytesseract.image_to_string(img) for img in images]
+    #             text = "\n".join(ocr_texts)
+    #         except Exception as e:
+    #             raise ValueError(f"OCR failed for {file_path}: {e}")
+    #     return text
+    #
+    # # Image files (OCR)
+    # elif ext in [".png", ".jpg", ".jpeg", ".tiff", ".bmp"]:
+    #     try:
+    #         img = Image.open(file_path)
+    #         return pytesseract.image_to_string(img)
+    #     except Exception as e:
+    #         raise ValueError(f"OCR failed for image {file_path}: {e}")
