@@ -4,8 +4,48 @@ import json
 import hashlib
 from datetime import datetime
 from langdetect import detect
+from keybert import KeyBERT
+from sentence_transformers import SentenceTransformer
 from core.utils import extract_text_from_file, extract_html_metadata
 from core.config import agent1_config as config
+import logging
+
+
+# ==========================
+# Load Multilingual Semantic Model (only once)
+# ==========================
+
+embedding_model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
+kw_model = KeyBERT(model=embedding_model)
+
+
+# ==========================
+# Semantic Topic Keyword Extraction
+# ==========================
+
+def _extract_keywords(text, top_n=7):
+    if not text or len(text.strip()) < 200:
+        return []
+
+    try:
+        keywords = kw_model.extract_keywords(
+            text,
+            keyphrase_ngram_range=(1, 3),
+            stop_words=None,
+            use_mmr=True,
+            diversity=0.5,
+            nr_candidates=50,
+            top_n=top_n
+        )
+        return [kw[0] for kw in keywords]
+
+    except Exception as e:
+        logging.warning(f"Keyword extraction failed: {e}")
+        return []
+
+# ==========================
+# Hash Function
+# ==========================
 
 def _hash_file(path):
     h = hashlib.md5()
@@ -13,6 +53,11 @@ def _hash_file(path):
         for chunk in iter(lambda: f.read(4096), b""):
             h.update(chunk)
     return h.hexdigest()
+
+
+# ==========================
+# Main Ingestion Function
+# ==========================
 
 def run_ingestion(state):
     os.makedirs(config.EXTRACTED_DIR, exist_ok=True)
@@ -35,6 +80,7 @@ def run_ingestion(state):
                 continue
 
             file_path = os.path.join(root, file)
+
             try:
                 file_hash = _hash_file(file_path)
             except:
@@ -52,17 +98,17 @@ def run_ingestion(state):
             except Exception as e:
                 print(f"Error extracting text from {file_path}: {e}")
                 continue
+
             html_meta = {}
             if ext in ['.html', '.htm']:
                 try:
                     html_meta = extract_html_metadata(file_path, config.ENCODINGS_TO_TRY)
                 except Exception:
                     html_meta = {}
-            
+
             if not text or not text.strip():
                 continue
 
-           
             if ext in ['.csv', '.json', '.xml']:
                 extracted_path = os.path.join(config.EXTRACTED_DIR, f"{file_id}{ext}")
             else:
@@ -76,6 +122,7 @@ def run_ingestion(state):
             except:
                 lang = "unknown"
 
+            keywords = _extract_keywords(text)
             trace_info = {
                 "doc_id": file_id,
                 "origin_path": file_path,
@@ -85,10 +132,10 @@ def run_ingestion(state):
                 "words": len(text.split()),
                 "char_count": len(text),
                 "timestamp": datetime.now().isoformat(),
-                "metadata": html_meta
+                "metadata": html_meta,
+                "key_words": keywords,
             }
 
-            # if HTML had JSON-LD payloads, save them as a separate json file
             if ext in ['.html', '.htm'] and html_meta.get('json_ld'):
                 try:
                     json_ld_path = os.path.join(config.EXTRACTED_DIR, f"{file_id}.json")
@@ -104,10 +151,8 @@ def run_ingestion(state):
             languages_detected[file_id] = lang
             file_counter += 1
 
-    # save trace_index.csv
     trace_csv_path = os.path.join(config.AGENT_OUTPUT_DIR, "trace_index.csv")
     if trace_records:
-        # ensure CSV contains all possible keys (some traces may have extra fields like json_ld_path)
         fieldnames = []
         for r in trace_records:
             for k in r.keys():
@@ -118,8 +163,8 @@ def run_ingestion(state):
             writer.writeheader()
             writer.writerows(trace_records)
 
-    #save report.json
     report_path = os.path.join(config.AGENT_OUTPUT_DIR, "report.json")
+
     report = {
         "agent": "TextIngestionAgent",
         "timestamp": datetime.now().isoformat(),
@@ -132,35 +177,12 @@ def run_ingestion(state):
             "total_size_mb": round(sum(os.path.getsize(r["origin_path"]) for r in trace_records) / 1024 / 1024, 3)
         }
     }
+
     with open(report_path, "w", encoding="utf-8") as f:
         json.dump(report, f, ensure_ascii=False, indent=2)
 
-    # save documents_info.json
-    documents_info_path = os.path.join(config.AGENT_OUTPUT_DIR, "documents_info.json")
-    documents_info = []
-    for r in trace_records:
-        info = {
-            "text_id": r["doc_id"],
-            "source": r["origin_path"],
-            "format": r["format"],
-            "language": r["lang"],
-            "length": r["char_count"],
-            "word_count": r["words"],
-            "text_sample": open(r["extracted_path"], "r", encoding="utf-8").read()[:200],
-            "metadata": r.get("metadata", {"source": r["origin_path"]}),
-            "extended_path": r["extracted_path"],
-            "hash_md5": _hash_file(r["origin_path"])
-        }
-        if r.get('json_ld_path'):
-            info['json_ld_path'] = r.get('json_ld_path')
-        documents_info.append(info)
-
-    with open(documents_info_path, "w", encoding="utf-8") as f:
-        json.dump(documents_info, f, ensure_ascii=False, indent=2)
-
     print(f"[Agent1] {len(trace_records)} documents processed, {duplicate_count} duplicates removed.")
     print(f"[Agent1] Report saved to: {report_path}")
-    print(f"[Agent1] Documents info saved to: {documents_info_path}")
 
     return {
         **state,
@@ -169,6 +191,5 @@ def run_ingestion(state):
         "languages_detected": languages_detected,
         "duplicates_removed": duplicate_count,
         "trace_csv_path": trace_csv_path,
-        "report_json_path": report_path,
-        "documents_info_json_path": documents_info_path
+        "report_json_path": report_path
     }
