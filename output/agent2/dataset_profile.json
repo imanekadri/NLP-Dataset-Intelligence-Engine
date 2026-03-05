@@ -1,32 +1,31 @@
 {
   "probable_dataset_type": "multilingual_dataset",
-  "total_documents": 126,
+  "total_documents": 128,
   "cluster_sizes": {
-    "4": 6,
-    "2": 2,
-    "1": 78,
-    "3": 11,
-    "0": 29
+    "2": 10,
+    "1": 16,
+    "3": 61,
+    "4": 36,
+    "0": 5
   },
-  "clustering_quality_score": 0.0487,
-  "avg_noise_ratio": 0.036,
+  "clustering_quality_score": 0.0148,
+  "avg_noise_ratio": 0.0444,
   "dialogue_ratio": 0.0,
-  "code_ratio": 0.0397,
+  "code_ratio": 0.0391,
   "language_distribution": {
-    "en": 123,
-    "fr": 1,
+    "en": 124,
     "ca": 1,
-    "ar": 1
+    "ar": 3
   },
   "anomalies": {
     "embedding_outliers": [
       "doc_0",
       "doc_1",
       "doc_3",
-      "doc_4",
       "doc_5",
+      "doc_6",
       "doc_7",
-      "doc_79"
+      "doc_8"
     ]
   }
 }

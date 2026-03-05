@@ -1,38 +1,39 @@
-ACCOUNTANT
-Professional Profile
-Certified Accountant with more than 10 years experience working with company financial statements.
-Vast experience in preparing tax returns.
-Ability to critically review financial statements
-Highly motivated manager with excellent administrative, organizational and communication skills.
-Reliable person with more than 20 years work experience.
-Highlights
-Professional Accountant
-Tax Auditing
-Proficient in Microsoft office
-Management expert
-General and tax accounting
-Expert in taxation
-Skills
-Good Communication
-Customer Service
-Problem Solver
-Team work
-IT Skill
-Proficient in Quickbooks
+ACCOUNTANT III
+Senior Accountant
+Results oriented accounting professional with 17+ years of progressive experience in a board range of accounting functions. 
+Successful at
+managing multiple projects while consistently exceeding deadlines. Proven self-starter with strong managerial relationship and team building skills.
+Proactive strategic thinker with strong analytical, organizational andÂ  communicationÂ  skills.Â  
+Areas of Expertise
+Accounts Payable
+Fixed Asset and Property
+Accounts Receivable
+Payroll
+Month-End Closing
+Reconciliation and Analysis
+General Ledger Entries
+Budgeting
+Contract Management
+Board Of Directors Reporting
+Staff Management
+â€‹Expense Reporting
+Settlement Payments
+Vendor Relations 
 Accomplishments
-Setup a large taxpayer unit which collected over 70% of domestic taxes revenue.
-Increased revenue collection by 20% over a period of two years.
-Lead team that introduced the Tax Identification Number (TIN).
-Developed a new process for employee evaluation which resulted in marked performance improvement.
-Developed an enforcement process that improved revenue collection.
-Improved customer relations.
-Experience
-Accountant
- 
-Jun 2013
+Project lead for the automation and implementation of employee expense and vendor self service modules.
+Authored and established departmental check printing and ACH standard operating procedures. 
+Streamlined operations and eliminated one full day from month-endÂ  closing by condensing and automating vendor project retention funds.
+Automated Positive Pay and ACH notifications for faster and more reliable response time. 
+Â Project Co-lead for Oracle Payroll implementation.
+Created and Implemented an employee morale initiative 'Where Everybody Counts" for the Office of Accounting.
+Managed employee benevolent fund for 13 years as Secretary for the MARTA Employees Club. Streamlined the process in which
+employees seek assistance and funds distributed.
+Professional Experience
+08/2007
  
 to 
-Nov 2013
+Current
+Accountant III
  
 Company Name
  
@@ -41,17 +42,34 @@ City
  
 , 
 State
-Performed debit, credit and total accounts on computer using specialized accounting software.
-Managed accounting operations, accounting close, account reporting and reconciliations.
-Received, recorded, and banked cash, checks, and vouchers as well as reconciled records of bank transactions.
-Assisted the Managing Director with the production of the monthly financial and management reports.
-Prepared financial and regulatory reports required by boards of directors.
-Commissioner of Taxes
- 
-Apr 2011
+Team Lead for three Accounting Specialist.Â  Oversees accounts payable functionality while managing daily workflow duties.Â  
+Executes check printing and ACH direct deposits for AP, payroll third party and risk management vendors and employees.
+â€‹Initiates positive pay file, stop payments and void file transfers to financial institution.
+Capitalizes operating and project expenses according to policy.
+Monitors fixed asset subledger for accuracy.
+Reconciles fixed asset subledger to the general ledger control account for each class of fixed assets and resolves any reconciling items
+monthly.
+Codes/reclass invoices for fixed asset purchases with the appropriate general ledger account number, business unit or cost center.
+Audits invoices prior to payment for accuracy and compliance in accordance with accounting and Authority guidelines and statue.
+Responsible for over fifty high volume contracts, ensuring accuracy and compliance with contracts terms, GAAP and authority procedures.
+Manages $1M contract retainage and reconcile variances on a monthly basis.
+Manages $5M operating accruals account.
+Post monthly to the general ledger.
+Reconciles financial data for the purpose of maintaining accurate account balances and ensuring compliance with established accounting
+procedure.
+Monitors account balances and related financial activity to ensure that allocations are accurate and comply with established financial
+practices.
+Verify appropriate approvals of invoices, investigate and resolve issues.
+Trains staff and/or outside vendors regarding procedural requirements for transaction processing.
+Collaborates with project managers, purchasing agents, contract administrators and accounting specialist regarding procedural requirements
+for the purpose of processing transactions.
+Researches discrepancies of financial information and/or documentation to for the purpose of ensuring the accuracy and adhering to
+established procedures prior to processing.
+04/1999
  
 to 
-Apr 2012
+08/2007
+Credit / Collections Analyst
  
 Company Name
  
@@ -60,16 +78,21 @@ City
  
 , 
 State
-Managed over 80 staff responsible for the collection of domestic revenue
-Managed the formulation and implementation of the annual operational plan and budget of the domestic taxes department
-Prepared and managed the annual budget of the department
-Formulated policy objectives and strategy of the department
-Deputy Commissioner of Taxes
- 
-Apr 2007
+Co-managed the Authority's short-term operational investment portfolios and intermediate-term reserve investment portfolios, totaling $300
+million.
+Completed daily cash management activities such as setting the daily cash position, funds movement and the investment of excess funds.
+Prepared a rolling forecast of cash receipts and expenditures, encompassing in excess of $700 million annually.
+Initiated all wire fund transfers and manages transfer database.
+Reviewed, analyzed and managed MARTA's credit policy to ensure the effectiveness of credit terms and credit granting practices.
+Monitored, controlled and measured performance of the accounts receivable and its aging schedule for compliance with payment standards
+to minimize past due accounts.
+Liaison between financial institution and the Office of Corporate Finance to determine and resolve any variances with regard to financial
+reports.
+12/1996
  
 to 
-Apr 2011
+04/1999
+Accounting Coordinator
  
 Company Name
  
@@ -78,214 +101,26 @@ City
  
 , 
 State
-Ensured that the Large Taxpayer Unit (LTU) maximises revenue collections
-Managed and oversee the work of the LTU
-Made monthly reports summerising progress against plans and account for variations
-Established and reported trends in compliance and liaised with technical services unit to develop procedures or legal changes to counter
-threats to revenue
-Liaised with other government departments and private institutions to establish arrangements for collection, collation and exchange of
-relevant data
-Conducted performance appraisals on LTU staff
-Inspector of Taxes
- 
-Jan 2003
- 
-to 
-Apr 2007
- 
-Company Name
- 
-ï¼​ 
-City
- 
-, 
-State
-Conducted tax audits on taxpayers.
-Produced tax audit reports.
-Ensured taxpayers compliance with payment and filing obligation.
-Advised taxpayers on tax issues.
-Assistant Inspector of Taxes
- 
-May 1999
- 
-to 
-Dec 2002
- 
-Company Name
- 
-ï¼​ 
-City
- 
-, 
-State
-Planned and executed enforcement activities.
-Inspected tax returns and carryout desk audits.
-Prepared and issued tax assessments to taxpayers.
-Tax Officer
- 
-Feb 1997
- 
-to 
-Apr 1999
- 
-Company Name
- 
-ï¼​ 
-City
- 
-, 
-State
-Ensured tax returns are processed efficiently.
-Maintained and up to date records of taxpayers' liability and payments.
-Senior Tax Clerk
- 
-Dec 1991
- 
-to 
-Jan 1997
- 
-Company Name
- 
-ï¼​ 
-City
- 
-, 
-State
-Maintained taxpayer files.
-Issued tax clearance certificates.
-Provided first point of contact for taxpayers requiring assistance.
+Reconciled monthly bank statements to Spectrum Accounting and manual checkbook.
+Monitored accounts detecting fraudulent activities and common bank errors.
+Handled all accounts receivables, posted cash to appropriate accounts, prepared deposits and recorded transactions into the general
+journal.
 Education
-Certificate
+MBA
  
-, 
-Management
- 
-2009
- 
-HMRC Staff College
+Kennesaw State University
  
 ï¼​ 
 City
  
 , 
 State
+BBA
  
-, 
-United Kingdom
-Leadership and management skills
-Self-awareness and impact
-Communication and presentation skills
-Working collaboratively for improved performance
-Managing performance
-Managing change
-Getting more for less
-Delivering better compliance
-Engaging with customers for improved performance
-International tax and frontiers issues
-Human resource management
-Certificate
- 
-, 
-Management
- 
-2007
- 
-Management Institute for National Development (MIND)
- 
-ï¼​ 
-City
- 
-, 
-Jamaica
-Management development and organizational development.
-Understanding difference and learning about others.
-Interpersonal skills, team skills and processes, leadership and performance management.
-Systems thinking, continuous improvement, business planning and presentation skills.
-Commonwealth perspective; tax administration module and best practice design for tax.
-Risk management and strategic planning.
-Tax compliance administration, audit case selection and risk based auditing.
-Planning investigations/large company investigations and cost benefit analysis.
-Value added taxes.
-Management of disputes.
-Tax evasion/avoidance and underground economy/money laundering.
-Fraudulent transactions.
-Issues relating to multinational corporates expatriate employees.
-Certificate
- 
-, 
-Taxation
- 
-2004
- 
-HMRC Staff College
- 
-ï¼​ 
-City
- 
-, 
-State
- 
-, 
-United Kingdom
-Personal development 
-Â 
-Self-awareness and impact.
-Communication and presentation skills.
-Engagement with the taxpayer
- Â 
-Customer focus.
-Business tax interventions.
-Personal tax interventions.
-Accounts examination.
-Case selection and risk analysis.
-Techniques for collecting returns and payments.
-Compliance strategy 
-Â 
-Special investigations and civil investigations of fraud.
-Understanding avoidance.
-Criminal investigations in practice.
-Presentation skills 
-Â 
-Project and team working.
-Tribunals including appeals, reviews and evidence.
-International taxation 
-Â 
-Transfer pricing.
-Tax treaties.
-Exchange of information.
-Taxation of e-commerce
-Computer record examination.
-Association of Certified Chartered Accountants
- 
-, 
-Accountancy
- 
-2002
- 
-Kaplan Financial (FTC)
- 
-ï¼​ 
-City
- 
-, 
-State
- 
-, 
-United Kingdom
-Management Accounting
-Financial Accounting
-Financial Management
-Taxation
-Audit and Assurance
-Business Analysis
-Association of Accounting Technicians
- 
-, 
+: 
 Accounting
  
-1998
- 
-Management Development Institute
+Tennessee State University
  
 ï¼​ 
 City
@@ -293,25 +128,9 @@ City
 , 
 State
  
-, 
-Gambia
-Preparing Financial Statements
-Budgeting
-Financial Reporting
-Report Writing
-Cash Management
-Risk Management
-Professional Ethics
-Certifications
-Certificate:Achieving Management Potential
-Certificate: Taxation
-Certificate: Management Development
-Languages
-English
-Affiliations
-Association of Certified Chartered Accountants (UK)
-Association of Accounting Technicians(UK)
-Personal Information
-Date of Birth: February 17th 1971
-Sex: Female
-Status: Married
+Accounting
+Skills
+Oracle Accounting
+Dun and Bradstreet Financial Reporting
+Microsoft Office
+Bank Of America CashPro

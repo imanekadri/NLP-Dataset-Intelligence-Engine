@@ -1,149 +1,140 @@
-ACCOUNTANT HELPER
-Summary
-Seeking a position as an accountant, utilizing knowledge of general accounting procedures in order to assist the office with its periodic accounting
-processes.
-Highlights
-Microsoft Office (Excel, Word, PowerPoint)
-Advanced problem solving abilities
-Critical thinking
-Decisive
-Excellent mathematical skills
-Budgeting
-Accomplishments
-Payroll Assistance
- Â 
-Assisted with payroll preparation and entered data into cumulative payroll document.
-Research
- Â 
-Investigated and analyzed client complaints to identify and resolve issues.
-Scheduling
- Â 
-Facilitated onboarding of new employees by scheduling training, answering questions and processing paperwork.
+STAFF ACCOUNTANT
 Experience
-Accountant helper
- 
-May 2014
- 
-to 
-July 2014
- 
-Company Name
- 
-ï¼​ 
-City
- 
-, 
-State
-Assisted the Accounting Clerk in accounting tasks: entered A/P and A/R, processed payments, organized client billing folders, procedure
-documentation.
-Performed general office duties: filing, scanning, mail processing and data entry.
-Assisted Accounting Manager with different assignments.
-Reconciled bank statements and ledger accounts.
-Assisted with daily cash balancing.
-Major Strengths: Good knowledge of coordinating, monitoring and participating in monthly accounting procedures.
-Strong know-how of organizing the preparation of periodic financial reports.
-In-depth knowledge of preparing reconciliation of outstanding payments.
-Knowledge of liabilities and payment obligation.
-Verified and logged in deadlines for responding to daily inquiries.
-Organized files, developed spreadsheets, faxed reports and scanned documents.
-Dispersed incoming mail to correct recipients throughout the office.
-Created and maintained spreadsheets using advanced Excel functions and calculations to develop reports and lists.
-Laboratory Technician III
- 
-September 2012
+August 2013
  
 to 
 Current
  
 Company Name
  
-ï¼​ 
+- 
 City
  
 , 
 State
-Receive and prepare laboratory samples for analysis, following proper protocols to ensure that they will be stored, prepared, and disposed
-of efficiently and effectively.
-Record data pertaining to experimentation, research, or animal care.
-Measure or weigh ingredients used in testing or for purposes such as animal feed and waste.
-Operate laboratory equipment such as spectrometers, nitrogen determination apparatus, air samplers, centrifuges, and potential hydrogen
-(pH) meters to perform tests.
-Adjust testing equipment, and prepare culture media, following standard procedures.
-Maintain or repair agricultural facilities, equipment, or tools to ensure operational readiness, safety, and cleanliness.
-Prepare or present agricultural demonstrations.
-Respond to inquiries and requests from the public that do not require specialized scientific knowledge or expertise.
-Supervise student workers and train new technicians.
-Laboratory Technician II
- 
-July 2007
+Accounting Manger 
+Report to CFO Manages 4 colleagues.
+The accounting department consists of 2 Accounting Clerks, 1 Financial Analyst, and 1 Volunteer.
+Lead person for all aspects of close, including preparing and entering 30 journal entries and preparation of 35 balance sheet reconciliations.
+Developed new and easier ways of doing journal entries for month end process, using Microsoft Excel.
+Have reduced journal entry keying by a day and half, allowing more time for analysis.
+Revamped old cost reporting and 990 templates, using Excel, to make the process easier for colleagues that would enter information into
+the system.
+Have cut down lead and processing time for each, making the entire submission time faster for system senior leadership.
+Selected as point person to help our system office install and run PeopleSoft Finance at St.
+Mary's Hospital.
+Directly responsible for training staff at hospital, and have assisted system in developing the financial statements that are used today.
+Assisted all hospital directors in the planning and execution of their departments AOP for the next fiscal year.
+Assisted in making a $5 million dollar turn around in total hospital EBIDA for fiscal year 2015.
+Responsible for maintaining and tracking $75 million in hospital fixed assets.
+Developed new FTE position control productivity report using complex queries and reports in Microsoft Access.
+June 2006
  
 to 
-September 2012
+August 2013
  
 Company Name
  
-ï¼​ 
+- 
 City
  
 , 
 State
-Receive and prepare laboratory samples for analysis, following proper protocols to ensure that they will be stored, prepared, and disposed
-of efficiently and effectively.
-Prepare samples to be analyzed on the ICP.
-Analyze samples via AS-3000 PH Dual analyzer.
-Maintain or repair agricultural facilities, equipment, or tools to ensure operational readiness, safety, and cleanliness.
-Prepare laboratory reagents for analytical purposes.
-Service walk-in customers.
-Prepare or present agricultural demonstrations.
-Additional skills and capabilities: Operate effectively within an agricultural laboratory setting.
-Willing participant in environmentally sustainable work practices.
-Thoroughly perform standard calibrations.
-Excellent communication and collaboration skills.
-Efficient and precise when recording and presenting data.
-Proficient in the use laboratory application software and instruments.
-Strong contributor to the achievement of quality objectives.
+Staff Accountant/ IT 
+Report to Finance Supervisor Assisted in financial month end close, by preparing over 20 journal entries and 25
+Balance Sheet reconciliations.
+Developed various sales, TGP, and other contribution margin reports, using Microsoft Access and Excel.
+Led the division in creating projects that would strip out relevant information from a report and put into Excel, using Monarch data mining
+software.
+Developed over 30 models for the division to use.
+Developed Excel macros to help make entering journal entries easier at month end.
+Corporate office started using them for their month end close.
+Assisted in developing an automated reporting system that would distribute reports to sales force, and senior management every morning.
+Led IT department and helped maintain division IT infrastructure.
+Developed reports that track all IT assets and give a check list of what to do in case of a hard drive crash or any other maintenance activity.
+This report is still used to this day at the division.
+Created a sales report in Excel that used links, macros, and formulas, to show each sales persons sales, TGP, and cases, by using a drop
+down box and selecting their name.
+December 2003
+ 
+to 
+June 2006
+ 
+Company Name
+ 
+- 
+City
+ 
+, 
+State
+Accounts Payable/ IT 
+Report to Controller Accountable for the coding and paying of all Accounts Payable invoices.
+Including getting management signature, along with following up on and invoice discrepancies.
+Assisted in getting purchase orders from warehouse and entering in our purchase order system.
+Developed a new spreadsheet to help track fuel expense and tracking for operations.
+Assisted in month end close process, and was asked to then take over the sales tax and beverage tax journal entries for the division.
+Accountable for 5 Balance Sheet reconciliations for the division.
+Developed spreadsheet to keep track of customer credits, and salesman reimbursements.
+Developed report to show how many purchase order shorts there were, by vendor and warehouse id.
+Staff Accountant
+ 
+March 2001
+ 
+to 
+December 2001
+ 
+Company Name
+ 
+- 
+City
+ 
+, 
+State
+Reported to Assistant Controller.
+Accountable for inventory for all 15 Sprint stores in our area.
+Led month end inventory counts, where each store would send me their results and I would match up to purchase order and sales to make
+sure everything tied out.
+Accountable for process of stolen, warranty and damaged phones, by making sure we received correct credit back from Sprint.
 Education
+IRS 990 Tax Reporting & Submission 
+*CMS Cost Reporting Submission *Property Tax Exemption Submission 
+*AOP Budget Planning
 Bachelor of Arts
  
 : 
 Accounting
  
 , 
-5 2014
+May 2000
  
-Ashford University
+Western Illinois University
  
-ï¼​ 
+- 
 City
  
 , 
 State
  
+Accounting
+Associates Degree
+ 
+: 
+Accounting
+ 
 , 
-USA
-Advanced coursework in Business Administration
-Coursework in Business Administration
-Coursework in Advanced Financial Accounting
-Contract Law coursework
-Minor in Business Administration
-Coursework in Human Resource Management and Business Administration
-Income Tax Reporting course
-Specialized Industry GAAP course
-Coursework in International Finance, Statistics and Microeconomics
-Coursework in Accounting and Finance
-Communications and Marketing coursework
+May 1997
+ 
+Black Hawk College
+ 
+- 
+City
+ 
+, 
+State
+ 
+Accounting
+St. Mary's Hospital Leadership Team
 Skills
-Proficient in Microsoft Office (Excel, Word, PowerPoint)
-Excellent mathematical skills
-Capable of analyzing trends and variances
-Excellent communication and organizational skills
-Able to work in a high volume environment
-Physically dexterous
-Strong interpersonal, communication and multi-tasking skills
-Operate effectively within an agricultural laboratory setting.
-Willing participant in environmentally sustainable work practices.
-Thoroughly perform standard calibrations.
-Excellent communication and collaboration skills.
-Efficient and precise when recording and presenting data.
-Proficient in the use laboratory application software and instruments.
-Strong contributor to the achievement of quality objectives
+Accounting, Accountant, Accounts Payable, balance sheet, Budget Planning, CMS, Controller, credit, data mining, senior management, Finance,
+financial, Financial Analyst, financial statements, fixed assets, hard drive, inventory, leadership, macros, Microsoft Access, Microsoft Excel, Excel,
+office, Monarch, month end close process, month end close, next, PeopleSoft, coding, reporting, sales, spreadsheet, Supervisor, Tax, phones

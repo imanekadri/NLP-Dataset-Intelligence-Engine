@@ -1,491 +1,500 @@
 Chapter 02: Setting Up the Python
 Environment
-
-In this chapter, we'll talk about:
-
-¢ |nstalling Python
-
-® Using Anaconda and virtual environments
-
-® Managing packages with pip and conda
-
-e Working in Jupyter Notebooks and VS Code
-
-¢ Organizing data science projects for real-world scalability
-
-1. Python: The Foundation
-
-1.1 What is Python?
-
-Python is Python is a general-purpose programming language. It is a high-level, interpreted
-programming language known for its simplicity and vast ecosystem of libraries.
-
-1.2 Overview
-
-* Python is a high-level, interpreted, general-purpose programming language.
-
-¢ Creator: Guido van Rossum
-
-* Year of creation: 1991
-
-® Emphasizes readability and simplicity, making it ideal for beginners and experts alike.
-
-® Supports multiple programming paradigms: procedural, object-oriented, and functional.
-
+In this chapter  we ll talk about
+Installing Python
+Using Anaconda and virtual environments
+Managing packages with pip and conda
+Working in Jupyter Notebooks and VS Code
+Organizing data science projects for real-world scalability
+1 Python: The Foundation
+11 What is Python?
+Python is Python is
+general-purpose programming language It is a high-level interpreted
+programming language known for its simplicity and vast ecosystem of libraries
+12 Overview
+Python is a high-level interpreted general-purpose programming language
+Creator: Guido van Rossum
+Year of creation: 1991
+Emphasizes readability and simplicity making it ideal for beginners and experts alike
+Supports multiple programming paradigms: procedural object oriented and functional
 1.3 Key Features
-
-® Easy to learn and read: clean syntax and indentation-based structure.
-
-¢ Extensive libraries: for data science, web development, machine learning, automation, etc.
-¢ Interpreted and dynamic: no need to compile; types are inferred at runtime.
-
-¢ Cross-platform: runs on Windows, macOS, Linux.
-
-¢ Community support: large community and active development.
-
-1.4 Applications of python
-
-e Data Science & Machine Learning: Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch.
-¢ Web Development: Django, Flask, FastAPI.
-
-e Automation & Scripting: automating repetitive tasks, data processing.
-
-e Software Development: building applications, games, and tools.
-
+Easy to learn and read: clean
+and indentation-based structure
+Extensive libraries: for data science, web development machine learning  automation etc
+Interpreted and dynamic: no need to compile; types are inferred at runtime 
+Cross-platform: runs on Windows macOS Linux
+Community support: large community and active development
+1.4
+Applications of python
+Data Science & Machine Learning: Pandas NumPy Scikit learn  TensorFlow PyTorch.
+Web Development: Django Flask FastAPl
+Automation & Scripting: automating repetitive tasks, data processing
+Software Development: building applications games and tools
 2. Installing Python
-
-Advanced PYTHONT or Data Science — Amel Boustil
-
-There are two common ways to install Python:
-
+Advanced PYTHONf or Data Science
+Amel Boustil
+syntax
+There are two common ways to install Python
 2.1 Option 1: Official Python Installation
-
-1. Visit python.org/downloads
+1. Visit python org downloads
 2. Download the latest version
-3. During installation:
-. Check the box: “Add Python to PATH”
-. Choose "Customize installation" — enable pip and IDLE
+3.
+During installation 
+Check the box: "Add Python to PATH
+Choose " Customize installation"
 
-4. Verify installation: python --version
-
+enable pip and IDLE
+4
+Verify installation  python --version
 2.2 Option 2: Install Anaconda (Recommended)
-Anaconda is a Python distribution that includes:
-
-e Python
-
-¢ Jupyter Notebook
-
-* Conda (package and environment manager)
-
-® Hundreds of data science libraries (NumPy, Pandas, etc.)
-
+Anaconda is a
+Python distribution that includes 
+Python
+Jupyter Notebook
+Conda (package and environment manager)
+Hundreds of data science libraries (NumPy Pundus, etc )
 Steps
-
-1. Visit anaconda.com/products/distribution
-
+1. Visit anaconda com products distribution
 2. Download the installer
-
 3. Follow the setup instructions
-
-4. Open the Anaconda Navigator or Anaconda Prompt
-
+4
+Open the Anaconda Navigator or Anaconda Prompt
 To verify installation
-conda --version
-
+conda - -version
 python --version
-
 3. IDEs for Python
-
-An IDE (Integrated Development Environment) is a software application that provides developers with
-tools to write, test, and debug code efficiently.
-
-For Python, several IDEs and code editors are widely used, each with strengths and weaknesses.
-
+An IDE (Integrated Development Environment) is
+software application that provides developers with
+tools to write test and debug code efficiently
+For Python several IDEs and code editors are widely used each with strengths and weaknesses 
 3.1. Popular IDEs and Editors for Python
-e IDLE
-
-= Comes pre-installed with Python.
-= Simple and lightweight, good for beginners.
-® Jupyter Notebook
-
-" |nteractive environment for data science.
-= |deal for data analysis, visualization, and machine learning experiments.
-
-.
-PyCharm Advanced PYTHONT or Data Science — Amel Boustil
-
-= Full-featured IDE (by JetBrains).
-= Great for large projects, debugging, and advanced features.
-¢ VS Code (Visual Studio Code)
-
-= Lightweight, extensible, and popular.
-
-= |arge ecosystem of extensions for Python, Git, and data science tools.
-
-* Spyder
-
-= Designed for scientific computing.
-= Often used in combination with Anaconda.
-
+IDL٤
+Comes pre-installed with Python 
+Simple and lightweight good for beginners
+Jupyter Notebook
+Interactive environment for data science
+Ideal for data analysis visualization  and machine learning experiments
+PyCharm
+Advanced PYTHONf or Data Science
+Amel Boustil
+Full featured IDE (by JetBrains)
+Great for large projects, debugging and advanced features
+VS Code (Visual Studio Code)
+Lightweight extensible, and popular
+Large ecosystem of extensions for Python  Git and data science tools
+Spyder
+Designed for scientific computing
+Often used in combination with Anaconda
 Comparison of Python IDEs
-
-IDE / Editor Best For Pros
-IDLE Beginners, quick scripts Simple, comes with Python
-Jupyter Data science, ML, research Interactive, great for visualization
-Notebook
-PyCharm Profgsspnal, large Advanced debugging, refactoring
-applications tools
-VS Code General purpose, extensible Lightweight, huge extension
-marketplace
-Sovder Scientific & numerical Integrated with Anaconda,
-Py computing MATLAB-like
-# Tip:
-
-¢ |f you're starting with data science — use Jupyter Notebook.
-
+|D٤
+Editor
+Best For
+Pros
 Cons
-Very limited features
-
+IDL٤
+Beginners quick scripts
+Simple, comes with Python
+limited features
+Jupyter
 Not ideal for large
+Data science ML research
+Interactive great for visualization
+Notebook
 projects
-
-Heavy, paid version for
+Professional large
+Advanced debugging  refactoring
+Heavy
+version for
+PyCharm
+applications
+tools
 Pro
-
+Lightweight huge extension
 Needs extensions for
+VS Code
+General purpose, extensible
+marketplace
 features
-
+Scientific & numerical
+Integrated with Anaconda
 Less flexible than VS
+Spyder
+computing
+MATLAB-like
 Code
+Tip:
+If you're starting with data science
+ب
+use
+Jupyter Notebook
+For general Python development
+د
+VS Code is a great balance of features and performance
+For enterprise projects
 
-e For general Python development — VS Code is a great balance of features and performance.
-
-® For enterprise prajects — consider PyCharm Professional.
-
+consider PyCharm Professional
 4. Structure of Project in data science
+Data Science project should follow a clear structure to ensure
+scalability and easy
+collaboration  This organization makes the project easier to understand maintain and extend
+typical layout separates raw data notebooks, source code and outputs:
+my_project/
+data/
+raw/
 
-A Data Science project should follow a clear structure to ensure clarity, scalability, and easy
+Original data (CSV JSON Excel etc )
+processed/
 
-collaboration. This organization makes the project easier to understand, maintain, and extend.
+Cleaned data ready for analysis
+notebooks/
+Jupyter Notebooks for exploration
+SIC/
+Makes it a package
+utils py
 
-A typical layout separates raw data, notebooks, source code, and outputs:
+Utility functions
+models/
+د
+Saved models
+reports/
+ا
+Visualizations and figures
+Advanced PYTHONf or Data Science
+Amel Boustil
+Very
+paid
+clarity
+init py
+tests/
 
-* [ my_project/
-= [7 data/
-o [T raw/ — Original data (CSV, JSON, Excel, etc.)
-o [T processed/ — Cleaned data ready for analysis
-= [ notebooks/ — Jupyter Notebooks for exploration
-= [ src/
-o initpy —» Makes it a package
-o utils.py — Utility functions
-" [ models/ — Saved models
+Unit tests
+requirements txt
+Dependencies
+environment yml
+Anaconda environment config
+READMEmd
+ب
+Documentation
+.gitignore
 
-= [ reports/ — Visualizations and figures
-Advanced PYTHONT or Data Science — Amel Boustil
+Ignore unnecessary files
+Folder Explanations
+data/
 
-= [7 tests/ — Unit tests
+Keep your raw input data and any cleaned processed versions
+notebooks/
+ب
+For interactive work experiments, and analysis in Jupyter
+sr/
+د
+Your Python scripts (data preprocessing modeling  utilities)
+models/
+د
+Store trained models, serialized files
+.pkl .h5) and checkpointsi useful for
+versioning models and reproducibility
+outputs/ (reports and or tests)
+ب
+Store model outputs, visualizations or exported results
+requirements txt
+Tracks the exact Python packages used
+pip
+freeze
+requirements  txt )
+environment yml
 
-= requirements.txt = Dependencies
-
-= environmentyml — Anaconda environment config
-= README.md — Documentation
-
-= gitignore — Ignore unnecessary files
-
-[ Folder Explanations
-
-¢ data/ — Keep your raw input data and any cleaned/processed versions.
-
-* notebooks/ — For interactive work, experiments, and analysis in Jupyter.
-
-e src/ — Your Python scripts (data preprocessing, modeling, utilities).
-
-¢ models/ — Store trained models, serialized files (e.g., .pkl, .h5) and checkpoints; useful for
-versioning models and reproducibility.
-
-¢ outputs/ (reports and/or tests) — Store model outputs, visualizations, or exported results.
-
-® requirements.txt — Tracks the exact Python packages used ( pip freeze > requirements.txt ).
-
-¢ environment.yml — Alternative for Conda environments ( conda env export >
-environment.yml ).
-
-¢ README.md - Explains what the project is about, how to set it up, and how to use it.
-
-e .gitignore — Specifies which files and directories should be ignored by Git (not tracked or
-committed).
-
+Alternative for Conda environments
+conda
+env export
+environment
+م
+READMEmd
++
+Explains what the project is about how to set it up and
+to use it
+.gitignore
+Specifies which files and directories should be ignored by Git (not tracked or
+committed)
 5. Virtual Environments in Python
-
-A virtual environment is an isolated Python environment that allows to install specific packages and
-dependencies without affecting the global Python setup or other projects.
-
-5.1. Benefits of Using Virtual Environments
-
-¢ Keeps projects isolated
-¢ Prevents dependency clashes
-e Ensures reproducibility
-e Facilitates collaboration
-
-5.2. Creating a Virtual Environment (using venv)
-
+virtual environment is an isolated Python environment that allows to install specific packages and
+dependencies without affecting the global Python setup or other projects
+5.1.
+Benefits of Using Virtual Environments
+Keeps projects isolated
+Prevents dependency clashes
+Ensures reproducibility
+Facilitates collaboration
+5.2 Creating a Virtual Environment (using
+venv )
 Steps:
-
-1. Open terminal / command prompt
-
-2. Navigate to the project folder: cd my_project
-
-3. Create the environment:python -m venv env
-
-4. Activate it: Windows: (.\env\Scripts\activate) or Mac/Linux: (source env/bin/activate) You should now
-see (env) in your terminal.
-
+1 Open terminal
+command prompt
+2. Navigate to the project folder  cd my_project
+3. Create the environmentpython -m venv env
+4. Activate it: Windows: ( lenvlScriptslactivate) or MacLinux  (source env bin activate) You should now
+see (env) in your terminal
 5. Install libraries like : (pip install pandas numpy matplotlib)
-
 6. Deactivate when done: (deactivate )
-
 5.3. Creating a Virtual Environment (using Conda
 (Recommended)
-
-Advanced PYTHONT or Data Science — Amel Boustil
-
-If you use Anaconda, Conda environments are more powerful:
+Advanced PYTHONf or Data Science
+Amel Boustil
+(e.9.,
+yml
+how
+If you use Anaconda Conda environments are more powerful:
 Steps:
-
-1. conda create --name ds_env python=3.11
-
+1. conda create --name ds_env
+python=3.11
 2. conda activate ds_env
-
-3. conda install pandas numpy matplotlib scikit-learn
+3. conda install pandas numpy matplotlib scikit learn
 4. List all environments: conda env list
-
-6. Package Management in Data Science: pip vs.
+6. Package Management in Data Science: pip vS.
 conda
-
-When working in Data Science, we don't only rely on programming languages like Python or R.
-We also use package managers to install libraries, manage dependencies, and create isolated
-environments.
-
-The two most popular tools are pip and conda.
-
-@ pip (Python Package Installer) :
-
-Official package manager for **Python**.
-
-@ Conda:
-
-Conda is a cross-platform package and environment manager that supports multiple languages (Python,
-R, C, etc.) and is widely used in the Anaconda ecosystem for handling dependencies and reproducible
-environments.
-
-6.1. pip vs. conda: Which to Use?
-
-Feature pip conda
-Language support Python only Python, R, C, etc.
-Package source PyPI Anaconda repositories (conda-forge)
-Dependency handling May cause conflicts More reliable dependency resolution
-Environment management 3¢ No Yes
-Speed Faster, but less robust Slower, but more stable
-Binary support Limited Full binary support
-
+When working in Data Science, we don't only rely on programming languages like Python or R
+We also use package managers to install libraries manage dependencies and create isolated
+environments 
+The two most popular tools are pip and conda
+pip (Python Package Installer)
+Official package manager
+for *xPython*x
+Conda
+٠
+Conda is a
+cross-platform package and environment manager that supports multiple languages (Python
+R, C, etc ) and is widely used in the Anaconda ecosystem for handling dependencies and reproducible
+environments
+6.1. pip vS. conda: Which to Use?
+Feature
+pip
+conda
+Language support
+Python only
+Python R, C etc
+Package source
+PyPI
+Anaconda
+repositories (conda forge)
+Dependency handling
+cause conflicts
+More reliable dependency resolution
+Environment management
+No
+Ves
+Speed
+Faster but less robust
+Slower but more stable
+support
+Limited
+Full binary support
 Best practice:
-
-¢ Use conda inside Anaconda
-
-e Use pip outside Anaconda or when conda doesn't support a package
-
+Use conda inside Anaconda
+Use pip outside Anaconda or when conda doesn t support a package
 6.2. Main Python Libraries for Data Science
+NumPy
 
-¢ NumPy — Core library for numerical computing, arrays, and linear algebra.
+Core library for numerical computing  arrays and linear algebra
+Pandas
 
-* Pandas — Data manipulation and analysis using DataFrames and Series.
-Advanced PYTHONTY or Data S¢ience — Amel Boustil
+Data
+manipudaticed PdaDalsiSasingenataFraesuand Series 
+PYTHONf or Data
+Amel Boustil
+May
+Binary
+Matplotlib
+د
+Basic plotting library for visualizations
+Seaborn
+د
+Statistical data visualization built on top of Matplotlib.
+Scikit learn
+Machine learning library for classification regression clustering and preprocessing 
+SciPy
+Scientific computing with advanced math optimization and statistics
+Statsmodels
+د
+Statistical modeling and hypothesis testing
+TensorFlow
+د
+Deep learning framework developed by Google
+PyTorch
+ب
+Deep learning library developed by Facebook (Meta) widely used in research
+XGBoost
 
-¢ Matplotlib — Basic plotting library for visualizations.
+Gradient boosting library for efficient and scalable machine learning
+LightGBM
 
-e Seaborn — Statistical data visualization built on top of Matplotlib.
-
-¢ Scikit-learn — Machine learning library for classification, regression, clustering, and preprocessing.
-® SciPy — Scientific computing with advanced math, optimization, and statistics.
-
-e Statsmodels — Statistical modeling and hypothesis testing.
-
-® TensorFlow — Deep learning framework developed by Google.
-
-¢ PyTorch — Deep learning library developed by Facebook (Meta), widely used in research.
-
-¢ XGBoost — Gradient boosting library for efficient and scalable machine learning.
-
-¢ LightGBM - Fast, distributed, high-performance gradient boosting framework.
-
+Fast distributed high performance gradient boosting framework
 6.3. Installing and Managing Libraries
-
-a. Installing Packages with pip
-pip is Python's default package installer. It's simple and widely used.
-¢ [nstall multiple libraries
+4.
+Installing Packages with pip
+pip is Python s default package installer It's simple and widely used
+Install multiple libraries
 pip install numpy pandas
-¢ Install a specific version
-pip install pandas==1.5.3
-¢ Upgrade a package
+Install a
+specific version
+pip install pandas= =1 5.3
+Upgrade a package
 pip install --upgrade matplotlib
-¢ Uninstall a package
+Uninstall a package
 pip uninstall seaborn
-e List all installed packages
+List all installed packages
 pip list
-¢ Freeze the current environment for sharing
-pip freeze > requirements.txt
-¢ Recreate the environment from the file
-
-pip install -r requirements.txt
-
+Freeze the current environment for sharing
+pip freeze > requirements txt
+Recreate the environment from the file
+pip install -r requirements txt
 b. Installing with conda (Anaconda Users)
-
-conda is the package manager that comes with Anaconda. It's especially useful when managing libraries
-that have C or Fortran dependencies (e.g., NumPy, SciPy).
-
-¢ Install multiple libraries
+conda is the package manager that comes with Anaconda It's especially useful when managing libraries
+that have C or Fortran dependencies
+NumPy SciPy)
+Install multiple libraries
 conda install numpy pandas
-¢ |nstall from conda-forge channel
-
+Install from condaforge channel
 conda install -c conda-forge seaborn
-Advanced PYTHONT or Data Science — Amel Boustil
-
-¢ Export environment configuration
-conda env export > environment.ymi
-¢ Recreate an environment from a file
-
-conda env create -f environment.yml (then activate the enviroment defined in the first line)
-
-7. Version Control with Git
-
-Git is a distributed version control system (DVCS) that allows :
-
-e Track and manage changes to the code.
-
-¢ Work on different versions (branches) without breaking the main project.
-e Collaborate with teammates through shared repositories (e.g., GitHub).
-® Roll back to earlier versions if something breaks.
-
-7.1. Basic Git Workflow
-
-¢ |Initialize a repository (start version control)
+Advanced PYTHONf or Data Science
+Amel Boustil
+(e.g.,
+Export environment configuration
+conda env export
+environmentyml
+Recreate an environment from a file
+conda env create -f environmentyml (then activate the enviroment defined in the first line)
+7
+Version Control with Git
+Git i5
+distributed version control system (DVCS) that allows 
+Track and manage changes to the code
+Work on different versions (branches) without breaking the main project
+Collaborate with teammates through shared repositories (eg , GitHub)
+Roll back to earlier versions if something breaks
+71. Basic Git Workflow
+Initialize a repository (start version control)
 git init
-¢ Check status
+Check status
 git status
-¢ lists all the remotes
-git remote -v
-® Stage changes
+lists all the remotes
+git remote -V
+Stage changes
 git add # add specific file
-git add . # add all files
-¢ Commit changes
-git commit -m "Your message"
-® View history
-git log --oneline --graph --decorate
-¢ Branches
+git add
+# add all files
+Commit changes
+git commit -m
+message '
+View history
+git
+--oneline --graph -- decorate
+Branches
 git branch # create branch
 git checkout # switch branch
 git checkout -b # create + switch
-¢ Update from GitHub
-
-git pull --rebase origin main
-Advanced PYTHONT or Data Science — Amel Boustil
-
-¢ Push to GitHub
-
+Update from GitHub
+git
+--rebase origin main
+Advanced PYTHONf or Data Science
+Amel Boustil
+"Vour
+|09
+pull
+Push to GitHub
 git push origin main
-
 8. Scnenario to set Up a data science projet
-
-e Structure your project folders cleanly
-e Use a virtual environment
-
-e |Install necessary libraries
-
-¢ Track everything with Git
-
-e Work in Jupyter notebooks
-
-MYProject: Step-by-Step Setup
+Structure your project folders cleanly
+Use a virtual environment
+Install necessary libraries
+Track everything with Git
+Work in Jupyter notebooks
+MYProject: Step-by Step Setup
 Step 1: Create Your Project Folder
 mkdir MYProject
-
 cd MYProject
-
 Step 2: Set Up a Virtual Environment
-
 python -m venv env
-
-A\env\Scripts\activate (source env/bin/activate # On Linux/Mac)
+lenvlScriptslactivate (source env bin activate # On Linux Mac)
 or Set Up a Virtual Environment (with conda)
-
-conda create -n myenv python=3.10
-
+conda create -n myenv
+python=3.10
 conda activate myenv
-
 Step 3: Install Your Libraries
-
-pip install numpy pandas matplotlib seaborn scikit-learn jupyter
-
-Step 4: Freeze Your Environment
-
-Freezing the environment means capturing all the installed Python packages along with their exact
-
-versions in the current virtual environment.
-
-e requirements.txt: Tracks pip-installed packages
-pip freeze > requirements.txt
-
-¢ environment.yml: For Conda-based projects
-
-conda env export > environment.ymi
-
+pip install numpy pandas matplotlib seaborn scikit learn jupyter
+4: Freeze Your Environment
+Freezing the environment means capturing all the installed Python packages
+with their exact
+versions in the current virtual environment
+requirements txt Tracks pip-installed packages
+pip freeze
+requirements txt
+environmentyml: For Conda-based projects
+conda env export
+environmentyml
 Step 5: Create a Clean Folder Structure
-
-MYProject/
-Advanced PYTHONT or Data Science — Amel Boustil
-
-— data/ # Raw and processed data
-
-— notebooks/ # Jupyter notebooks
-I— src/ # Python scripts (cleaning, modeling)
-— outputs/ # Plots, charts, reports
-env/ # Virtual environment (excluded from Git)
-— requirements.txt # Dependency file
-L— README.md # Project documentation
-
-Step 6: Connect to GitHub to Ensure Version Control, Reproducibility,
+MYProject /
+Advanced PYTHONf or Data Science
+Amel Boustil
+Step
+along
+data/
+#
+Raw
+and processed
+data
+notebooks /
+#
+Jupyter
+notebooks
+Src/
+#
+Python scripts (cleaning,
+modeling )
+outputs /
+# Plots,
+charts, reports
+env/
+#
+Virtual
+environment (excluded
+from Git)
+requirements  txt
+#
+Dependency
+file
+README . md
+# Project
+documentation
+Step 6: Connect to GitHub to Ensure Version Control Reproducibility
 and Collaboration
-
-* |nitialize Git
+Initialize Git
 git init
-e |gnore unnecessary files
-echo "env/" >> .gitignore
-e Stage and commit your project files
-gitadd .
-git commit -m "Initial setup”
-e Push to GitHub (after adding the remote)
-git remote add origin https://github.com/username/MyProject.git
+Ignore unnecessary files
+echo "env/
+>>
+.gitignore
+Stage and commit your project files
+git add
+git commit -m
+'Initial setup"
+Push to GitHub (after adding the remote)
+git remote add origin https /github com username MyProject git
 git branch -M main
-
 git push -u origin main
-
 8. Best Practices for Managing Environments
-
-¢ Use one environment per project
-
-¢ Track dependencies with requirements.txt or environment.yml
-¢ |nitialize Git from the start (exclude env/ in .gitignore)
-
-¢ Separate raw data from processed data
-
-¢ Document setup steps in your README.md
-
-e Regularly update dependencies (security & compatibility)
-
-e Pin package versions for consistency
-
-¢ Share the same environment file across the team
-
-e Don't commit large datasets to Git
-
-Advanced PYTHONT or Data Science — Amel Boustil
+Use one environment per project
+Track dependencies with  requirements . txt
+0r
+environment
+Initialize Git from the start (exclude
+٥٨٧/
+in
+gitignore
+Separate raw data from processed data
+Document setup steps in your READMEءmd
+Regularly update dependencies security & compatibility)
+Pin package versions for consistency
+Share the same environment file across the team
+Don't commit large datasets to Git
+Advanced PYTHONf or Data Science
+Amel Boustil
+yml

@@ -107,6 +107,7 @@ def run_ingestion(state):
                     html_meta = {}
 
             if not text or not text.strip():
+                print("EMPTY TEXT:", file_path)
                 continue
 
             if ext in ['.csv', '.json', '.xml']:

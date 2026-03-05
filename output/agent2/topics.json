@@ -1,21 +1,21 @@
 {
   "probable_dataset_type": "multilingual_dataset",
   "cluster_sizes": {
-    "4": 6,
-    "2": 2,
-    "1": 78,
-    "3": 11,
-    "0": 29
+    "2": 10,
+    "1": 16,
+    "3": 61,
+    "4": 36,
+    "0": 5
   },
   "anomalies": {
     "embedding_outliers": [
       "doc_0",
       "doc_1",
       "doc_3",
-      "doc_4",
       "doc_5",
+      "doc_6",
       "doc_7",
-      "doc_79"
+      "doc_8"
     ]
   }
 }
