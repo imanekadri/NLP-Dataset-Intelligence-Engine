@@ -1,213 +1,114 @@
-FINANCIAL ACCOUNTANT
+ACCOUNTANT
 Summary
-Accomplished accountant and highly skilled controller with 8 years of experience and a keen ability to influence processes integral to company
-growth, drive operational excellence and achieve objectives. Expertise in financial statement preparation and analysis, operational management,
-forecasting and cost control. Open and clear communicator with demonstrated vision and disciplined execution.
-Accomplishments
-Developed and implemented fee calculation for a new hybrid product added to the product pallet (UBS Switzerland AG).
-Assessed accounting system structures and converted company's accounting system to SAP B1 (Rising Tide GmbH).
-Led the development of more than three new financial reporting methods to measure productivity and efficiency (Barclays Suisse SA).
-Implemented processes that utilised accounts receivable sub-ledger for accounting and customer attribute reporting (UL AG).
-Prepared complex financial statements and interim/annual reports for banks and holding companies (Barclays Suisse SA).
+Financial Accountant specializing in financial planning, reporting and analysis in both private and public sectors.Capable Accountant successful at
+managing multiple projects and consistently meeting deadlines under pressure. Extensive knowledge of accounting software and processes.
 Highlights
-Financial reporting expert
-Variance analysis
-P&L management
-Process improvement
-Complex problem solving
-Critical thinking
-Analytical
-Decisive
+Account reconciliation expert
+General ledger accounting
+working on SAP tool and HFM
+Account payable Specialist
+Auditing
+Expert in customer relations
+Flexible team player
+Compliance testing knowledge
+Accomplishments
+Achieved cost reduction by eliminating redundant processes.
+Operated computers programmed with accounting software to record, store, and analyze information.
+Extensive experience with Financial Statements audits, reviews, compilations and audits for Governmental organizations (A-133).
+Maintained accurate accounts including cash, inventory, prepaid, fixed assets, accounts payable, accrued expenses and line of credit
+transactions.
+Researched and resolved billing problems that had been previously missed.Reduced the open invoice cycle time from days developing new
+dispute reporting procedures.
 Experience
-01/2016
- 
-to 
-Current
-Financial Accountant
- 
+Performs routine accounting activities such as maintenance of the general ledger, preparation of various accounting statements and financial
+reports and accounts payable or receivable functions.
+Accounts Receivable experience with focus in Cash Application and/or Adjustments Process day to day AP; to include matching, reviewing
+for proper approvals and G/L coding, researching and entering invoices.
+HFM reporting including balance sheet profit and loss statement etc.
+Run weekly checks, match, mail and file copies.
+Prepare weekly cash requirements report.
+Work closely with other departments and outside vendors.
+Maintain vendor files.
+Assist with month-end account reconciliations and journal entries.
+Cross train with A/R to process invoices and deposits Relies on experience and judgment to plan and accomplish goals.
+May lead and direct the work of others.
 Company Name
  
-ï¼​ 
-City
- 
-, 
-State
-Monitor the net capital of the bank using daily controls.
-Calculate monthly fees for the client's account maintenance on a monthly and quarterly basis.
-Provide various analyses (variance, intercompany, balance sheet, P&L) using SAP and Avaloq.
-Enhance the consolidation reporting in IFRS by optimising the flux of information.
-Collaborate with the Finance team to provide accurate and timely month end reporting by setting up and maintaining planning and task lists.
-07/2015
+January 2016
  
 to 
-12/2016
-Business Analyst
+January 2016
  
-Company Name
- 
-ï¼​ 
-City
- 
-, 
-State
-Provided accurate information for month end journal adjustments for provisions related to Lombard credits, non-performing loans,
-impairments, deposit accounts and taxes by analysing account activities during the period required.
-Management of transaction error accounts by collaborating with reconciliations cash department to improve the account clearing process.
-09/2014
- 
-to 
-12/2014
-Financial Accountant
- 
-Company Name
- 
-ï¼​ 
-City
- 
-, 
-State
-Provided reports on the monthly securities position reporting and breaks.
-Performed regulatory reporting for the group and management by analysing the short term liquidity ratio, minimal reserves, capital adequacy,
-comprehensive balance sheet, interest rate, retrocessions and expenses.
-Used the reconciliation process to analyse and clear the daily cash account, breaks, fees, interests, expenses and accruals.
-Prepared various financial reporting schedules (daily control, earning analysis, etc)
-Collaborated with IT team in group projects to update systems and other various projects.
-06/2014
- 
-to 
-09/2014
-Accountant Analyst
- 
-Company Name
- 
-ï¼​ 
-City
- 
-, 
-State
-Performed accounts analysis on the balance sheet and P&L to provide explanations for the variances, reconciliations, intercompany and
-accounting close related tasks.
-06/2013
- 
-to 
-12/2013
-Project Accountant & Administrator
- 
-Company Name
- 
-ï¼​ 
-City
- 
-, 
-State
-Participated in leading SAP B1 implementation by setting up the organisation structure, planning and creating the testing scenario.
-06/2012
- 
-to 
-05/2013
-Senior Financial Accountant
- 
-Company Name
- 
-ï¼​ 
-City
- 
-, 
-State
-Prepared financial and regulatory reports required by laws, regulations or board of directors in US GAAP.
-Tracked all intellectual property and royalty spending against approved requests and payments.
-Analysed costs and revenues related to logistics.
-12/2011
- 
-to 
-05/2012
 Accountant
  
+Maintain of Cash book.
+Maintenance and Finalization of Annual account Preparation of Bank Reconciliation Statement.
+Billing And Realisation From Debtors Verification of Expenditure Bills and Traveling Bills.
+Salary JV Verification.
+Day to day office activity I hereby declare that all the facts mentioned above are true to the best of my knowledge.
 Company Name
  
-ï¼​ 
-City
- 
-, 
-State
-Maintained full responsibility of monthly and quarterly financial statement preparation for two subsidiaries.
-Collaborated with Auditors, Banks, Tax returns & VAT 
-IFRS reporting to provide accurate reports and analysis.
-06/2009
+January 2016
  
 to 
-12/2009
-Cost Analyst
+January 2016
  
+Consultant
+ 
+Prepare journal entries and ensure reconciliation are complete.
+Review general ledger to ensure proper accounting is in place Process pay application invoice and payment.
+General ledger Reconcilation and adjusting entries.
+Reconcilation bank account accurately and in a timely manner with attention to unusal items that remain outstanding at monthend.
+Upload bank statement and Bank revaluation in SAP.
+Preparing financial reports in HFM (balance sheet, profit and loss statement, GR 55, Cycle run) Reviewing Balance sheet and profit and
+loss statement.
+Prepaid and accurual booking in monthed.
+Monthend quaterend and year end reporting.
+Intercompany reconciliation.
+ACCOUNTS PAYABLE Vendor creation, edit and reconciliation Stock report preparion Invoice posting and verification in SAP tool.
+Collect and maintain vendor W 9.
+GR/IR 
+clearing Automatic payment run in SAP.
+3 way matching.
+Inventory control and expensing.
+Ixos invoicing with payment.
+Create purchase order.
+Foreign currency Revaluation.
+2)Working 
+as Process Developer (Novartis Canada GL and AP) from 23.
 Company Name
  
-ï¼​ 
-City
- 
-, 
-State
-Prepared p
- ayroll costs and headcount reporting.
-Prepared and booked the operating expenses accruals.
-Prepared cost centre reports for the local and head office.
-Prepared monthly and annual expense forecasts, including any necessary recommended action required to manage costs to achieve budget.
-06/2008
+March 2009
  
 to 
-11/2011
-Financial Control Analyst
- 
-Company Name
- 
-ï¼​ 
-City
- 
-, 
-State
-Managed accounting operations, accounting close, account reporting and reconciliations for 3 entities.
-07/1996
- 
-to 
-11/2007
-Consultant in Finance / Administrative Support
- 
-Company Name
- 
-ï¼​ 
-City
- 
-, 
-State
-Roles in different industries: Food and beverages, IT, Financial services.
-Â Â Â Â Â Â Â Â Â  Specialisation in implementation of new organisational structures.
+December 2012
+Worked in several sub modules of Sap Financials: Accounts receivable, Accounts Payable, General Ledger, Banking.
+Accounts Payable: Automated Payment Program (APP), Invoice Processing, IDOC, MIRO.
+Vendor Master, Customer Master, General Ledger Master data.
+Having good domain experience related to different functional module: Order 2 Cash (OTC), Procure 2 Pay (P2P), Buy 2 Pay (B2P) and
+Invoice 2 Pay (I2P).
+Dash board maintenance, Client handling, Query resolution, Bank Reconciliation.
 Education
-2008
-Bachelor of Arts
+MBA (Finance and IT) *B.Com(Mgt Hons) Technical Qualifications *SAP FI 
+Module
+Diploma
  
 : 
-Accounting and Controlling
+Computer Application
  
-ENS Cachan
- 
-ï¼​ 
-City
- 
-France
-2012
-Certificate
- 
-: 
-Business Accounting
- 
-Chartered Institution of Management Accountant
- 
-UK
-Languages
-Bilingual English/Spanish
-French Mother Tongue
-Conversational and Business German
+Computer Application
+Personal Information
+Date: 
+Yours Sincerely, 
+Place: 
+Smruti Rekha singh.
+Additional Information
+Date: 
+Yours Sincerely, 
+Place: 
+Smruti Rekha singh.
 Skills
-IT: Excel, Access 
-ERP: SAP, Hyperion, Essbase, Cognos
-Accounting Software: Sage
-Banking system: Abacus, Avaloq, Temenos
+account reconciliations, accounting, accounts payable, Accounts Receivable, AP, Balance sheet, Bank Reconciliation, Banking, Billing, book,
+Com, Client, edit, Finance, Financials, financial reports, Preparing financial reports, focus, functional, General Ledger, GL, Inventory control,
+process invoices, Invoice Processing, invoicing, MBA, mail, office, Developer, profit and loss statement, coding, reporting, researching, SAP FI,
+SAP

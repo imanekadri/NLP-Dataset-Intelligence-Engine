@@ -58,8 +58,9 @@ def run_ingestion(state):
                     html_meta = extract_html_metadata(file_path, config.ENCODINGS_TO_TRY)
                 except Exception:
                     html_meta = {}
-            
+
             if not text or not text.strip():
+                print("EMPTY TEXT:", file_path)
                 continue
 
            

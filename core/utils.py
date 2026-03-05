@@ -18,10 +18,7 @@ import easyocr
 
 import numpy as np
 
-# 1. Initialize the reader ONCE at the top level of your script
-# This covers Arabic, English, and  French characters
-print("Initializing EasyOCR...")
-ocrReader = easyocr.Reader(['ar', 'en'], gpu=False)
+
 
 ############### agent1  #############
 # Configure Tesseract OCR path if provided via env or on Windows
@@ -35,12 +32,19 @@ else:
     if os.environ.get('TESSERACT_CMD'):
         pytesseract.pytesseract.tesseract_cmd = os.environ.get('TESSERACT_CMD')
 
+ocrReader = None
 
+def get_reader():
+    global ocrReader
+    if ocrReader is None:
+        print("Loading EasyOCR model...")
+        ocrReader = easyocr.Reader(['ar','en'], gpu=False)
+    return ocrReader
 def extract_text_from_file(file_path, encodings_to_try):
     """Extract text from any supported file type"""
     ext = os.path.splitext(file_path)[1].lower()
     text = ""
-    global reader
+
     # Plain text files
     if ext in [".txt", ".py", ".log", ".js"]:
         for enc in encodings_to_try:
@@ -63,6 +67,9 @@ def extract_text_from_file(file_path, encodings_to_try):
 
     # PDF files
     elif ext == ".pdf":
+
+        text = ""
+
         try:
             with open(file_path, "rb") as f:
                 reader = PyPDF2.PdfReader(f)
@@ -71,28 +78,33 @@ def extract_text_from_file(file_path, encodings_to_try):
         except Exception:
             text = ""
 
-            # If PDF is scanned (no selectable text), use EasyOCR
-            if not text.strip():
-                try:
-                    poppler_path = os.environ.get('POPPLER_PATH')
-                    images = convert_from_path(file_path, poppler_path=poppler_path)
+        # If no text extracted → use OCR
+        if not text.strip():
+            try:
+                poppler_path = os.environ.get('POPPLER_PATH')
+                images = convert_from_path(file_path, poppler_path=poppler_path)
 
-                    # Using EasyOCR instead of Tesseract for better Arabic support
-                    ocr_pages = []
-                    for img in images:
-                        img_np = np.array(img)
-                        page_text = ocrReader.readtext(img_np, detail=0)
-                        ocr_pages.append("\n".join(page_text))
-                    text = "\n".join(ocr_pages)
-                except Exception as e:
-                    raise ValueError(f"OCR failed for PDF {file_path}: {e}")
-            return text
+                ocr_pages = []
+                ocrReader = get_reader()  # load once
+
+                for img in images:
+                    img_np = np.array(img)
+                    page_text = ocrReader.readtext(img_np, detail=0)
+                    ocr_pages.append("\n".join(page_text))
+
+                text = "\n".join(ocr_pages)
+
+            except Exception as e:
+                raise ValueError(f"OCR failed for PDF {file_path}: {e}")
+
+        return text
 
     # Image files (OCR)
     elif ext in [".png", ".jpg", ".jpeg", ".tiff", ".bmp"]:
         try:
             # 2. EasyOCR's readtext can take a file path directly
             # detail=0 returns ONLY the text strings, making extraction easy
+            ocrReader = get_reader()
             result = ocrReader.readtext(file_path, detail=0)
 
             if not result:

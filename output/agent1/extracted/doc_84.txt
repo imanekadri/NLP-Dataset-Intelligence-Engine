@@ -1,31 +1,38 @@
-ACCOUNTANT HELPER
+CORPORATE ACCOUNTANT
 Summary
-Seeking a position as an accountant, utilizing knowledge of general accounting procedures in order to assist the office with its periodic accounting
-processes.
+Over 15 years of increasingly responsible experience in general accounting, budgeting and reporting, fixed asset management, project management,
+payroll and income tax preparation, and database administration. Eager to acquire a position in a prestigious organization, where I actively
+participate in their enhancement and my education, professional experience, and skills become a positive feature to the company.
+Capable Accountant successful at managing multiple projects and consistently meeting deadlines under pressure. Extensive knowledge of
+accounting software and processes.
 Highlights
-Microsoft Office (Excel, Word, PowerPoint)
-Advanced problem solving abilities
-Critical thinking
-Decisive
-Excellent mathematical skills
-Budgeting
+*SPC4 -B Co. 
+192nd Support Battalion (76P10) - Logistics experience 1989-1992
+*Acquaintance on SAGE, BANNER Financial, Infoview, SAP R3, SAP Business 1, FAS 500,
+QuickBooks, Labor Trak, Ceridian, Paychex and ADP payroll systems, MAPICS (SyteLine-
+manufacturing), 
+Vertex (taxes), 
+Outlook, 
+Word, Excel, Power Point, Lync and Pro-series software.
+Analytical reasoning
+Account reconciliation expert
+Budget forecasting expertise
+General ledger accounting
+*ISO9001 QMM Auditor,
+Crosby Certify and knowledge of
+the full spectrum leadership
+imperatives skills
 Accomplishments
-Payroll Assistance
- Â 
-Assisted with payroll preparation and entered data into cumulative payroll document.
-Research
- Â 
-Investigated and analyzed client complaints to identify and resolve issues.
-Scheduling
- Â 
-Facilitated onboarding of new employees by scheduling training, answering questions and processing paperwork.
+ERP Implementations
+ADP (Payroll)
+SAGE FAS (Fixed Assets)
+Syteline (Manufacturing
 Experience
-Accountant helper
- 
-May 2014
+Corporate Accountant 
+Jan 2011
  
 to 
-July 2014
+Jun 2015
  
 Company Name
  
@@ -34,26 +41,26 @@ City
  
 , 
 State
-Assisted the Accounting Clerk in accounting tasks: entered A/P and A/R, processed payments, organized client billing folders, procedure
-documentation.
-Performed general office duties: filing, scanning, mail processing and data entry.
-Assisted Accounting Manager with different assignments.
-Reconciled bank statements and ledger accounts.
-Assisted with daily cash balancing.
-Major Strengths: Good knowledge of coordinating, monitoring and participating in monthly accounting procedures.
-Strong know-how of organizing the preparation of periodic financial reports.
-In-depth knowledge of preparing reconciliation of outstanding payments.
-Knowledge of liabilities and payment obligation.
-Verified and logged in deadlines for responding to daily inquiries.
-Organized files, developed spreadsheets, faxed reports and scanned documents.
-Dispersed incoming mail to correct recipients throughout the office.
-Created and maintained spreadsheets using advanced Excel functions and calculations to develop reports and lists.
-Laboratory Technician III
+Implemented fixed assets internal controls create depreciation schedules, files, and monitor capital expenditures to ensure all projects are
+completed within budget and in the time frame stipulated.
+Accountable for fixed assets capitalization, depreciation and amortization.
+Fixed assets software implementation - Project Lead, research software companies, compare and contrast the different options that was
+suitable to company's needs.
+Payroll-HRO module implementation support, set up conferences calls, prepared implementation presentation; training, prepared written
+progress reports to management Create process and procedures for various aspect of accounting aligned to company guidelines.
+Responsible to analyze general ledger accounts to ensure financial statements are accurate and reliable.
+Review P & L accounts and compare current to prior year and calculate % of over or under budget for decision making.
+Reconcile balance sheets account and 
+ensure adjustments are properly posted.
+Reduced closing time for monthly and quarterly close by 35% by implementing new consolidation procedures.Restructured and analyzed software
+deficiencies to improve budget reporting.Aligned all financial activity with the regulations of the GAAP.Revised and streamlined inefficient work
+procedures with automation software.
+Senior Accountant/Analyst
  
-September 2012
+Jan 2010
  
 to 
-Current
+Jan 2011
  
 Company Name
  
@@ -62,23 +69,25 @@ City
  
 , 
 State
-Receive and prepare laboratory samples for analysis, following proper protocols to ensure that they will be stored, prepared, and disposed
-of efficiently and effectively.
-Record data pertaining to experimentation, research, or animal care.
-Measure or weigh ingredients used in testing or for purposes such as animal feed and waste.
-Operate laboratory equipment such as spectrometers, nitrogen determination apparatus, air samplers, centrifuges, and potential hydrogen
-(pH) meters to perform tests.
-Adjust testing equipment, and prepare culture media, following standard procedures.
-Maintain or repair agricultural facilities, equipment, or tools to ensure operational readiness, safety, and cleanliness.
-Prepare or present agricultural demonstrations.
-Respond to inquiries and requests from the public that do not require specialized scientific knowledge or expertise.
-Supervise student workers and train new technicians.
-Laboratory Technician II
+Responsible to prepare several reports such as; Operating expense report, 
+Sales report, Revenue, and COGS analysis report in which we
+compare prior month and prior year data for decision making.
+Prepare the Gross Profit Inventory elimination (GPIE) report to ensure that we report the proper information in our financial statements as
+per GAAP and company standards.
+Managed capital and non-capital projects; prepare fixed asset capitalization, fixed asset cycle count, review for impairment, retire assets as
+needed and other related activities.
+Responsible to create account reconciliation metric to monitor and improves process.
+Assisted Cost Accountant with inventory management, annual cycle count, reconciling inventory data and adjustments.
+Prepare AP payment package and audit invoice for possible errors.
+Confirm month end Inter-company balances and ensures amount reported in BOFC agrees to our balance.
+Review accounts receivable aging for possible past due and maintain communication with customers.
+Post and reconcile daily cash transactions.
+Accountant
  
-July 2007
+Jan 2003
  
 to 
-September 2012
+Jan 2010
  
 Company Name
  
@@ -87,31 +96,85 @@ City
  
 , 
 State
-Receive and prepare laboratory samples for analysis, following proper protocols to ensure that they will be stored, prepared, and disposed
-of efficiently and effectively.
-Prepare samples to be analyzed on the ICP.
-Analyze samples via AS-3000 PH Dual analyzer.
-Maintain or repair agricultural facilities, equipment, or tools to ensure operational readiness, safety, and cleanliness.
-Prepare laboratory reagents for analytical purposes.
-Service walk-in customers.
-Prepare or present agricultural demonstrations.
-Additional skills and capabilities: Operate effectively within an agricultural laboratory setting.
-Willing participant in environmentally sustainable work practices.
-Thoroughly perform standard calibrations.
-Excellent communication and collaboration skills.
-Efficient and precise when recording and presenting data.
-Proficient in the use laboratory application software and instruments.
-Strong contributor to the achievement of quality objectives.
+Performed general accounting duties; prepare journal entries, balance month end closing transactions, monitor inter-company transactions
+and confirmed balances at month end, prepared account analysis report and reconciliations as per company standards.
+Participated in the new ERP implementation, Sarbanes Oxley processes preparation for AP, Payroll, fixed assets and sales tax procedures.
+Prepare monthly headcount report, Payroll Added Cost (PAC) analysis report for manager's decision making.
+Responsible to prepare monthly and year-end schedules and assist controller with the preparation of the company's budget and financial
+statements.
+Fixed Assets - Reorganized fixed assets files, cycle count assets and properly record new assets to ensure that fixed assets were in
+accordance with general ledger and FAS system.
+Monitored projects, account balance and maintain communication with project manager as per company and GAAP regulations.
+Prepared monthly, quarterly, semi-annual and annual sales taxes for 35 states.
+Processed Annual Property Taxes and prepare 1099 forms.
+Improved payroll process, ensure time card information was process in a timely and accurately fashion.
+Accounts Payable Team Lead- Reorganized department, improved supplier and company communication, reduced vendor phone calls by
+processing and resolving invoices issues on a timely manner.
+Monitor vendor data master for duplication or possible fraud.
+Financial institution 
+Accounting Clerk
+ 
+Jan 2000
+ 
+to 
+Jan 2003
+ 
+Company Name
+ 
+ï¼​ 
+City
+ 
+, 
+State
+Managed to downsize account reconciliation balance from 83 to .75 million dollars on open balances.
+Processed non-sufficient funds checks, ACH, and wires.
+Reconcile over 15 bank accounts, including FED account.
+Analyzed costs and revenues to project future trends.
+Financial institution 
+Accounting Clerk
+ 
+Jan 1998
+ 
+to 
+Jan 2000
+ 
+Company Name
+ 
+ï¼​ 
+City
+ 
+, 
+State
+Reconciled bank accounts cleared more than .75 million in open items.
+Monitor FED account discrepancies.
+Processed non-sufficient fund checks, ACH and monitor Puerto Rico and Orlando transactions.
+Maintain communication with Puerto Rico and Orlando Branches.
 Education
-Bachelor of Arts
+Graduate Diploma
  
-: 
+, 
+Business Administration 
+Universidad
+ 
+2009
+ 
+Metropolitan University
+ 
+ï¼​ 
+City
+ 
+, 
+State
+Business Administration 
+Universidad
+Bachelor of Science
+ 
+, 
 Accounting
  
-, 
-5 2014
+2007
  
-Ashford University
+Universidad del Turabo
  
 ï¼​ 
 City
@@ -119,31 +182,12 @@ City
 , 
 State
  
-, 
-USA
-Advanced coursework in Business Administration
-Coursework in Business Administration
-Coursework in Advanced Financial Accounting
-Contract Law coursework
-Minor in Business Administration
-Coursework in Human Resource Management and Business Administration
-Income Tax Reporting course
-Specialized Industry GAAP course
-Coursework in International Finance, Statistics and Microeconomics
-Coursework in Accounting and Finance
-Communications and Marketing coursework
+Accounting
+Languages
+Bilingual (English and Spanish)
 Skills
-Proficient in Microsoft Office (Excel, Word, PowerPoint)
-Excellent mathematical skills
-Capable of analyzing trends and variances
-Excellent communication and organizational skills
-Able to work in a high volume environment
-Physically dexterous
-Strong interpersonal, communication and multi-tasking skills
-Operate effectively within an agricultural laboratory setting.
-Willing participant in environmentally sustainable work practices.
-Thoroughly perform standard calibrations.
-Excellent communication and collaboration skills.
-Efficient and precise when recording and presenting data.
-Proficient in the use laboratory application software and instruments.
-Strong contributor to the achievement of quality objectives
+ISO9001, Team Lead, Logistics, MAPICS, Excel, Outlook, Power Point, Word, Works, QuickBooks, 
+SAGE, Sales, SAP, SAP R3, Sarbanes
+Oxley, self-starter, Spanish, SPC4, Vertex, Ceridian, ADP
+Improves process, Fixed Assets Administrator, Project Lead, Account Reconciliation Skill, Payroll and Budget Proficiency, Capital Expenditures
+and Inventory Management, Communications Skills, Decision making, Financial Statements Analysis, Research Skills, Fast learner,

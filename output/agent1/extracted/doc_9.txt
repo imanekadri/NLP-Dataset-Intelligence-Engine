@@ -1,491 +1,413 @@
-Chapter 02: Setting Up the Python
-Environment
-
-In this chapter, we'll talk about:
-
-e Installing Python
-
-e Using Anaconda and virtual environments
-
-¢ Managing packages with pip and conda
-
-¢ Working in Jupyter Notebooks and VS Code
-
-¢ Organizing data science projects for real-world scalability
-
-1. Python: The Foundation
-
-1.1 What is Python?
-
-Python is Python is a general-purpose programming language. It is a high-level, interpreted
-programming language known for its simplicity and vast ecosystem of libraries.
-
-1.2 Overview
-
-¢ Python is a high-level, interpreted, general-purpose programming language.
-
-* Creator: Guido van Rossum
-
-¢ Year of creation: 1991
-
-¢ Emphasizes readability and simplicity, making it ideal for beginners and experts alike.
-
-¢ Supports multiple programming paradigms: procedural, object-oriented, and functional.
-
-1.3 Key Features
-
-¢ Easy to learn and read: clean syntax and indentation-based structure.
-
-¢ Extensive libraries: for data science, web development, machine learning, automation, etc.
-e Interpreted and dynamic: no need to compile; types are inferred at runtime.
-
-© Cross-platform: runs on Windows, macOS, Linux.
-
-¢ Community support: large community and active development.
-
-1.4 Applications of python
-
-© Data Science & Machine Learning: Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch.
-¢ Web Development: Django, Flask, FastAPI.
-
-¢ Automation & Scripting: automating repetitive tasks, data processing.
-
-¢ Software Development: building applications, games, and tools.
-
-2. Installing Python
-
-Advanced PYTHONf or Data Science — Amel Boustil
-
-There are two common ways to install Python:
-
-2.1 Option 1: Official Python Installation
-
-1. Visit python.org/downloads
-2. Download the latest version
-3. During installation:
-. Check the box: “Add Python to PATH”
-° Choose “Customize installation" — enable pip and /DLE
-
-4. Verify installation: python --version
-
-2.2 Option 2: Install Anaconda (Recommended)
-Anaconda is a Python distribution that includes:
-
-e Python
-
-¢ Jupyter Notebook
-
-® Conda (package and environment manager)
-
-e Hundreds of data science libraries (NumPy, Pandas, etc.)
-
-Steps
-
-1. Visit anaconda.com/products/distribution
-
-2. Download the installer
-
-3. Follow the setup instructions
-
-4. Open the Anaconda Navigator or Anaconda Prompt
-
-To verify installation
-conda --version
-
-python --version
-
-3. IDEs for Python
-
-An IDE (Integrated Development Environment) is a software application that provides developers with
-tools to write, test, and debug code efficiently.
-
-For Python, several IDEs and code editors are widely used, each with strengths and weaknesses.
-
-3.1. Popular IDEs and Editors for Python
-e IDLE
-
-= Comes pre-installed with Python.
-= Simple and lightweight, good for beginners.
-e Jupyter Notebook
-
-= Interactive environment for data science.
-= Ideal for data analysis, visualization, and machine learning experiments.
-
-e
-PyCharm Advanced PYTHONf or Data Science — Amel Boustil
-
-= Full-featured IDE (by JetBrains).
-= Great for large projects, debugging, and advanced features.
-e VS Code (Visual Studio Code)
-
-= Lightweight, extensible, and popular.
-
-= Large ecosystem of extensions for Python, Git, and data science tools.
-
-¢ Spyder
-
-= Designed for scientific computing.
-= Often used in combination with Anaconda.
-
-Comparison of Python IDEs
-
-IDE / Editor Best For Pros
-IDLE Beginners, quick scripts Simple, comes with Python
-Jupyter Data science, ML, research _ Interactive, great for visualization
-Notebook
-Professional, large Advanced debugging, refactoring
-Eycharm applications tools
-VS Code General purpose, extensible Lightweight, huge extension
-marketplace
-Spyder Scientific & numerical Integrated with Anaconda,
-Py! computing MATLAB-like
-@ Tip:
-
-¢ If you're starting with data science — use Jupyter Notebook.
-
-Cons
-Very limited features
-
-Not ideal for large
-projects
-
-Heavy, paid version for
-Pro
-
-Needs extensions for
-features
-
-Less flexible than VS
-Code
-
-¢ For general Python development — VS Code is a great balance of features and performance.
-
-e For enterprise projects — consider PyCharm Professional.
-
-4. Structure of Project in data science
-
-A Data Science project should follow a clear structure to ensure clarity, scalability, and easy
-
-collaboration. This organization makes the project easier to understand, maintain, and extend.
-
-A typical layout separates raw data, notebooks, source code, and outputs:
-
-¢ © my _project/
-= © data/
-© © raw/ > Original data (CSV, JSON, Excel, etc.)
-© © processed/ — Cleaned data ready for analysis
-=" (£ notebooks/ — Jupyter Notebooks for exploration
-= © sre/
-© init.py > Makes it a package
-° utils.py — Utility functions
-= (© models/ — Saved models
-
-= © reports/ > Visualizations and figures
-Advanced PYTHONf or Data Science — Amel Boustil
-
-= © tests/ — Unit tests
-
-= requirements.txt - Dependencies
-
-= environment.yml > Anaconda environment config
-= README.md > Documentation
-
-= gitignore > Ignore unnecessary files
-
-(7 Folder Explanations
-
-¢ data/ — Keep your raw input data and any cleaned/processed versions.
-
-* notebooks/ — For interactive work, experiments, and analysis in Jupyter.
-
-e src/ — Your Python scripts (data preprocessing, modeling, utilities).
-
-© models/ = Store trained models, serialized files (e.g., .pkl, .45) and checkpoints; useful for
-versioning models and reproducibility.
-
-© outputs/ (reports and/or tests) > Store model outputs, visualizations, or exported results.
-
-¢ requirements.txt — Tracks the exact Python packages used ( pip freeze > requirements.txt ).
-
-¢ environment.yml = Alternative for Conda environments ( conda env export >
-environment.yml ).
-
-¢ README.md = Explains what the project is about, how to set it up, and how to use it.
-
-¢ .gitignore — Specifies which files and directories should be ignored by Git (not tracked or
-committed).
-
-5. Virtual Environments in Python
-
-A virtual environment is an isolated Python environment that allows to install specific packages and
-dependencies without affecting the global Python setup or other projects.
-
-5.1. Benefits of Using Virtual Environments
-
-¢ Keeps projects isolated
-e Prevents dependency clashes
-e Ensures reproducibility
-e Facilitates collaboration
-
-5.2. Creating a Virtual Environment (using venv )
-
-Steps:
-
-1. Open terminal / command prompt
-
-2. Navigate to the project folder: cd my_project
-
-3. Create the environment:python -m venv env
-
-4. Activate it: Windows: (.\env\Scripts\activate) or Mac/Linux: (source env/bin/activate) You should now
-see (env) in your terminal.
-
-5. Install libraries like : (pip install pandas numpy matplotlib)
-
-6. Deactivate when done: (deactivate )
-
-5.3. Creating a Virtual Environment (using Conda
-(Recommended)
-
-Advanced PYTHONf or Data Science — Amel Boustil
-
-If you use Anaconda, Conda environments are more powerful:
-Steps:
-
-1. conda create --name ds_env python=3.11
-
-2. conda activate ds_env
-
-3. conda install pandas numpy matplotlib scikit-learn
-4. List all environments: conda env list
-
-6. Package Management in Data Science: pip vs.
-conda
-
-When working in Data Science, we don't only rely on programming languages like Python or R.
-We also use package managers to install libraries, manage dependencies, and create isolated
-environments.
-
-The two most popular tools are pip and conda.
-
-® pip (Python Package Installer) :
-
-Official package manager for **Python**.
-
-@ Conda:
-
-Conda is a cross-platform package and environment manager that supports multiple languages (Python,
-R, C, etc.) and is widely used in the Anaconda ecosystem for handling dependencies and reproducible
-environments.
-
-6.1. pip vs. conda: Which to Use?
-
-Feature pip conda
-Language support Python only Python, R, C, etc.
-Package source PyPI Anaconda repositories (conda-forge)
-Dependency handling May cause conflicts More reliable dependency resolution
-Environment management %€ No Yes
-Speed Faster, but less robust Slower, but more stable
-Binary support Limited Full binary support
-
-Best practice:
-
-¢ Use conda inside Anaconda
-
-e Use pip outside Anaconda or when conda doesn't support a package
-
-6.2. Main Python Libraries for Data Science
-
-e¢ NumPy = Core library for numerical computing, arrays, and linear algebra.
-
-¢ Pandas — Data manipulation and analysis using DataFrames and Series.
-Advanced PYTHON¢ or Data SGience — Amel Boustil
-
-¢ Matplotlib — Basic plotting library for visualizations.
-
-¢ Seaborn = Statistical data visualization built on top of Matplotlib.
-
-¢ Scikit-learn > Machine learning library for classification, regression, clustering, and preprocessing.
-¢ SciPy — Scientific computing with advanced math, optimization, and statistics.
-
-¢ Statsmodels — Statistical modeling and hypothesis testing.
-
-¢ TensorFlow ~ Deep learning framework developed by Google.
-
-¢ PyTorch — Deep learning library developed by Facebook (Meta), widely used in research.
-
-© XGBoost — Gradient boosting library for efficient and scalable machine learning.
-
-e LightGBM — Fast, distributed, high-performance gradient boosting framework.
-
-6.3. Installing and Managing Libraries
-
-a. Installing Packages with pip
-pip is Python's default package installer. It's simple and widely used.
-¢ Install multiple libraries
-pip install numpy pandas
-¢ Install a specific version
-pip install pandas==1.5.3
-¢ Upgrade a package
-pip install --upgrade matplotlib
-¢ Uninstall a package
-pip uninstall seaborn
-¢ List all installed packages
-pip list
-e Freeze the current environment for sharing
-pip freeze > requirements.txt
-¢ Recreate the environment from the file
-
-pip install -r requirements.txt
-
-b. Installing with conda (Anaconda Users)
-
-conda is the package manager that comes with Anaconda. It's especially useful when managing libraries
-that have C or Fortran dependencies (e.g., NumPy, SciPy).
-
-¢ Install multiple libraries
-conda install numpy pandas
-¢ Install from conda-forge channel
-
-conda install -c conda-forge seaborn
-Advanced PYTHONf or Data Science — Amel Boustil
-
-¢ Export environment configuration
-conda env export > environment.yml
-¢ Recreate an environment from a file
-
-conda env create -f environment.yml (then activate the enviroment defined in the first line)
-
-7. Version Control with Git
-
-Git is a distributed version control system (DVCS) that allows :
-
-¢ Track and manage changes to the code.
-
-e Work on different versions (branches) without breaking the main project.
-® Collaborate with teammates through shared repositories (e.g., GitHub).
-¢ Roll back to earlier versions if something breaks.
-
-7.1. Basic Git Workflow
-
-* Initialize a repository (start version control)
-git init
-* Check status
-git status
-¢ lists all the remotes
-git remote -v
-® Stage changes
-git add # add specific file
-git add . # add all files
-¢ Commit changes
-git commit -m "Your message"
-¢ View history
-git log --oneline --graph --decorate
-¢ Branches
-git branch # create branch
-git checkout # switch branch
-git checkout -b # create + switch
-¢ Update from GitHub
-
-git pull --rebase origin main
-Advanced PYTHONf or Data Science — Amel Boustil
-
-¢ Push to GitHub
-
-git push origin main
-
-8. Scnenario to set Up a data science projet
-
-¢ Structure your project folders cleanly
-¢ Use a virtual environment
-
-e Install necessary libraries
-
-© Track everything with Git
-
-e Work in Jupyter notebooks
-
-MYProject: Step-by-Step Setup
-Step 1: Create Your Project Folder
-mkdir MYProject
-
-cd MYProject
-
-Step 2: Set Up a Virtual Environment
-
-python -m venv env
-
-.env\Scripts\activate (source env/bin/activate # On Linux/Mac)
-or Set Up a Virtual Environment (with conda)
-
-conda create -n myenv python=3.10
-
-conda activate myenv
-
-Step 3: Install Your Libraries
-
-pip install numpy pandas matplotlib seaborn scikit-learn jupyter
-
-Step 4: Freeze Your Environment
-
-Freezing the environment means capturing all the installed Python packages along with their exact
-
-versions in the current virtual environment.
-
-¢ requirements.txt: Tracks pip-installed packages
-pip freeze > requirements.txt
-
-* environment.yml: For Conda-based projects
-
-conda env export > environment.yml
-
-Step 5: Create a Clean Folder Structure
-
-MYProject/
-Advanced PYTHONf or Data Science — Amel Boustil
-
--t— data/ # Raw and processed data
-
-[— notebooks/ # Jupyter notebooks
-i src/ # Python scripts (cleaning, modeling)
--L— outputs/ # Plots, charts, reports
-env/ # Virtual environment (excluded from Git)
-L— requirements.txt # Dependency file
-L— README .md # Project documentation
-
-Step 6: Connect to GitHub to Ensure Version Control, Reproducibility,
-and Collaboration
-
-* Initialize Git
-git init
-¢ Ignore unnecessary files
-echo “env/" >> .gitignore
-¢ Stage and commit your project files
-git add .
-git commit -m "Initial setup"
-e Push to GitHub (after adding the remote)
-git remote add origin https://github.com/username/MyProject.git
-git branch -M main
-
-git push -u origin main
-
-8. Best Practices for Managing Environments
-
-¢ Use one environment per project
-
-¢ Track dependencies with requirements.txt or environment.yml
-¢ Initialize Git from the start (exclude env/ in .gitignore )
-
-¢ Separate raw data from processed data
-
-¢ Document setup steps in your README.md
-
-e Regularly update dependencies (security & compatibility)
-
-e Pin package versions for consistency
-
-e Share the same environment file across the team
-
-¢ Don't commit large datasets to Git
-
-Advanced PYTHONf or Data Science — Amel Boustil
+ACCOUNTANT
+Summary
+Financial Accountant specializing in financial planning, reporting and analysis within the Department of Defense.
+Highlights
+Account reconciliations
+Results-oriented
+Financial reporting
+Critical thinking
+Accounting operations professional
+Analysis of financial systems
+ERP (Enterprise Resource Planning) software.
+Excellent facilitator
+Accomplishments
+Served on a tiger team which identified and resolved General Ledger postings in DEAMS totaling $360B in accounting adjustments. This allowed
+for the first successful fiscal year-end close for 2012.
+In collaboration with DFAS Europe, developed an automated tool that identified duplicate obligations. This tool allowed HQ USAFE to
+deobligate over $5M in duplicate obligations.
+Experience
+Company Name
+ 
+July 2011
+ 
+to 
+November 2012
+ 
+Accountant
+ 
+City
+ 
+, 
+State
+Enterprise Resource Planning Office (ERO)
+In this position as an Accountant assigned to the Defense Enterprise Accounting and Management System (DEAMS) ERO I was
+responsible for identifying and resolving issues affecting the DEAMS General Ledger.
+I worked with teammates from the Procure to Pay, Orders to Cash, and Budget to Report areas to resolve daily challenges encountered
+with the deployment of DEAMS to additional customers and when system change requests were promoted to production.
+I supported the testing of scripts, patches, and system change requests ensuring any anomalies were identified to the DEAMS Functional
+Management Office for action by the DEAMS Program Management Office and/or the System Integrator.
+In addition, I served on a tiger team designed to identify and resolve General Ledger posting differences and supported the development of
+$360B in accounting adjustments allowing for the first successful fiscal year-end close in 2012.
+These actions also allowed for the reconciliation and closure of fiscal year 2010 and 2011 accounting adjustments ensuring that all DEAMS
+fiscal year-end requirements were completed.
+These actions were recognized as critical to the successful review report issued by the Air Force Operational Test and Evaluation Center
+(AFOTEC) resulting in the Air Force receiving the authority to continue with the deployment of DEAMS.
+Company Name
+ 
+April 2010
+ 
+to 
+June 2011
+ 
+Resource Advisor
+ 
+City
+ 
+, 
+State
+In this position as Resource Advisor for the 1st Air Communications Operation Squadron (1ACOS) I was responsible for providing
+financial advice and decision support to the Commander.
+I was responsible for coordinating a $4.6M budget between four funding sources.
+I coordinated with USAFE Directorate of Intelligence (USAFE/A2), USAFE Directorate of Air and Space Operations (USAFE/A3),
+USAFE Directorate of Communications (USAFE/A6) and the 435th Air Ground Operations Wing to ensure 1ACOS meets its mission
+requirements.
+I consistently managed three separate timelines for providing budget/unfunded requirements, providing documentation and various reports in
+the required format for each organization.
+I discussed the outcome of the Group and Directorate budget meetings providing feedback the same day to the Flight Chiefs and CC any
+issue which affects 1ACOS directly.
+I monitored the Defense Travel System (DTS) daily and identify orders and authorizations needing approval and provided notification to the
+appropriate Reviewing Officials and Approvers.
+Utilizing DTS and the General Accounting and Finance System I reviewed status reports to identify anomalies in obligations and have
+identified those orders which require correction prior to payment.
+I provided Government Purchase Card (GPC) status reports the same day they are requested and in addition, communicated with the
+appropriate cardholders when changes were required to support their program.
+I identified cardholder training requirements and monitored these requirements to ensure all required training was completed in support of
+this mission critical program.
+I developed guidance for the GPC cardholders on procedures for requesting training for the squadron and in addition I provided answers to
+cardholder questions on unique or non-standard issues/concerns.
+Assumed the role of the Billing Official during my final rating period and completed a self inspection of the program for the Management
+Control Program, zero findings.
+During yearly audit by 700th CONS received zero findings.
+Company Name
+ 
+July 2008
+ 
+to 
+April 2010
+ 
+Staff Accountant
+ 
+City
+ 
+, 
+State
+In my position as the Staff Accountant for HQ USAFE I was responsible for providing accounting and financial oversight and advice to
+customers throughout the Command in support of the USAFE Comptroller.
+I was responsible for performing ongoing analysis of financial programs to identify negative trends and weaknesses, ensured specific
+weaknesses were corrected, and determined whether systemic or repeat issues were identified and adequately addressed.
+I was required to apply a comprehensive knowledge of analysis/reporting requirements and data produced to resolve these issues.
+In collaboration with DFAS Europe, developed an automated tool that identifies duplicate obligations by comparing records in the
+accounting system to the contracting system and provided notification to the funds manager for review and resolution.
+This tool eliminated hours of manual research and results allowed HQ USAFE to deobligate over $5M in duplicate obligations.
+I was responsible for establishing various performance metrics which ensured effective and efficient use of USAFE financial resources.
+I supported the USAFE/FMA Financial metrics program by collaborating with DFAS Limestone in the development of an automated tool
+that provided senior leaders with visibility to any USAFE unit that is not in compliance with the established rules and regulations related to
+the GPC.
+This tool provides management reports that are used to populate the monthly metric charts which are briefed by the USAFE/FMA.
+This tool provided the capability for USAFE/FMA to collaborate with USAFE Contracting and develop/deploy joint guidance that supports
+the established Air Force Instruction mandating card suspension for card holders who are not in compliance with required reservation of
+funds in the entitlement system in support of the GPC.
+I identified and resolved a problem with five GPC accounts that had been rejecting during the automated interface process each month.
+My research revealed that these accounts were rejecting for invalid paying station and required manual intervention by both Wing and
+DFAS personnel.
+This not only created rework, it delayed the payment of the invoices.
+I partnered with DFAS Denver, corrected the records in the Access On-Line accounts eliminating the error condition.
+I identified a method to deliver one-on-one training in support of the USAFE deployment of the Open Document Analysis (ODA) tool in
+FMSuite.
+By utilizing Defense Connect Online I 
+provided training remotely, virtually eliminating the need to expend funds on Temporary Duty (TDY)
+travel.
+The results of this training produced results that went well above expectations and were noted by the ODA Program Management Office.
+Company Name
+ 
+January 2007
+ 
+to 
+July 2009
+ 
+Chief, Reports Branch. Accounts Maintenance and Control
+ 
+City
+ 
+, 
+State
+In my position as Chief of the Reports Branch in Accounts Maintenance & Control (AM&C) I was responsible for ensuring the
+development and standardization of various managerial and system reports.
+I was responsible for the completeness and accuracy of weekly, monthly, quarterly, semi-annual, and annual reports.
+My branch monitored errors in the General Accounting and Finance System (GAFS/BQ) and ensured corrective actions were
+accomplished.
+I also ensured fund balances were reconciled and reports were verified prior to release to base activities and higher headquarters.
+Limestone reorganized under the High Performing Organization (HPO) in January 2007 and at that time I was reassigned to AM&C, a
+Directorate which previously did not exist.
+My challenge during that time was to staff my branch, implement an aggressive training schedule, and ensure the continuity of financial
+reporting was maintained.
+As we transitioned into the HPO we continued defining the missions and functions for AM&C for the entire network.
+I participated in biweekly conference calls with Standards and Compliance in an effort to define missions and functions for AM&C.
+Worked with management in determining FTEs needed for the branch.
+I was responsible for developing meaningful performance standards for my employees since this branch and its functions did not previously
+exist.
+Limestone POC for an initiative to eliminate suspense accounts throughout the agency.
+Identified suspense accounts not initially targeted, formulated strategies to eliminate accounts or requested waivers, and participated in plans
+to modify processes using suspense accounts, such as the interfund suspense account.
+These actions provided initial progress towards meeting the Department of Treasury's mandate to discontinue suspense accounts by
+February 2009.
+Worked with staff to reduce reconciliations from $6.9 million in February 2007 to $1.1 million in August, accomplished this despite loss in
+experienced personnel and realigning resources to support critical initiatives in Accounts Payable.
+I orchestrated the transition of reporting requirements for the Transportation Financial Management System (TFMS) workload from DFAS
+Omaha to Limestone.
+After transition to Limestone encouraged staff responsible for these reports to streamline the processes.
+Staff automated a completely manual, time consuming process, thus eliminating potential key stroke errors and manually validating numerous
+spreadsheets and listings.
+Contributor to Federal Managers Financial Integrity Act (FMFIA) Compliance Review and establishment of assessable units.
+Identified inconsistencies in information provided by staff on foreign currency fluctuation adjustments.
+Persisted in getting higher level review of regulatory and policy guidance.
+Report of foreign currency fluctuation is now consistently accurate.
+Company Name
+ 
+February 2000
+ 
+to 
+January 2007
+ 
+Chief, Accounts Payable Branch
+ 
+City
+ 
+, 
+State
+As Chief Of Accounts Payable 
+I was responsible for the overall management of a branch consisting of over 120 employees.
+My four first line supervisors were responsible for establishing priorities, schedules, and work assignments ensuring changes in workload are
+accounted for to minimize the impact on normal office operations.
+We consistently reviewed these areas and made necessary personnel moves based on shifting priorities.
+This was 
+extremely important during the DFAS Denver directed database consolidations and with the assumption of the Air National Guard
+workload.
+Workload increased rapidly while staffing increased gradually, which dictated frequent priority changes and personnel moves.
+I also worked closely with the Major Commands supported by DFAS Limestone strengthening our partnership when workload spikes
+negatively impacted our customers.
+In December 2004, our overaged invoice percentage was nearing 25% and we had a backlog of vendor pay documents exceeding 30,000.
+By working with the DFAS Command Client Executives and the Major Command Comptrollers, I was instrumental in forming a strategy
+that included soliciting Air Force personnel assistance in document processing, identification of "must pay now" bills, and the formation of
+special action response teams dedicated to responding to our customer's most urgent requirements.
+As a result of these efforts, in a three month period, we were able to reduce our overaged invoice percentage by 19% and our backlog of
+documents to no documents over 20 days old thereby minimizing the adverse impact on customer funds.
+I was responsible for providing personnel feedback sessions quarterly and prepared supervisory appraisals of employees' performance and
+potential for advancement.
+Partnering with the management staff and employees, I was instrumental in establishing Employee Performance Plans that linked employee
+performance to established DFAS Strategies and Balance Scorecard goals.
+In this position as a supervisory accountant I was responsible for performing ongoing analysis of the Vendor Pay workflow and production
+to identify negative trends and weaknesses, ensure specific weaknesses have been corrected, and determine whether systemic or repeat
+issues have been identified and adequately addressed.
+I was required to apply a comprehensive knowledge of analysis/reporting requirements, work processes, vendor pay system structures, and
+data produced to resolve these issues.
+Utilizing my expertise with Louis II data retrieval software, I produced ad-hoc data queries for in-house and external use by our customers.
+These retrievals were designed to reduce the man- hours necessary to perform complex finance and accounting functions by DFAS and Air
+Force personnel.
+I was responsible for the budget resources necessary to operate the branch.
+In this capacity, I prepared budget over execution justifications, plan and monitor overtime costs, and control supply purchases to ensure the
+most cost efficient operation possible.
+I was required to respond to inquiries from various sources, which include, but are not limited to, vendors, DFAS management, accounting
+liaison offices, resource advisors, and other DFAS field sites.
+These inquiries required my ability to relay technical aspects of systems deficiencies to customers who are not familiar with our operation.
+I participated in video teleconferences, conference calls, and briefings designed to address customer and DFAS management requirements.
+I was called upon to explain, in laymen's terms, DFAS policy and procedures with regards to delays in payment due to various reasons.
+I responded to various audit reports and studies; ensuring senior management and audit personnel, understand particular situations within the
+Vendor Pay business process that result in these findings.
+Company Name
+ 
+February 1999
+ 
+to 
+February 2000
+ 
+Chief, Recon and Reports Branch
+ 
+City
+ 
+, 
+State
+In my position as Chief, Vendor Pay Reports and Recon Branch, I exercised supervision (either directly or indirectly) over 22 employees
+primarily in the "525" series in grades ranging from GS-5 through GS-8.
+This responsibility also included supervision of the German local national workers assigned to my duty section.
+I was responsible for planning, directing, and supervising the activities of the work force in the review, interpretation, processing, and
+reconciliation of vendor pay and accounting data and the production of timely and accurate financial statement report requirements.
+I participated in the development of branch policies continually reviewing and evaluating the organizational operations, work distribution, and
+procedures.
+I coordinated the activities of the assigned functions with those of other organizations to obtain the most effective correlation of financial
+data.
+Directed and provided technical guidance to subordinates in the assigned area.
+Assured the timeliness and accuracy of assigned workload.
+Planned, organized, directed, coordinated, and reviewed the work of subordinate's sections ensuring the mission and functions of the
+division were carried out.
+I managed and realigned resources, conducted program analyses, and made decisions in accordance with unit cost principles, outputs,
+targets, and changing budgetary constraints.
+I participated in long range planning, goal setting, and evaluating the subordinate staff.
+Interpreted and clarified branch policies and resolved operational problems.
+Ensured efficient utilization and professional development of my staff.
+I was expected to provide reasonable assurance that operations were conducted in compliance with applicable laws and that funds,
+property, and other assets were safeguarded against waste, loss, unauthorized use, or misappropriation.
+I ensured continuing and affirmative application and support of DoD and DFAS policy concerning the equal opportunity and affirmative
+action programs.
+Ensured personnel management within organizational entity under my supervision was accomplished without regard to race, color, religion,
+sex, age, national origin, or handicap.
+I kept abreast of developments, policy issuance, and other similar material in the equal opportunity field and fully supported the DoD and
+DFAS Equal Opportunity Program.
+I was responsible and accountable for the safety and health of my subordinates.
+I ensured personnel were trained to work safely.
+I enforced safety and health rules, corrected unsafe or unhealthy acts and unsafe or unhealthy mechanical or physical conditions, investigated
+mishaps and tool other actions necessary to ensure the safety and health of my employees.
+Company Name
+ 
+June 1995
+ 
+to 
+February 1999
+ 
+Chief, Accounts Payable Branch
+ 
+City
+ 
+, 
+State
+I was responsible for establishing priorities, schedules, and work assignments ensuring changes in workload are accounted for to minimize
+the impact on normal office operations.
+This was important during the DFAS Denver directed workload realighment to the Field Sites servicing our customers by Major Command.
+Workload increased which dictated frequent priority changes and personnel moves.
+I also worked closely with the Major Commands supported by DFAS Limestone strengthening our partnership when workload spikes
+negatively impacted our customers.
+I was responsible for providing personnel feedback sessions quarterly and preparedsupervisory appraisals of employees' performance and
+potential for advancement.
+As a supervisory accountant I was responsible for performing ongoing analysis of the Vendor Pay workflow and production.
+I identified negative trends and weaknesses, ensured specific weaknesses were corrected, and determine whether systemic or repeat issues
+were identified and adequately addressed.
+I was required to apply a comprehensive knowledge of analysis/reporting requirements, work processes, vendor pay system structures, and
+data produced to resolve these issues.
+Utilizing my knowledge with Louis II data retrieval software, I produced ad-hoc data queries for in-house and external use by our
+customers.
+These retrievals are all designed to reduce the man- hours necessary to perform complex finance and accounting functions by DFAS and
+Air Force personnel.
+I was responsible for the budget resources necessary to operate the branch.
+In this capacity, I prepared budget over execution justifications, plan and monitor overtime costs, and control supply purchases to ensure the
+most cost efficient operation possible.
+I was required to respond to inquiries from various sources, which include, but are not limited to, vendors, DFAS management, accounting
+liaison offices, resource advisors, and other DFAS field sites.
+These inquiries require my ability to relay technical aspects of systems deficiencies to customers who are not familiar with our operation.
+I participated in video teleconferences, conference calls, and briefings designed to address customer and DFAS management requirements.
+I was often called upon to explain, in laymen's terms, DFAS policy and procedures with regards to delays in payment due to various
+reasons.
+I was required to respond to various audit reports and studies; ensuring senior management and audit personnel, understand particular
+situations within the Vendor Pay business process that result in these findings.
+I was hand selected by the Field Site Director and Vendor Pay Site Manager to represent DFAS Limestone on a team comprised of
+representatives from all DFAS Denver field sites to provide training to our Air Force base level Resource Advisors.
+During a five week period, I provided "Boot Camp" training to over 400 base level personnel ensuring resource advisors were familiar with
+the DFAS structure and mission requirements related to funds management.
+Company Name
+ 
+June 1994
+ 
+to 
+June 1995
+ 
+Accountant, Network Assistant Team
+ 
+City
+ 
+, 
+State
+As a member of the Network Assistance Team, I was required to have an extensive working knowledge of DoD accounting systems,
+theory, policy, and procedures.
+I was consistently called upon to develop and implement procedures consistent with DoD regulations.
+Coordinated with DFAS Denver and the Omaha Field Site on the consolidation of the first geographically separated Defense Accounting
+Office into DFAS.
+In my position as a member of the Network Assistance Team I was required, upon arrival at each base level Defense Accounting Office
+(DAO) to provide an in-brief.
+This briefing identified team members, the purpose of the visit, goals, and responsibilities.
+Upon completion of the assignment, provided a written and oral out-brief outlining the team accomplishments during the visit.
+I provided recommendations to preclude recurring problems and to prepare the organization for consolidation.
+Company Name
+ 
+June 1993
+ 
+to 
+June 1994
+ 
+Supervisor, Accounts Control Branch
+ 
+City
+ 
+, 
+State
+I directed/supervised the accomplishment of all financial reports and statements.
+I directed/supervised the accomplishment of all financial reports and statements.
+I was responsible for the completeness and accuracy of weekly, monthly, quarterly, semi-annual, and annual reports.
+Monitored errors in the General Accounting and Finance System (GAFS/BQ) and ensured corrective actions were accomplished.
+I also ensured fund balances were reconciled to the appropriate audit listings and verified reports prior to release to base activities and
+higher headquarters.
+I furnished accounting data to base organizations often interpreting and analyzing the data to help funds managers resolve problems and
+manage their programs more effectively.
+I attended Major Command (MAJCOM) and Headquarters level workshops to participate and contribute to accounting policy and system
+changes.
+I provided professional assistance to Data Automation relevant to processing of accounting and finance data, interpreting deficiencies in
+software based on output products and system related problems.
+I utilized my working knowledge of commercial and government accounting system principles and knowledge of Processing Centers (PCs)
+to review, verify, analyze, and evaluate accounting and finance operations.
+While serving as Chief, Account Control I ensured areas of concern were addressed, concentrating on problem areas related to the
+database.
+I analyzed computer output products to determine processing deficiencies.
+They included, but were not limited to, the Open Document Listing (ODL), Operating Budget Ledger (OBL), Allotment Ledger (AL), and
+the Accounting and Finance Workload Information Management System (A&F WIMS) Extract list.
+I provided technical assistance related to policy and procedural.
+changes required as a result of the impending base closure.
+Analyzed/developed and recommended improved training procedures enabling better use of system procedures ensuring governing
+directives were followed.
+I evaluated accuracy of accounting records prior to fiscal year closeout ensuring the Accounting and Finance Officer could certify their
+accuracy as required by regulation.
+Examined accounting transactions and documents to ensure they conformed to established accounting policy and principles.
+Coordinated and directed fiscal year end conversion for the GAFS and Integrated Accounts Payable System (IAPS).
+Education
+Northern Maine Community College
+ 
+1994
+ 
+Associate
+ 
+: 
+Accounting
+ 
+City
+ 
+, 
+State
+ 
+, 
+USA
+Emphasis in Business
+1994
+ 
+Associates
+ 
+: 
+Accounting
+ 
+City
+ 
+, 
+State
+ 
+, 
+USA
+ 
+GPA: 
+GPA: 3.41
+Accounting GPA: 3.41 174 Hours, Quarter
+Attended Husson College, major Accounting 78 semester hours toward Bachelors degree.
+Professional Military Comptroller School, 6wk, 4-98; Managerial Accounting I, 09-98; Interested-Based Bargaining Training for Management,
+24hrs, 09-01; Auditing Methods and Concepts 09-98; Organizational Leadership, 32hrs, 07-03; Management Development II, 32hrs, 07-03.
+Certifications
+Certified Defense Financial Manager, CDFM, May 2005
+Interests
+American Society Of Military Comptrollers
+Additional Information
+Skills
+Accounting; General Accounting; Accounts Payable; Program Management.
