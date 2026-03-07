@@ -1,146 +1,137 @@
 ACCOUNTANT
 Summary
-Personable education professional driven to inspire students to achieve personal and academic success.
+Financial Accountant specializing in financial planning, reporting and analysis in both private and public sectors.Capable Accountant successful at
+managing multiple projects and consistently meeting deadlines under pressure. Extensive knowledge of accounting software and processes.
+Detail-oriented bookkeeping professional with 3+ years experience applying financial and managerial accounting practices.
 Highlights
-Knowledgeable in QuickBooks, SQL, SAP, 
-and AS400
-Highly proficient in Microsoft Office, 
-including Microsoft Word, PPT, Microsoft Excel II and Access III
+Advanced Microsoft Office - Excel, Word, Power Point,
+Accounting software - SAP Fico, SAP BPC, Hyperion, AS 400, Acc Pac, iScala
+AR / Credit System - CTOS, Polymath, SAP Copa
+Languages - Bahasa Malaysia & English
+Financial statement analysis
+Budget forecasting expertise
+Account reconciliation expert
+Experienced with VBA programming
+Adobe software proficiency
+General ledger accounting
+Flexible team player
+Advanced computer proficiency (PC and Mac)
+Accomplishments
+Formally recognized for excellence achieved in financial analysis, budgeting and forecasting.
+ General Ledger Accounts
+ Â 
+Maintained accurate accounts including cash, inventory, prepaid, fixed assets, accounts payable, accrued expenses and line of credit
+transactions.
 Experience
-November 2013
- 
-to 
-Current
-Company Name
- 
-City
- 
-, 
-State
- 
 Accountant
-Sources items through the compilation of vendor information and bidding processes Selected preferred vendors based on competitive
-pricing, products' liabilities, payment terms, and ETA's Creates auditing processes for inventory management Selects bank statements
-randomly to ensure that disbursements where authorized and signed by two individuals Ensures three way matches of requisitions, purchase
-orders, and good receipts Performs data analysis on bank statements to ensure that all reconciled items are processed in a timely manner
-Audits the database demographic to better understand clientele of the company and to maximize customer satisfaction level Completes
-month-end journal entries and month-end reports.
-Prepares bank reconciliations and ensures all reconciling items are resolved in a timely manner Organizes monthly, quarterly, and annual
-financial statements.
-September 2010
+ 
+07/2012
  
 to 
-May 2013
+08/2015
+ 
 Company Name
+Industry : Financial Services
+Monthly Salary: MYR 7,300
+Daily operations, development and improvement of accounting processes - budget preparation, balance sheet, accounts receivables and
+payable transactions, payments and credit control.
+Preparation of all financial and management reporting and budgeting.
+Ensure an accurate and timely monthly, quarterly and year end close.
+Monitoring of financial and treasury functions including funds management, cash flow planning and projection, Draft full set audited financial
+statements and attend to all audit queries/issues.
+Responsible for company tax computation, tax compliance and tax planning.
+Responsible for GST implementation and quarterly submission.
+Liaise with auditors, tax agents, company secretary, bankers, external IT programmer and other local government authorities.
+Responsible for implementation of new accounting system, HSBC online banking, CTOS and Polymath contract system (credit application,
+reports, statement and etc) Responsible for withholding tax, calculation and allocation of cost sharing and intercompany billing.
+Review, follow up and closely monitor bad debts report.
+Provide training to new and existing staff as needed.
+Assistant Finance Manager
  
-City
- 
-, 
-State
- 
-QA/Mobile Software Tester
-Worked specifically with different accounting and business software including French ones Audited the testing process to enhance quality,
-cycle time effectiveness, and accuracy Identified correctness, completeness, security, and quality of various accounting packages Isolated
-and reported localization and functional bugs for certification programs Developed test plans, and organize and lead testing activities for new
-and existing releases Conducted regression, security, and smoke testing.
-April 2006
+05/2005
  
 to 
-January 2010
+07/2012
+ 
 Company Name
+Industry : Manufacturing & General Trading
+Salary MYR 5,300
+Managing subsidiaries month end closing process and consolidation as well reviewing to ensure accuracy, completeness and meeting
+deadline given by Group Head Office (Sime Darby Berhad).
+Preparation, reviewing and timely submission of monthly, quarterly and annual Financial Reporting for subsidiary company.
+Responsible for the preparation of yearly budget for subsidiary as well consolidation of the Budget Report for the Division.
+Implementation of new financial consolidation system (BPC-SAP) for the Division, provide training, support and maintenance for local and
+overseas subsidiary companies.
+Responsible for data mapping and testing.
+Prepare draft statutory accounts and attend to statutory audit issues.
+Credit control and follow up on outstanding collection.
+Treasury - trade finance, banking facilities, monitoring Bankers Acceptance, bank guarantees and cash flow monitoring.
+Liaise with external auditor, company secretary, bankers, tax agents, lawyers and government authorities.
+Ensure company's tax computation and submission is in order and made in a timely manner.
+Lead the team, supervise and monitor accounts staff on closing of monthly management accounts.
+Oversees, review and resolve all matters/problems in relation to accounts and taxation.
+Accounts Executive Junior Executive
  
-City
- 
-, 
-State
- 
-Procurement Specialist
-Served as the lead buyer for sixteen plants across the United States and Canada Interacted in French with plants located in French
-Speaking regions Montreal, Quebec, Viau etc.
-Selected preferred vendors based on competitive pricing, products' liabilities, payment terms, and ETA's Handled customer service
-management (CRM) inquiries from clients and vendors Performed monthly audits to ensure requisitions and purchase orders' accuracy
-Reviewed audit results with clients and team members to improve productivity and affectivity Provided day-to-day management of sourcing
-initiatives within cross-functional team Ensured three-way matches of requisitions, purchase orders, and good receipt Utilized strategic
-sourcing approach to create operation processes for clients and vendors Handled new clients implementations, integrations, and trainings
-from legacy AS400 systems to SAP Oversaw high-priority accounts which considered opting out of their contracts, worked with them on
-an individual basis to meet or exceed their expectations Prepared bid requirements, solicited responses, analyzed responses, prepared
-recommendations, and negotiated contracts to enhance efficiencies and reduce costs Administered back order reports for plants and
-expedited customer requests as needed.
-August 2005
+01/2000
  
 to 
-April 2006
+05/2005
+ 
 Company Name
- 
-City
- 
-, 
-State
- 
-Freight Planning Contact
-Provided export documents for the DuPont International hazardous department Coordinated logistic arrangements, port-to-port, port to
-point, and point to point Managed clients' travel arrangements to South America, Europe, and Asia Conducted itinerary changes for clients
-from port to destination points Coordinated logistic arrangements, providing customer services and timely communications Responded to
-and resolved request or inquiries from internal and external teams.
+Industry: General Trading
+Industry: General Trading
+Salary MYR 2,800
+Prepare full set of accounts (GL, AR, AP), financial statement, monthly sales analysis, management report, daily and monthly cash flow,
+payroll for management staff.
+Month end closing and reconcile of financial accounts, generating daily invoices and monthly intercompany billing and reconciliation.
+Supervise Accounts Payable and Receivable Officer.
+Reconcile bank statement, apply and monitor trade finance facilities (banker acceptance and letter of credit).
 Education
-5 2015
-La Salle University
- 
-City
- 
-, 
-State
- 
-Fraud and Forensic Accounting
- 
-Fraud and Forensic Accounting
-5 2011
-University of Phoenix
- 
-City
- 
-, 
-State
- 
-Accounting
- 
-MBA
- 
-Accounting
-5 2005
-Pennsylvania State University
- 
-City
- 
-, 
-State
- 
-Business Economics , International Business and French Structural Economics and International Relations
- 
 Bachelor of Science
  
-Business Economics , International Business and French Structural Economics and International Relations
-5 2005
-Paris Chamber of Commerce
+: 
+Finance
  
-City
+1997
  
-, 
-France
- 
-12 2011
-FMA Institute
+Oklahoma State University
  
 City
  
 , 
 State
  
-Certified Nonprofit Accounting Professional (CNAP)
-Languages
-Fluent in French
+, 
+United States
+ 
+GPA: 
+GPA: 2.49/4
+CGPA: 2.49/4
+Diploma
+ 
+: 
+Banking 
+1995
+ 
+Mara Institute of Technology (UITM)
+ 
+City
+ 
+, 
+State
+ 
+, 
+Malaysia
+CGPA 3.35/4
+Personal Information
+Expected Salary : MYR 7,000
+Age : 41
+Preferred Work Location : Selangor
+I'm independent, fast learner, hardworking, good communication skill and have leadership qualities. Analytical with an eye for details.
 Skills
-Accounting, approach, AS400, auditing, bank reconciliations, competitive, contracts, CRM, clientele, clients, customer satisfaction, customer
-services, customer service, data analysis, database, financial statements, French, Fluent in French, functional, inventory management, Access III,
-Microsoft Excel II, Microsoft Office, Microsoft Word, pricing, processes, Speaking, quality, QuickBooks, reconciling, SAP, SQL, strategic,
-travel arrangements
+accounting, Accounting software, accounting system, Accounts Payable and Receivable, accounts receivables, AP, AR, AS 400, balance sheet,
+banking, billing, budget preparation, budgeting, Budget, cash flow, closing, Cost Accounting, Credit, English 
+9, external auditor, Finance, Financial,
+Financial Accounting, financial and management, Financial Reporting, financial statements, funds, GL, government, Hyperion, local government,
+Managing, Excel, Microsoft Office, Office, Power Point, Word, month end closing, payroll, processes, programmer, reporting, sales analysis,
+SAP, statutory accounts, tax compliance, tax planning, tax, Treasury, Written

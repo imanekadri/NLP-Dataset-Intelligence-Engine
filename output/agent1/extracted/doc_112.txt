@@ -1,128 +1,174 @@
-ACCOUNTANT
-Summary
-A detail oriented, efficient accountant that excels in managing multiple tasks in fast paced environments.Â  A proven track record in meeting
-deadlines, streamlining processes and promoting a positive work environment.Â  Articulate communicator known for delivering excellent customer
-service both internally and externally.Â  Self-motivated team player who demonstrates a high level of quality work and professionalism
-Education
-Bachelor of Science
- 
-:
- 
-Accounting and Information Management
- 
-University of Texas at Dallas
-Bachelor of Arts
- 
-:
- 
-Psychology
- 
-University of Texas at Dallas
-Highlights
-Account reconciliation expert
-Financial modeling 
-Variance Analysis
-Corporate G&A and COGS Accounting
-Cash Forecasting
-Capitalization and Fixed Assets
-Analytical reasoning
-Effective time management
-Superior research skills
-Intermediate Excel Skills including Pivot Tables and V-Lookups
-Inventory Accounting
-Computer Skills
-Netsuite; Quickbooks; Cognos Impromptu; JDEdwards; AS400; Sage FAS Fixed Assets; BNA Fixed Assets; BusinessObjects Crystal
-Reports(currently SAP Crystal Reports); Hyperion Essbase
+STAFF ACCOUNTANT
+Professional Profile
+To gain payroll skills
+Qualifications
+Deltek Time and Expense 8.1; Costpoint 6.1; ADP
+Enterprise HR 5.0; ADP 5.30; eTime 3A; Ceridian; SAP
+Equity Edge, Acuity 4.10; Kronos; Nextgen;
+Office Suite, accounts payable, benefits, budget, Contracts, documentation,
+general ledger, insurance,
+access, Microsoft Office Suite, Enterprise, payroll processing, personnel, policies,
+tax, training material, workshops, year-end
+Relevant Experience
+Successfully transitioned company from use of paper timesheets to an automated payroll system within 
+six months.Worked with human resources
+to develop streamlined way to track paid time off.Simplified payroll processing procedure to increase department productivity by 25%.
 Experience
-Company Name
+Staff Accountant
  
-City
- 
-, 
-State
- 
-Accountant
- 
-12/2012
+08/2014
  
 to 
 Current
-â—​ Â Compile and analyze financial information to prepare financial statements to be distributed internally and externally
-â—​ Â Reconcile bank accounts to general ledger on a monthly basis
-â—​ Â Manage fixed assets ensuring all assets that meet our threshold are input accurately and depreciated properly
-â—​ Â Analyze inventory expense and assets accounts; Research and resolve discrepancies in coordination with Fulfillment team
-â—​ Â Monitor and record bank activity on a daily basis; Analyze past costs and revenue to provide cash forecast weekly
-â—​ Â Record cash receipts and revenue for associated company; Reconcile sub-ledger to general ledger by verifying monthly activity
-â—​ Â Forecast balance sheet and cash flow forecast based on yearly budgeted income statement
-â—​ Â 
- Reduced closing time for monthly and quarterly close by 
-25
- % by implementing more accurate and efficient procedures
-Company Name
  
-State
- 
-Staff Accountant
- 
-09/2008
- 
-to 
-12/2012
-Tracked capital improvement projects in AS400 system by checking status and confirming expenditures; provided accounting support as
-needed
-Managed fixed assets; Generated year end depreciation reports and recorded to the general ledger; Coordinated and conducted city-wide
-asset audit
-Investigated and resolved discrepancies in monthly bank accounts while under tight deadlines.
-Verified department software interfaced appropriately and communicated with various departments to provide information and answer
-questions; documented procedures as appropriate.
-Prepared year-end audit schedules and ensured accuracy; researched and resolved auditors' inquiries and requests.
-Recorded state and federal seizure and forfeiture funds received and expended and balanced corresponding general ledger accounts;
-coordinated with police department to ensure accuracy of annual state and federal reports.
-Generated yearly 1099 report from general ledger and electronically filed 1099 report with the IRS.
-Reconciled municipal court transactions to the general ledger as well as filed quarterly and annual reports; investigated and resolved any
-discrepancies.
-Monitored bank accounts for investment activities; Recorded investment maturities, purchases, and interest; Updated investment
-spreadsheet to reflect current balances, outstanding bonds and certificates of deposits.
-Innovated accurate and efficient method for proper accounting of assets
-Coordinated with fellow staff to improve processes; Provided administrative support by filing and gathering reports, creating and preparing
-spreadsheets for special projects and providing assistance and information on financial and accounting issues.
 Company Name
  
 City
  
 , 
 State
+Review, verify and input personnel action forms for all certified, classified, and substitute positions.
+Process times sheets with the use of the Kronos timekeeping system for all employees of the schools assigned.
+Responsible for an annual payroll of over 18 million dollars.
+Process paper time sheets for all bus and shuttle drivers.
+Responsible for entry of all direct deposit, W-4, and A-4 forms for all employees working for the Board using Nextgen accounting
+software.
+Update supervisor as required for changes or corrections needed to complete the monthly payroll processing.
+Analyze and access reports and data before finalizing the monthly payroll to identify variances or other anomalies that need to be corrected
+prior to final processing.
+Ensure employees board approved payroll changes are calculated and prorated based on the required salary schedule.
+Work closely with the supervisor and team members to ensure implementation of processes are standardized and executed in accordance
+with school board policies.
+Payroll Administrator
  
-Staff Accountant
- 
-12/2006
+07/2009
  
 to 
-05/2008
-Maintained capital expenditures in BNA; Organized and conducted asset audit for 26 regional branches by interfacing with each Asset
-Branch Manager; drafted monthly depreciation reports and computed depreciation
-Reconciled branch sales reports to bank account activity.
-Audited weekly Accounts Payable check runs.
-Audited daily Accounts Receivable credit reports.
-Researched validity of invoice void requests.
-Investigated and resolved credit card and bank deposit variances.
+01/2014
+ 
 Company Name
  
 City
  
 , 
 State
+Responsible for all payroll functions.
+Updated payroll records; including changes in employee tax exemptions, direct deposit, benefit deductions, and applicable garnishments.
+Provided timesheet training and granted access credentials for all new hires.
+Maintained payroll guidelines by writing and updating policies and procedures.
+Complied with federal, state, and local legal requirements by studying existing and new legislation.
+Maintained professional and technical knowledge by attending educational workshops, reviewing professional publications, establishing
+personal networks, and participating in professional societies.
+Independently maintained and prepared post payroll tax general ledger entries bi-weekly and at month-end close.
+Provided weekly written memos to management and staff concerning time and attendance.
+Prepared and provided all requested documents and materials for annual payroll audit.
+Tested Accounts Payable expenditures for annual Sox Audit.
+Maintained employee confidence and protects payroll operations by keeping information confidential.
+Supported organization's mission; committed to exceeding customer expectations through efficiency and quality service.
+Left this position to attend to a family medical situation that has since been resolved.
+Payroll Specialist
  
-Accounting Assistant
+03/2001
  
+to 
 03/2005
  
+Company Name
+ 
+City
+ 
+, 
+State
+Developed and processed confidential payroll documentation for approximately 300 employees located throughout the Southeast Region.
+Executed payroll budget of over $45 million through the payroll processing vendor and ensured final disbursement of funds to employees.
+Acted as Point of Contact for ADP and eTime systems for the Blood Services Division of the Alabama Gulf Coast Region.
+Conducted a study which resulted in improved accuracy of timesheet input, enhanced actual payroll output, and streamlined the payroll
+timesheet process which yielded greater efficiency.
+Managed the payroll training of department timekeepers and monitored their daily progress.
+Wrote a revised payroll.
+technical manual from vendor training material that was deemed more user friendly by the trainees.
+Provided a bi-weekly briefing to the Payroll Manager on labor issues, status of payroll, and current projects.
+Prepared and issued W-2's for the region ensuring accurate employee wage records and timely submission of tax documents in preparation
+for year-end-close.
+Left this position due to a lay-off within the company.
+Staff Accountant
+ 
+06/1999
+ 
 to 
-12/2006
-Prepared and input daily and monthly journal entries into general ledger.
-Analyzed and reviewed expense reports for accuracy.
-Performed monthly balance sheet reconciliations.
-Recorded monthly and yearly accruals.
-Input new vendors and invoices into accounting system; conducted weekly check runs.
-Prepared daily cash reports and performed transfers as needed.
-Managed bank accounts for 24 properties; Performed intercompany transfers as needed
+03/2001
+ 
+Company Name
+ 
+City
+ 
+, 
+State
+Processed bi-weekly and semi-monthly payroll for 180 employees throughout the United States.
+Analyzed and reviewed benefit election documentation to ensure proper selections were made by employees.
+Executed garnishment and child support orders in accordance with state laws.
+Reconciled payroll bank accounts after disbursement of funds.
+Processed accounts payable checks to be distributed to numerous company vendors.
+Prepared journal entries and made adjustments to the general ledger for month-end close.
+Payroll Specialist
+ 
+09/1997
+ 
+to 
+06/1999
+ 
+Company Name
+ 
+City
+ 
+, 
+State
+Responsible for the payroll execution of nearly 400 employees in the Retail Division.
+Verified application packets to ensure all required documentation was captured.
+Input pertinent information into the ADP system and ensured new associates were properly registered to receive accurate compensation.
+Received and processed all employee job verification requests from various businesses and creditors.
+Payroll Accountant
+ 
+09/1996
+ 
+to 
+09/1997
+ 
+Company Name
+ 
+City
+ 
+, 
+State
+Review confidential contractual offer letters for tenured and part-time professors to determine appropriate compensation packages.
+Contracts were negotiated with professors and upon approval, the financial conditions of the contract were executed.
+Tracked the labor funding for contracts staying within the prescribed departmental salary budget.
+Responsible for committing and obligating funds for in-house contracts and matching the final disbursements.
+Coordinated insurance and retirement benefits for all college faculty and staff.
+Education
+MBA
+ 
+2010
+ 
+University of Phoenix
+ 
+City
+ 
+, 
+State
+B.S
+ 
+: 
+Business Adminstration
+ 
+1992
+ 
+Alabama A&M University
+ 
+Business Adminstration
+Affiliations
+American Payroll Association
+Skills
+accounting software, accounts payable, ADP 5.30, ADP, benefits, budgets, Ceridian, Contracts, documentation, Edge, Equity, forms, funds,
+general ledger, insurance, Kronos
+Microsoft Office Suite,networks, Payroll, payroll processing, personnel, policies, processes, publications, SAP 6.20, taxes, training material

@@ -35,7 +35,7 @@ class Agent2Config:
 
     INPUT_FOLDER = Agent1Config.EXTRACTED_DIR
     OUTPUT_DIR = os.path.join(GlobalConfig.OUTPUT_DIR, "agent2")
-
+    CATEGORIES_DIR = os.path.join(OUTPUT_DIR, "categories")
     DATASET_PROFILE = os.path.join(OUTPUT_DIR, "dataset_profile.json")
     CLUSTER_REPORT = os.path.join(OUTPUT_DIR, "clusters.json")
     TOPIC_REPORT = os.path.join(OUTPUT_DIR, "topics.json")

@@ -9,39 +9,102 @@ from sentence_transformers import SentenceTransformer
 from core.utils import extract_text_from_file, extract_html_metadata
 from core.config import agent1_config as config
 import logging
+import yake
+from sentence_transformers import SentenceTransformer, util
 
-
-# ==========================
-# Load Multilingual Semantic Model (only once)
-# ==========================
-
+print("Loading embedding model...")
 embedding_model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
-kw_model = KeyBERT(model=embedding_model)
+
+print("Loading yake...")
+# kw_model = KeyBERT(model=embedding_model)
+kw_extractor = yake.KeywordExtractor(
+    lan="auto",
+    n=3,
+    top=20
+)
+print("yake model loaded.")
 
 
 # ==========================
-# Semantic Topic Keyword Extraction
+# Chunking Function
 # ==========================
 
-def _extract_keywords(text, top_n=7):
-    if not text or len(text.strip()) < 200:
+def chunk_text(text, chunk_size=1000):
+    words = text.split()
+    chunks = []
+
+    for i in range(0, len(words), chunk_size):
+        chunk = " ".join(words[i:i + chunk_size])
+        chunks.append(chunk)
+
+    return chunks
+
+
+# ==========================
+# Fast Keyword Extraction
+# ==========================
+def extract_keywords(text, top_n=10):
+
+    if not text or len(text) < 100:
         return []
 
-    try:
-        keywords = kw_model.extract_keywords(
-            text,
-            keyphrase_ngram_range=(1, 3),
-            stop_words=None,
-            use_mmr=True,
-            diversity=0.5,
-            nr_candidates=50,
-            top_n=top_n
-        )
-        return [kw[0] for kw in keywords]
+    # Step 1 — Fast keyword candidates
+    keywords = kw_extractor.extract_keywords(text)
 
-    except Exception as e:
-        logging.warning(f"Keyword extraction failed: {e}")
+    candidates = [kw[0] for kw in keywords]
+
+    if not candidates:
         return []
+
+    # Step 2 — semantic filtering
+    text_embedding = embedding_model.encode(text[:2000], convert_to_tensor=True)
+    kw_embeddings = embedding_model.encode(candidates, convert_to_tensor=True)
+
+    scores = util.cos_sim(text_embedding, kw_embeddings)[0]
+
+    ranked = sorted(
+        zip(candidates, scores),
+        key=lambda x: x[1],
+        reverse=True
+    )
+
+    return [kw for kw, score in ranked[:top_n]]
+# def _extract_keywords(text, top_n=20):
+#
+#     if not text or len(text) < 300:
+#         return []
+#
+#     try:
+#         # limit text size
+#         text = text[:20000]
+#
+#         chunks = chunk_text(text)
+#
+#         keywords = []
+#
+#         # only first few chunks
+#         for chunk in chunks[:5]:
+#
+#             kw = kw_model.extract_keywords(
+#                 chunk,
+#                 keyphrase_ngram_range=(1, 2),
+#                 stop_words=None,
+#                 use_mmr=True,
+#                 diversity=0.5,
+#                 nr_candidates=20,
+#                 top_n=3
+#             )
+#
+#             keywords.extend([k[0] for k in kw])
+#
+#         # remove duplicates
+#         keywords = list(set(keywords))
+#
+#         return keywords[:top_n]
+#
+#     except Exception as e:
+#         logging.warning(f"Keyword extraction failed: {e}")
+#         return []
 
 # ==========================
 # Hash Function
@@ -123,7 +186,7 @@ def run_ingestion(state):
             except:
                 lang = "unknown"
 
-            keywords = _extract_keywords(text)
+            keywords = extract_keywords(text)
             trace_info = {
                 "doc_id": file_id,
                 "origin_path": file_path,

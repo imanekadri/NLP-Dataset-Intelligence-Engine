@@ -1,164 +1,147 @@
-ACCOUNTANT II
+INVESTMENT ACCOUNTANT
+Career Focus
+Accomplished and results oriented Investment professional with strong leadership and interpersonal skills who adds energy and value to an
+organization's quest for excellence.
+Summary of Skills
+Internet and Microsoft Office - MS Word, MS Power Point, MS Excel, Pivot Tables, Spreadsheets,
+Macros.
+* Business Objects, Lombardi, Eagle Accounting System, PEGA, DRAS, Workbench.
+Account reconciliations
+Detail-oriented
+Variance analysis
+Detail-oriented
+Analytical
+Expert in MS Office Suite
+Account reconciliation expert
+Effective time management
+Complex problem solving
+Superior research skills
 Accomplishments
-Military Training Certificate, 2005; PNC Conversation: Deep Dive into Savings and Investment training 2012; Operational and Soundness
-Training 2013; Employee of the month (November) at PNC Bank 2011; Employee of the Quarter at PNC Bank 2011; Retail Banking
-Achievement Award 2012;.
-NMLS- Nationwide Mortgage Licensing System, 2013.
-Supervision
-Supervised team of two staff members.Â 
-Professional Summary
-Detail-oriented Accountant with 5 years effectively maintaining accurate accounting information for large-scale financial organizations.
-Skills
-Superior attention to detail
-Invoice coding familiarity
-QuickBooks expert
-Self-motivated professional
-Strong communication skills
-Accounting operations professional
-Cash flow analysis
-Data trending knowledge
-Advanced bookkeeping skills
-Work History
-Accountant II
- 
-, 
-02/2017
- 
-to 
-Current
- 
+Multiple awards for performance.Formally recognized for excellence achieved in financial analysis, budgeting and forecasting.Increased efficiency
+of discrepancy investigations by [Number]% by designing a more accurate cash-forecasting system.
+Professional Experience
 Company Name
  
-â€“ 
 City
  
 , 
 State
  
-Responsible for preparing and posting entries for the daily posting packet.
-Verifies and balances system originated interfaces and posts non-system generated transactions prepared from other sources.
-System originated interfaces refers to the Credit Union owned system as well as external systems, such as shared branching and ATM
-transaction networks.
-A monitor flow of credit union transactions from the various supporting systems into and out of the general ledger daily, and identifies and
-resolves errors, omissions, and irregularities to provide accurate records for TFCU and its service organizations.
-Calculates and posts month end and year-end accruals as needed.
-Responsible for maintaining fixed assets and prepaid sub-ledger accounts.
-Prepares budget variance reports for various departments as assigned.
-Works with that department manager in preparation of annual budget.
-Responds to inquiries from that manager regarding budgeted and actual expenses.
-Prepares analyses as requested by manager and other departments.
-Manages the accounts payable function - including employee/volunteer reimbursement - from processing incoming invoices, through cost
-center coding, approval by appropriate party, input into the system, to check preparation and mailing.
-Identifies vendors requiring an IRS Form 1099 and prepares the form and transmittal.
-Manages the Corporate VISA accounts for managers and volunteers, including ordering and canceling cards, processing corporate Visa
-accounts for payment, and resolving discrepancies.
-Along with other Finance Department staff, processes outgoing and incoming wires, verifies those wires have all required documentation,
-and works with branch staff to ensure incoming wires are posted and resolve issues.
-Responsible for assisting with the preparation of financial statements.
-Accountant
+Investment Accountant
  
-, 
-06/2015
+10/2012
  
 to 
-02/2017
- 
+11/2015
+Reconciled mutual fund accounts with the custody Identified and Resolved differences in Custody and Accounting Cash, Currency and
+Positions using Eagle, IAX, Business Objects, Lombardi and Workbench Reports Communicated and Collaborated with other areas in the
+firm, client, fund accountant, custodians that are impacted by the functions of the team Conducted weekly client meetings and act as liaison
+between Accounting and custody to resolve any outstanding items in cash, currency and positions.
+Completed special projects from the management as needed Trained, Oversee and assisted staff in offshore team (Pune, India) and acted as
+a liaison between Pune Office and US.
+Helped US team by performing tests on Pega Vs.
+Business Objects and Eagle during the Platform Migration Trained new staff and assist them as needed to meet the department goals.
+Ran daily reports for fund accountants using business objects and MS Database.
+Award: 
+Received a special achievement award at BNY Mellon Bank in Asset Servicing 
+(Dec 2013) Award: Received a special
+achievement award at BNY Mellon Bank in Asset Servcing (Dec 2014.
 Company Name
  
-â€“ 
 City
  
 , 
 State
  
-40hrs Coordinate and supervise employees within Accounts Payable interacting with internal customers and external suppliers monitoring all
-controls.
-Oversee employee business expense processing for multiple business units leading projects such as system testing and implementation.
-Communicate accounting policies practices and procedures with department manager's vendors and internal customers to ensure
-compliance.
-Maintains knowledge of all Credit Union processes which affect the general ledger, including share drafts, ACH, wire transfers, ATM,
-Federal Reserve, and Credit Cards.
-Responsible for reconciliation of the clearing accounts, including vault, transfer, on us, bond clearing and cashier check clearing among it's
-stock ownership.
-Responsible for preparing month end and posting entries.
-Responsible for assisting with the preparation of financial statements.
-Prepare verified processed and maintained a variety of order reconciliation functions.
-Use office automated systems to input data generate reports conduct investigations and respond to inquiries.
-Maintains records for vendors and accounts payable, including 1099s and corporate Visa accounts.
-Accountant
+AML Compliance Officer
  
-, 
-08/2013
+11/2011
  
 to 
-06/2015
- 
+03/2012
+Audited customer's bank accounts in the company's system Performed quality assurance reviews on customer information maintained on
+various bank systems Reconciled the quality assurance results on spreadsheets Performed background search on clients using tools such as
+world check and google search Finance Projects at UD Project 1: Group simulation project to develop the investment philosophy and
+strategy to drive a simulated investment of $1,000,000 using Stock-Track.
+Invested about 50% of our funds in moderate to high-risk investment in order to achieve capital appreciation; Invested about 25% of our
+funds in low to moderate risk investment in order to preserve our capital.
+Invested 25% of our funds in derivatives and rest in index fund, cash and money market.
+Performed an analysis to determine the allocation of stocks by minimizing CV and graphed the daily returns for each stocks Performed
+regression analysis and analyzed the regression statistics on weekly returns.
+Performed an analysis on our group's portfolio with the market and with other groups.
+Case analysis on Price Momentum Strategy Used price momentum model analysis to test whether the price momentum model will work on
+US stock market as it did with the US Canadian stocks.
+Used the weighted annual returns and created the worst outlook portfolio and the best outlook portfolio Selected the top eight performing
+stocks for each quarter to create the best outlook portfolio and compared to the market to determine if the pricing momentum would hold
+up.
+Calculated the average return for each portfolio and rebalanced the portfolio and compared to the S&P 500 for each quarter within the
+same time period.
 Company Name
  
-â€“ 
 City
  
 , 
 State
  
-40hrs Perform a variety of support duties related to the accounting function within the credit union; assisting the accounting team in
-maintaining the financial, statistical, and accounting records; Accounts Payable processing; posting general ledger entries; reconciling general
-ledger accounts as assigned and miscellaneous filing/scanning of checks, invoices and branch daily work.
-Prepare daily cash flow, examined, and analyzed accounting record, financial statements, ACH, wires, and other financial reports to assess
-accuracy, completeness, and conformation to reporting and procedural standards.
-Responsible and supervised two Accounting Clerks Staff, scheduling shifts, assigning responsibilities, answering questions, solving problems,
-helping with complex transactions and sensitive member relations issues or concerns.
-Articulate policies and procedures to members and department staff Maintains files, including filing of general ledger journal vouchers,
-account payable documentation, and other miscellaneous fillings.
-Print daily account payable checks and inserts checks and invoices into envelopes for mailing.
-Verifies and posts details of business transactions, such as funds received and disbursed, and totals accounts, using calculator or computer.
-Responsible for ensuring staff are adequately trained in all phases of their jobs; and informed regarding all credit union products and services
-Effectively research, track, and resolve or properly refer accounting or documentation problems and discrepancies.
-Maintains regular contact with other departments to obtain and convey information and/or to correct transactions.
-Order cash from the Federal Reserve for the branches and ATMs in a timely manner.
-Financial Service Representative/ Back-up Supervisor
+Medical Technologist
  
-, 
-01/2011
+07/2008
  
 to 
-08/2013
- 
-Company Name
- 
-â€“ 
-City
- 
-40hrs Provided customers with prompt, accurate, courteous and professional banking service.
-Identified and referred sales opportunities to Relationship Bankers about products and services.
-Utilized several mediums such as phone and emails to help customers.
-Assisted customers with opening and closing of accounts.
-Answered and resolved problems that are within my authority.
-Accepted and processed loan applications and conduct loan interviews.
-Assisted members with their financial transactions, involving paying and receiving cash and other negotiable instruments.
-Maintained proper cash levels at the branch.
-Responsible for cash shipments to and from main office to the branch.
-Processed all commercial deposits, balanced vault daily.
-Responsible for equipment maintenance; assisted staff with balancing problems.
-Did random spot check with staff to ensure cash levels are within predetermined branch limits.
+03/2012
+Clinical Microbiology Experience - Highlights include ordering, processing, plating and culturing patient's specimens Tests - Performing
+rapid tests such as Rapid flu, C.Diff quick check and many more; Performing rapid and confirmatory tests to identify organism; Reading
+Gram stain slides.
+Other - Performing daily maintenance and running quality control on instruments.
 Education
-Bachelor of Science Degree
+Master of Business Administration
  
-: 
+:
+ 
 Finance
+ 
+2011
+ 
+University of Delaware
  
 , 
-May 2010
+City
  
-University of Maryland
- 
-- 
+, 
 State
  
+, 
+USA
 Finance
+Bachelor of Science
+ 
+:
+ 
+Medical Technology
+ 
+2008
+ 
+University of Delaware
+ 
+, 
+City
+ 
+, 
+State
+ 
+, 
+USA
+Medical Technology
+Related course work in Business: Financial Reporting and Analysis, Financial Management, Corporate Financial Policies, Investment Analysis and
+Portfolio Management, Corporate Governance, Financial Engineering and Risk Management (Derivatives).
+Languages
+English, Marathi, Hindi, Gujarati
+Personal Information
+Excellent multitasking, analytical thinking, time management, negotiation, communication, organization 
+and leadership skills
+Additional Information
+Excellent multitasking, analytical thinking, time management, negotiation, communication, organization 
+and leadership skills
 Skills
-Accounting, Accounting System, accounts payable, accruals, Articulate, ATM, banking, budget, Business Intelligence, calculator, cash flow,
-cashier, closing, Credit, documentation, equipment maintenance, filing, Finance, Financial, financial reports, financial statements, preparation of
-financial statements, fixed assets, funds, general ledger, general ledger accounts, ledger, mailing, Access, Excel, Microsoft Office, office,
-PowerPoint, Microsoft Word, Works, networks, PeopleSoft, policies, processes, coding, receiving, reconciling, Maintains files, reporting,
-research, sales, scanning, scheduling, phone, year-end
+MS Office: Database, Macros, V-look up, Pivot tables, Outlook
+Company Platforms: Business Objects, Workbench, Eagle, Pega, Lombardi, DRAS.
