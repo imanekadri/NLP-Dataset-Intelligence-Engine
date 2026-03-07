@@ -1,14 +1,17 @@
 from core.llm_provider import LLMProvider
 from core.logger import logger
 from .prompt import SYSTEM_PROMPT, build_prompt
+from .config import DocumentationConfig
 
 
 class DocumentationAgent:
 
     def __init__(self):
+        self.config = DocumentationConfig()
         self.llm = LLMProvider(
-            primary_model="llama-3.1-8b-instant",
-            temperature=0.2
+            primary_model=self.config.primary_model,
+            fallback_model=self.config.fallback_model,
+            temperature=self.config.temperature
         )
 
     def run(self, dataset_info: dict) -> str:

@@ -1,7 +1,7 @@
 from pydantic_settings import BaseSettings, SettingsConfigDict
 from pydantic import Field
 
-class SemanticBrainConfig(BaseSettings):
+class DocumentationConfig(BaseSettings):
     # API Keys
     groq_api_key: str = Field(default="", alias="GROQ_API_KEY")
     anthropic_api_key: str = Field(default="", alias="ANTHROPIC_API_KEY")
