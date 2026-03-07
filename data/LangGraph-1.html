@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cours Pratique LangGraph</title>
+<style>
+  :root {
+    --primary: #1a1a2e;
+    --accent: #4f46e5;
+    --accent2: #06b6d4;
+    --green: #10b981;
+    --orange: #f59e0b;
+    --red: #ef4444;
+    --bg: #0f172a;
+    --surface: #1e293b;
+    --surface2: #243044;
+    --text: #e2e8f0;
+    --text-muted: #94a3b8;
+    --border: #334155;
+    --code-bg: #0d1117;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+  }
+
+  /* ── Header ── */
+  header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    padding: 60px 20px 50px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid var(--border);
+  }
+  header::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: radial-gradient(circle at 30% 50%, rgba(79,70,229,.2) 0%, transparent 60%),
+                radial-gradient(circle at 70% 50%, rgba(6,182,212,.15) 0%, transparent 60%);
+  }
+  .header-badge {
+    display: inline-block;
+    background: rgba(79,70,229,.2);
+    border: 1px solid rgba(79,70,229,.4);
+    color: #818cf8;
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+    position: relative;
+  }
+  header h1 {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: 800;
+    background: linear-gradient(90deg, #818cf8, #06b6d4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    position: relative;
+    margin-bottom: 12px;
+  }
+  header p {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .header-stats {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    position: relative;
+  }
+  .stat {
+    text-align: center;
+  }
+  .stat-num {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #818cf8;
+  }
+  .stat-label {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  /* ── Layout ── */
+  .wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    gap: 30px;
+    align-items: start;
+  }
+
+  /* ── Sidebar ── */
+  nav {
+    position: sticky;
+    top: 20px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px;
+  }
+  nav h3 {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 12px;
+  }
+  nav a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 0.85rem;
+    padding: 7px 10px;
+    border-radius: 8px;
+    transition: all .2s;
+    margin-bottom: 2px;
+  }
+  nav a:hover { background: var(--surface2); color: var(--text); }
+  nav a .num {
+    width: 20px; height: 20px;
+    background: var(--surface2);
+    border-radius: 50%;
+    font-size: 0.7rem;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700;
+    color: var(--accent2);
+    flex-shrink: 0;
+  }
+
+  /* ── Main Content ── */
+  main { min-width: 0; }
+
+  section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 36px;
+    margin-bottom: 24px;
+  }
+  section:hover { border-color: #475569; }
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 24px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid var(--border);
+  }
+  .section-icon {
+    width: 44px; height: 44px;
+    border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.3rem;
+    flex-shrink: 0;
+  }
+  .icon-purple { background: rgba(79,70,229,.15); }
+  .icon-cyan { background: rgba(6,182,212,.15); }
+  .icon-green { background: rgba(16,185,129,.15); }
+  .icon-orange { background: rgba(245,158,11,.15); }
+  .icon-red { background: rgba(239,68,68,.15); }
+  .icon-pink { background: rgba(236,72,153,.15); }
+
+  .section-title h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text);
+  }
+  .section-title .badge {
+    font-size: 0.7rem;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  .badge-theory { background: rgba(79,70,229,.2); color: #818cf8; }
+  .badge-practice { background: rgba(16,185,129,.2); color: #34d399; }
+  .badge-advanced { background: rgba(239,68,68,.2); color: #f87171; }
+
+  h3 { font-size: 1rem; font-weight: 600; color: #cbd5e1; margin: 20px 0 10px; }
+  h4 { font-size: 0.9rem; font-weight: 600; color: #94a3b8; margin: 14px 0 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+  p { color: #cbd5e1; margin-bottom: 12px; font-size: 0.95rem; }
+
+  /* ── Code Blocks ── */
+  .code-block {
+    background: var(--code-bg);
+    border: 1px solid #21262d;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 16px 0;
+  }
+  .code-header {
+    background: #161b22;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #21262d;
+  }
+  .code-lang {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #8b949e;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .code-dots { display: flex; gap: 6px; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; }
+  .dot-r { background: #ff5f57; }
+  .dot-y { background: #febc2e; }
+  .dot-g { background: #28c840; }
+  pre {
+    padding: 20px;
+    overflow-x: auto;
+    font-size: 0.82rem;
+    line-height: 1.6;
+  }
+  code {
+    font-family: 'Cascadia Code', 'Fira Code', 'Consolas', monospace;
+    color: #e6edf3;
+  }
+  /* Syntax Highlighting */
+  .kw { color: #ff7b72; } /* keywords */
+  .fn { color: #d2a8ff; } /* functions */
+  .st { color: #a5d6ff; } /* strings */
+  .cm { color: #8b949e; font-style: italic; } /* comments */
+  .nu { color: #79c0ff; } /* numbers */
+  .cl { color: #ffa657; } /* class names */
+  .op { color: #ff7b72; } /* operators */
+  .va { color: #e6edf3; } /* variables */
+  .im { color: #ff7b72; } /* import */
+  .de { color: #d2a8ff; } /* decorator */
+
+  /* ── Concept Cards ── */
+  .concept-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 14px;
+    margin: 16px 0;
+  }
+  .concept-card {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px;
+    transition: transform .2s;
+  }
+  .concept-card:hover { transform: translateY(-2px); }
+  .concept-card .icon { font-size: 1.6rem; margin-bottom: 8px; }
+  .concept-card h4 { font-size: 0.85rem; color: var(--text); margin: 0 0 6px; text-transform: none; letter-spacing: 0; }
+  .concept-card p { font-size: 0.78rem; color: var(--text-muted); margin: 0; }
+
+  /* ── Diagram ── */
+  .diagram {
+    background: var(--code-bg);
+    border: 1px solid #21262d;
+    border-radius: 10px;
+    padding: 24px;
+    margin: 16px 0;
+    text-align: center;
+    font-family: monospace;
+  }
+  .diagram-flow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  .node-box {
+    background: rgba(79,70,229,.2);
+    border: 1.5px solid #4f46e5;
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #818cf8;
+    white-space: nowrap;
+  }
+  .node-box.green { background: rgba(16,185,129,.15); border-color: #10b981; color: #34d399; }
+  .node-box.orange { background: rgba(245,158,11,.15); border-color: #f59e0b; color: #fbbf24; }
+  .node-box.red { background: rgba(239,68,68,.15); border-color: #ef4444; color: #f87171; }
+  .arrow {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    padding: 0 8px;
+  }
+  .arrow-label {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    margin-top: 4px;
+  }
+  .arrow-col { display: flex; flex-direction: column; align-items: center; }
+
+  /* ── Info Boxes ── */
+  .info-box {
+    border-radius: 10px;
+    padding: 14px 18px;
+    margin: 14px 0;
+    font-size: 0.88rem;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+  .info-box .icon { font-size: 1.1rem; flex-shrink: 0; margin-top: 1px; }
+  .info-box p { margin: 0; }
+  .info-tip { background: rgba(6,182,212,.08); border: 1px solid rgba(6,182,212,.25); color: #67e8f9; }
+  .info-warn { background: rgba(245,158,11,.08); border: 1px solid rgba(245,158,11,.25); color: #fcd34d; }
+  .info-success { background: rgba(16,185,129,.08); border: 1px solid rgba(16,185,129,.25); color: #6ee7b7; }
+
+  /* ── Steps ── */
+  .steps { margin: 16px 0; }
+  .step {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+    align-items: flex-start;
+  }
+  .step-num {
+    width: 32px; height: 32px;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: 0.8rem;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  .step-content h4 { margin: 0 0 4px; color: var(--text); font-size: 0.9rem; text-transform: none; letter-spacing: 0; }
+  .step-content p { margin: 0; font-size: 0.85rem; }
+
+  /* ── Inline code ── */
+  code.inline {
+    background: rgba(110,118,129,.2);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.82em;
+    color: #a5d6ff;
+  }
+
+  /* ── Exercise ── */
+  .exercise {
+    background: rgba(16,185,129,.05);
+    border: 1px dashed rgba(16,185,129,.3);
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .exercise h3 { color: #34d399; margin-top: 0; }
+
+  /* ── Table ── */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+    margin: 16px 0;
+  }
+  th {
+    background: var(--surface2);
+    color: var(--text-muted);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    padding: 10px 14px;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+  }
+  td {
+    padding: 10px 14px;
+    border-bottom: 1px solid rgba(51,65,85,.5);
+    color: var(--text);
+  }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: rgba(255,255,255,.02); }
+
+  @media (max-width: 768px) {
+    .wrapper { grid-template-columns: 1fr; }
+    nav { position: static; display: none; }
+    section { padding: 22px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════════════ HEADER -->
+<header>
+  <div class="header-badge">🎓 COURS PRATIQUE</div>
+  <h1>LangGraph</h1>
+  <p>Construisez des agents IA avec des graphes d'états — de zéro à la production</p>
+  <div class="header-stats">
+    <div class="stat"><div class="stat-num">8</div><div class="stat-label">Modules</div></div>
+    <div class="stat"><div class="stat-num">15+</div><div class="stat-label">Exemples</div></div>
+    <div class="stat"><div class="stat-num">4</div><div class="stat-label">Projets</div></div>
+  </div>
+</header>
+
+<!-- ══════════════════════════════════════════════════════ LAYOUT -->
+<div class="wrapper">
+
+<!-- Sidebar -->
+<nav>
+  <h3>📚 Sommaire</h3>
+  <a href="#s1"><span class="num">1</span> Introduction</a>
+  <a href="#s2"><span class="num">2</span> Concepts Clés</a>
+  <a href="#s3"><span class="num">3</span> Installation</a>
+  <a href="#s4"><span class="num">4</span> Premier Graphe</a>
+  <a href="#s5"><span class="num">5</span> Edges Conditionnels</a>
+  <a href="#s6"><span class="num">6</span> Mémoire & État</a>
+  <a href="#s7"><span class="num">7</span> Human-in-the-Loop</a>
+  <a href="#s8"><span class="num">8</span> Multi-Agents</a>
+</nav>
+
+<!-- Main -->
+<main>
+
+<!-- ══════════════════ MODULE 1 -->
+<section id="s1">
+  <div class="section-header">
+    <div class="section-icon icon-purple">🧠</div>
+    <div class="section-title">
+      <h2>Module 1 — Introduction à LangGraph</h2>
+      <span class="badge badge-theory">Théorie</span>
+    </div>
+  </div>
+
+  <p><strong>LangGraph</strong> est un framework Python créé par LangChain pour construire des agents et workflows IA basés sur des <strong>graphes d'états</strong>. Il permet de concevoir des flux complexes, cycliques et contrôlés, là où les simples chaînes LangChain atteignent leurs limites.</p>
+
+  <h3>🤔 Pourquoi LangGraph ?</h3>
+  <div class="concept-grid">
+    <div class="concept-card">
+      <div class="icon">🔁</div>
+      <h4>Cycles & Boucles</h4>
+      <p>Contrairement aux DAGs, LangGraph supporte les cycles natifs — essentiel pour les agents qui réfléchissent en boucle.</p>
+    </div>
+    <div class="concept-card">
+      <div class="icon">📊</div>
+      <h4>État explicite</h4>
+      <p>L'état de l'application est typé et partagé entre tous les nœuds du graphe.</p>
+    </div>
+    <div class="concept-card">
+      <div class="icon">🧩</div>
+      <h4>Modulaire</h4>
+      <p>Chaque étape est un nœud isolé, facile à tester et à remplacer.</p>
+    </div>
+    <div class="concept-card">
+      <div class="icon">⏸️</div>
+      <h4>Contrôle humain</h4>
+      <p>Interrompre, inspecter et reprendre un workflow à n'importe quelle étape.</p>
+    </div>
+  </div>
+
+  <h3>📐 LangGraph vs LangChain</h3>
+  <table>
+    <tr><th>Aspect</th><th>LangChain</th><th>LangGraph</th></tr>
+    <tr><td>Structure</td><td>Chaînes linéaires (DAG)</td><td>Graphes cycliques</td></tr>
+    <tr><td>État</td><td>Implicite</td><td>Explicite & typé</td></tr>
+    <tr><td>Boucles</td><td>Non supportées</td><td>Natives</td></tr>
+    <tr><td>Humain dans la boucle</td><td>Difficile</td><td>Intégré</td></tr>
+    <tr><td>Use case principal</td><td>RAG simple, chatbots</td><td>Agents complexes, orchestration</td></tr>
+  </table>
+
+  <div class="info-box info-tip">
+    <span class="icon">💡</span>
+    <p>LangGraph <strong>complète</strong> LangChain — vous pouvez utiliser les deux ensemble. LangGraph se concentre sur l'orchestration, LangChain sur les composants (LLMs, outils, parseurs).</p>
+  </div>
+</section>
+
+<!-- ══════════════════ MODULE 2 -->
+<section id="s2">
+  <div class="section-header">
+    <div class="section-icon icon-cyan">🔷</div>
+    <div class="section-title">
+      <h2>Module 2 — Concepts Fondamentaux</h2>
+      <span class="badge badge-theory">Théorie</span>
+    </div>
+  </div>
+
+  <h3>Les 4 piliers de LangGraph</h3>
+
+  <div class="steps">
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-content">
+        <h4>📦 State (État)</h4>
+        <p>Un dictionnaire typé (<code class="inline">TypedDict</code>) qui contient toutes les données partagées entre les nœuds. C'est le "cerveau" du graphe — chaque nœud peut le lire et le modifier.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-content">
+        <h4>⬡ Nodes (Nœuds)</h4>
+        <p>Des fonctions Python qui prennent l'état en entrée, effectuent une action (appel LLM, outil, logique), et retournent les mises à jour de l'état.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-content">
+        <h4>➡️ Edges (Arêtes)</h4>
+        <p>Les connexions entre nœuds. Peuvent être <strong>fixes</strong> (toujours le même chemin) ou <strong>conditionnelles</strong> (dépendent de l'état courant).</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">4</div>
+      <div class="step-content">
+        <h4>🏗️ Graph (Graphe)</h4>
+        <p>L'assemblage de tout : <code class="inline">StateGraph</code> compile les nœuds et arêtes en un exécutable avec <code class="inline">.compile()</code>.</p>
+      </div>
+    </div>
+  </div>
+
+  <h3>🗺️ Architecture Visuelle</h3>
+  <div class="diagram">
+    <div style="font-size:0.75rem; color: #8b949e; margin-bottom: 16px;">Flux d'un agent ReAct typique</div>
+    <div class="diagram-flow">
+      <div style="display:flex; flex-direction:column; align-items:center;">
+        <div class="node-box green">START</div>
+      </div>
+      <div class="arrow">→</div>
+      <div style="display:flex; flex-direction:column; align-items:center;">
+        <div class="node-box">Agent</div>
+        <div style="font-size:0.65rem; color:#8b949e; margin-top:4px;">(LLM + décision)</div>
+      </div>
+      <div class="arrow-col">
+        <div style="display:flex; align-items:center;">
+          <div class="arrow">→</div>
+        </div>
+        <div style="display:flex; align-items:center; gap:0; margin-top:8px;">
+          <div style="font-size:0.65rem; color:#8b949e;">si outil</div>
+        </div>
+      </div>
+      <div style="display:flex; flex-direction:column; align-items:center;">
+        <div class="node-box orange">Outils</div>
+        <div style="font-size:0.65rem; color:#8b949e; margin-top:4px;">(search, calc...)</div>
+      </div>
+      <div class="arrow" style="transform: scaleX(-1);">→</div>
+      <div style="font-size:0.65rem; color:#8b949e; padding:10px;">boucle</div>
+    </div>
+    <div style="text-align:center; margin-top:12px;">
+      <span style="font-size:0.65rem; color:#8b949e;">si terminé</span> <span class="arrow">↓</span>
+    </div>
+    <div style="display:flex; justify-content:center; margin-top:8px;">
+      <div class="node-box red">END</div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════ MODULE 3 -->
+<section id="s3">
+  <div class="section-header">
+    <div class="section-icon icon-green">⚙️</div>
+    <div class="section-title">
+      <h2>Module 3 — Installation & Configuration</h2>
+      <span class="badge badge-practice">Pratique</span>
+    </div>
+  </div>
+
+  <h3>📦 Installation</h3>
+  <div class="code-block">
+    <div class="code-header">
+      <div class="code-dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div>
+      <span class="code-lang">bash</span>
+    </div>
+    <pre><code><span class="cm"># Installation de base</span>
+pip install langgraph langchain langchain-openai
+
+<span class="cm"># Avec support Anthropic (Claude)</span>
+pip install langgraph langchain langchain-anthropic
+
+<span class="cm"># Avec toutes les fonctionnalités (recommandé)</span>
+pip install langgraph langgraph-checkpoint-sqlite langchain-community python-dotenv</code></pre>
+  </div>
+
+  <h3>🔑 Configuration des clés API</h3>
+  <div class="code-block">
+    <div class="code-header">
+      <div class="code-dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div>
+      <span class="code-lang">python — config.py</span>
+    </div>
+    <pre><code><span class="im">import</span> os
+<span class="im">from</span> dotenv <span class="im">import</span> load_dotenv
+
+load_dotenv()
+
+<span class="cm"># Fichier .env</span>
+<span class="cm"># OPENAI_API_KEY=sk-...</span>
+<span class="cm"># ANTHROPIC_API_KEY=sk-ant-...</span>
+
+<span class="cm"># Vérification</span>
+<span class="kw">assert</span> os.getenv(<span class="st">"OPENAI_API_KEY"</span>), <span class="st">"Clé API manquante !"</span>
+<span class="fn">print</span>(<span class="st">"✅ Configuration OK"</span>)</code></pre>
+  </div>
+
+  <div class="info-box info-warn">
+    <span class="icon">⚠️</span>
+    <p>Ne committez jamais vos clés API. Utilisez toujours un fichier <code class="inline">.env</code> listé dans <code class="inline">.gitignore</code>.</p>
+  </div>
+
+  <h3>🔍 Vérification de l'installation</h3>
+  <div class="code-block">
+    <div class="code-header">
+      <div class="code-dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div>
+      <span class="code-lang">python</span>
+    </div>
+    <pre><code><span class="im">import</span> langgraph
+<span class="fn">print</span>(f<span class="st">"LangGraph version : {langgraph.__version__}"</span>)
+
+<span class="im">from</span> langgraph.graph <span class="im">import</span> StateGraph, END
+<span class="fn">print</span>(<span class="st">"✅ Import réussi"</span>)</code></pre>
+  </div>
+</section>
+
+<!-- ══════════════════ MODULE 4 -->
+<section id="s4">
+  <div class="section-header">
+    <div class="section-icon icon-green">🚀</div>
+    <div class="section-title">
+      <h2>Module 4 — Premier Graphe</h2>
+      <span class="badge badge-practice">Pratique</span>
+    </div>
+  </div>
+
+  <p>Construisons un graphe simple de traitement de texte : <strong>nettoyer → analyser → résumer</strong>.</p>
+
+  <h3>Étape 1 — Définir l'État</h3>
+  <div class="code-block">
+    <div class="code-header">
+      <div class="code-dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div>
+      <span class="code-lang">python</span>
+    </div>
+    <pre><code><span class="im">from</span> typing <span class="im">import</span> TypedDict, List, Optional
+<span class="im">from</span> langgraph.graph <span class="im">import</span> StateGraph, END
+
+<span class="cm"># 1. Définir le schéma d'état</span>
+<span class="kw">class</span> <span class="cl">TextState</span>(TypedDict):
+    texte_original: str
+    texte_nettoye: str
+    sentiment: str
+    resume: str
+    mots_cles: List[str]</code></pre>
+  </div>
+
+  <h3>Étape 2 — Définir les Nœuds</h3>
+  <div class="code-block">
+    <div class="code-header">
+      <div class="code-dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div>
+      <span class="code-lang">python</span>
+    </div>
+    <pre><code><span class="im">from</span> langchain_openai <span class="im">import</span> ChatOpenAI
+
+llm = <span class="cl">ChatOpenAI</span>(model=<span class="st">"gpt-4o-mini"</span>, temperature=<span class="nu">0</span>)
+
+<span class="cm"># Nœud 1 : Nettoyage du texte</span>
+<span class="kw">def</span> <span class="fn">nettoyer_texte</span>(state: <span class="cl">TextState</span>) -> <span class="cl">TextState</span>:
+    <span class="st">"""Supprime les caractères superflus et normalise le texte."""</span>
+    texte = state[<span class="st">"texte_original"</span>]
+    texte_nettoye = texte.strip().replace(<span class="st">"  "</span>, <span class="st">" "</span>)
+    <span class="fn">print</span>(f<span class="st">"[NETTOYAGE] {len(texte)} → {len(texte_nettoye)} chars"</span>)
+    <span class="kw">return</span> {<span class="st">"texte_nettoye"</span>: texte_nettoye}
+
+<span class="cm"># Nœud 2 : Analyse de sentiment</span>
+<span class="kw">def</span> <span class="fn">analyser_sentiment</span>(state: <span class="cl">TextState</span>) -> <span class="cl">TextState</span>:
+    <span class="st">"""Détermine le sentiment du texte via le LLM."""</span>
+    reponse = llm.invoke([
+        {<span class="st">"role"</span>: <span class="st">"user"</span>, <span class="st">"content"</span>: f<span class="st">"""
+Analyse le sentiment de ce texte en UN SEUL MOT parmi : 
+positif, négatif, neutre, mitigé.
+
+Texte : {state['texte_nettoye']}
+        """</span>}
+    ])
+    <span class="kw">return</span> {<span class="st">"sentiment"</span>: reponse.content.strip()}
+
+<span class="cm"># Nœud 3 : Résumé et mots-clés</span>
+<span class="kw">def</span> <span class="fn">resumer</span>(state: <span class="cl">TextState</span>) -> <span class="cl">TextState</span>:
+    <span class="st">"""Génère un résumé et extrait les mots-clés."""</span>
+    reponse = llm.invoke([
+        {<span class="st">"role"</span>: <span class="st">"user"</span>, <span class="st">"content"</span>: f<span class="st">"""
+Analyse ce texte (sentiment: {state['sentiment']}).
+Réponds en JSON :
+{{"resume": "1-2 phrases", "mots_cles": ["mot1", "mot2", "mot3"]}}
+
+Texte : {state['texte_nettoye']}
+        """</span>}
+    ])
+    <span class="im">import</span> json, re
+    json_str = re.search(r<span class="st">'\{.*\}'</span>, reponse.content, re.DOTALL).group()
+    data = json.loads(json_str)
+    <span class="kw">return</span> {<span class="st">"resume"</span>: data[<span class="st">"resume"</span>], <span class="st">"mots_cles"</span>: data[<span class="st">"mots_cles"</span>]}</code></pre>
+  </div>
+
+  <h3>Étape 3 — Assembler le Graphe</h3>
+  <div class="code-block">
+    <div class="code-header">
+      <div class="code-dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div>
+      <span class="code-lang">python</span>
+    </div>
+    <pre><code><span class="cm"># Créer le graphe</span>
+graph = <span class="cl">StateGraph</span>(<span class="cl">TextState</span>)
+
+<span class="cm"># Ajouter les nœuds</span>
+graph.add_node(<span class="st">"nettoyage"</span>, nettoyer_texte)
+graph.add_node(<span class="st">"analyse"</span>,   analyser_sentiment)
+graph.add_node(<span class="st">"resume"</span>,    resumer)
+
+<span class="cm"># Définir les arêtes (flux linéaire)</span>
+graph.set_entry_point(<span class="st">"nettoyage"</span>)
+graph.add_edge(<span class="st">"nettoyage"</span>, <span class="st">"analyse"</span>)
+graph.add_edge(<span class="st">"analyse"</span>,   <span class="st">"resume"</span>)
+graph.add_edge(<span class="st">"resume"</span>,    END)
+
+<span class="cm"># Compiler</span>
+app = graph.compile()
+
+<span class="cm"># Exécuter !</span>
+resultat = app.invoke({
+    <span class="st">"texte_original"</span>: <span class="st">"""
+    LangGraph  est  un outil  fantastique pour construire 
+    des agents IA robustes et modulaires.  Il simplifie 
+    énormément la gestion des états complexes.
+    """</span>
+})
+
+<span class="fn">print</span>(f<span class="st">"Sentiment  : {resultat['sentiment']}"</span>)
+<span class="fn">print</span>(f<span class="st">"Résumé     : {resultat['resume']}"</span>)
+<span class="fn">print</span>(f<span class="st">"Mots-clés  : {', '.join(resultat['mots_cles'])}"</span>)</code></pre>
+  </div>
+
+  <div class="exercise">
+    <h3>🎯 Exercice 1</h3>
+    <p>Ajoutez un 4ème nœud <code class="inline">traduire</code> qui traduit le résumé en anglais, et connectez-le après le nœud <code class="inline">resume</code>. Stockez le résultat dans un nouveau champ <code class="inline">resume_en</code> dans l'état.</p>
+  </div>
+</section>
+
+<!-- ══════════════════ MODULE 5 -->
+<section id="s5">
+  <div class="section-header">
+    <div class="section-icon icon-orange">🔀</div>
+    <div class="section-title">
+      <h2>Module 5 — Edges Conditionnels</h2>
+      <span class="badge badge-practice">Pratique</span>
+    </div>
+  </div>
+
+  <p>Les arêtes conditionnelles permettent de <strong>router dynamiquement</strong> l'exécution selon l'état courant — le cœur de la logique agentique.</p>
+
+  <h3>Syntaxe de base</h3>
+  <div class="code-block">
+    <div class="code-header">
+      <div class="code-dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div>
+      <span class="code-lang">python</span>
+    </div>
+    <pre><code><span class="cm"># La fonction de routage retourne le nom du prochain nœud</span>
+<span class="kw">def</span> <span class="fn">router</span>(state: <span class="cl">MonEtat</span>) -> str:
+    <span class="kw">if</span> state[<span class="st">"condition"</span>] == <span class="st">"a"</span>:
+        <span class="kw">return</span> <span class="st">"noeud_a"</span>
+    <span class="kw">elif</span> state[<span class="st">"condition"</span>] == <span class="st">"b"</span>:
+        <span class="kw">return</span> <span class="st">"noeud_b"</span>
+    <span class="kw">else</span>:
+        <span class="kw">return</span> END
+
+<span class="cm"># add_conditional_edges(nœud_source, fn_routage, mapping_optionnel)</span>
+graph.add_conditional_edges(
+    <span class="st">"noeud_decision"</span>,
+    router,
+    {
+        <span class="st">"noeud_a"</span>: <span class="st">"noeud_a"</span>,   <span class="cm"># retour → destination</span>
+        <span class="st">"noeud_b"</span>: <span class="st">"noeud_b"</span>,
+        END: END,
+    }
+)</code></pre>
+  </div>
+
+  <h3>🤖 Exemple Complet — Agent ReAct</h3>
+  <p>Implémentons le pattern <strong>Raisonnement → Action → Observation</strong> avec des outils.</p>
+
+  <div class="code-block">
+    <div class="code-header">
+      <div class="code-dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div>
+      <span class="code-lang">python</span>
+    </div>
+    <pre><code><span class="im">from</span> typing <span class="im">import</span> TypedDict, List, Annotated
+<span class="im">from</span> langchain_core.messages <span class="im">import</span> BaseMessage, HumanMessage, AIMessage
+<span class="im">from</span> langchain_core.tools <span class="im">import</span> tool
+<span class="im">from</span> langchain_openai <span class="im">import</span> ChatOpenAI
+<span class="im">from</span> langgraph.graph <span class="im">import</span> StateGraph, END
+<span class="im">from</span> langgraph.graph.message <span class="im">import</span> add_messages
+<span class="im">import</span> json
+
+<span class="cm"># ── État avec accumulateur de messages ──</span>
+<span class="kw">class</span> <span class="cl">AgentState</span>(TypedDict):
+    messages: Annotated[List[<span class="cl">BaseMessage</span>], add_messages]
+    nombre_tours: int
+
+<span class="cm"># ── Outils personnalisés ──</span>
+<span class="de">@tool</span>
+<span class="kw">def</span> <span class="fn">calculer</span>(expression: str) -> str:
+    <span class="st">"""Évalue une expression mathématique Python."""</span>
+    <span class="kw">try</span>:
+        <span class="kw">return</span> str(eval(expression))
+    <span class="kw">except</span> <span class="cl">Exception</span> <span class="kw">as</span> e:
+        <span class="kw">return</span> f<span class="st">"Erreur : {e}"</span>
+
+<span class="de">@tool</span>
+<span class="kw">def</span> <span class="fn">météo</span>(ville: str) -> str:
+    <span class="st">"""Retourne la météo simulée d'une ville."""</span>
+    donnees = {<span class="st">"paris"</span>: <span class="st">"18°C, nuageux"</span>, <span class="st">"lyon"</span>: <span class="st">"22°C, ensoleillé"</span>}
+    <span class="kw">return</span> donnees.get(ville.lower(), <span class="st">"Ville non trouvée"</span>)
+
+outils = [calculer, météo]
+outils_map = {t.name: t <span class="kw">for</span> t <span class="kw">in</span> outils}
+
+<span class="cm"># ── LLM avec outils liés ──</span>
+llm = <span class="cl">ChatOpenAI</span>(model=<span class="st">"gpt-4o-mini"</span>).bind_tools(outils)
+
+<span class="cm"># ── Nœud Agent ──</span>
+<span class="kw">def</span> <span class="fn">agent</span>(state: <span class="cl">AgentState</span>) -> <span class="cl">AgentState</span>:
+    reponse = llm.invoke(state[<span class="st">"messages"</span>])
+    <span class="kw">return</span> {
+        <span class="st">"messages"</span>: [reponse],
+        <span class="st">"nombre_tours"</span>: state[<span class="st">"nombre_tours"</span>] + <span class="nu">1</span>
+    }
+
+<span class="cm"># ── Nœud Outils ──</span>
+<span class="kw">def</span> <span class="fn">executer_outils</span>(state: <span class="cl">AgentState</span>) -> <span class="cl">AgentState</span>:
+    <span class="st">"""Exécute tous les tool_calls du dernier message."""</span>
+    dernier_msg = state[<span class="st">"messages"</span>][-<span class="nu">1</span>]
+    resultats = []
+    <span class="kw">for</span> tool_call <span class="kw">in</span> dernier_msg.tool_calls:
+        outil = outils_map[tool_call[<span class="st">"name"</span>]]
+        resultat = outil.invoke(tool_call[<span class="st">"args"</span>])
+        <span class="im">from</span> langchain_core.messages <span class="im">import</span> ToolMessage
+        resultats.append(<span class="cl">ToolMessage</span>(
+            content=str(resultat),
+            tool_call_id=tool_call[<span class="st">"id"</span>]
+        ))
+    <span class="kw">return</span> {<span class="st">"messages"</span>: resultats}
+
+<span class="cm"># ── Routeur : continuer ou terminer ? ──</span>
+<span class="kw">def</span> <span class="fn">doit_continuer</span>(state: <span class="cl">AgentState</span>) -> str:
+    dernier_msg = state[<span class="st">"messages"</span>][-<span class="nu">1</span>]
+    <span class="cm"># Si l'agent demande des outils → aller aux outils</span>
+    <span class="kw">if</span> hasattr(dernier_msg, <span class="st">"tool_calls"</span>) <span class="kw">and</span> dernier_msg.tool_calls:
+        <span class="kw">return</span> <span class="st">"outils"</span>
+    <span class="cm"># Si trop de tours → sécurité</span>
+    <span class="kw">if</span> state[<span class="st">"nombre_tours"</span>] >= <span class="nu">10</span>:
+        <span class="kw">return</span> END
+    <span class="cm"># Sinon → terminé</span>
+    <span class="kw">return</span> END
+
+<span class="cm"># ── Assemblage ──</span>
+graph = <span class="cl">StateGraph</span>(<span class="cl">AgentState</span>)
+graph.add_node(<span class="st">"agent"</span>,  agent)
+graph.add_node(<span class="st">"outils"</span>, executer_outils)
+
+graph.set_entry_point(<span class="st">"agent"</span>)
+graph.add_conditional_edges(<span class="st">"agent"</span>, doit_continuer)
+graph.add_edge(<span class="st">"outils"</span>, <span class="st">"agent"</span>)  <span class="cm"># boucle retour</span>
+
+app = graph.compile()
+
+<span class="cm"># ── Test ──</span>
+reponse = app.invoke({
+    <span class="st">"messages"</span>: [<span class="cl">HumanMessage</span>(<span class="st">"Quelle est la météo à Paris ? Et combien fait 234 * 567 ?"</span>)],
+    <span class="st">"nombre_tours"</span>: <span class="nu">0</span>
+})
+<span class="fn">print</span>(reponse[<span class="st">"messages"</span>][-<span class="nu">1</span>].content)</code></pre>
+  </div>
+
+  <div class="info-box info-success">
+    <span class="icon">✅</span>
+    <p><code class="inline">add_messages</code> est un <strong>réducteur</strong> spécial : il accumule les messages au lieu de les remplacer. C'est le pattern standard pour les agents conversationnels.</p>
+  </div>
+
+  <div class="exercise">
+    <h3>🎯 Exercice 2</h3>
+    <p>Ajoutez un outil <code class="inline">convertir_devise(montant, de, vers)</code> qui convertit entre EUR, USD et GBP avec des taux fixes. Intégrez-le dans l'agent et testez avec "Convertis 100 EUR en USD et calcule la TVA à 20%".</p>
+  </div>
+</section>
+
+<!-- ══════════════════ MODULE 6 -->
+<section id="s6">
+  <div class="section-header">
+    <div class="section-icon icon-cyan">💾</div>
+    <div class="section-title">
+      <h2>Module 6 — Mémoire & Persistance d'État</h2>
+      <span class="badge badge-practice">Pratique</span>
+    </div>
+  </div>
+
+  <p>LangGraph supporte la <strong>persistance</strong> de l'état entre plusieurs invocations grâce aux <em>checkpointers</em>.</p>
+
+  <h3>Types de Checkpointers</h3>
+  <div class="concept-grid">
+    <div class="concept-card">
+      <div class="icon">🧠</div>
+      <h4>MemorySaver</h4>
+      <p>En mémoire RAM. Simple, rapide, perd tout à l'arrêt.</p>
+    </div>
+    <div class="concept-card">
+      <div class="icon">🗄️</div>
+      <h4>SQLite</h4>
+      <p>Fichier local. Persist entre les runs, idéal en dev.</p>
+    </div>
+    <div class="concept-card">
+      <div class="icon">☁️</div>
+      <h4>Postgres</h4>
+      <p>Base distante. Pour la production multi-utilisateurs.</p>
+    </div>
+    <div class="concept-card">
+      <div class="icon">🔴</div>
+      <h4>Redis</h4>
+      <p>Cache rapide. Idéal pour états temporaires volumineux.</p>
+    </div>
+  </div>
+
+  <h3>Implémentation avec MemorySaver</h3>
+  <div class="code-block">
+    <div class="code-header">
+      <div class="code-dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div>
+      <span class="code-lang">python</span>
+    </div>
+    <pre><code><span class="im">from</span> langgraph.checkpoint.memory <span class="im">import</span> MemorySaver
+<span class="im">from</span> langgraph.graph <span class="im">import</span> StateGraph, END
+<span class="im">from</span> typing <span class="im">import</span> TypedDict, Annotated, List
+<span class="im">from</span> langchain_core.messages <span class="im">import</span> BaseMessage, HumanMessage
+<span class="im">from</span> langgraph.graph.message <span class="im">import</span> add_messages
+<span class="im">from</span> langchain_openai <span class="im">import</span> ChatOpenAI
+
+<span class="kw">class</span> <span class="cl">ConvState</span>(TypedDict):
+    messages: Annotated[List[<span class="cl">BaseMessage</span>], add_messages]
+
+llm = <span class="cl">ChatOpenAI</span>(model=<span class="st">"gpt-4o-mini"</span>)
+
+<span class="kw">def</span> <span class="fn">chatbot</span>(state: <span class="cl">ConvState</span>):
+    <span class="kw">return</span> {<span class="st">"messages"</span>: [llm.invoke(state[<span class="st">"messages"</span>])]}
+
+<span class="cm"># ── Compilation AVEC checkpointer ──</span>
+graph = <span class="cl">StateGraph</span>(<span class="cl">ConvState</span>)
+graph.add_node(<span class="st">"chat"</span>, chatbot)
+graph.set_entry_point(<span class="st">"chat"</span>)
+graph.add_edge(<span class="st">"chat"</span>, END)
+
+memory = <span class="cl">MemorySaver</span>()
+app = graph.compile(checkpointer=memory)
+
+<span class="cm"># ── thread_id = identifiant de conversation ──</span>
+config = {<span class="st">"configurable"</span>: {<span class="st">"thread_id"</span>: <span class="st">"conv-123"</span>}}
+
+<span class="cm"># Tour 1</span>
+r1 = app.invoke(
+    {<span class="st">"messages"</span>: [<span class="cl">HumanMessage</span>(<span class="st">"Je m'appelle Alice."</span>)]},
+    config=config
+)
+<span class="fn">print</span>(r1[<span class="st">"messages"</span>][-<span class="nu">1</span>].content)
+
+<span class="cm"># Tour 2 — L'agent SE SOUVIENT d'Alice !</span>
+r2 = app.invoke(
+    {<span class="st">"messages"</span>: [<span class="cl">HumanMessage</span>(<span class="st">"Quel est mon prénom ?"</span>)]},
+    config=config  <span class="cm"># même thread_id = même mémoire</span>
+)
+<span class="fn">print</span>(r2[<span class="st">"messages"</span>][-<span class="nu">1</span>].content)  <span class="cm"># → "Votre prénom est Alice."</span>
+
+<span class="cm"># Inspecter l'état sauvegardé</span>
+state = app.get_state(config)
+<span class="fn">print</span>(f<span class="st">"Nombre de messages : {len(state.values['messages'])}"</span>)</code></pre>
+  </div>
+
+  <h3>Persistance SQLite (production légère)</h3>
+  <div class="code-block">
+    <div class="code-header">
+      <div class="code-dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div>
+      <span class="code-lang">python</span>
+    </div>
+    <pre><code><span class="im">from</span> langgraph.checkpoint.sqlite <span class="im">import</span> SqliteSaver
+
+<span class="cm"># Persistance sur disque entre les redémarrages</span>
+<span class="kw">with</span> <span class="cl">SqliteSaver</span>.from_conn_string(<span class="st">":memory:"</span>) <span class="kw">as</span> checkpointer:
+    app = graph.compile(checkpointer=checkpointer)
+    <span class="cm"># ...</span>
+
+<span class="cm"># Ou avec un fichier permanent</span>
+<span class="kw">with</span> <span class="cl">SqliteSaver</span>.from_conn_string(<span class="st">"./conversations.db"</span>) <span class="kw">as</span> checkpointer:
+    app = graph.compile(checkpointer=checkpointer)
+    <span class="cm"># Les conversations survivent aux redémarrages !</span></code></pre>
+  </div>
+
+  <div class="exercise">
+    <h3>🎯 Exercice 3</h3>
+    <p>Créez un chatbot qui maintient un compteur de messages par conversation. Après 5 messages, affichez "Résumé de conversation" automatiquement. Utilisez SQLite pour persister entre les sessions.</p>
+  </div>
+</section>
+
+<!-- ══════════════════ MODULE 7 -->
+<section id="s7">
+  <div class="section-header">
+    <div class="section-icon icon-red">⏸️</div>
+    <div class="section-title">
+      <h2>Module 7 — Human-in-the-Loop</h2>
+      <span class="badge badge-advanced">Avancé</span>
+    </div>
+  </div>
+
+  <p>LangGraph permet d'<strong>interrompre</strong> l'exécution pour validation humaine, modifier l'état, puis reprendre — sans perdre le contexte.</p>
+
+  <h3>Pattern : Interruption pour Validation</h3>
+  <div class="code-block">
+    <div class="code-header">
+      <div class="code-dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div>
+      <span class="code-lang">python</span>
+    </div>
+    <pre><code><span class="im">from</span> langgraph.checkpoint.memory <span class="im">import</span> MemorySaver
+<span class="im">from</span> langgraph.graph <span class="im">import</span> StateGraph, END
+<span class="im">from</span> typing <span class="im">import</span> TypedDict
+
+<span class="kw">class</span> <span class="cl">WorkflowState</span>(TypedDict):
+    tache: str
+    plan: str
+    validation_humaine: bool
+    resultat: str
+
+<span class="kw">def</span> <span class="fn">planifier</span>(state: <span class="cl">WorkflowState</span>):
+    <span class="st">"""L'IA génère un plan."""</span>
+    <span class="fn">print</span>(f<span class="st">"[PLANIFICATION] Tâche : {state['tache']}"</span>)
+    plan = f<span class="st">"Plan généré pour '{state['tache']}' : Étape1 → Étape2 → Étape3"</span>
+    <span class="kw">return</span> {<span class="st">"plan"</span>: plan, <span class="st">"validation_humaine"</span>: <span class="kw">False</span>}
+
+<span class="kw">def</span> <span class="fn">executer</span>(state: <span class="cl">WorkflowState</span>):
+    <span class="st">"""Exécute après validation."""</span>
+    <span class="fn">print</span>(f<span class="st">"[EXÉCUTION] Plan validé, démarrage..."</span>)
+    <span class="kw">return</span> {<span class="st">"resultat"</span>: f<span class="st">"✅ Tâche '{state['tache']}' accomplie !"</span>}
+
+graph = <span class="cl">StateGraph</span>(<span class="cl">WorkflowState</span>)
+graph.add_node(<span class="st">"planifier"</span>, planifier)
+graph.add_node(<span class="st">"executer"</span>,  executer)
+graph.set_entry_point(<span class="st">"planifier"</span>)
+graph.add_edge(<span class="st">"planifier"</span>, <span class="st">"executer"</span>)
+graph.add_edge(<span class="st">"executer"</span>,  END)
+
+memory = <span class="cl">MemorySaver</span>()
+
+<span class="cm"># interrupt_before = liste des nœuds où s'arrêter</span>
+app = graph.compile(
+    checkpointer=memory,
+    interrupt_before=[<span class="st">"executer"</span>]  <span class="cm"># ← pause avant exécution</span>
+)
+
+config = {<span class="st">"configurable"</span>: {<span class="st">"thread_id"</span>: <span class="st">"job-001"</span>}}
+
+<span class="cm"># ── Lancement : s'arrête avant "executer" ──</span>
+app.invoke({<span class="st">"tache"</span>: <span class="st">"Déployer en production"</span>}, config=config)
+
+state = app.get_state(config)
+<span class="fn">print</span>(f<span class="st">"⏸️  Pause ! Plan proposé :\n{state.values['plan']}"</span>)
+<span class="fn">print</span>(f<span class="st">"Prochain nœud : {state.next}"</span>)
+
+<span class="cm"># ── L'humain valide (ou modifie l'état) ──</span>
+validation = input(<span class="st">"\nValider ce plan ? (o/n) : "</span>)
+
+<span class="kw">if</span> validation.lower() == <span class="st">"o"</span>:
+    <span class="cm"># Reprendre depuis là où on s'est arrêté</span>
+    resultat = app.invoke(<span class="kw">None</span>, config=config)
+    <span class="fn">print</span>(resultat[<span class="st">"resultat"</span>])
+<span class="kw">else</span>:
+    <span class="cm"># Modifier l'état avant de reprendre</span>
+    app.update_state(config, {<span class="st">"plan"</span>: <span class="st">"Plan alternatif : Étape1 seulement"</span>})
+    resultat = app.invoke(<span class="kw">None</span>, config=config)
+    <span class="fn">print</span>(<span class="st">"Exécuté avec plan modifié :"</span>, resultat[<span class="st">"resultat"</span>])</code></pre>
+  </div>
+
+  <div class="info-box info-tip">
+    <span class="icon">💡</span>
+    <p>Utilisez <code class="inline">interrupt_after</code> pour interrompre <em>après</em> l'exécution d'un nœud (pour inspection), et <code class="inline">interrupt_before</code> pour valider <em>avant</em> une action critique.</p>
+  </div>
+</section>
+
+<!-- ══════════════════ MODULE 8 -->
+<section id="s8">
+  <div class="section-header">
+    <div class="section-icon icon-pink">🤝</div>
+    <div class="section-title">
+      <h2>Module 8 — Systèmes Multi-Agents</h2>
+      <span class="badge badge-advanced">Avancé</span>
+    </div>
+  </div>
+
+  <p>LangGraph excelle pour orchestrer plusieurs agents spécialisés qui collaborent sur des tâches complexes.</p>
+
+  <h3>Architecture Superviseur → Agents</h3>
+  <div class="code-block">
+    <div class="code-header">
+      <div class="code-dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div>
+      <span class="code-lang">python</span>
+    </div>
+    <pre><code><span class="im">from</span> typing <span class="im">import</span> TypedDict, List, Literal
+<span class="im">from</span> langchain_openai <span class="im">import</span> ChatOpenAI
+<span class="im">from</span> langgraph.graph <span class="im">import</span> StateGraph, END
+
+llm = <span class="cl">ChatOpenAI</span>(model=<span class="st">"gpt-4o"</span>)
+
+<span class="kw">class</span> <span class="cl">TeamState</span>(TypedDict):
+    tache: str
+    resultats: List[str]
+    prochain_agent: str
+    tour: int
+
+<span class="cm"># ── Agent Chercheur ──</span>
+<span class="kw">def</span> <span class="fn">agent_recherche</span>(state: <span class="cl">TeamState</span>) -> <span class="cl">TeamState</span>:
+    reponse = llm.invoke([{
+        <span class="st">"role"</span>: <span class="st">"system"</span>, <span class="st">"content"</span>: <span class="st">"Tu es un expert en recherche. Trouve des informations précises."</span>
+    }, {
+        <span class="st">"role"</span>: <span class="st">"user"</span>, <span class="st">"content"</span>: f<span class="st">"Recherche : {state['tache']}"</span>
+    }])
+    <span class="kw">return</span> {
+        <span class="st">"resultats"</span>: state[<span class="st">"resultats"</span>] + [f<span class="st">"🔍 RECHERCHE: {reponse.content[:200]}"</span>],
+        <span class="st">"tour"</span>: state[<span class="st">"tour"</span>] + <span class="nu">1</span>
+    }
+
+<span class="cm"># ── Agent Rédacteur ──</span>
+<span class="kw">def</span> <span class="fn">agent_redaction</span>(state: <span class="cl">TeamState</span>) -> <span class="cl">TeamState</span>:
+    contexte = <span class="st">"\n"</span>.join(state[<span class="st">"resultats"</span>])
+    reponse = llm.invoke([{
+        <span class="st">"role"</span>: <span class="st">"system"</span>, <span class="st">"content"</span>: <span class="st">"Tu es un expert en rédaction claire et concise."</span>
+    }, {
+        <span class="st">"role"</span>: <span class="st">"user"</span>, <span class="st">"content"</span>: f<span class="st">"Rédige un rapport sur '{state['tache']}' en utilisant : {contexte}"</span>
+    }])
+    <span class="kw">return</span> {
+        <span class="st">"resultats"</span>: state[<span class="st">"resultats"</span>] + [f<span class="st">"✍️  RAPPORT: {reponse.content[:300]}"</span>],
+        <span class="st">"tour"</span>: state[<span class="st">"tour"</span>] + <span class="nu">1</span>
+    }
+
+<span class="cm"># ── Superviseur ──</span>
+<span class="kw">def</span> <span class="fn">superviseur</span>(state: <span class="cl">TeamState</span>) -> <span class="cl">TeamState</span>:
+    <span class="st">"""Décide quel agent appeler ou si le travail est terminé."""</span>
+    <span class="kw">if</span> state[<span class="st">"tour"</span>] == <span class="nu">0</span>:
+        <span class="kw">return</span> {<span class="st">"prochain_agent"</span>: <span class="st">"recherche"</span>}
+    <span class="kw">elif</span> state[<span class="st">"tour"</span>] == <span class="nu">1</span>:
+        <span class="kw">return</span> {<span class="st">"prochain_agent"</span>: <span class="st">"redaction"</span>}
+    <span class="kw">else</span>:
+        <span class="kw">return</span> {<span class="st">"prochain_agent"</span>: <span class="st">"FINI"</span>}
+
+<span class="kw">def</span> <span class="fn">router_superviseur</span>(state: <span class="cl">TeamState</span>) -> str:
+    <span class="kw">return</span> state[<span class="st">"prochain_agent"</span>]  <span class="cm"># "recherche", "redaction", ou "FINI"</span>
+
+<span class="cm"># ── Construction du graphe ──</span>
+graph = <span class="cl">StateGraph</span>(<span class="cl">TeamState</span>)
+graph.add_node(<span class="st">"superviseur"</span>, superviseur)
+graph.add_node(<span class="st">"recherche"</span>,   agent_recherche)
+graph.add_node(<span class="st">"redaction"</span>,   agent_redaction)
+
+graph.set_entry_point(<span class="st">"superviseur"</span>)
+graph.add_conditional_edges(
+    <span class="st">"superviseur"</span>,
+    router_superviseur,
+    {<span class="st">"recherche"</span>: <span class="st">"recherche"</span>, <span class="st">"redaction"</span>: <span class="st">"redaction"</span>, <span class="st">"FINI"</span>: END}
+)
+graph.add_edge(<span class="st">"recherche"</span>, <span class="st">"superviseur"</span>)
+graph.add_edge(<span class="st">"redaction"</span>, <span class="st">"superviseur"</span>)
+
+app = graph.compile()
+
+<span class="cm"># Lancement</span>
+final = app.invoke({
+    <span class="st">"tache"</span>: <span class="st">"Les avantages de LangGraph pour la production IA"</span>,
+    <span class="st">"resultats"</span>: [],
+    <span class="st">"prochain_agent"</span>: <span class="st">""</span>,
+    <span class="st">"tour"</span>: <span class="nu">0</span>
+})
+<span class="kw">for</span> r <span class="kw">in</span> final[<span class="st">"resultats"</span>]:
+    <span class="fn">print</span>(r[:100], <span class="st">"..."</span>)</code></pre>
+  </div>
+
+  <h3>🎯 Projet Final — Assistant Complet</h3>
+  <div class="exercise">
+    <h3>🏆 Projet : Agent Analyste de Données</h3>
+    <p>Construisez un système complet avec :</p>
+    <p>✦ <strong>Agent Collecteur</strong> — Récupère des données (CSV, API)</p>
+    <p>✦ <strong>Agent Analyste</strong> — Calcule des statistiques avec des outils Python</p>
+    <p>✦ <strong>Agent Visualisateur</strong> — Génère des descriptions de graphiques</p>
+    <p>✦ <strong>Superviseur</strong> — Orchestre le flux selon la complexité de la demande</p>
+    <p>✦ <strong>Human-in-the-loop</strong> — Validation avant la publication du rapport final</p>
+    <p>✦ <strong>Mémoire SQLite</strong> — Historique des analyses par projet</p>
+  </div>
+
+  <h3>📋 Récapitulatif des Patterns LangGraph</h3>
+  <table>
+    <tr><th>Pattern</th><th>Quand l'utiliser</th><th>Composants clés</th></tr>
+    <tr><td>🔗 Chaîne linéaire</td><td>Pipeline simple, étapes séquentielles</td><td>add_edge, END</td></tr>
+    <tr><td>🔁 Agent ReAct</td><td>Accès à des outils, raisonnement itératif</td><td>add_conditional_edges, boucle</td></tr>
+    <tr><td>💾 Mémoire</td><td>Conversations multi-tours</td><td>MemorySaver, thread_id</td></tr>
+    <tr><td>⏸️ Human-in-loop</td><td>Actions critiques, validation</td><td>interrupt_before, update_state</td></tr>
+    <tr><td>🤝 Multi-agent</td><td>Tâches complexes, spécialisation</td><td>Superviseur, sous-graphes</td></tr>
+  </table>
+
+  <div class="info-box info-success">
+    <span class="icon">🚀</span>
+    <p><strong>Pour aller plus loin :</strong> Consultez <code class="inline">LangGraph Studio</code> pour visualiser vos graphes en temps réel, et <code class="inline">LangGraph Cloud</code> pour déployer vos agents en production avec monitoring intégré.</p>
+  </div>
+</section>
+
+</main>
+</div>
+
+</body>
+</html>

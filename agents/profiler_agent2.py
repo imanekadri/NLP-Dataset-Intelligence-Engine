@@ -1,39 +1,55 @@
 import os
 import json
+import shutil
 import numpy as np
 from collections import Counter
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 from sentence_transformers import SentenceTransformer
+from bertopic import BERTopic
 from langdetect import detect
 
 from core.config import agent2_config as config
 from core.utils import detect_structure, calculate_noise_ratio
 
-
 def run_agent2(state):
 
     os.makedirs(config.OUTPUT_DIR, exist_ok=True)
 
+    extracted_files = state.get("extracted_files", [])
     raw_docs = state.get("raw_docs", [])
 
-    if not raw_docs:
-        print("[Agent2] No documents found.")
+    if not extracted_files:
+        print("[Agent2] No extracted files found from Agent1.")
         return state
 
     texts = []
     doc_ids = []
+    doc_metadata = []  
 
-    for doc in raw_docs:
+    for i, file_path in enumerate(extracted_files):
         try:
-            with open(doc["extracted_path"], "r", encoding="utf-8") as f:
+            with open(file_path, "r", encoding="utf-8") as f:
                 text = f.read()
 
             texts.append(text)
-            doc_ids.append(doc["doc_id"])
+
+             ###
+            doc_id = None
+            for doc in raw_docs:
+                if doc.get("extracted_path") == file_path:
+                    doc_id = doc.get("doc_id")
+                    doc_metadata.append(doc)
+                    break
+
+            if not doc_id:
+                doc_id = f"doc_{i}"
+                doc_metadata.append({"doc_id": doc_id, "extracted_path": file_path})
+
+            doc_ids.append(doc_id)
 
         except Exception as e:
-            print(f"Error reading {doc['doc_id']}: {e}")
+            print(f"Error reading {file_path}: {e}")
 
     print("[Agent2] Generating embeddings...")
 
@@ -41,12 +57,10 @@ def run_agent2(state):
     embeddings = model.encode(texts, batch_size=config.EMBEDDING_BATCH_SIZE)
 
     # ----------------- Clustering -----------------
-
     kmeans = KMeans(
         n_clusters=min(config.NUM_CLUSTERS, len(texts)),
         random_state=config.RANDOM_STATE
     )
-
     labels = kmeans.fit_predict(embeddings)
     sil_score = silhouette_score(embeddings, labels)
 
@@ -57,41 +71,55 @@ def run_agent2(state):
     with open(config.CLUSTER_REPORT, "w", encoding="utf-8") as f:
         json.dump(clusters, f, indent=2, ensure_ascii=False)
 
-    # ----------------- Outliers -----------------
+    # --- BERTopic ---
+    print("[Agent2] Extracting topics with BERTopic...")
+    topic_model = BERTopic(language="multilingual")
+    topics, _ = topic_model.fit_transform(texts, embeddings=embeddings)
 
+    topic_info = topic_model.get_topic_info()
+    cluster_topics = {}
+    for row in topic_info.itertuples():
+        if row.Topic != -1:
+            cluster_topics[str(row.Topic)] = [word for word, _ in topic_model.get_topic(row.Topic)[:5]]
+
+    # --- Organize Physical Categories ---
+    categories_dir = config.CATEGORIES_DIR
+    if os.path.exists(categories_dir):
+        shutil.rmtree(categories_dir)
+    os.makedirs(categories_dir, exist_ok=True)
+
+    for i, label in enumerate(labels):
+        cluster_id = str(label)
+        cluster_folder = os.path.join(categories_dir, f"cluster_{cluster_id}")
+        os.makedirs(cluster_folder, exist_ok=True)
+
+        doc_info = doc_metadata[i]
+        shutil.copy2(
+            doc_info["extracted_path"],
+            os.path.join(cluster_folder, os.path.basename(doc_info["extracted_path"]))
+        )
+
+    # ----------------- Outliers -----------------
     distances = kmeans.transform(embeddings)
     min_distances = np.min(distances, axis=1)
     threshold = np.percentile(min_distances, 95)
-
-    outliers = [
-        doc_ids[i]
-        for i, d in enumerate(min_distances)
-        if d > threshold
-    ]
+    outliers = [doc_ids[i] for i, d in enumerate(min_distances) if d > threshold]
 
     # ----------------- Noise + Structure -----------------
-
     noise_scores = []
     dialogue_count = 0
     code_count = 0
     languages = []
 
     for text in texts:
-
         noise_scores.append(calculate_noise_ratio(text))
-
         dialogue, code = detect_structure(text)
-
-        if dialogue:
-            dialogue_count += 1
-        if code:
-            code_count += 1
-
+        dialogue_count += int(dialogue)
+        code_count += int(code)
         try:
             lang = detect(text[:2000])
         except:
             lang = "unknown"
-
         languages.append(lang)
 
     avg_noise = float(np.mean(noise_scores))
@@ -100,7 +128,6 @@ def run_agent2(state):
     language_distribution = dict(Counter(languages))
 
     # ----------------- Dataset Type -----------------
-
     if dialogue_ratio > 0.4:
         dataset_type = "chat_dataset"
     elif code_ratio > 0.3:
@@ -111,7 +138,6 @@ def run_agent2(state):
         dataset_type = "mixed_dataset"
 
     # ----------------- Profile -----------------
-
     dataset_profile = {
         "probable_dataset_type": dataset_type,
         "total_documents": len(texts),
@@ -129,19 +155,21 @@ def run_agent2(state):
     with open(config.DATASET_PROFILE, "w", encoding="utf-8") as f:
         json.dump(dataset_profile, f, indent=2, ensure_ascii=False)
 
-    intelligent_summary = {   # BERTopic
-    "probable_dataset_type": dataset_profile["probable_dataset_type"],
-    "cluster_sizes": dataset_profile["cluster_sizes"],
-    "anomalies": dataset_profile["anomalies"]
-}
+    intelligent_summary = {
+        "probable_dataset_type": dataset_profile["probable_dataset_type"],
+        "cluster_sizes": dataset_profile["cluster_sizes"],
+        "topics_per_cluster": cluster_topics,
+        "anomalies": dataset_profile["anomalies"]
+    }
 
     with open(config.TOPIC_REPORT, "w", encoding="utf-8") as f:
-     json.dump(intelligent_summary, f, indent=2, ensure_ascii=False)
+        json.dump(intelligent_summary, f, indent=2, ensure_ascii=False)
 
-    print("[Agent2] Analysis complete.")
+    print(f"[Agent2] Analysis complete. Physical files organized in {categories_dir}")
 
     return {
         **state,
         "dataset_profile": dataset_profile,
-        "clusters": clusters
+        "clusters": clusters,
+        "categories": categories_dir
     }
