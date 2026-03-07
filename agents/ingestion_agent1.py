@@ -18,14 +18,27 @@ import logging
 embedding_model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
 kw_model = KeyBERT(model=embedding_model)
 
-
+def chunk_text(text, chunk_size=500):
+    words = text.split()
+    for i in range(0, len(words), chunk_size):
+        yield " ".join(words[i:i + chunk_size])
 # ==========================
 # Semantic Topic Keyword Extraction
 # ==========================
-
 def _extract_keywords(text, top_n=7):
     if not text or len(text.strip()) < 200:
         return []
+
+    # For very large text, disable MMR and chunk
+    if len(text.split()) > 2000:
+        all_keywords = set()
+        for chunk in chunk_text(text, chunk_size=500):
+            try:
+                kws = kw_model.extract_keywords(chunk, top_n=5, use_mmr=False)
+                all_keywords.update([kw[0] for kw in kws])
+            except Exception as e:
+                logging.warning(f"Keyword extraction failed for chunk: {e}")
+        return list(all_keywords)[:top_n]
 
     try:
         keywords = kw_model.extract_keywords(

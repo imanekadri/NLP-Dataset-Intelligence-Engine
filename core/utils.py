@@ -39,6 +39,7 @@ def get_reader():
     if ocrReader is None:
         print("Loading EasyOCR model...")
         ocrReader = easyocr.Reader(['ar','en'], gpu=False)
+        print("ended EasyOCR model...")
     return ocrReader
 def extract_text_from_file(file_path, encodings_to_try):
     """Extract text from any supported file type"""
