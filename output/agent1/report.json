@@ -1,20 +1,20 @@
 {
   "agent": "TextIngestionAgent",
-  "timestamp": "2026-03-05T10:51:13.129032",
+  "timestamp": "2026-03-06T07:57:24.693461",
   "stats": {
     "total_docs": 128,
     "languages": [
       "ar",
-      "ca",
-      "en"
+      "en",
+      "ca"
     ],
     "formats": [
-      ".html",
-      ".json",
       ".png",
+      ".json",
       ".jpg",
+      ".pdf",
       ".csv",
-      ".pdf"
+      ".html"
     ],
     "duplicates": 2,
     "avg_length": 86573,
