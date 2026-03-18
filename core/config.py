@@ -39,6 +39,7 @@ class Agent2Config:
     DATASET_PROFILE = os.path.join(OUTPUT_DIR, "dataset_profile.json")
     CLUSTER_REPORT = os.path.join(OUTPUT_DIR, "clusters.json")
     TOPIC_REPORT = os.path.join(OUTPUT_DIR, "topics.json")
+    TRACE_CSV2 = os.path.join(OUTPUT_DIR, "trace_index.csv")
 
     # Embeddings
     MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"

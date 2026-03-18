@@ -7,6 +7,7 @@ from PIL import Image
 import PyPDF2
 from pdf2image import convert_from_path
 from docx import Document
+import hashlib
 
 import json
 import re
@@ -194,7 +195,16 @@ def extract_html_metadata(file_path, encodings_to_try):
         except Exception:
             continue
     return {}
+# ==========================
+# Hash Function
+# ==========================
 
+def _hash_file(path):
+    h = hashlib.md5()
+    with open(path, "rb") as f:
+        for chunk in iter(lambda: f.read(4096), b""):
+            h.update(chunk)
+    return h.hexdigest()
 
 ########## agent2 ###################
 

@@ -1,33 +1,24 @@
 {
   "probable_dataset_type": "multilingual_dataset",
-  "total_documents": 132,
+  "total_documents": 129,
+  "topics_detected": [
+    "unknown_topic",
+    "accounting_accountant",
+    "accountant_skills"
+  ],
   "cluster_sizes": {
-    "4": 4,
-    "0": 6,
-    "2": 4,
-    "1": 77,
-    "3": 41
+    "unknown_topic": 63,
+    "accounting_accountant": 43,
+    "accountant_skills": 23
   },
-  "clustering_quality_score": 0.0357,
-  "avg_noise_ratio": 0.0469,
+  "avg_noise_ratio": 0.0456,
   "dialogue_ratio": 0.0,
-  "code_ratio": 0.0379,
+  "code_ratio": 0.031,
   "language_distribution": {
     "cy": 1,
-    "en": 125,
+    "en": 123,
     "ca": 1,
-    "fr": 2,
+    "fr": 1,
     "ar": 3
-  },
-  "anomalies": {
-    "embedding_outliers": [
-      "doc_1",
-      "doc_5",
-      "doc_7",
-      "doc_10",
-      "doc_11",
-      "doc_16",
-      "doc_80"
-    ]
   }
 }

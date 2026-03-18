@@ -28,7 +28,7 @@ Community support: large community and active development
 Applications of python
 Data Science & Machine Learning: Pandas NumPy Scikit learn  TensorFlow PyTorch.
 Web Development: Django Flask FastAPl
-Automation & Scripting: automating repetitive tasks, data processing
+Automation & Scripting: automating repetitive tasks, data processing 
 Software Development: building applications games and tools
 2. Installing Python
 Advanced PYTHONf or Data Science

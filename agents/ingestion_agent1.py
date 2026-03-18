@@ -6,7 +6,7 @@ from datetime import datetime
 from langdetect import detect
 from keybert import KeyBERT
 from sentence_transformers import SentenceTransformer
-from core.utils import extract_text_from_file, extract_html_metadata
+from core.utils import extract_text_from_file, extract_html_metadata , _hash_file
 from core.config import agent1_config as config
 import logging
 import yake
@@ -106,16 +106,7 @@ def extract_keywords(text, top_n=10):
 #         logging.warning(f"Keyword extraction failed: {e}")
 #         return []
 
-# ==========================
-# Hash Function
-# ==========================
 
-def _hash_file(path):
-    h = hashlib.md5()
-    with open(path, "rb") as f:
-        for chunk in iter(lambda: f.read(4096), b""):
-            h.update(chunk)
-    return h.hexdigest()
 
 
 # ==========================
@@ -143,6 +134,7 @@ def run_ingestion(state):
                 continue
 
             file_path = os.path.join(root, file)
+            doc_name = os.path.splitext(os.path.basename(file_path))[0]
 
             try:
                 file_hash = _hash_file(file_path)
@@ -187,6 +179,7 @@ def run_ingestion(state):
                 lang = "unknown"
 
             keywords = extract_keywords(text)
+            keywords_with_doc = [doc_name] + keywords
             trace_info = {
                 "doc_id": file_id,
                 "origin_path": file_path,
@@ -197,7 +190,7 @@ def run_ingestion(state):
                 "char_count": len(text),
                 "timestamp": datetime.now().isoformat(),
                 "metadata": html_meta,
-                "key_words": keywords,
+                "key_words":  keywords_with_doc,
             }
 
             if ext in ['.html', '.htm'] and html_meta.get('json_ld'):

@@ -1,130 +1,147 @@
-SENIOR ACCOUNTANT
-Experience
+INVESTMENT ACCOUNTANT
+Career Focus
+Accomplished and results oriented Investment professional with strong leadership and interpersonal skills who adds energy and value to an
+organization's quest for excellence.
+Summary of Skills
+Internet and Microsoft Office - MS Word, MS Power Point, MS Excel, Pivot Tables, Spreadsheets,
+Macros.
+* Business Objects, Lombardi, Eagle Accounting System, PEGA, DRAS, Workbench.
+Account reconciliations
+Detail-oriented
+Variance analysis
+Detail-oriented
+Analytical
+Expert in MS Office Suite
+Account reconciliation expert
+Effective time management
+Complex problem solving
+Superior research skills
+Accomplishments
+Multiple awards for performance.Formally recognized for excellence achieved in financial analysis, budgeting and forecasting.Increased efficiency
+of discrepancy investigations by [Number]% by designing a more accurate cash-forecasting system.
+Professional Experience
 Company Name
  
-June 2011
- 
-to 
-Current
- 
-Senior Accountant
- 
 City
  
 , 
 State
-Prepare quarterly and annual financial statements for 17 multi-family communities for distribution to investors and financial institutions.
-Reconcile and account for all activity on the income statement and balance sheet including cash, fixed assets, derivatives, equity, and
-property debt.
-Coordinate and review work of external audit firms.
-Initiate capital calls and distributions for investors.
-Manage budgets and construction loan activity for approximately $100,000,000 in active construction projects in FL, MA, and MD.
+ 
+Investment Accountant
+ 
+10/2012
+ 
+to 
+11/2015
+Reconciled mutual fund accounts with the custody Identified and Resolved differences in Custody and Accounting Cash, Currency and
+Positions using Eagle, IAX, Business Objects, Lombardi and Workbench Reports Communicated and Collaborated with other areas in the
+firm, client, fund accountant, custodians that are impacted by the functions of the team Conducted weekly client meetings and act as liaison
+between Accounting and custody to resolve any outstanding items in cash, currency and positions.
+Completed special projects from the management as needed Trained, Oversee and assisted staff in offshore team (Pune, India) and acted as
+a liaison between Pune Office and US.
+Helped US team by performing tests on Pega Vs.
+Business Objects and Eagle during the Platform Migration Trained new staff and assist them as needed to meet the department goals.
+Ran daily reports for fund accountants using business objects and MS Database.
+Award: 
+Received a special achievement award at BNY Mellon Bank in Asset Servicing 
+(Dec 2013) Award: Received a special
+achievement award at BNY Mellon Bank in Asset Servcing (Dec 2014.
 Company Name
  
-March 2010
- 
-to 
-June 2011
- 
-Associate Fund Controller
- 
 City
  
 , 
 State
-Performed quarterly and annual close procedures for MSREF (Morgan Stanley Real Estate Funds) 6I, the largest international real estate
-investment fund to date with $8 billion of partnership assets, and draft financial statements distributed directly to fund investors.
-Lead quarterly management fee process by performing work to draft approximately $14,000,000 in bills to fund Partners.
-Develop work plan to ensure deadlines are met, test results, delegate work to other Fund Controllers, and perform detailed review of their
-work.
-Lead MSREF 6I initiative to implement reinvestment of proceeds (ROP) methodology to reallocate approximately $120,000,000 in cash
-to-date amongst investments with deficient cash balances to cover contributions and expenses.
-Write formulas to analyze cash movement in Microsoft Excel and assist four Information Technology Vice Presidents in programming the
-partner capital sub ledger system to calculate the movement and test results.
-Wrote standard operating procedures memo for ROP to train team members.
+ 
+AML Compliance Officer
+ 
+11/2011
+ 
+to 
+03/2012
+Audited customer's bank accounts in the company's system Performed quality assurance reviews on customer information maintained on
+various bank systems Reconciled the quality assurance results on spreadsheets Performed background search on clients using tools such as
+world check and google search Finance Projects at UD Project 1: Group simulation project to develop the investment philosophy and
+strategy to drive a simulated investment of $1,000,000 using Stock-Track.
+Invested about 50% of our funds in moderate to high-risk investment in order to achieve capital appreciation; Invested about 25% of our
+funds in low to moderate risk investment in order to preserve our capital.
+Invested 25% of our funds in derivatives and rest in index fund, cash and money market.
+Performed an analysis to determine the allocation of stocks by minimizing CV and graphed the daily returns for each stocks Performed
+regression analysis and analyzed the regression statistics on weekly returns.
+Performed an analysis on our group's portfolio with the market and with other groups.
+Case analysis on Price Momentum Strategy Used price momentum model analysis to test whether the price momentum model will work on
+US stock market as it did with the US Canadian stocks.
+Used the weighted annual returns and created the worst outlook portfolio and the best outlook portfolio Selected the top eight performing
+stocks for each quarter to create the best outlook portfolio and compared to the market to determine if the pricing momentum would hold
+up.
+Calculated the average return for each portfolio and rebalanced the portfolio and compared to the S&P 500 for each quarter within the
+same time period.
 Company Name
  
-June 2007
- 
-to 
-March 2010
- 
-Advisory, Forensic and Audit Associate
- 
 City
  
 , 
 State
-Performed research to locate red flags in numerous potential fraudulent mortgages at one of the largest bank failures in U.S.
-history.
-Developed writing skills by drafting over forty memorandums that summarized potential fraud in loans that were presented to multiple
-agencies of the Government.
-Wrote a thirty-five page corporate intelligence narrative explaining personal and Professional relationships of an individual under
-investigation.
-These tasks assisted the FBI in arresting the individual, suspected of orchestrating a two billion dollar mortgage fraud scheme.
-Performed substantive test work, analytical procedures, and testing of controls at multiple audit clients, including leading the sales and
-inventory test work of an international company with approximately one billion in annual sales.
-Audited cash, receivables, investments, inventory, payables, property, debt, equity, revenue, cost of goods sold, and expenses.
-Analyzed audit client's major accounting processes, identified control weaknesses, and recommended solutions and improvements.
-Worked on multiple phases, including fraud investigations and data analytics, of a high profile engagement involving the largest natural
-disaster relief fund in United States history and was the first to analyze, discuss, and research a series of fraud allegations received from an
-anonymous telephone hotline that lead to a new, lasting client relationship with the Federal government.
-Analyzed a series of bank accounts owned by over twenty customers of a large, domestic bank to determine the amount of funds stolen and
-trace illicit transfers made by a bank employee from each account in a multi-million dollar fraud scheme.
-August 2006
+ 
+Medical Technologist
+ 
+07/2008
  
 to 
-May 2007
- 
-Accounting Tutor 
-Sole Proprietorship
- 
-City
- 
-, 
-State
-Held private sessions to teach financial accounting to over 25 individual client needs and wrote practice questions which resulted in grade
-improvement amongst all clients, including one who increased his exam performance by 35 percentage points after sessions.
+03/2012
+Clinical Microbiology Experience - Highlights include ordering, processing, plating and culturing patient's specimens Tests - Performing
+rapid tests such as Rapid flu, C.Diff quick check and many more; Performing rapid and confirmatory tests to identify organism; Reading
+Gram stain slides.
+Other - Performing daily maintenance and running quality control on instruments.
 Education
-EMORY UNIVERSITY, Goizueta Business School
+Master of Business Administration
  
-5 2007
+:
  
-Bachelor of Business Administration
+Finance
  
-: 
-Accounting
+2011
  
+University of Delaware
+ 
+, 
 City
  
 , 
 State
  
-GPA: 
-GPA: 3.63/4.0
-GPA: 3.77/4.0
+, 
+USA
+Finance
+Bachelor of Science
  
-Accounting GPA: 3.63/4.0 GPA: 3.77/4.0
-Interests
-Fulton County CASA Board of Directors Member, Treasurer. 
-Plan fund raisers, review budget and financial statements, and supervise CASA
-staff in not-for-profit organization that trains volunteers to mentor children being pulled from their homes through the Fulton County court system
-for abuse and neglect. 
-CPA, Hold an active Georgia license and scored between 87 and 93 out of a possible 99 on each of the four sections of the
-CPA exam. CFE, Certified Fraud Examiner, which
-Skills
-accounting, balance sheet, budgets, client, clients, derivatives, drafting, equity, financial, financial accounting, financial statements, fixed assets,
-Funds, Government, Information Technology, inventory, investments, ledger, MA, Microsoft Excel, natural, page, payables, processes,
-programming, Real Estate, research, sales, scheme, telephone, writing skills
+:
+ 
+Medical Technology
+ 
+2008
+ 
+University of Delaware
+ 
+, 
+City
+ 
+, 
+State
+ 
+, 
+USA
+Medical Technology
+Related course work in Business: Financial Reporting and Analysis, Financial Management, Corporate Financial Policies, Investment Analysis and
+Portfolio Management, Corporate Governance, Financial Engineering and Risk Management (Derivatives).
+Languages
+English, Marathi, Hindi, Gujarati
+Personal Information
+Excellent multitasking, analytical thinking, time management, negotiation, communication, organization 
+and leadership skills
 Additional Information
-COMMUNITY SERVICE, CERTIFICATIONS AND AWARDS Fulton County CASA Board of Directors Member, Treasurer. 
-Plan
-fund raisers, review budget and financial statements, and supervise CASA staff in not-for-profit organization that trains volunteers to mentor
-children being pulled from their homes through the Fulton County court system for abuse and neglect. CPA, Hold an active Georgia license
-and scored between 87 and 93 out of a possible 99 on each of the four sections of the CPA exam. CFE, Certified Fraud Examiner, which
-requires passing four exams and two years work experience in preventing and detecting fraud. Recipient, 2007 John R. Jones Accounting
-Award. 
-Given annually by vote of Emory University Professors to recognize the top performing senior year student in academia, community
-involvement, and character. Recipient, 2006 Ben Pius Award. 
-Awarded by Emory Professors to recognize exceptional achievements by the
-highest performing junior year accounting student at Emory University.
+Excellent multitasking, analytical thinking, time management, negotiation, communication, organization 
+and leadership skills
+Skills
+MS Office: Database, Macros, V-look up, Pivot tables, Outlook
+Company Platforms: Business Objects, Workbench, Eagle, Pega, Lombardi, DRAS.
