@@ -1,150 +1,114 @@
-STAFF ACCOUNTANT
+ACCOUNTANT
 Summary
-SkilledÂ Accountant successful at managing multiple projects and consistently meeting deadlines under pressure. Extensive knowledge of
-accounting software and processes.Â Additional ba
- ckground in payroll, employee management, hiring, training and benefits. Highly detail-oriented
-and organized.
+Financial Accountant specializing in financial planning, reporting and analysis in both private and public sectors.Capable Accountant successful at
+managing multiple projects and consistently meeting deadlines under pressure. Extensive knowledge of accounting software and processes.
 Highlights
-Financial statement analysis
 Account reconciliation expert
 General ledger accounting
-Effective time management
-Strong organizational skills
+working on SAP tool and HFM
+Account payable Specialist
+Auditing
+Expert in customer relations
 Flexible team player
+Compliance testing knowledge
+Accomplishments
+Achieved cost reduction by eliminating redundant processes.
+Operated computers programmed with accounting software to record, store, and analyze information.
+Extensive experience with Financial Statements audits, reviews, compilations and audits for Governmental organizations (A-133).
+Maintained accurate accounts including cash, inventory, prepaid, fixed assets, accounts payable, accrued expenses and line of credit
+transactions.
+Researched and resolved billing problems that had been previously missed.Reduced the open invoice cycle time from days developing new
+dispute reporting procedures.
 Experience
-08/2012
- 
-to 
-Current
-Staff Accountant
- 
+Performs routine accounting activities such as maintenance of the general ledger, preparation of various accounting statements and financial
+reports and accounts payable or receivable functions.
+Accounts Receivable experience with focus in Cash Application and/or Adjustments Process day to day AP; to include matching, reviewing
+for proper approvals and G/L coding, researching and entering invoices.
+HFM reporting including balance sheet profit and loss statement etc.
+Run weekly checks, match, mail and file copies.
+Prepare weekly cash requirements report.
+Work closely with other departments and outside vendors.
+Maintain vendor files.
+Assist with month-end account reconciliations and journal entries.
+Cross train with A/R to process invoices and deposits Relies on experience and judgment to plan and accomplish goals.
+May lead and direct the work of others.
 Company Name
  
-ï¼​ 
-City
- 
-, 
-State
-Process Receivables 
-(donations) forÂ 7 church locations with over 20,000 attendees and approx 
-$45M annual revenue
-Process Retail Sales 
-Revenue for multiple entities (Bookstore, CafÃ©, Coffee Shop) at each 
-location
-Provide monthly financial 
-statements and budget analysis
-Monthly bank 
-reconciliations
-Prepare monthly Use Tax 
-returns
-General Ledger review
-Streamline Procedures and 
-Write Procedure Manual
-Assist with Accounts 
-Payable as needed
-08/2008
+January 2016
  
 to 
-08/2012
-Independent Accounting Consultant
+January 2016
  
+Accountant
+ 
+Maintain of Cash book.
+Maintenance and Finalization of Annual account Preparation of Bank Reconciliation Statement.
+Billing And Realisation From Debtors Verification of Expenditure Bills and Traveling Bills.
+Salary JV Verification.
+Day to day office activity I hereby declare that all the facts mentioned above are true to the best of my knowledge.
 Company Name
  
-ï¼​ 
-City
- 
-, 
-State
-Provide weekly, monthly, quarterly, and annual accounting/full charge accounting services to different clients in multiple industries (including
-but not limited to engineering, marketing, construction contractors, subcontracting, commercial leasing companies, manufacturing, retail)
-Work with CPA to provide information for year-end tax preparation
-Provide set-up and ongoing consulting services to users of QuickBooks, QuickBooks Pro, and Quicken
-Assist clients in Worker's Compensation Audits
-Assist clients in start-up of businesses
-Assist clients with establishing employee policies and writing company policies
-Full knowledge of all Payroll functions; Sales Tax Reporting; Financial Statement Preparation; Bank Statement Reconciliations 
-Â  
-02/2007
+January 2016
  
 to 
-06/2010
-Accounting Manager/Human Resources
+January 2016
  
+Consultant
+ 
+Prepare journal entries and ensure reconciliation are complete.
+Review general ledger to ensure proper accounting is in place Process pay application invoice and payment.
+General ledger Reconcilation and adjusting entries.
+Reconcilation bank account accurately and in a timely manner with attention to unusal items that remain outstanding at monthend.
+Upload bank statement and Bank revaluation in SAP.
+Preparing financial reports in HFM (balance sheet, profit and loss statement, GR 55, Cycle run) Reviewing Balance sheet and profit and
+loss statement.
+Prepaid and accurual booking in monthed.
+Monthend quaterend and year end reporting.
+Intercompany reconciliation.
+ACCOUNTS PAYABLE Vendor creation, edit and reconciliation Stock report preparion Invoice posting and verification in SAP tool.
+Collect and maintain vendor W 9.
+GR/IR 
+clearing Automatic payment run in SAP.
+3 way matching.
+Inventory control and expensing.
+Ixos invoicing with payment.
+Create purchase order.
+Foreign currency Revaluation.
+2)Working 
+as Process Developer (Novartis Canada GL and AP) from 23.
 Company Name
  
-ï¼​ 
-City
- 
-, 
-State
-Report 
-to CFO; Work directly with Directors of Marketing Agency
-Manage 
-Accounts Receivable and perform monthly billingÂ 
-Verify all Accounts Payable transactions
-Process 
-payroll usingÂ online payroll processing services
-Manage 
-new employee paperwork and benefits including health, dental, 401K, and flexible 
-spending accounts, as well as all COBRA
-documentation
-Handle 
-all accounting duties for 2 separate smaller commercial leasing companies 
-05/2002
+March 2009
  
 to 
-02/2007
-Accounting and Human Resources Manager
- 
-Company Name
- 
-ï¼​ 
-City
- 
-, 
-State
-Report 
-directly to President of 2 corporations and manage office of 2 separate 
-corporations simultaneously.
-Manage 
-all aspects of Accounting Department and produce all necessary financial 
-statements.
-Process 
-weekly payroll and payroll taxes as well as quarterly and annual payroll 
-tax reports.
-Researched 
-and implemented new industry specific software to improve overall 
-performance of business.
-Researched, 
-implemented, and maintain employee benefits program that includes 401K, 
-Health and Dental Benefits
-Recruit 
-new employees and manage all personnel files.
-Assist 
-with employee performance evaluations and act as liaison between employees 
-and supervisors.
-Perform 
-any other duties as needed including sales, international business 
-development, purchasing, inventory, and customer service 
-Â  
+December 2012
+Worked in several sub modules of Sap Financials: Accounts receivable, Accounts Payable, General Ledger, Banking.
+Accounts Payable: Automated Payment Program (APP), Invoice Processing, IDOC, MIRO.
+Vendor Master, Customer Master, General Ledger Master data.
+Having good domain experience related to different functional module: Order 2 Cash (OTC), Procure 2 Pay (P2P), Buy 2 Pay (B2P) and
+Invoice 2 Pay (I2P).
+Dash board maintenance, Client handling, Query resolution, Bank Reconciliation.
 Education
-Bachelor of Science
+MBA (Finance and IT) *B.Com(Mgt Hons) Technical Qualifications *SAP FI 
+Module
+Diploma
  
 : 
-Business Management
+Computer Application
  
-Arizona State University
- 
-ï¼​ 
-City
- 
-, 
-State
- 
-, 
-USA
+Computer Application
+Personal Information
+Date: 
+Yours Sincerely, 
+Place: 
+Smruti Rekha singh.
+Additional Information
+Date: 
+Yours Sincerely, 
+Place: 
+Smruti Rekha singh.
 Skills
-Microsoft Office (Word, Excel, Power Point, Outlook)
-Abila MIP Fund Accounting Software
-QuickBooks, QuickBooks Pro, Quicken
-ADP, Paychex, Payroll Experts, QuickBooks Payroll Systems
+account reconciliations, accounting, accounts payable, Accounts Receivable, AP, Balance sheet, Bank Reconciliation, Banking, Billing, book,
+Com, Client, edit, Finance, Financials, financial reports, Preparing financial reports, focus, functional, General Ledger, GL, Inventory control,
+process invoices, Invoice Processing, invoicing, MBA, mail, office, Developer, profit and loss statement, coding, reporting, researching, SAP FI,
+SAP

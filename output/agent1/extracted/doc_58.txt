@@ -1,14 +1,23 @@
-ACCOUNTANT
-Professional Summary
-To obtain a challenging position in a professional and dynamic environment while utilizing my skills and experience to further my career in
-accounting.
-Core Qualifications
-Excel, Word, Access, and PowerPoint 
-*Knowledge of SAP system
+STAFF ACCOUNTANT
+Summary
+Professional accountant with an outstanding work ethic and integrity seeking to make a valuable contribution utilizing strong analytical,
+organizational, communication, and computer skills. Summa Cum Laude graduate with BBA in Accounting *Eight years of accounting experience
+*Three years of public accounting experience in governmental auditing *Five years of private industry accounting and tax experience *Experience
+utilizing Microsoft Office, Microsoft Dynamics AX, CaseWare, Ohio Auditor of State GAAP Reporting System, OneSource, SBT, SysPro, and
+Crystal Reports *Ohio Notary Public (Commission expires February 15, 2021)
+Skills
+Analytical reasoning
+Compliance testing knowledge
+Effective time management
+Public and private accounting
+Strong organizational skills
+General ledger accounting
+Superior research skills
+Flexible team player
 Experience
-Accountant
+Staff Accountant
  
-March 2001
+January 2016
  
 to 
 Current
@@ -20,25 +29,25 @@ City
  
 , 
 State
-Document monthly close procedures and recommend and implement new processes as needed.
-Govern inter-company and reinsurance recoverable accounts and perform analysis including cash settlement on a monthly basis.
-Balance inter-company and reinsurance recoverable accounts before the close of the balance sheet.
-Prepare Inter-company wire transfer requisitions for manager approval and subsequently complete the cash settlement forecast for the
-treasury department.
-Validate cash settlements through the treasury report to ensure that all wires have been processed.
-Communicate inter-company settlement status to senior management.
-Prepare and post the accounts payable and paper settlement journal entries for the subsidiary companies that are 100 percent reinsured by
-the parent company.
-Complete account reconciliation by the alert reporting deadlines.
-Prepare a business summary analysis (BSA) for inter-company and reinsurance recoverable accounts on a quarterly basis and submit the
-BSA to the corporate accounting department.
-Approved SAP account requests from multiple departments.
-Accountant
+Responsible for managing collections from customers by evaluating payment plans, payment history and, if need be, contacting a company's
+collections department to receive payment.
+Overseeing customer accounts and maintaining working relationships between a company and its clients are essential tasks for an accounts
+receivable clerk.
+generate weekly financial reports to track all accounts receivable.
+This includes totaling all revenue and unpaid receivables and constantly keeping financial records up to date.
+assist with month-end closing.
+generate and send out invoices.
+review AR aging to ensure compliance.
+investigate and resolve customer queries.
+Communicate with clients about billing discrepancies and questions.
+Initiate collections on past-due accounts.
+Assist with sales and use tax audits and correspondence.
+Senior Accountant
  
-April 1999
+January 2016
  
 to 
-March 2001
+January 2016
  
 Company Name
  
@@ -47,17 +56,20 @@ City
  
 , 
 State
-Assisted in budgeting the annual expense plan and other accrual analysis for Allstate Motor Club.
-Completed monthly close procedures including investment activities, bank reconciliation, income tax provisions, and analyzing accounts.
-Analyzed and prepared monthly and year to date financial reports to determine liabilities, income statements, balance sheets, profit and loss,
-tax liability, and other financial activities.
-Reviewed finance statements during month-end closing process and documented any month end close issues.
-Staff Accountant/ Lease Administrator
+Responsible for the preparation of financial statements in accordance with either generally accepted accounting principles (GAAP) or on a
+cash basis for governmental entities.
+Prepared asset, liability, and capital account entries by compiling and analyzing account information.
+Reconciled financial discrepancies by collecting and evaluating account information.
+Maintained accounting controls by preparing and recommending policies and procedures.
+Developed familiarity with working papers, report formats, and accounting systems of the client.
+Preserved good working relationships with clients.
+Assisted on audits as needed.
+Tax Analyst
  
-June 1996
+January 2012
  
 to 
-April 1999
+January 2015
  
 Company Name
  
@@ -66,21 +78,21 @@ City
  
 , 
 State
-Completed month-end close procedures and prepared and posted monthly journal entries.
-Assisted with month and year-end closings included downloading and uploading information from the corporate system.
-Prepared and analyzed monthly financial statements.
-Analyzed the monthly sales and expense reports and processed accruals.
-Managed the accounting function including general ledger and rent and lease documentation.
-Analyzed and reconciled balance sheet accounts.
-Reviewed and prepared real estate, sales-used, and personal property taxes.
-Managed fixed assets including deferred and amortized account activities.
-Audited accounts payable and 1099 reports and implemented necessary changes.
-Assistant Claim Approver
+Responsible for preparing sales and use tax returns as well as other tax-related filings including, but not limited to, business licenses, annual
+reports, and business registrations.
+Analysis, formatting, and reporting of sales tax for multiple states for main company and subsidiaries.
+Research various technical tax issues.
+Assist with sales and use tax audits and correspondence.
+Personal property taxes and annual returns for multiple states.
+Analysis and preparation of local income tax returns utilizing OneSource tax software.
+Registration and dissolution of entities with Secretaries of State for income and sales tax purposes.
+Manage and complete other projects as needed.
+Staff Accountant II
  
-July 1992
+January 2009
  
 to 
-June 1996
+January 2011
  
 Company Name
  
@@ -89,21 +101,21 @@ City
  
 , 
 State
-Reviewed insurance claims to determine that insured and medical service providers submitted all pertinent information.
-Reviewed insurance claims to determine whether they were covered under the appropriate insurance plan.
-Evaluated medical charges and/or benefits for reasonableness.
-Processed and approved insurance coverage such as PPO, Medicare, Medicaid, indemnity, and renal dialysis.
-Adjustment insurance claims in the assigned territory.
-Responded to inquiries from medical providers and members regarding the insurance claims to resolve issues in a professional and timely
-manner.
-Prepared letters or memoranda when required.
-Processed requests from primary care physicians for authorization of specialty referrals.
-Proof Operator
+Responsible for analysis of financial information and preparation of financial reports to determine and maintain records of assets, liabilities,
+profits and losses, tax liabilities, and other financial activities.
+Responsible for monthly and year-end closing.
+Preparation of financial statements.
+Management of fixed assets.
+Analysis and reporting of sales tax for multiple states for main company and subsidiaries.
+Conduct weekly cash projections for main company and subsidiaries.
+Assist with accounts payable as needed.
+Manage and complete other projects as needed.
+Staff Auditor II
  
-September 1991
+January 2006
  
 to 
-July 1992
+January 2009
  
 Company Name
  
@@ -112,64 +124,35 @@ City
  
 , 
 State
-Processed and balanced customer's deposits and withdrawals on a daily basis.
-Prepared necessary adjustments to customer or teller transactions.
-Billing Associate
- 
-September 1988
- 
-to 
-October 1990
- 
-Company Name
- 
-ï¼​ 
-City
- 
-, 
-State
-Performed all industrial billing on a day-to-day basis.
-Reviewed and maintained customer account records.
-Managed customer inquiries concerning coverage changes, re-bills, renewal rates, and reinstatement procedures.
-Reviewed customer credit analyses and contacted customers to collect unpaid balances.
-Investigated claims for deductions, returns, and excessive freight charges.
-Account Receivable Clerk
- 
-June 1984
- 
-to 
-September 1988
- 
-Company Name
- 
-ï¼​ 
-City
- 
-, 
-State
-Receipted money received in the department in the form of checks, lockbox, credit memos, and deductions.
-Prepared and reviewed customer invoices and adjusted any errors from previous invoices.
-Prepared necessary adjustment credited invoices and write-offs for approval.
-Analyzed and reconciled account balances on periodically.
-Corrected weekly reports to ensure that subsystem total balances with the general ledger totals.
-Assisted in preparing and entering payment vouchers.
-Education
-Master degree
+Responsible for assisting manager level auditor and performing audits of public offices (e.g., school districts, villages, municipalities) by
+gathering information and documentation necessary for the execution of audit procedures.
+Performed substantive tests of specific accounts and records.
+Prepared documentation of internal accounting and administrative control systems.
+Performed tests of controls and tests of compliance with laws and regulations applicable to the client.
+Prepared necessary working papers and schedules.
+Developed familiarity with audit methodology, the audit process, audit programs, working papers, report formats, and accounting systems of
+the client.
+Maintained good working relationships with clients.
+Provided training and guidance to new staff auditors.
+Education and Training
+Bachelor of Business Administration
  
 : 
 Accounting
  
-Gujarat University
+Kent State University
  
-India
+ï¼​ 
+City
  
-Accounting
-Computer Programming in COBOL language, Triton College in River Grove, IL 
-* 
-1
+, 
+State
+ 
+Accounting Graduated Summa Cum Laude 3.84 Yearly
+continuing professional education courses
+Activities and Honors
+Ohio Society of CPAs *Beta Alpha Psi *Golden Key International Honour Society *Beta Gamma Sigma
 Skills
-account reconciliation, accounting, accounts payable, accruals, accrual, balance sheet, Balance, balance sheets, bank reconciliation, benefits,
-billing, budgeting, COBOL, Computer Programming, corporate accounting, credit, dialysis, documentation, senior management, expense reports,
-finance, financial, financial reports, financial statements, fixed assets, general ledger, insurance, letters, Access, Excel, money, PowerPoint, Word,
-month-end closing, month end close, primary care, processes, profit and loss, real estate, reporting, sales, SAP, settlements, tax, taxes, treasury,
-year-end
+accounting, accounting systems, accounts payable, accounts receivable, administrative, AR, billing, closing, client, clients, documentation, financial,
+financial reports, preparation of financial reports, Preparation of financial statements, fixed assets, managing, month-end closing, policies, maintain
+records, reporting, Research, sales, tax, taxes, tax returns, annual reports, year-end

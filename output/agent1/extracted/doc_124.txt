@@ -1,172 +1,213 @@
 ACCOUNTANT
 Summary
-Experienced, highly motivated work ethic, with results-driven professionalism, recognized for commitment to excellence, and demonstrates
-expertise in communicating and collaborating with, peers, and clients. Portrays excellent business acumen, and successfully provide accurate
-Accounts Receivables, Collections and Accounts Payable initiatives that achieves targeted company goals. Self-motivated professional, able to
-work independently or in a team environment, demonstrating broad based and transferable qualifications.
+Self-motivated accountant 
+offering a strong work ethic and determination to complete tasks in a timely manner. Accurate and detail-oriented with
+extensive auditing and finance knowledge.
 Highlights
-Extensive knowledge of Microsoft Windows computer systems and Mac operating system.
-Proficient in Microsoft Office (Word, Excel, Power Point).
-Basic experience with QuickBooks Enterprise Solutions 9.0, Sage/MAS Software, Peachtree, and Microsoft
-Access.
-Account reconciliation
-expert
+Complex problem solving
+Strong communication skills
+Expert in customer relations
+Portfolio management
+A
+Proficient in Microsoft Office
+Microsoft Excel expert
+Risk management expertise
+Financial statement analysis
 General ledger accounting
-Flexible team player
+Accomplishments
+Achieved an internal audit score of 95%.
+Promoted to Auditor after just 3 months of employment.
+Boosted quality ratings by 85% by developing new processes and improving work flow.
 Experience
-Company Name
- 
-January 2010
- 
-to 
-November 2013
- 
 Accountant
  
-City
- 
-, 
-State
-Managed over 10 million per month in revenue.
-Accurately applied payments to vendor accounts.
-Researched and resolved incorrect payments, EOB rejections, and other issues with outstanding accounts.
-Successfully boosted collections from 40% to 90% within 2 years.
-Trained new and existing employees on all new procedures and computer programs.
-Ran monthly aging reports to compile billing statements for vendors for outstanding invoices.
-Utilize the following: HCFA (CMS 1500)/ICD-9/CPT/HCPCS Coding and UB-04 to prepare and submit claims for MLTC billing.
-Ensure claims are entered and submitted with 48 hours of receipt.
-Run A/P checks for vendor payment using an internal software RealWorld.
-Prepare A/P checks for signature.
-Responsible for running reports for month-end and year-end closing, reconciliation of the GL and journal entries.
-Insure office practices are in compliance with HIPAA regulations.
-Daily use of HHA Exchange, Santrax, Crescent programs.
-Investigated and resolved discrepancies in monthly bank accounts while under tight deadlines.
-Company Name
- 
-March 2006
- 
-to 
-November 2008
- 
-Accountant
- 
-City
- 
-, 
-State
-Responsible for follow-up and explanation of AX, VI & MC credit card accounts and issue Debit Memos to travel agencies for all
-chargeback's debited to EL AL Israel Airlines.
-Handled large volumes of credit card disputes (Inquiries & Chargeback's) by communicating with the credit card department, travel
-agencies and passengers.
-Created an Excel database in order to update disputes log as they are solved.
-Assisted the supervisor with month end and year end close.
-Including but not limited to preparing and entering journal entries, running reports and reconciling airline tickets in the database.
-Reconciliation of accounts, such as, Airline Tickets, Personal Expense Accounts, Petty Cash Accounts and more.
-Created a company procedure manual and trained new and existing coworkers how to do the job according to the new procedures.
-Made sure that the department deadlines are met.
-Handled all aspects of reconciling general ledgers.
-Responsible for checking and paying all personal expenses to employees.
-Performed payroll for hourly employees using the ADP system.
-Company Name
- 
-January 2003
- 
-to 
-August 2005
- 
-Bookkeeper
- 
-City
- 
-, 
-State
-Assist in accounts payable/accounts receivable.
-Maintain spreadsheets and records of store sales and expenses.
-Ensure proper handling of customer calls.
-Contact customers to collect money owed.
-Perform various administrative duties.
-Reconciled bank statements.
-Enter invoices.
-Company Name
- 
-November 2013
- 
-to 
 Current
  
-Accountant
+to 
+September 2014
  
-City
- 
-, 
-State
-Reduced closing time for monthly and quarterly close by implementing new consolidation procedures.
-Analyzed costs and revenues to project future trends.
-Received, recorded, and banked cash, checks, and vouchers as well as reconciled records of bank transactions.
-Completed monthly, quarterly and annual bank reconciliations for 11 subsidiary companies.
-Reviewed book entries to ensure accuracy of the G/L.
-Prepared monthly and annual expense forecasts, including any necessary recommended action required to manage costs to achieve budget.
-Post journal entries in MAS200, the company general ledger accounting software.
-Assisted management with preparation of month-end financial statements, cash flow statements, budgets.
 Company Name
  
-September 1999
- 
-to 
-November 2002
- 
-Assistant Bookkeeper
- 
+ï¼​ 
 City
  
 , 
 State
-Assist with payroll processing.
-Assist with accounts payable/accounts receivable.
-Prepare and verify bank deposits, balancing receipts and sending cash, checks or other terms of payment.
-Maintain organizations record keeping.
-Price or re-price merchandise as necessary.
-Handle merchandise returns and exchanges within company guidelines.
-Customer service, both on the sales floor and in assigned departments.
-Complete daily paperwork within company guidelines.
+Prepare unpaid reports on actual expenses for marketing line of business.
+Create and maintain pending and process able database.
+Prepare and setup vendor purchase orders contracts as well as CRX templates.
+Verify funding and SAP project code against the most recent budget/forecast submission.
+Key invoices into ePurchase system as well as approve and reconcile invoices.
+Track invoices from submission to payment on database.
+Monitor invoice central mailbox that will include invoice submission by marketers, purchase order request.
+Respond to marketing or other internal staff inquiries regarding vendor invoices and templates as well as analytical request.
+Special projects as required.
+Accounting Coordinator Associate
+ 
+August 2011
+ 
+to 
+May 2014
+ 
+Company Name
+ 
+ï¼​ 
+City
+ 
+, 
+State
+Prepare and modify excel pivot table reports as well as reconcile and balance.
+Analyze data within pivot table and HSA databases.
+Assist business analyst in gathering and analyzing large sets of complex data.
+Create and run HSA exceptions and paid reports.
+Respond to marketing, brokers, clients and other internal staff inquiries regarding account setup, exceptions, disbursements and payments as
+well as analytical request.
+Conduct routine audits as needed as well as generate monthly reports on findings.
+Setup all financial and personal information for new groups.
+Served as liaison for marketing, brokers and clients to resolve member issues or the setup of new accounts.
+Assisted with testing, identifying gaps and recommending new improvements on processing work more efficiently.
+Auditor
+ 
+February 2007
+ 
+to 
+August 2011
+ 
+Company Name
+ 
+ï¼​ 
+City
+ 
+, 
+State
+Led cross-functional teams to analyze and understand the operational impacts and opportunities of technology changes.
+Developed metrics used to determine inefficiencies and areas for improvement.Tracked, analyzed and interpreted trends in [Data type] data.
+Documented process flows and developed requirements for functional improvements and enhancements.
+Conducted activity-based analysis of business processes and made recommendations based on the findings.
+Review and identify claims reviewers errors and determine the cause of the error and provide written audit documentation regarding audit
+observation.
+Analyze and review response to audit observations and facilitate corrective action plan.
+Collaborated with directors and managers to investigate questionable issues and failed compliance procedures.
+Acted as a Team Lead for additional team support as well as point of contact for the Review Department to ensure 
+teams are in compliance
+and deficiency codes were used effectively.
+Monitored new processes, policies and work flow strategies that were implemented by leadership.
+Educated new hires and newly promoted employees on standard of job duties.
+Held Side-by-Side sessions with Reviewers to deliver direct audit feedback from sampled work.
+Provided subject matters export support to enhance the proprietary systems.
+Enhancements resulted in increased accurate measurements of deficiency codes, improved reporting and positively impacted reviewer's
+efficiency.
+Consulted with department peers to address weekly trending errors and formulated solutions.
+Document sessions to track reviewer's progress and provide improvement based on my analysis.
+Claims reviewer
+ 
+February 2007
+ 
+to 
+April 2007
+ 
+Company Name
+ 
+ï¼​ 
+City
+ 
+, 
+State
+Process, verify and analyze submitted asbestos claims to determine alleged disease eligibility.
+Locates and interprets complex information such as depositions and medical records from a number of databases in order to process claims.
+Identifies error trends and notifies the appropriate areas for correction and educating the necessary parties.
+Trained and coached lower level claims reviewer.
+Payment Analyst
+ 
+November 2004
+ 
+to 
+February 2007
+ 
+Company Name
+ 
+ï¼​ 
+City
+ 
+, 
+State
+Processed over 1,000 customer monthly auto loan payments.
+Review/Reconcile general ledgers.
+Researched and resolved misapplied payments as well as payment inaccuracies.
+Reviewed monthly financial statements Responded timely and accurately to inquiries on customer payments.
+Corrected non-payment related discrepancies.
+Performed other duties as assigned by supervisor or manager.
+Trust Control Reconciliation Specialist
+ 
+November 1999
+ 
+to 
+November 2004
+ 
+Company Name
+ 
+ï¼​ 
+City
+ 
+, 
+State
+Process and reconciles a variety of securities and cash related transactions.
+Identified, research and resolve processing errors, and take necessary actions to balance differences.
+Responsible for creating general ledgers and daily balancing of activity in trust accounts.
+Ensured proper safekeeping of bank and customer assets.
+Recognized and proactively address risk associated with consumer compliance and fair lending.
 Education
-City University of New York, Brooklyn College
+Accounting Certificate
  
-6 2006
+: 
+Accounting
  
+, 
+2012
+ 
+Cecil County Community College
+ 
+ï¼​ 
+City
+ 
+, 
+State
+Performing Payroll in QuickBooks 2009 Certificate
+ 
+: 
+Payroll
+ 
+, 
+2012
+ 
+Cecil County Community College
+ 
+ï¼​ 
+City
+ 
+, 
+State
 Bachelor of Science
  
 : 
-Accountancy
+General Studies
  
+, 
+2011
+ 
+Wilmington University
+ 
+ï¼​ 
 City
  
 , 
 State
  
-Accountancy
-Kingsborough Community College
- 
-6 2001
- 
-Liberal Arts
- 
-City
- 
 , 
-State
- 
-GPA: 
-Dean's List for Excellence in Academic Achievement at Brooklyn
-College. Completed ADP Payroll Course.
- 
-Liberal Arts Dean's List for Excellence in Academic Achievement at Brooklyn College. Completed
-ADP Payroll Course.
-Languages
-Bilingual English
- /Russian
+New Castle County
+General Studies
 Skills
-Account Management, accounts payable, accounts receivable, administrative, ADP, A/P, Bank Reconciliation, Basic, Billing, Closing, CMS,
-CPT, credit, Customer service, database, Debit, Fluent in English, GL, ICD-9, Invoicing, Mac, Medical Billing, Microsoft Access, Excel,
-Exchange, money, Microsoft Office, office, Power Point, Microsoft Windows, Word, Enterprise, operating system, Payroll, payroll processing,
-Peachtree, Coding, QuickBooks, reconciling, record keeping, Russian, sales, spreadsheets, Staff Training, supervisor, VI, year-end
+Accounting, balance, budget, business analyst, Call Center, Cash Management, closing, contracts, Critical Thinking, client, clients, databases,
+database, documentation, Financial, financial statements, leadership, Team Lead, marketing, excel, mail, MS Office Suites, Payroll, policies,
+processes, progress, Quality Assurance, QuickBooks, relationship management, reporting, research, Risk Management, SAP, securities, statistics,
+supervisor, phone, written
