@@ -1,0 +1,2 @@
+text,intent,entities,sentiment
+cancel my order,cancel_order,"[""order""]",negative
