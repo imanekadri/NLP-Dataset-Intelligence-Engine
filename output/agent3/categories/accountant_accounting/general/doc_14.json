@@ -51,19 +51,11 @@
           "label": "DATE"
         },
         {
-          "text": "Air Force Operational Test Evaluation Center",
-          "label": "ORG"
-        },
-        {
           "text": "Air Force",
           "label": "ORG"
         },
         {
           "text": "Resource Advisor",
-          "label": "ORG"
-        },
-        {
-          "text": "1st Air Communications Operation Squadron 1ACOS",
           "label": "ORG"
         },
         {
@@ -292,10 +284,6 @@
         },
         {
           "text": "Coordinated",
-          "label": "ORG"
-        },
-        {
-          "text": "Northern Maine Community College Emphasis Business Accounting",
           "label": "ORG"
         },
         {
@@ -802,19 +790,11 @@
       "label": "DATE"
     },
     {
-      "text": "Air Force Operational Test Evaluation Center",
-      "label": "ORG"
-    },
-    {
       "text": "Air Force",
       "label": "ORG"
     },
     {
       "text": "Resource Advisor",
-      "label": "ORG"
-    },
-    {
-      "text": "1st Air Communications Operation Squadron 1ACOS",
       "label": "ORG"
     },
     {
@@ -1043,10 +1023,6 @@
     },
     {
       "text": "Coordinated",
-      "label": "ORG"
-    },
-    {
-      "text": "Northern Maine Community College Emphasis Business Accounting",
       "label": "ORG"
     },
     {

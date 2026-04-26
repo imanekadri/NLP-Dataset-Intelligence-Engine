@@ -13,7 +13,7 @@ from core.utils import detect_language, compute_embedding, extract_entities, det
 
 
 # =========================
-# التحقق التلقائي من ضرورة تحليل المشاعر
+#      
 # =========================
 def auto_should_skip_sentiment(topic_name, classifier):
     """
@@ -34,7 +34,7 @@ def auto_should_skip_sentiment(topic_name, classifier):
 
 
 # =========================
-# تنظيف الكلمات
+#  
 # =========================
 def clean_keywords(kws):
     clean = []
@@ -46,7 +46,7 @@ def clean_keywords(kws):
 
 
 # =========================
-# تقسيم الفقرات
+#  
 # =========================
 def split_paragraphs(text, min_len=40):
     paragraphs = []
@@ -70,7 +70,7 @@ def split_paragraphs(text, min_len=40):
 
 
 # =========================
-# Subdomain Detection من keywords
+# Subdomain Detection  keywords
 # =========================
 def detect_subdomains_from_keywords(docs):
 
@@ -136,7 +136,7 @@ def detect_subdomains_from_keywords(docs):
     return results
 
 # =========================
-# Sub-topic Detection من keywords
+# Sub-topic Detection  keywords
 # =========================
 def detect_subtopics_from_keywords(docs):
     """Alias for detect_subdomains to align with user naming"""
@@ -152,7 +152,7 @@ def run_agent3(state):
     import numpy as np
 
     if "raw_docs" not in state:
-        print("[Agent3] Missing raw_docs ❌")
+        print("[Agent3] Missing raw_docs ")
         return state
 
     os.makedirs(config.OUTPUT_DIR, exist_ok=True)
@@ -330,6 +330,6 @@ def run_agent3(state):
     with open(report_path, "w", encoding="utf-8") as f:
         json.dump(global_report, f, indent=2, ensure_ascii=False)
 
-    print("[Agent3] Production extraction complete ✅")
+    print("[Agent3] Production extraction complete ")
     state["agent3_results"] = report_path
     return state

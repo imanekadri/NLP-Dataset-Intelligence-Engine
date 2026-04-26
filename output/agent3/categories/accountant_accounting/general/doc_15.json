@@ -87,10 +87,6 @@
           "label": "DATE"
         },
         {
-          "text": "Sales Use Tax Financial Management Partner Identified",
-          "label": "ORG"
-        },
-        {
           "text": "Provide",
           "label": "PRODUCT"
         },
@@ -133,10 +129,6 @@
         {
           "text": "Peachtree",
           "label": "NORP"
-        },
-        {
-          "text": "Express Quick Books QuickBooks Research Sage Sales Spreadsheet Tax",
-          "label": "ORG"
         }
       ],
       "pii": [
@@ -626,10 +618,6 @@
       "label": "DATE"
     },
     {
-      "text": "Sales Use Tax Financial Management Partner Identified",
-      "label": "ORG"
-    },
-    {
       "text": "Provide",
       "label": "PRODUCT"
     },
@@ -672,10 +660,6 @@
     {
       "text": "Peachtree",
       "label": "NORP"
-    },
-    {
-      "text": "Express Quick Books QuickBooks Research Sage Sales Spreadsheet Tax",
-      "label": "ORG"
     }
   ],
   "global_pii": [

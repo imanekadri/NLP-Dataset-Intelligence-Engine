@@ -11,10 +11,6 @@
           "label": "ORG"
         },
         {
-          "text": "Flnanccs Dlrection Gencrale des Inpots Dircction des Impols de Wilayu de مديرية",
-          "label": "ORG"
-        },
-        {
           "text": "Exenpian",
           "label": "NORP"
         },
@@ -443,10 +439,6 @@
   "global_entities": [
     {
       "text": "الجمهورية الجزائرية",
-      "label": "ORG"
-    },
-    {
-      "text": "Flnanccs Dlrection Gencrale des Inpots Dircction des Impols de Wilayu de مديرية",
       "label": "ORG"
     },
     {

@@ -211,10 +211,6 @@
           "label": "MISC"
         },
         {
-          "text": "Ingénieurs de recherche en IA des Développeurs",
-          "label": "ORG"
-        },
-        {
           "text": "Potentialités régional es et national es",
           "label": "LOC"
         },
@@ -819,10 +815,6 @@
           "label": "LOC"
         },
         {
-          "text": "Programme détaillé des enseignements du semestre 1",
-          "label": "ORG"
-        },
-        {
           "text": "S1 Spécialité",
           "label": "ORG"
         },
@@ -1037,10 +1029,6 @@
         {
           "text": "Control d Recovery Database Systems",
           "label": "PER"
-        },
-        {
-          "text": "Programme détaillé des enseignements du semestre 1 S1 Intitulé",
-          "label": "ORG"
         },
         {
           "text": "Réseaux avancés VHS",
@@ -1733,10 +1721,6 @@
         {
           "text": "UML",
           "label": "TECH"
-        },
-        {
-          "text": "DEVELOPPEMENT",
-          "label": "OTHER"
         },
         {
           "text": "OBJET 3H",
@@ -2684,10 +2668,6 @@
         },
         {
           "text": "Computer vision",
-          "label": "ORG"
-        },
-        {
-          "text": "Programme détaillé des enseignements du semestre 3 S3 Intitulé",
           "label": "ORG"
         },
         {
@@ -4145,10 +4125,6 @@
       "label": "MISC"
     },
     {
-      "text": "Ingénieurs de recherche en IA des Développeurs",
-      "label": "ORG"
-    },
-    {
       "text": "Potentialités régional es et national es",
       "label": "LOC"
     },
@@ -4753,10 +4729,6 @@
       "label": "LOC"
     },
     {
-      "text": "Programme détaillé des enseignements du semestre 1",
-      "label": "ORG"
-    },
-    {
       "text": "S1 Spécialité",
       "label": "ORG"
     },
@@ -4971,10 +4943,6 @@
     {
       "text": "Control d Recovery Database Systems",
       "label": "PER"
-    },
-    {
-      "text": "Programme détaillé des enseignements du semestre 1 S1 Intitulé",
-      "label": "ORG"
     },
     {
       "text": "Réseaux avancés VHS",
@@ -5667,10 +5635,6 @@
     {
       "text": "UML",
       "label": "TECH"
-    },
-    {
-      "text": "DEVELOPPEMENT",
-      "label": "OTHER"
     },
     {
       "text": "OBJET 3H",
@@ -6618,10 +6582,6 @@
     },
     {
       "text": "Computer vision",
-      "label": "ORG"
-    },
-    {
-      "text": "Programme détaillé des enseignements du semestre 3 S3 Intitulé",
       "label": "ORG"
     },
     {

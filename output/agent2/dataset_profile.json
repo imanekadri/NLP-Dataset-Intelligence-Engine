@@ -3,15 +3,15 @@
   "total_documents": 17,
   "topics_detected": [
     "accountant_accounting",
-    "cloud_computing",
+    "cloud_space",
     "unknown_topic",
     "true_data",
     "والعربية_للطالب"
   ],
   "cluster_sizes": {
     "accountant_accounting": 6,
-    "cloud_computing": 3,
-    "unknown_topic": 2,
+    "cloud_space": 2,
+    "unknown_topic": 3,
     "true_data": 3,
     "والعربية_للطالب": 3
   },

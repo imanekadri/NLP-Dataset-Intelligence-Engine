@@ -38,12 +38,12 @@ ocrReader = None
 def get_reader():
     global ocrReader
     if ocrReader is None:
-        print("🚀 Loading EasyOCR from local storage...")
+        print("Loading EasyOCR from local storage...")
         ocrReader = easyocr.Reader(
             ['ar', 'en'],
             gpu=False,
         )
-        print("✅ EasyOCR finished loading.")
+        print("EasyOCR finished loading.")
 
     return ocrReader
 def extract_text_from_file(file_path, encodings_to_try):
@@ -120,8 +120,9 @@ def extract_text_from_file(file_path, encodings_to_try):
             return "\n".join(result)
 
         except Exception as e:
-            # It's helpful to know exactly which file failed
-            raise ValueError(f"EasyOCR failed for image {file_path}: {str(e)}")
+            # Clean error message from non-ASCII characters to prevent Windows encoding crashes
+            clean_error = "".join([c for c in str(e) if ord(c) < 128])
+            raise ValueError(f"EasyOCR failed for image {file_path}: {clean_error}")
 
     # DOCX files
     elif ext == ".docx":
@@ -445,11 +446,12 @@ def extract_entities(text, language, ner_en, ner_fr, valid_labels=None, tech_key
                 continue
                 
         elif label == "ORG":
-            # Reclassify as OTHER if contains verbs
+            # Reclassify or Skip if contains action verbs (it's likely a sentence fragment)
             if any(v.lower() in t.lower() for v in org_verbs):
-                # We don't discard, we reclassify or skip if purely technical
-                if t in tech_keywords: continue
-                label = "OTHER"
+                continue
+            # Skip if too many words (usually a sentence, not an ORG name)
+            if len(t.split()) > 5:
+                continue
             if any(gb.lower() in t.lower() for gb in generic_blacklist):
                 continue
         

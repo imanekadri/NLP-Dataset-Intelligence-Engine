@@ -33,27 +33,27 @@
       }
     ]
   },
-  "cloud_computing": {
+  "cloud_space": {
     "general": [
       {
         "doc": "doc_2.txt",
-        "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\cloud_computing\\general\\doc_2.json",
-        "sentiment": "NEGATIVE"
-      },
-      {
-        "doc": "doc_3.txt",
-        "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\cloud_computing\\general\\doc_3.json",
+        "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\cloud_space\\general\\doc_2.json",
         "sentiment": "NEGATIVE"
       },
       {
         "doc": "doc_9.txt",
-        "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\cloud_computing\\general\\doc_9.json",
+        "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\cloud_space\\general\\doc_9.json",
         "sentiment": "NEUTRAL"
       }
     ]
   },
   "unknown_topic": {
     "general": [
+      {
+        "doc": "doc_3.txt",
+        "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\unknown_topic\\general\\doc_3.json",
+        "sentiment": "NEGATIVE"
+      },
       {
         "doc": "doc_4.txt",
         "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\unknown_topic\\general\\doc_4.json",

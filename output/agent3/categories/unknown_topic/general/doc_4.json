@@ -403,10 +403,6 @@
           "label": "MISC"
         },
         {
-          "text": "Réseau 1 Etablissement université de Boumerdes Intitulé",
-          "label": "ORG"
-        },
-        {
           "text": "Intitulé du projet de recherche",
           "label": "MISC"
         },
@@ -1539,10 +1535,6 @@
     {
       "text": "Windows 2 Connexion",
       "label": "MISC"
-    },
-    {
-      "text": "Réseau 1 Etablissement université de Boumerdes Intitulé",
-      "label": "ORG"
     },
     {
       "text": "Intitulé du projet de recherche",

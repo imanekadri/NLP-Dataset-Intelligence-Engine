@@ -197,7 +197,7 @@ def run_cleaning(state):
     Lit les fichiers extraits, applique le pipeline de nettoyage,
     sauvegarde les fichiers nettoyés, et met à jour le state + trace CSV.
     """
-    print("[Agent1-Cleaning] 🧹 Start general-purpose cleaning pipeline...")
+    print("[Agent1-Cleaning] Start general-purpose cleaning pipeline...")
 
     os.makedirs(config.CLEANED_DIR, exist_ok=True)
 
@@ -265,8 +265,8 @@ def run_cleaning(state):
             writer.writeheader()
             writer.writerows(raw_docs)
 
-    print(f"[Agent1-Cleaning] ✅ Done: {cleaned_count} cleaned, {skipped_count} skipped")
-    print(f"[Agent1-Cleaning] 📁 Saved to {config.CLEANED_DIR}")
-    print(f"[Agent1-Cleaning] 📊 Updated {trace_csv_path}")
+    print(f"[Agent1-Cleaning] Done: {cleaned_count} cleaned, {skipped_count} skipped")
+    print(f"[Agent1-Cleaning] Saved to {config.CLEANED_DIR}")
+    print(f"[Agent1-Cleaning] Updated {trace_csv_path}")
 
     return state

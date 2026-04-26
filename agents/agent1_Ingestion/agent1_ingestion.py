@@ -48,7 +48,7 @@ def extract_keywords(text, top_n=10):
     if not text or len(text) < 100:
         return []
 
-    # Step 1 — Fast keyword candidates
+    # Step 1  Fast keyword candidates
     keywords = kw_extractor.extract_keywords(text)
 
     candidates = [kw[0] for kw in keywords]
@@ -56,7 +56,7 @@ def extract_keywords(text, top_n=10):
     if not candidates:
         return []
 
-    # Step 2 — semantic filtering
+    # Step 2  semantic filtering
     text_embedding = embedding_model.encode(text[:2000], convert_to_tensor=True)
     kw_embeddings = embedding_model.encode(candidates, convert_to_tensor=True)
 
