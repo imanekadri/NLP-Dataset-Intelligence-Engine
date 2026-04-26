@@ -1,0 +1,103 @@
+|A2
+AP_D5- 2025/2026
+Tutorial 04- Project
+Monthly Sales Analysis (NumPy
+Pandas
+Matplotlib
+Seaborn)
+Objective
+The goal is to generate, analyze, and visualize monthly sales data for four products over one year
+and extract
+business insights using NumPy Pandas Matplotlib, and Seaborn
+Project Structure
+project sales/
+notebook . ipynb
+#
+Main
+notebook with
+all analysis
+and visualizations
+utils.py
+#
+Functions
+for
+data generation
+data/
+initial. cSV
+#
+Raw generated
+dataset
+final. cSV
+#
+DataFrame
+with calculated
+metrics
+output . cSV
+#
+Final
+results including pivot
+tables
+Instructions
+1 Data Generation
+Generate a series of monthly dates for one year (eg  from '2025-01-01' to '2025-12-01')
+Define in utilspy a function generate _random_salestmin _val max_val size ) that returns a random
+NumPy array of integers between min_val and max_val for the given size
+Use this function to generate random monthly sales (integers) for 12 months for four products 
+Product A: 5O-1OO units
+Product B: 30-80 units
+Product C: 20-60 units
+Product D: 10-SO units
+Create a DataFrame with columns: Date Product_ A, Product_ B, Product_C Product_D.
+Save this initial dataset as
+initial
+C5٧
+2. Build DataFrame
+Create a Pandas DataFrame with columns:
+Month
+Product_A
+Product _B
+Product_C
+Product_D
+Compute monthly metrics:
+Total Sales
+sum of all products per month
+Average _ Sales
+mean sales per month
+Month_over _ Month _ Growth
+percent change of Total_ Sales
+٧S
+previous month
+Assign each month to a quarter 
+key
+Q1: Jan-Mar Q2: Apr-Jun Q3: Jul-Sep Q4: Oct- Dec
+Add additional columns 
+Max _ Sales _
+Product
+product with the highest sales each month
+Min _ Sales _ Product
+product with the lowest sales each month
+Save this
+updated DataFrame as
+final 
+C5٧
+3. Pivot Tables & Summaries
+Compute average sales per quarter for each product and total sales using a pivot table
+Compute total sales per quarter
+Save the final output including pivot tables as
+output
+CSV
+4.
+Key Insights
+Identify the best month (highest total sales)
+Identify the best product (highest cumulative annual sales)
+Identify the best quarter (highest total sales)
+5. Visualizations
+Line chart for each product across months
+Stacked bar chart of total monthly sales by product (annotate best month)
+Seaborn heatmap: monthly sales of each product
+Seaborn boxplot  distribution of sales per product
+6. Conclusion Questions
+Which product contributes the most to overall sales throughout the year?
+Which quarter performs best and why might that be?
+How could this information be used to improve sales strategy for the next
+year?

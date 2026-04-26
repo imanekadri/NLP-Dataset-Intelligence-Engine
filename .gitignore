@@ -7,7 +7,7 @@ __pycache__/
 venv/
 
 # Output and generated files
-output/
+# output/ (Retiré pour permettre le push)
 
 # OS
 .DS_Store

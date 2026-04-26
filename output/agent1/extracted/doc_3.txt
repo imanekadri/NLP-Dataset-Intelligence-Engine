@@ -1,0 +1,873 @@
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Cours pour Master 1
+Intelligence Artificielle Appliqu´ ee (I2A)
+Module: Cloud Computing et Big Data
+Djouher AKROUR
+D´ epartement d’informatique, Universit´ e M’Hamed Bougara
+8 octobre 2025
+1 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Mode d’´ evaluation
+UE de d´ ecouverte
+VHS : 45h (1 cours et 1 TP par semaine)
+Coefficient : 2
+Cr´ edit : 2
+Mode d’´ evaluation
+Examen semestriel en pr´ esentiel (60%).
+´Evaluation continue en pr´ esentiel (40%) : interrogations
+´ ecrites, tests et travail personnel.
+2 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+R´ ef´ erences
+1Shrivastwa, A., & Duncan, D. (2018). Hybrid Cloud for
+Architects : Build Robust Hybrid Cloud Solutions Using AWS
+and OpenStack
+2Erl, T., & Monroy, E. B. (2023). Cloud Computing :
+Concepts, Technology, Security, and Architecture (2e ´ ed.).
+Pearson. ISBN : 978-0138052256
+3Nwodo, A. (2024). Confident Cloud : Uncover the Essentials
+of Cloud Computing.
+4Chesnot, G. (2017). Big data et cloud : Stockage et
+traitement de donn´ ees du futur. Second edistion. Ed.
+VUIBERT. 272 pages.
+5Hashem, H. (2021). Le traitement bigdata : du cloud
+computing ` a l’internet des objets. Ed. Publishroom. 324 pages.
+3 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Plan
+Chapitre 1 : Introduction au Cloud Computing.
+Chapitre 2 : Mod` eles de Service Cloud.
+Chapitre 3 : Mod` eles de d´ eploiement.
+Chapitre 4 : Virtualisation.
+Chapitre 5 : Conteneurisation et DOCKER.
+Chapitre 6 : Stockage dans le Cloud.
+Chapitre 7 : Technologies Big Data dans le Cloud.
+4 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Chapitre 1 : Introduction au Cloud Computing
+Plan
+1D´ efinition du Cloud.
+2Historique et ´ evolution du Cloud.
+3Avantages et inconv´ enients du Cloud.
+4Caract´ eristiques du Cloud : ´ elasticit´ e, mutualisation, paiement
+` a l’usage, etc.
+5 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+D´ efinition du Cloud Computing
+Que connaissez vous du Cloud Computing ?
+6 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+D´ efinition du Cloud Computing
+Que connaissez vous du Cloud Computing ?
+7 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+D´ efinition du Cloud Computing
+Que connaissez vous du Cloud Computing ?
+8 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+D´ efinition du Cloud Computing
+Le Cloud Computing, ou Informatique en Nuage, est un mod` ele qui
+permet la mise ` a disposition et l’ utilisation ` a la demande de
+ressources informatiques ( telles que la puissance de calcul, les
+serveurs, le stockage, les bases de donn´ ees, les r´ eseaux ou encore
+les logiciels ) livr´ ees comme un service par un fournisseur de Cloud,
+via Internet.
+9 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+D´ efinition du Cloud Computing
+Le Cloud Computing, ou Informatique en Nuage, est un mod` ele qui
+permet la mise ` a disposition et l’ utilisation ` a la demande de
+ressources informatiques ( telles que la puissance de calcul, les
+serveurs, le stockage, les bases de donn´ ees, les r´ eseaux ou encore
+les logiciels ) livr´ ees comme un service par un fournisseur de Cloud,
+via Internet.
+La mise ` a disposition
+Les ressources sont h´ eberg´ ees et rendues disponibles et
+accessibles par un fournisseur de Cloud comme Amazon,
+Google, Microsoft, etc.
+Le fournisseur met l’infrastructure et les services ` a disposition
+des utilisateurs (il rend la ressource accessible).
+10 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+D´ efinition du Cloud Computing
+Le Cloud Computing, ou Informatique en Nuage, est un mod` ele qui
+permet la mise ` a disposition et l’ utilisation ` a la demande de
+ressources informatiques ( telles que la puissance de calcul, les
+serveurs, le stockage, les bases de donn´ ees, les r´ eseaux ou encore
+les logiciels ) livr´ ees comme un service par un fournisseur de Cloud,
+via Internet.
+L’utilisation ` a la demande
+L’utilisateur peut consommer ces ressources quand il en a
+besoin, de mani` ere flexible, souvent via un simple clic ou une
+API.
+Utiliser sans poss´ eder, payer en fonction de la consommation
+(analogie avec l’´ electricit´ e, les donn´ ees mobiles)
+11 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+D´ efinition du Cloud Computing
+Le Cloud Computing, ou Informatique en Nuage, est un mod` ele qui
+permet la mise ` a disposition et l’ utilisation ` a la demande de
+ressources informatiques ( telles que la puissance de calcul, les
+serveurs, le stockage, les bases de donn´ ees, les r´ eseaux ou encore
+les logiciels ) livr´ ees comme un service par un fournisseur de
+Cloud, via Internet.
+Services
+Peuvent ˆ etre des services gratuits (limit´ es) ou payants
+(complets et ´ evolutifs).
+Exemple : Gmail (15 Go gratuits), Dropbox (2 Go gratuits),
+Netflix (abonnement), Google Drive/ Dropbox/ OneDrive
+avec stockage suppl´ ementaire, Office 365.
+12 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+D´ efinition du Cloud Computing
+Le Cloud Computing, ou Informatique en Nuage, est un mod` ele qui
+permet la mise ` a disposition et l’ utilisation ` a la demande de
+ressources informatiques ( telles que la puissance de calcul, les
+serveurs, le stockage, les bases de donn´ ees, les r´ eseaux ou encore
+les logiciels ) livr´ ees comme un service par un fournisseur de Cloud,
+via Internet .
+Acces via Internet
+Les ressources sont disponibles uniquement en ligne, sans
+installation locale complexe.
+Accessibilit´ e mondiale, ` a tout moment, depuis n’importe o` u,
+avec un ordinateur, une tablette ou un smartphone.
+13 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+D´ efinition du Cloud Computing
+On peut dire que le Cloud est un mod` ele de consommation de
+ressources informatiques ` a la demande, via internet, avec une
+facturation ` a l’usage.
+14 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+D´ efinition du Cloud Computing
+Pourquoi appelle-t-on cela ”Cloud” ?
+Origine de la m´ etaphore
+Utilis´ ee dans les diagrammes
+de r´ eseau pour repr´ esenter
+l’Internet.
+Symbolise un domaine
+inconnu entre le fournisseur
+et l’utilisateur.
+1994 : Andy Hertzfeld
+(d´ eveloppeur Macintosh)
+popularise le terme pour
+l’informatique distribu´ ee
+Le ”nuage” repr´ esentait
+l’accessibilit´ e ` a distance
+des ressources informatiques
+15 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+D´ efinition du Cloud Computing
+Pourquoi appelle-t-on cela ”Cloud” ?
+Origine de la m´ etaphore
+Utilis´ ee dans les diagrammes
+de r´ eseau pour repr´ esenter
+l’Internet.
+Symbolise un domaine
+inconnu entre le fournisseur
+et l’utilisateur.
+1994 : Andy Hertzfeld
+(d´ eveloppeur Macintosh)
+popularise le terme pour
+l’informatique distribu´ ee
+Le ”nuage” repr´ esentait
+l’accessibilit´ e ` a distance
+des ressources informatiques
+16 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique et ´Evolution du Cloud Computing
+Du partage du temps aux services cloud modernes : un
+voyage de plus de 70 ans d’innovation !
+17 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique du Cloud Computing
+Les pr´ ecurseurs du Cloud Computing
+Mainframe (1950s-1970s)
+18 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique du Cloud Computing
+Les pr´ ecurseurs du Cloud Computing
+Mainframe (1950s-1970s)
+Ordinateurs centraux puissant tr` es coˆ uteux
+Seules les grandes organisations pouvaient se permettre cette
+infrastructure
+John McCarthy : th´ eorie du partage des ressources
+informatiques (CPU, m´ emoire, ...)
+Concept de partage du temps (Time-sharing)
+Permettre ` a plusieurs utilisateurs d’acc´ eder aux mˆ emes
+donn´ ees et puissance de calcul via des terminaux passifs.
+Objectif : optimiser l’usage de la puissance de calcul des
+grands ordinateurs centraux et r´ eduire les coˆ uts individuels.Apport au cloud :
+Mutualisation des ressources (time-sharing).
+19 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique du Cloud Computing
+Les pr´ ecurseurs du Cloud Computing
+Mainframe (1950s-1970s)
+Ordinateurs centraux puissant tr` es coˆ uteux
+Seules les grandes organisations pouvaient se permettre cette
+infrastructure
+John McCarthy : th´ eorie du partage des ressources
+informatiques (CPU, m´ emoire, ...)
+Concept de partage du temps (Time-sharing)
+Permettre ` a plusieurs utilisateurs d’acc´ eder aux mˆ emes
+donn´ ees et puissance de calcul via des terminaux passifs.
+Objectif : optimiser l’usage de la puissance de calcul des
+grands ordinateurs centraux et r´ eduire les coˆ uts individuels.Apport au cloud :
+Mutualisation des ressources (time-sharing).
+20 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique du Cloud Computing
+Les pr´ ecurseurs du Cloud Computing
+Virtualisation (1960s-1970s)
+Abstraction des ressources
+physiques permettant l’ex´ ecution
+de multiples OS sur une mˆ eme
+machine,
+Premi` ere virtualisation sur
+mainframes et Time-sharing avanc´ e
+(avec IBM)
+Les mainframes ont pu disposer de
+plusieurs syst` emes virtuels, ou
+machines virtuelles, sur un seul
+nœud physique.
+Apport au cloud :
+Mutualisation efficace des ressources (multiprogrammation),
+´Economies de coˆ ut
+21 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique du Cloud Computing
+Les pr´ ecurseurs du Cloud Computing
+Virtualisation (1960s-1970s)
+Abstraction des ressources
+physiques permettant l’ex´ ecution
+de multiples OS sur une mˆ eme
+machine,
+Premi` ere virtualisation sur
+mainframes et Time-sharing avanc´ e
+(avec IBM)
+Les mainframes ont pu disposer de
+plusieurs syst` emes virtuels, ou
+machines virtuelles, sur un seul
+nœud physique.
+Apport au cloud :
+Mutualisation efficace des ressources (multiprogrammation),
+´Economies de coˆ ut
+22 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique du Cloud Computing
+Les pr´ ecurseurs du Cloud Computing
+Internet/Web (1970s-1990s)
+Infrastructure r´ eseau globale avec protocoles TCP/IP et
+services web
+1960s, J.C.R. Licklider a imagin´ e un r´ eseau d’ordinateurs
+interconnect´ es
+1969, naissance de ARPANET, pr´ ecurseur d’Internet
+1991, World Wide Web
+Croissance du commerce ´ electronique
+100,000+ ordinateurs connect´ es ` a Internet (fin des ann´ ees 80)Apport au cloud :
+Acc` es distant aux ressources,
+Infrastructure de communication universelle,
+Protocoles standardis´ es (http)
+23 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique du Cloud Computing
+Les pr´ ecurseurs du Cloud Computing
+Internet/Web (1970s-1990s)
+Infrastructure r´ eseau globale avec protocoles TCP/IP et
+services web
+1960s, J.C.R. Licklider a imagin´ e un r´ eseau d’ordinateurs
+interconnect´ es
+1969, naissance de ARPANET, pr´ ecurseur d’Internet
+1991, World Wide Web
+Croissance du commerce ´ electronique
+100,000+ ordinateurs connect´ es ` a Internet (fin des ann´ ees 80)Apport au cloud :
+Acc` es distant aux ressources,
+Infrastructure de communication universelle,
+Protocoles standardis´ es (http)
+24 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique du Cloud Computing
+Les pr´ ecurseurs du Cloud Computing
+Client-Serveur (1980s-1990s)
+Mod` ele centralis´ e o` u les responsabilit´ es
+et rˆ oles sont s´ epar´ es
+Le client (ordinateur, smartphone)
+demande un service.
+Le serveur (machine puissante) fournit le
+service (ex : site web, base de donn´ ees)
+Communication : Principalement du type
+requˆ ete-r´ eponse.
+Base du web et des applications
+distribu´ ees (exemple : r´ eseaux locaux et
+partage de ressources aux sein d’une
+entreprise).
+Plus flexible que le mainframe et
+moindre coˆ ut pour une puissance
+´ equivalente
+Apport au cloud :
+Gestion centralis´ ee des ressources,
+S´ eparation clients (consommateurs) / serveur(fournisseur)
+25 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique du Cloud Computing
+Les pr´ ecurseurs du Cloud Computing
+Client-Serveur (1980s-1990s)
+Mod` ele centralis´ e o` u les responsabilit´ es
+et rˆ oles sont s´ epar´ es
+Le client (ordinateur, smartphone)
+demande un service.
+Le serveur (machine puissante) fournit le
+service (ex : site web, base de donn´ ees)
+Communication : Principalement du type
+requˆ ete-r´ eponse.
+Base du web et des applications
+distribu´ ees (exemple : r´ eseaux locaux et
+partage de ressources aux sein d’une
+entreprise).
+Plus flexible que le mainframe et
+moindre coˆ ut pour une puissance
+´ equivalente
+Apport au cloud :
+Gestion centralis´ ee des ressources,
+S´ eparation clients (consommateurs) / serveur(fournisseur)
+26 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique du Cloud Computing
+Les pr´ ecurseurs du Cloud Computing
+Grid Computing (1995-2005)
+Mod` ele d´ ecentralis´ e et
+collaboratif.
+Interconnexion de nombreuses
+machines (PC, serveurs)
+g´ eographiquement dispers´ ees.
+Objectif : Former une
+m´ ega-machine virtuelle pour
+r´ esoudre un seul probl` eme de
+calcul immense. (Utilise les OS
+natifs, pas de virtualisation)
+Communication : Les nœuds
+collaborent et partagent la charge
+de calcul.
+Apport au cloud :
+Mutualisation de ressources distribu´ ees,
+Mutualisation d’une grande puissance de calcul,
+R´ esilience, ´ elasticit´ e, scalabilit´ e
+27 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique du Cloud Computing
+Les pr´ ecurseurs du Cloud Computing
+Grid Computing (1995-2005)
+Mod` ele d´ ecentralis´ e et
+collaboratif.
+Interconnexion de nombreuses
+machines (PC, serveurs)
+g´ eographiquement dispers´ ees.
+Objectif : Former une
+m´ ega-machine virtuelle pour
+r´ esoudre un seul probl` eme de
+calcul immense. (Utilise les OS
+natifs, pas de virtualisation)
+Communication : Les nœuds
+collaborent et partagent la charge
+de calcul.
+Apport au cloud :
+Mutualisation de ressources distribu´ ees,
+Mutualisation d’une grande puissance de calcul,
+R´ esilience, ´ elasticit´ e, scalabilit´ e
+28 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique du Cloud Computing
+Client/serveur vs Grid Computing
+Mod` ele centralis´ e (mais ressources distribu´ e)/ mod` ele
+d´ ecentralis´ e
+Partage de services et donn´ es/ partage de puissance de calcul
+Relation 1 client plusieurs serveurs/relation ´ egal
+objectif : fournir un service/ r´ esoudre un probl` eme
+29 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique du Cloud Computing
+Les pr´ ecurseurs du Cloud Computing
+P2P(1990s-2010)
+R´ eseaux d´ ecentralis´ es o` u chaque
+nœud peut ˆ etre client et serveur
+simultan´ ement
+Pas de serveur central
+Fonctionnement : ´Echange direct
+entre utilisateurs (ex : partage de
+fichiers)
+Exemples c´ el` ebres : Napster,
+BitTorrent, Bitcoin
+Apport au cloud :
+D´ ecentralisation sans permission,
+R´ esilience absolue,
+M´ ecanismes de d´ ecouverte automatique de services
+30 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique du Cloud Computing
+Les pr´ ecurseurs du Cloud Computing
+P2P(1990s-2010)
+R´ eseaux d´ ecentralis´ es o` u chaque
+nœud peut ˆ etre client et serveur
+simultan´ ement
+Pas de serveur central
+Fonctionnement : ´Echange direct
+entre utilisateurs (ex : partage de
+fichiers)
+Exemples c´ el` ebres : Napster,
+BitTorrent, Bitcoin
+Apport au cloud :
+D´ ecentralisation sans permission,
+R´ esilience absolue,
+M´ ecanismes de d´ ecouverte automatique de services
+31 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique du Cloud Computing
+Les pr´ ecurseurs du Cloud Computing
+Utility Computing (2000-2005)
+Mod` ele de consommation des ressources informatiques comme
+un service public (´ electricit´ e)
+2002 (IBM ”e-business on demand”)
+On consomme et on paye ` a l’usage (pay-as-you-go).
+Concept th´ eoris´ e d` es les ann´ ees 1960 (John McCarthy) mais
+r´ ealis´ e avec Amazon AWS (2006).Apport au cloud :
+Facturation ` a l’usage
+(pay-as-you-go),
+Mod` ele ´ economique
+32 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique du Cloud Computing
+Les pr´ ecurseurs du Cloud Computing
+Utility Computing (2000-2005)
+Mod` ele de consommation des ressources informatiques comme
+un service public (´ electricit´ e)
+2002 (IBM ”e-business on demand”)
+On consomme et on paye ` a l’usage (pay-as-you-go).
+Concept th´ eoris´ e d` es les ann´ ees 1960 (John McCarthy) mais
+r´ ealis´ e avec Amazon AWS (2006).Apport au cloud :
+Facturation ` a l’usage
+(pay-as-you-go),
+Mod` ele ´ economique
+33 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique du Cloud Computing
+Les pr´ ecurseurs du Cloud Computing
+Cloud Computing (2006-pr´ esent)
+Services informatiques (IaaS, PaaS, SaaS) accessibles via
+Internet avec facturation ` a l’usage
+Convergence de toutes les technologies pr´ ec´ edentes dans un
+mod` ele commercial mature
+34 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique du Cloud Computing
+Le cloud moderne n’est pas une invention soudaine, mais une
+´ evolution logique qui a synth´ etis´ e les forces de chaque mod` ele :
+Du Mainframe : La mutualisation et la s´ ecurit´ e.
+De la Virtualisation : L’ind´ ependance vis-` a-vis du mat´ eriel.
+Du Client-Serveur : L’architecture en services accessibles par
+r´ eseau.
+Du Grid : L’orchestration de ressources mondiales.
+Du P2P : La r´ esilience et la d´ ecentralisation.
+De l’Utility Computing : Le mod` ele de facturation ` a l’usage.
+C’est la combinaison de ces id´ ees qui a cr´ e´ e la r´ evolution du cloud
+tel que nous le connaissons aujourd’hui.
+35 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique du Cloud Computing
+Cloud Computing vs MainFrame
+Points communs
+Mutualisation de ressources
+Acc` es a la demande
+Centralisation de la gestion
+Diff´ erences
+G´ eographie : une seule machine physique (ou petit nombre) /
+r´ eseau mondial distribu´ e (des milliers de serveurs r´ eparti dans
+le monde entier)
+Acc` es et r´ eseau : r´ eseau local priv´ e/ internet
+philosophie : centralisation forte/ distribution et r´ esilience
+36 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique et ´Evolution du Cloud Computing
+Naissance du Terme ”Cloud Computing” (1990-2000)
+Premi` ere utilisation (1996)
+Chez Compaq Computer, George Favaloro et Sean O’Sullivan
+parlent pour la premi` ere fois de ”cloud computing-enabled
+applications”.
+Ils pr´ edisent que la majorit´ e des logiciels migreraient vers le
+Web.
+37 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique et ´Evolution du Cloud Computing
+Amazon Web Services : Le Pionnier (2000-2006)
+2000-2004 : Pr´ eparation interne
+Amazon devait g´ erer des pics de trafic ´ enormes pendant les
+p´ eriodes de soldes et de fˆ etes. Pour cela, ils d´ eveloppent une
+infrastructure flexible et scalable.
+En 2003, Benjamin Black et Chris Pinkham proposent une id´ ee
+r´ evolutionnaire : louer les ressources exc´ edentaires ` a d’autres
+entreprises.
+2006 : Lancement officiel d’AWS (C’est le v´ eritable point de
+d´ epart du cloud commercial moderne)
+Amazon S3 (stockage)
+Amazon EC2 (calcul)
+Amazon SQS(files d’attente)Innovation cl´ e : Location des ressources
+exc´ edentaires non utilis´ ees pendant les p´ eriodes creuses.
+38 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique et ´Evolution du Cloud Computing
+Amazon Web Services : Le Pionnier (2000-2006)
+2000-2004 : Pr´ eparation interne
+Amazon devait g´ erer des pics de trafic ´ enormes pendant les
+p´ eriodes de soldes et de fˆ etes. Pour cela, ils d´ eveloppent une
+infrastructure flexible et scalable.
+En 2003, Benjamin Black et Chris Pinkham proposent une id´ ee
+r´ evolutionnaire : louer les ressources exc´ edentaires ` a d’autres
+entreprises.
+2006 : Lancement officiel d’AWS (C’est le v´ eritable point de
+d´ epart du cloud commercial moderne)
+Amazon S3 (stockage)
+Amazon EC2 (calcul)
+Amazon SQS(files d’attente)Innovation cl´ e : Location des ressources
+exc´ edentaires non utilis´ ees pendant les p´ eriodes creuses.
+39 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique et ´Evolution du Cloud Computing
+L’Expansion du Cloud Computing (2007-2010)
+2007 : Diversification des services
+Google Docs : suite bureautique en ligne
+Netflix : lancement du streaming cloud
+Salesforce : pionnier du SaaS (depuis 1999)
+2008 : Nouveaux acteurs
+Microsoft Azure : projet ”Red Dog”
+Google App Engine : plateforme de d´ eveloppement
+OpenNebula (NASA) : premier logiciel open source pour cloud
+priv´ e
+40 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique et ´Evolution du Cloud Computing
+L’ˆAge d’Or du Cloud Computing (2010-2015)
+2011-2012 : Maturation
+IBM SmartCloud (2011)
+Oracle Cloud (2012) : tous les mod` eles de service
+Apple iCloud : cloud grand public
+2013 : Adoption massive
+Point de bascule : adoption massive par les entreprises
+Docker : r´ evolution des conteneurs
+Hybridation : cloud public + priv´ e
+41 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique et ´Evolution du Cloud Computing
+Innovation Continue (2015-2020)
+2014-2016 : Nouvelles technologies
+Kubernetes (Google) : orchestration de conteneurs
+AWS Lambda : computing serverless
+Machine Learning as a Service
+2017-2020 : Sp´ ecialisation
+Intelligence Artificielle int´ egr´ ee
+Internet des Objets (IoT)
+Edge Computing
+Multi-cloud et cloud hybride
+42 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique et ´Evolution du Cloud Computing
+Figure – Les g´ eants du Cloud aujourd’hui
+43 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique et ´Evolution du Cloud Computing
+Impact de la Pand´ emie COVID-19 (2020-2022)
+Acc´ el´ eration massive
+T´ el´ etravail g´ en´ eralis´ e
+Visioconf´ erences (Zoom, Teams)
+Collaboration en ligne
+Commerce ´ electronique
+Cons´ equences
+Adoption cloud acc´ el´ er´ ee de 5-10 ans
+Transformation digitale forc´ ee
+Nouveaux besoins en s´ ecurit´ e et compliance
+44 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique et ´Evolution du Cloud Computing
+Le Cloud Computing Aujourd’hui (2023-2025)
+Tendances actuelles
+Multi-cloud : utilisation de plusieurs fournisseurs
+Cloud-native : applications con¸ cues pour le cloud
+Serverless : computing sans gestion de serveurs
+Containers et microservices
+Nouveaux d´ efis
+Souverainet´ e des donn´ ees
+Durabilit´ e environnementale
+Coˆ uts et optimisation
+S´ ecurit´ e et compliance
+45 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Historique et ´Evolution du Cloud Computing
+Technologies ´Emergentes
+Intelligence Artificielle
+GPT et IA g´ en´ erative
+AutoML : Machine Learning automatis´ e
+AI as a Service
+Computing de pointe
+Quantum Computing as a Service
+Edge AI : IA sur les p´ eriph´ eriques
+5G et cloud distribu´ e
+46 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Avantages et inconv´ enients du Cloud
+Les Principaux Avantages
+R´ eduction des coˆ ut :´Economies de 38-45% sur les coˆ uts
+op´ erationnels
+Maintenance r´ eduite : Gestion automatis´ ee par le
+fournisseur
+´Elasticit´ e et Scalabilit´ e : Ajustement des ressources en
+temps r´ eel
+Flexibilit´ e : D´ eploiement rapide dans plusieurs r´ egions
+Accessibilit´ e : Acc` es mondial depuis n’importe o` u
+Collaboration am´ elior´ ee : Travail collaboratif facilit´ e
+47 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Avantages et inconv´ enients du Cloud
+Les Principaux Avantages
+R´ eduction des coˆ uts
+- Le cloud computing ´ elimine les investissements initiaux
+importants en mat´ eriel et en infrastructure.
+Cela permet aux petites entreprises d’acc´ eder ` a des technologies de
+pointe sans investissements massifs, cr´ eant ainsi des opportunit´ es
+de concurrence ´ equitable sur le march´ e.
+- Mod` ele de paiement ` a l’utilisation (Pay-as-You-Go) : Les
+utilisateurs ne paient que pour les ressources qu’ils consomment,
+ce qui peut s’av´ erer plus rentable en cas de charges de travail
+fluctuantes.
+48 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Avantages et inconv´ enients du Cloud
+Les Principaux Avantages
+Maintenance r´ eduite
+Les fournisseurs cloud assument la responsabilit´ e de la
+maintenance, des mises ` a jour, de la s´ ecurit´ e et de la disponibilit´ e
+des services.
+En externalisant la gestion de l’infrastructure :
+- Les organisations ´ evitent les coˆ uts de maintenance, de mise ` a
+jour et de remplacement du mat´ eriel.
+- Les organisations peuvent se concentrer sur leurs activit´ es
+principales plutˆ ot que sur la gestion d’infrastructures complexes.
+49 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Avantages et inconv´ enients du Cloud
+Les Principaux Avantages
+´Elasticit´ e et Scalabilit´ e
+La scalabilit´ e (ou ≪mise ` a l’´ echelle ≫) correspond ` a la possibilit´ e
+d’ajuster la puissance de calcul, la m´ emoire ou le stockage d’un
+syst` eme en fonction de l’´ evolution de la demande. Cette
+adaptation peut ˆ etre manuelle ou automatique, mais n’implique
+pas forc´ ement une r´ eponse imm´ ediate ou automatis´ ee.
+L’´ elasticit´ e va plus loin : elle d´ ecrit la capacit´ e d’un syst` eme ` a
+ajuster automatiquement et rapidement les ressources en fonction
+de la demande r´ eelle, que ce soit ` a la hausse (plus de ressources)
+ou ` a la baisse (retrait des ressources). Le syst` eme retourne ` a son
+´ etat initial lorsque la pression diminue, sans intervention humaine
+50 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Avantages et inconv´ enients du Cloud
+Les Principaux Avantages
+´Elasticit´ e et Scalabilit´ e
+- Scalabilit´ e = adaptation possible, parfois lente, souvent planifi´ ee.
+-´Elasticit´ e = adaptation automatique, rapide, et dynamique ` a la
+demande r´ eelle.
+- L’´ elasticit´ e s’appuie sur la scalabilit´ e, mais ajoute
+l’automatisation et la r´ eversibilit´ e
+Cela garanti une utilisation optimale et permet de g´ erer
+efficacement les pics de charge et les variations de demande sans
+surdimensionnement coˆ uteux des infrastructures.
+51 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Avantages et inconv´ enients du Cloud
+Les Principaux Avantages
+´Elasticit´ e et Scalabilit´ e
+Lascalabilit´ e verticale (ou scale-up) augmente la puissance d’un
+serveur unique, tandis que la scalabilit´ e horizontale (ou scale-out)
+ajoute des serveurs suppl´ ementaires pour r´ epartir la charge.
+La scalabilit´ e verticale est plus simple pour g´ erer les pics de charge
+mais limit´ ee, et peut n´ ecessiter un arrˆ et du syst` eme. La scalabilit´ e
+horizontale offre une capacit´ e potentiellement illimit´ ee en ajoutant
+des instances et une meilleure r´ esilience, mais implique une gestion
+plus complexe.
+52 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Avantages et inconv´ enients du Cloud
+Les Principaux Avantages
+Flexibilit´ e
+La flexibilit´ e dans le cloud computing est la capacit´ e d’une
+infrastructure informatique ` a fournir la bonne ressource, au bon
+moment, au bon endroit, pour le bon coˆ ut, en s’adaptant
+rapidement et facilement aux changements des besoins des
+organisations, sans contraintes techniques ou ´ economiques
+majeures.
+53 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Avantages et inconv´ enients du Cloud
+Les Principaux Avantages
+Accessibilit´ e et Collaboration
+Les utilisateurs d’acc´ eder ` a leurs donn´ ees et applications depuis
+n’importe quel endroit connect´ e ` a Internet, facilitant ainsi le travail
+d’´ equipe ` a distance grˆ ace ` a des outils de partage et de
+communication en temps r´ eel.
+Cette centralisation des donn´ ees garantit que tous les membres
+d’une ´ equipe travaillent sur la mˆ eme version des fichiers,
+am´ eliorant l’efficacit´ e et r´ eduisant les erreurs
+54 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Avantages et inconv´ enients du Cloud
+Les Principaux Inconv´ enients
+S´ ecurit´ e et Confidentialit´ e : Risques de violations de
+donn´ ees
+D´ ependance r´ eseau : Vuln´ erabilit´ e aux pannes Internet
+Vendor lock-in : Difficult´ e de changement de fournisseur
+Contrˆ ole limit´ e : Moins de contrˆ ole sur l’infrastructure
+Coˆ uts cach´ es : Frais additionnels non pr´ evus
+Conformit´ e r´ eglementaire : D´ efis de respect des
+r´ eglementations
+55 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Avantages et inconv´ enients du Cloud
+Les Principaux Inconv´ enients
+S´ ecurit´ e et Confidentialit´ e
+Les organisations expriment des pr´ eoccupations l´ egitimes
+concernant la protection des donn´ ees sensibles, leur localisation
+exacte et leur conformit´ e aux r´ eglementations.
+La perte de contrˆ ole physique et les risques de fuites ou d’acc` es
+non autoris´ es restent une inqui´ etude majeure.
+56 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Avantages et inconv´ enients du Cloud
+Les Principaux Inconv´ enients
+D´ ependance r´ eseau
+L’acc` es aux services cloud n´ ecessite une connexion Internet stable.
+(Panne de connexion = interruption de service)
+Les organisations deviennent vuln´ erables aux pannes de r´ eseau, ` a la
+latence1et aux probl` emes de bande passante qui peuvent affecter
+l’acc` es aux services essentiels.
+Cette d´ ependance peut ˆ etre particuli` erement probl´ ematique pour
+les applications critiques n´ ecessitant une disponibilit´ e constante.
+1. le d´ elai de temps n´ ecessaire ` a un paquet de donn´ ees pour voyager d’un
+point ` a un autre sur un r´ eseau, mesur´ e en millisecondes (ms)
+57 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Avantages et inconv´ enients du Cloud
+Les Principaux Inconv´ enients
+Vendor lock-in (D´ ependance au fournisseur)
+Les technologies propri´ etaires et les architectures sp´ ecifiques ` a un
+cloud rendent les migrations difficiles et coˆ uteuses. (Formats de
+donn´ ees non portables)
+Cette d´ ependance limite la flexibilit´ e strat´ egique et peut augmenter
+les coˆ uts ` a long terme.
+58 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Avantages et inconv´ enients du Cloud
+Les Principaux Inconv´ enients
+Contrˆ ole limit´ e
+Les fournisseurs g` erent les donn´ ees et services, ce qui r´ eduit le
+niveau de contrˆ ole que les clients cloud peuvent exercer sur leurs
+ressources externalis´ ees.
+Les utilisateurs n’ont pas acc` es ` a l’infrastructure physique et
+doivent s’adapter aux limitations techniques impos´ ees par le
+fournisseur. Les mises ` a jour et maintenance sont subies et
+impos´ ees, r´ eduisant la maˆ ıtrise op´ erationnelle.
+59 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Avantages et inconv´ enients du Cloud
+Les Principaux Inconv´ enients
+Coˆ uts cach´ es
+Le mod` ele de paiement ` a l’usage peut entraˆ ıner des surprises
+financi` eres.
+Les coˆ uts cach´ es (transferts de donn´ ees, stockage) et la difficult´ e ` a
+anticiper la consommation mensuels rendent la gestion budg´ etaire
+complexe, avec des risques de d´ epassements significatifs.
+(”d´ ebordement” des budgets)
+60 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Avantages et inconv´ enients du Cloud
+Les Principaux Inconv´ enients
+Conformit´ e r´ eglementaire
+Les d´ efis de conformit´ e2r´ eglementaire repr´ esentent un obstacle
+significatif, particuli` erement pour les secteurs fortement
+r´ eglement´ es (sant´ e, finance, gouvernemental).
+Les organisations doivent s’assurer que leurs fournisseurs cloud
+respectent les r´ eglementations applicables et maintiennent les
+standards de conformit´ e requis.
+Respecter toutes les r` egles concernant la s´ ecurit´ e et protection des
+donn´ ees et la localisation des donn´ ees (Les donn´ ees fran¸ caises
+doivent rester en France).3
+2. Compliance en anglais, respect des r` egles.
+3. Jouer selon les r` egles du jeu pour ´ eviter les penalties et garder la confiance
+de tout le monde61 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Caract´ eristiques du Cloud
+62 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Caract´ eristiques du Cloud
+1. Acc` es en libre-service ` a la demande
+Un utilisateur peut provisionner des ressources informatiques
+(serveurs, stockage, applications) de mani` ere automatique et sans
+intervention humaine, via une interface en ligne.
+Exemple : Cr´ eer un serveur virtuel en 5 minutes depuis son
+navigateur web.
+63 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Caract´ eristiques du Cloud
+2. Large acc` es r´ eseau
+Les ressources cloud sont accessibles depuis n’importe quel appareil
+connect´ e ` a Internet (PC, mobile, tablette) via des m´ ecanismes
+standardis´ es.
+Exemple : Acc´ eder ` a ses fichiers stock´ es sur OneDrive depuis son
+t´ el´ ephone, sa tablette ou son ordinateur.
+64 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Caract´ eristiques du Cloud
+3. Mise en commun des ressources
+Les ressources informatiques (mat´ erielles et logicielles) sont
+mutualis´ ees pour servir plusieurs clients, avec un mod` ele
+multi-locataire.
+Exemple : Un mˆ eme serveur physique chez AWS h´ eberge plusieurs
+machines virtuelles appartenant ` a diff´ erentes entreprises.
+65 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Caract´ eristiques du Cloud
+4.´Elasticit´ e rapide
+Les ressources peuvent ˆ etre provisionn´ ees et lib´ er´ ees
+automatiquement et rapidement, parfois mˆ eme de mani` ere
+instantan´ ee, pour s’adapter ` a la charge.
+Exemple : Un site e-commerce qui passe automatiquement de 10 ` a
+100 serveurs pendant les soldes, puis revient ` a 10 serveurs apr` es.
+66 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Caract´ eristiques du Cloud
+5. Service mesur´ e
+L’utilisation des ressources est mesur´ ee, contrˆ ol´ ee et rapport´ ee,
+permettant un syst` eme de paiement ` a l’usage (pay-per-use).
+Exemple : Facturation ` a l’heure pour un serveur virtuel, au Go
+pour du stockage, ou ` a la requˆ ete pour une fonction serverless.
+67 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Distinction On-Premise vs Cloud
+On-Premise (sur site) : Mod` ele traditionnel dans lequel toute
+l’infrastructure informatique (serveurs, stockage, r´ eseau,
+logiciels) est h´ eberg´ ee, g´ er´ ee et maintenue localement dans les
+locaux de l’entreprise (centre de donn´ ees interne).
+Cloud : Mod` ele moderne o` u les ressources informatiques
+(machines virtuelles, applications, stockage, etc.) sont
+h´ eberg´ ees ` a distance dans des datacenters du fournisseur de
+services Cloud et accessibles via Internet, selon le principe du
+paiement ` a la demande (pay-as-you-go).
+68 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Distinction On-Premise vs Cloud
+Avantages et inconv´ enients
+69 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Distinction On-Premise vs Cloud
+Comparaison
+70 / 71
+Plan D´ efinition Historique ´Evolution Avantage et Inconv´ enients Caract´ eristiques
+Distinction On-Premise vs Cloud
+Comparaison
+71 / 71

@@ -1,0 +1,28 @@
+{
+  "probable_dataset_type": "multilingual_dataset",
+  "total_documents": 17,
+  "topics_detected": [
+    "accountant_accounting",
+    "cloud_computing",
+    "unknown_topic",
+    "true_data",
+    "والعربية_للطالب"
+  ],
+  "cluster_sizes": {
+    "accountant_accounting": 6,
+    "cloud_computing": 3,
+    "unknown_topic": 2,
+    "true_data": 3,
+    "والعربية_للطالب": 3
+  },
+  "avg_noise_ratio": 0.159,
+  "dialogue_ratio": 0.0,
+  "code_ratio": 0.0,
+  "language_distribution": {
+    "cy": 1,
+    "fr": 5,
+    "ca": 1,
+    "en": 7,
+    "ar": 3
+  }
+}

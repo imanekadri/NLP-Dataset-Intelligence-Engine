@@ -1,0 +1,387 @@
+|A2
+AP
+05- 2025/2026
+Tutorial 04- Essential
+Python Libraries: Exercices
+Exercise 01: Temperature Analysis with NumPy
+Problem Statement
+We have the following table of daily temperatures
+C) measured over
+7
+days in 3 cities 
+Alger
+Annaba
+Oran
+22
+25
+20
+2
+24
+27
+21
+3
+19
+20
+22
+25
+29
+28
+5
+26
+30
+27
+21
+21
+23
+20
+26
+25
+Tasks
+1 Create a NumPy array
+T
+with the data above
+2. Compute and display
+the maximum temperature for each
+the maximum temperature for each
+the overall maximum temperature in the table
+3. Find the
+and city where the overall maximum temperature occurred
+4. Create a new array showing for each day the higher temperature between Alger and
+Oran
+(use
+maximum
+5. Add a new row representing the average temperature of each city over the 7 days
+6. Determine the days where Annaba was the hottest
+(i.e.,
+Annabas temperature exceeded
+both Alger and Oran)
+Exercise 02: Student Grades Analysis with NumPy
+Problem Statement
+You are given the grades of 100 students in 5 modules 
+Modules:
+THL
+DS5
+DB
+S٤
+RE
+Grades are integers between 0 and 20 Your task is to perform statistical analysis and visualization using
+only NumPy and Matplotlib
+You will compute averages, variances and standard deviations apply boolean masks to filter grades and
+visualize module comparisons using plots
+Day
+city
+day
+day
+City
+np.
+city
+City
+Tasks
+Data Initialization
+1 Generate the
+grades of 100 students x 5 modules using
+np.random  randint
+2. Fix the random seed with
+np.random . seed (101)
+to ensure
+reproducibility
+3. Store the grades in a NumPy array called grades_of_students
+4. Define the list of modules 
+[ ' THL
+DSS
+DB
+S٤ 
+RE ' ]
+5. Display a preview of the grades (first 5 students)
+Basic Statistics
+1 .
+Compute the mean grade per student
+2. Compute the mean grade per module
+3. Compute the median grade per module
+4.
+Compute the variance and standard deviation for each module
+5. Find the overall minimum and maximum grade in the dataset
+6. Compute the 2Sth SOth and 7Sth percentiles for the module THL
+Boolean Mask and
+Filtering
+1. Create a boolean mask
+indicating grades between 10 and 15.
+2. Count how many grades fall within this range
+3. Extract all
+grades between 10 and 15 using the mask
+Visualization (Comparison Between Modules)
+1. Use a bar plot to compare the average grades per module
+2. Plot a box plot (or multiple histograms) to show the distribution of grades per module
+3. Customize titles labels and colors for clarity
+Extra practice
+1. Identify students who have all grades above 15.
+2. Compute the
+5 students with the highest average grades
+3. Find the module with the highest average grade
+Exercice 03: Hospital Data (Alger, Annaba, Oran) using
+Pandas
+Tasks
+1. Create a DataFrame with the
+following columns
+City
+Department
+Age
+DaysAdmitted
+DailyCost
+Satisfaction
+Readmitted
+Department
+Age
+DaysAdmitted
+DailyCost
+Satisfaction
+Readmitted
+Alger
+Cardiology
+45
+5
+200
+4.5
+Annaba
+Neurology
+60
+8
+300
+3.8
+Oran
+Orthopedics
+30
+3
+150
+4.2
+Alger
+Cardiology
+50
+220
+4.0
+top
+City
+City
+Department
+DaysAdmitted
+DailyCost
+Satisfaction
+Readmitted
+Oran
+Neurology
+40
+280
+4.1
+Annaba
+Orthopedics
+70
+160
+3.5
+Alger
+Cardiology
+35
+2
+210
+4.7
+Oran
+Neurology
+55
+9
+290
+3.9
+2. Add columns:
+TotalCost
+DaysAdmitted
+Dailycost
+AgeGroup
+" Young '
+if Age
+30
+Middle
+if 30 < Age < 50
+" Senior 
+if Age
+50
+3. Add, Rename, and Delete Columns 
+Add a column for a 10% Bonus based on the
+cOSt
+Rename the column Dailycost
+DailyFee
+Delete the column
+Bonus
+4
+Data Transformation 
+Create a column Highcost showing
+"Yes
+if total cost exceeds 6ODOO otherwise
+No
+Create a column
+SatisfactionLevel
+Excellent 
+iF Satisfaction > 8
+Average 
+if 5 < Satisfaction
+8
+Poor 
+if Satisfaction
+5
+5.
+Ranking and Sorting:
+Add a column ranking patients by TotalCost (highest rank = 1)
+Sort the dataset by RiskScore in descending order
+6. City Summary:
+For each
+calculate 
+Average total cost
+Average satisfaction
+Readmission rate (percentage of patients readmitted)
+7. Risk Score Calculation:
+Use the formula:
+RiskScore
+(DaysAdmitted Itimes 0 4)
+(Age Itimes 0.3)
+(100
+Satisfaction Itimes 10) Itimes 0.3
+Then classify into a new column Riskcategory
+High 
+if RiskScore
+60
+Medium
+if 40 < RiskScore < 60
+Low 
+otherwise
+8. Find the city with the highest average RiskScore
+9. Apply Data Cleaning and Mapping
+Replace missing or invalid
+Satisfaction
+values with the mean of the column
+names
+Alger
+Annaba
+Oran
+to region codes
+0Z-16
+0Z-23
+07-31
+Replace binary values in
+Readmitted
+column:
+0
+"No
+1
+"Ves
+10. Pivot Analysis
+Age
+daily
+city,
+Map
+city
+(e.9.,
+Create a pivot table showing average
+TotalCost
+and
+Satisfaction
+for each city and
+department
+Compare the result with a grouped summary to discuss the difference between both methods
+11. Export Results
+Export the main dataset to hospital risk. csv
+Export the city summary to
+summary. cSV
+Exercise 04: Hospital Data Visualization
+Matplotlib vs Seaborn
+Matplotlib
+1 Total Cost per
+Use a bar chart to show total cost per
+Add axis labels a title and numerical annotations above each bar
+Change the bar color manually (e g  'orange' or 'skyblue )
+2 Satisfaction Distribution
+Use a
+histogram
+ax.hist
+to visualize satisfaction scores
+Add mean and median lines with annotations
+Adjust the number of bins to explore visual differences
+3. Cost vs Satisfaction Scatter Plot
+Plot
+TotalCost
+٧S
+Satisfaction
+Use
+ax.scatter
+with custom markers and colors
+Highlight patients with
+Highcost
+
+"Ves
+in a different color
+Discuss the readability of the figure
+4.Subplots by City
+Use plt.subplots (1,
+3)
+to plot average satisfaction per department for each city
+Alger
+Annaba
+Oran )
+Ensure consistent y-axis limits for comparison 
+Add individual titles and one global figure title
+Seaborn
+1 Compare City Performances
+Create a Seaborn barplot showing average
+TotalCost
+and
+Satisfaction
+by City
+Use
+sns . barplot ( )
+with
+hue= ' Department
+for multi-dimensional insight
+Discuss which city performs best economically and in satisfaction 
+2.Risk Distribution
+city_
+City
+city.
+Use
+sn5
+boxplot ()
+to show the distribution of
+RiskScore
+across cities
+Use
+sns.violinplot()
+to add richer visual detail
+Compare both visuals and discuss what each reveals
+3. Correlations
+Use
+sns . heatmap ( )
+to visualize correlations between numeric variables
+Comment on which factors are most related to
+RiskScore and
+Readmission
+4. Pair
+Relationships
+Use
+Sns.
+pairplot( )
+with selected variables 
+Age
+DaysAdmitted
+TotalCost
+RiskScore
+Use
+hue= ' City
+to identify differences across cities
+Discuss one key insight revealed by this visualization 
+5  Combined dashboard
+Use Seaborn to build a combined dashboard:
+Subplot 1: Barplot of average satisfaction per city
+Subplot 2: Boxplot of RiskScore
+by RiskCategory
+Subplot 3: Heatmap of correlations
+Subplot 4: Countplot of readmissions
+Yes
+No
+per city
+Add a shared title 
+Hospital Risk and Satisfaction Overview'

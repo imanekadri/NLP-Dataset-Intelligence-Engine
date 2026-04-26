@@ -1,0 +1,2045 @@
+{
+  "doc_id": "doc_3.txt",
+  "paragraphs": [
+    {
+      "paragraph_id": 0,
+      "text": "Plan D efinition Historique Evolution Avantage et Inconv enients Caract eristiques Cours pour Master 1 Intelligence Artificielle Appliqu ee I2A Module Cloud Computing et Big Data D epartement d’informatique Universit e M’Hamed Bougara 8 octobre 2025 Mode d evaluation UE de d ecouverte VHS 45h 1 cours et 1 TP par semaine Coefficient 2 Cr edit 2 Mode d evaluation Examen semestriel en pr esentiel 60 Evaluation continue en pr esentiel 40 interrogations ecrites tests et travail personnel R ef erences 1Shrivastwa A. Duncan D. 2018 Hybrid Cloud Architects Build Robust Hybrid Cloud Solutions AWS 2Erl T. Monroy E. B. 2023 Cloud Computing Concepts Technology Security Architecture 2e ed Pearson ISBN 978 0138052256 3Nwodo A. 2024 Confident Cloud Uncover Essentials Cloud Computing 4Chesnot G. 2017 Big data et cloud Stockage et traitement de donn ees du futur Second edistion Ed VUIBERT 272 pages 5Hashem H. 2021 Le traitement bigdata du cloud computing ` l’internet des objets Ed Publishroom 324 pages Chapitre 1 Introduction au Cloud Computing Chapitre 2 Mod ` eles de Service Cloud Chapitre 3 Mod ` eles de d eploiement Chapitre 4 Virtualisation Chapitre 5 Conteneurisation et DOCKER Chapitre 6 Stockage dans le Cloud Chapitre 7 Technologies Big Data dans le Cloud Chapitre 1 Introduction au Cloud Computing 1D efinition du Cloud 2Historique et evolution du Cloud 3Avantages et inconv enients du Cloud 4Caract eristiques du Cloud elasticit e mutualisation paiement ` l’usage etc D efinition du Cloud Computing Que connaissez vous du Cloud Computing Le Cloud Computing ou Informatique en Nuage est un mod ` ele qui permet la mise ` disposition et l utilisation ` la demande de ressources informatiques telles que la puissance de calcul les serveurs le stockage les bases de donn ees les r eseaux ou encore les logiciels livr ees comme un service par un fournisseur de Cloud La mise ` disposition Les ressources sont h eberg ees et rendues disponibles et accessibles par un fournisseur de Cloud comme Amazon Google Microsoft etc Le fournisseur met l’infrastructure et les services ` disposition des utilisateurs il rend la ressource accessible L’utilisation ` la demande L’utilisateur peut consommer ces ressources quand il en besoin de mani ` ere flexible souvent un simple clic ou une Utiliser sans poss eder payer en fonction de la consommation analogie avec l electricit e les donn ees mobiles les logiciels livr ees comme un service par un fournisseur de Cloud Internet Peuvent etre des services gratuits limit es ou payants complets et evolutifs Exemple Gmail 15 gratuits Dropbox 2 gratuits Netflix abonnement Google Drive/ Dropbox/ OneDrive avec stockage suppl ementaire Office 365 Internet Acces Internet Les ressources sont disponibles uniquement en ligne sans installation locale complexe Accessibilit e mondiale ` tout moment depuis n’importe o ` u avec un ordinateur une tablette ou un smartphone peut dire que le Cloud est un mod ` ele de consommation de ressources informatiques ` la demande internet avec une facturation ` l’usage Pourquoi appelle t cela Cloud Origine de la m etaphore Utilis ee dans les diagrammes de r eseau pour repr esenter Symbolise un domaine inconnu entre le fournisseur et l’utilisateur 1994 Andy Hertzfeld d eveloppeur Macintosh popularise le terme pour l’informatique distribu ee Le nuage repr esentait l’accessibilit e ` distance des ressources informatiques Pourquoi appelle t cela Cloud Origine de la m etaphore Utilis ee dans les diagrammes de r eseau pour repr esenter Symbolise un domaine inconnu entre le fournisseur et l’utilisateur 1994 Andy Hertzfeld d eveloppeur Macintosh popularise le terme pour l’informatique distribu ee Le nuage repr esentait l’accessibilit e ` distance des ressources informatiques Historique et Evolution du Cloud Computing Du partage du temps aux services cloud modernes un voyage de plus de 70 ans d’innovation Historique du Cloud Computing Les pr ecurseurs du Cloud Computing Mainframe 1950s-1970s Ordinateurs centraux puissant tr ` es co uteux Seules les grandes organisations pouvaient se permettre cette John McCarthy th eorie du partage des ressources informatiques CPU m emoire Concept de partage du temps Time sharing Permettre ` plusieurs utilisateurs d’acc eder aux m emes donn ees et puissance de calcul des terminaux passifs Objectif optimiser l’usage de la puissance de calcul des grands ordinateurs centraux et r eduire les co uts individuels Apport au cloud Mutualisation des ressources time sharing Ordinateurs centraux puissant tr ` es co uteux Seules les grandes organisations pouvaient se permettre cette John McCarthy th eorie du partage des ressources informatiques CPU m emoire Concept de partage du temps Time sharing Permettre ` plusieurs utilisateurs d’acc eder aux m emes donn ees et puissance de calcul des terminaux passifs Objectif optimiser l’usage de la puissance de calcul des grands ordinateurs centraux et r eduire les co uts individuels Apport au cloud Mutualisation des ressources time sharing Virtualisation 1960s-1970s Abstraction des ressources physiques permettant l’ex ecution de multiples OS sur une m eme Premi ` ere virtualisation sur mainframes et Time sharing avanc e Les mainframes ont pu disposer de plusieurs syst ` emes virtuels ou machines virtuelles sur un seul Apport au cloud Mutualisation efficace des ressources multiprogrammation Economies de co ut Virtualisation 1960s-1970s Abstraction des ressources physiques permettant l’ex ecution de multiples OS sur une m eme Premi ` ere virtualisation sur mainframes et Time sharing avanc e Les mainframes ont pu disposer de plusieurs syst ` emes virtuels ou machines virtuelles sur un seul Mutualisation efficace des ressources multiprogrammation Economies de co ut Internet Web 1970s-1990s Infrastructure r eseau globale avec protocoles TCP IP et 1960s J.C.R. Licklider imagin e un r eseau d’ordinateurs 1969 naissance de ARPANET pr ecurseur d’Internet 1991 World Wide Web Croissance du commerce electronique 100,000 + ordinateurs connect es ` Internet fin des ann ees 80)Apport au cloud Acc ` es distant aux ressources Infrastructure de communication universelle Protocoles standardis es http Internet Web 1970s-1990s Infrastructure r eseau globale avec protocoles TCP IP et 1960s J.C.R. Licklider imagin e un r eseau d’ordinateurs 1969 naissance de ARPANET pr ecurseur d’Internet 1991 World Wide Web Croissance du commerce electronique 100,000 + ordinateurs connect es ` Internet fin des ann ees 80)Apport au cloud Acc ` es distant aux ressources Infrastructure de communication universelle Protocoles standardis es http Client Serveur 1980s-1990s Mod ` ele centralis e o ` u les responsabilit es et r oles sont s epar es Le client ordinateur smartphone demande un service Le serveur machine puissante fournit le service ex site web base de donn ees Communication Principalement du type requ ete r eponse Base du web et des applications distribu ees exemple r eseaux locaux et partage de ressources aux sein d’une Plus flexible que le mainframe et moindre co ut pour une puissance Gestion centralis ee des ressources S eparation clients consommateurs serveur(fournisseur Client Serveur 1980s-1990s Mod ` ele centralis e o ` u les responsabilit es et r oles sont s epar es Le client ordinateur smartphone demande un service Le serveur machine puissante fournit le service ex site web base de donn ees Communication Principalement du type requ ete r eponse Base du web et des applications distribu ees exemple r eseaux locaux et partage de ressources aux sein d’une Plus flexible que le mainframe et moindre co ut pour une puissance Gestion centralis ee des ressources S eparation clients consommateurs serveur(fournisseur Grid Computing 1995 2005 Mod ` ele d ecentralis e et Interconnexion de nombreuses machines PC serveurs g eographiquement dispers ees Objectif une m ega machine virtuelle pour r esoudre un seul probl ` eme de calcul immense Utilise les OS natifs pas de virtualisation Communication Les nœuds collaborent et partagent la charge Mutualisation de ressources distribu ees Mutualisation d’une grande puissance de calcul R esilience elasticit e scalabilit e Grid Computing 1995 2005 Mod ` ele d ecentralis e et Interconnexion de nombreuses machines PC serveurs g eographiquement dispers ees Objectif une m ega machine virtuelle pour r esoudre un seul probl ` eme de calcul immense Utilise les OS natifs pas de virtualisation Communication Les nœuds collaborent et partagent la charge Mutualisation de ressources distribu ees Mutualisation d’une grande puissance de calcul R esilience elasticit e scalabilit e Client serveur vs Grid Computing Mod ` ele centralis e mais ressources distribu e)/ mod ` ele d ecentralis e Partage de services et donn es/ partage de puissance de calcul Relation 1 client plusieurs serveurs relation egal objectif fournir un service/ r esoudre un probl ` eme R eseaux d ecentralis es o ` u chaque nœud peut etre client et serveur Pas de serveur central Fonctionnement Echange direct entre utilisateurs ex partage de Exemples c el ` ebres Napster BitTorrent Bitcoin D ecentralisation sans permission R esilience absolue M ecanismes de d ecouverte automatique de services R eseaux d ecentralis es o ` u chaque nœud peut etre client et serveur Pas de serveur central Fonctionnement Echange direct entre utilisateurs ex partage de Exemples c el ` ebres Napster BitTorrent Bitcoin D ecentralisation sans permission R esilience absolue M ecanismes de d ecouverte automatique de services Utility Computing 2000 2005 Mod ` ele de consommation des ressources informatiques comme un service public electricit e 2002 IBM e business demand consomme et paye ` l’usage pay Concept th eoris e d ` es les ann ees 1960 John McCarthy mais r ealis e avec Amazon AWS 2006).Apport au cloud Facturation ` l’usage pay Mod ` ele economique Utility Computing 2000 2005 Mod ` ele de consommation des ressources informatiques comme un service public electricit e 2002 IBM e business demand consomme et paye ` l’usage pay Concept th eoris e d ` es les ann ees 1960 John McCarthy mais r ealis e avec Amazon AWS 2006).Apport au cloud Facturation ` l’usage pay Mod ` ele economique Cloud Computing 2006 pr esent Services informatiques IaaS PaaS SaaS accessibles Internet avec facturation ` l’usage Convergence de toutes les technologies pr ec edentes dans un mod ` ele commercial mature Le cloud moderne n’est pas une invention soudaine mais une evolution logique qui synth etis e les forces de chaque mod ` ele Du Mainframe La mutualisation et la s ecurit e. De la Virtualisation L’ind ependance vis- ` vis du mat eriel Du Client Serveur L’architecture en services accessibles par Du Grid L’orchestration de ressources mondiales Du P2P La r esilience et la d ecentralisation De l’Utility Computing Le mod ` ele de facturation ` l’usage C’est la combinaison de ces d ees qui cr e la r evolution du cloud tel que nous le connaissons aujourd’hui Cloud Computing vs MainFrame Mutualisation de ressources Acc ` es la demande Centralisation de la gestion G eographie une seule machine physique ou petit nombre r eseau mondial distribu e des milliers de serveurs r eparti dans le monde entier Acc ` es et r eseau r eseau local priv e/ internet philosophie centralisation forte/ distribution et r esilience Naissance du Terme Cloud Computing 1990 2000 Premi ` ere utilisation 1996 Chez Compaq Computer George Favaloro et Sean O’Sullivan parlent pour la premi ` ere fois de cloud computing enabled Ils pr edisent que la majorit e des logiciels migreraient vers le Amazon Web Services Le Pionnier 2000 2006 2000 2004 Pr eparation interne Amazon devait g erer des pics de trafic enormes pendant les p eriodes de soldes et de f etes Pour cela ils d eveloppent une infrastructure flexible et scalable En 2003 Benjamin Black et Chris Pinkham proposent une d ee r evolutionnaire louer les ressources exc edentaires ` d’autres 2006 Lancement officiel d’AWS C’est le v eritable point de d epart du cloud commercial moderne Amazon S3 stockage Amazon EC2 calcul Amazon SQS(files d’attente)Innovation cl e Location des ressources exc edentaires non utilis ees pendant les p eriodes creuses Amazon Web Services Le Pionnier 2000 2006 2000 2004 Pr eparation interne Amazon devait g erer des pics de trafic enormes pendant les p eriodes de soldes et de f etes Pour cela ils d eveloppent une infrastructure flexible et scalable En 2003 Benjamin Black et Chris Pinkham proposent une d ee r evolutionnaire louer les ressources exc edentaires ` d’autres 2006 Lancement officiel d’AWS C’est le v eritable point de d epart du cloud commercial moderne Amazon S3 stockage Amazon EC2 calcul Amazon SQS(files d’attente)Innovation cl e Location des ressources exc edentaires non utilis ees pendant les p eriodes creuses L’Expansion du Cloud Computing 2007 2010 2007 Diversification des services Google Docs suite bureautique en ligne Netflix lancement du streaming cloud Salesforce pionnier du SaaS depuis 1999 2008 Nouveaux acteurs Microsoft Azure projet Red Dog Google App Engine plateforme de d eveloppement OpenNebula NASA premier logiciel open source pour cloud L Age d’Or du Cloud Computing 2010 2015 2011 2012 Maturation IBM SmartCloud 2011 Oracle Cloud 2012 tous les mod ` eles de service Apple iCloud cloud grand public 2013 Adoption massive Point de bascule adoption massive par les entreprises Docker r evolution des conteneurs Hybridation cloud public + priv e Innovation Continue 2015 2020 2014 2016 Nouvelles technologies Kubernetes Google orchestration de conteneurs AWS Lambda computing serverless Machine Learning Service 2017 2020 Sp ecialisation Intelligence Artificielle int egr ee Internet des Objets IoT Multi cloud et cloud hybride Figure Les g eants du Cloud aujourd’hui Impact de la Pand emie COVID-19 2020 2022 Acc el eration massive T el etravail g en eralis e Visioconf erences Zoom Teams Collaboration en ligne Commerce electronique Adoption cloud acc el er ee de 5 10 ans Transformation digitale forc ee Nouveaux besoins en s ecurit e et compliance Le Cloud Computing Aujourd’hui 2023 2025 Tendances actuelles Multi cloud utilisation de plusieurs fournisseurs Cloud native applications con¸ cues pour le cloud Serverless computing sans gestion de serveurs Containers et microservices Nouveaux d efis Souverainet e des donn ees Durabilit e environnementale Co uts et optimisation S ecurit e et compliance Technologies Emergentes Intelligence Artificielle GPT et IA g en erative AutoML Machine Learning automatis e AI Service Computing de pointe Quantum Computing Service Edge AI IA sur les p eriph eriques 5 G et cloud distribu e Avantages et inconv enients du Cloud Les Principaux Avantages R eduction des co ut Economies de 38 45 sur les co uts Maintenance r eduite Gestion automatis ee par le Elasticit e et Scalabilit e Ajustement des ressources en temps r eel Flexibilit e D eploiement rapide dans plusieurs r egions Accessibilit e Acc ` es mondial depuis n’importe o ` u Collaboration elior ee Travail collaboratif facilit e R eduction des co uts Le cloud computing elimine les investissements initiaux importants en mat eriel et en infrastructure Cela permet aux petites entreprises d’acc eder ` des technologies de pointe sans investissements massifs cr eant ainsi des opportunit es de concurrence equitable sur le march e. Mod ` ele de paiement ` l’utilisation Pay Les utilisateurs ne paient que pour les ressources qu’ils consomment ce qui peut s’av erer plus rentable en cas de charges de travail Maintenance r eduite Les fournisseurs cloud assument la responsabilit e de la maintenance des mises ` jour de la s ecurit e et de la disponibilit e En externalisant la gestion de l’infrastructure Les organisations evitent les co uts de maintenance de mise ` jour et de remplacement du mat eriel Les organisations peuvent se concentrer sur leurs activit es principales plut ot que sur la gestion d’infrastructures complexes Elasticit e et Scalabilit e La scalabilit e ou ≪mise ` l echelle ≫ correspond ` la possibilit e d’ajuster la puissance de calcul la m emoire ou le stockage d’un syst ` eme en fonction de l evolution de la demande Cette adaptation peut etre manuelle ou automatique mais n’implique pas forc ement une r eponse imm ediate ou automatis ee L elasticit e va plus loin elle d ecrit la capacit e d’un syst ` eme ` ajuster automatiquement et rapidement les ressources en fonction de la demande r eelle que ce soit ` la hausse plus de ressources ou ` la baisse retrait des ressources Le syst ` eme retourne ` son etat initial lorsque la pression diminue sans intervention humaine Scalabilit e = adaptation possible parfois lente souvent planifi ee Elasticit e = adaptation automatique rapide et dynamique ` la demande r eelle L elasticit e s’appuie sur la scalabilit e mais ajoute l’automatisation et la r eversibilit e Cela garanti une utilisation optimale et permet de g erer efficacement les pics de charge et les variations de demande sans surdimensionnement co uteux des infrastructures Lascalabilit e verticale ou scale augmente la puissance d’un serveur unique tandis que la scalabilit e horizontale ou scale ajoute des serveurs suppl ementaires pour r epartir la charge La scalabilit e verticale est plus simple pour g erer les pics de charge mais limit ee et peut n ecessiter un arr et du syst ` eme La scalabilit e horizontale offre une capacit e potentiellement illimit ee en ajoutant des instances et une meilleure r esilience mais implique une gestion La flexibilit e dans le cloud computing est la capacit e d’une infrastructure informatique ` fournir la bonne ressource au bon moment au bon endroit pour le bon co ut en s’adaptant rapidement et facilement aux changements des besoins des organisations sans contraintes techniques ou economiques Accessibilit e et Collaboration Les utilisateurs d’acc eder ` leurs donn ees et applications depuis n’importe quel endroit connect e ` Internet facilitant ainsi le travail d equipe ` distance gr ace ` des outils de partage et de communication en temps r eel Cette centralisation des donn ees garantit que tous les membres d’une equipe travaillent sur la m eme version des fichiers eliorant l’efficacit e et r eduisant les erreurs Les Principaux Inconv enients S ecurit e et Confidentialit e Risques de violations de D ependance r eseau Vuln erabilit e aux pannes Internet Vendor lock Difficult e de changement de fournisseur Contr ole limit e Moins de contr ole sur l’infrastructure Co uts cach es Frais additionnels non pr evus Conformit e r eglementaire D efis de respect des r eglementations S ecurit e et Confidentialit e Les organisations expriment des pr eoccupations l egitimes concernant la protection des donn ees sensibles leur localisation exacte et leur conformit e aux r eglementations La perte de contr ole physique et les risques de fuites ou d’acc ` es non autoris es restent une inqui etude majeure D ependance r eseau L’acc ` es aux services cloud n ecessite une connexion Internet stable Panne de connexion = interruption de service Les organisations deviennent vuln erables aux pannes de r eseau ` la latence1et aux probl ` emes de bande passante qui peuvent affecter l’acc ` es aux services essentiels Cette d ependance peut etre particuli ` erement probl ematique pour les applications critiques n ecessitant une disponibilit e constante 1 le d elai de temps n ecessaire ` un paquet de donn ees pour voyager d’un point ` un autre sur un r eseau mesur e en millisecondes ms Vendor lock D ependance au fournisseur Les technologies propri etaires et les architectures sp ecifiques ` un cloud rendent les migrations difficiles et co uteuses Formats de donn ees non portables Cette d ependance limite la flexibilit e strat egique et peut augmenter les co uts ` long terme Contr ole limit e Les fournisseurs g ` erent les donn ees et services ce qui r eduit le niveau de contr ole que les clients cloud peuvent exercer sur leurs ressources externalis ees Les utilisateurs n’ont pas acc ` es ` l’infrastructure physique et doivent s’adapter aux limitations techniques impos ees par le fournisseur Les mises ` jour et maintenance sont subies et impos ees r eduisant la ma ıtrise op erationnelle Co uts cach es Le mod ` ele de paiement ` l’usage peut entra ıner des surprises Les co uts cach es transferts de donn ees stockage et la difficult e ` anticiper la consommation mensuels rendent la gestion budg etaire complexe avec des risques de d epassements significatifs d ebordement des budgets Conformit e r eglementaire Les d efis de conformit e2r eglementaire repr esentent un obstacle significatif particuli ` erement pour les secteurs fortement r eglement es sant e finance gouvernemental Les organisations doivent s’assurer que leurs fournisseurs cloud respectent les r eglementations applicables et maintiennent les standards de conformit e requis Respecter toutes les r ` egles concernant la s ecurit e et protection des donn ees et la localisation des donn ees Les donn ees fran¸ caises doivent rester en France).3 2 Compliance en anglais respect des r ` egles 3 Jouer selon les r ` egles du jeu pour eviter les penalties et garder la confiance de tout le monde61 71 Caract eristiques du Cloud 1 Acc ` es en libre service ` la demande Un utilisateur peut provisionner des ressources informatiques serveurs stockage applications de mani ` ere automatique et sans intervention humaine une interface en ligne Exemple Cr eer un serveur virtuel en 5 minutes depuis son 2 Large acc ` es r eseau Les ressources cloud sont accessibles depuis n’importe quel appareil connect e ` Internet PC mobile tablette des m ecanismes Exemple Acc eder ` ses fichiers stock es sur OneDrive depuis son t el ephone sa tablette ou son ordinateur 3 Mise en commun des ressources Les ressources informatiques mat erielles et logicielles sont mutualis ees pour servir plusieurs clients avec un mod ` ele multi locataire Exemple Un m eme serveur physique chez AWS h eberge plusieurs machines virtuelles appartenant ` diff erentes entreprises 4 Elasticit e rapide Les ressources peuvent etre provisionn ees et lib er ees automatiquement et rapidement parfois m eme de mani ` ere instantan ee pour s’adapter ` la charge Exemple Un site e commerce qui passe automatiquement de 10 ` 100 serveurs pendant les soldes puis revient ` 10 serveurs apr ` es 5 Service mesur e L’utilisation des ressources est mesur ee contr ol ee et rapport ee permettant un syst ` eme de paiement ` l’usage pay use Exemple Facturation ` l’heure pour un serveur virtuel au pour du stockage ou ` la requ ete pour une fonction serverless Distinction Premise vs Cloud Premise sur site Mod ` ele traditionnel dans lequel toute l’infrastructure informatique serveurs stockage r eseau logiciels est h eberg ee g er ee et maintenue localement dans les locaux de l’entreprise centre de donn ees interne Cloud Mod ` ele moderne o ` u les ressources informatiques machines virtuelles applications stockage etc sont h eberg ees ` distance dans des datacenters du fournisseur de services Cloud et accessibles Internet selon le principe du paiement ` la demande pay Avantages et inconv enients",
+      "sentiment": "NEGATIVE",
+      "entities": [
+        {
+          "text": "Plan D",
+          "label": "MISC"
+        },
+        {
+          "text": "Inconv enients",
+          "label": "MISC"
+        },
+        {
+          "text": "Caract eristiques",
+          "label": "LOC"
+        },
+        {
+          "text": "Master 1 Intelligence Artificielle",
+          "label": "MISC"
+        },
+        {
+          "text": "I2A Module Cloud Computing",
+          "label": "MISC"
+        },
+        {
+          "text": "Big Data D",
+          "label": "MISC"
+        },
+        {
+          "text": "Universit e M’",
+          "label": "MISC"
+        },
+        {
+          "text": "Mode d evaluation UE",
+          "label": "MISC"
+        },
+        {
+          "text": "VHS",
+          "label": "TECH"
+        },
+        {
+          "text": "Coefficient 2",
+          "label": "ORG"
+        },
+        {
+          "text": "Mode d evaluation",
+          "label": "MISC"
+        },
+        {
+          "text": "Evaluation",
+          "label": "MISC"
+        },
+        {
+          "text": "R ef erences",
+          "label": "TECH"
+        },
+        {
+          "text": "Duncan D.",
+          "label": "PER"
+        },
+        {
+          "text": "Hybrid Cloud",
+          "label": "PER"
+        },
+        {
+          "text": "T. Monroy E. B. 2023",
+          "label": "PER"
+        },
+        {
+          "text": "Confident Cloud",
+          "label": "MISC"
+        },
+        {
+          "text": "Essentials Cloud",
+          "label": "PER"
+        },
+        {
+          "text": "Stockage",
+          "label": "MISC"
+        },
+        {
+          "text": "Second edistion",
+          "label": "MISC"
+        },
+        {
+          "text": "Chapitre 1 Introduction",
+          "label": "MISC"
+        },
+        {
+          "text": "Cloud",
+          "label": "LOC"
+        },
+        {
+          "text": "Chapitre 4",
+          "label": "MISC"
+        },
+        {
+          "text": "Chapitre 7",
+          "label": "MISC"
+        },
+        {
+          "text": "Cloud 2Historique",
+          "label": "LOC"
+        },
+        {
+          "text": "Le Cloud",
+          "label": "MISC"
+        },
+        {
+          "text": "Informatique",
+          "label": "MISC"
+        },
+        {
+          "text": "Nuage",
+          "label": "LOC"
+        },
+        {
+          "text": "Les",
+          "label": "MISC"
+        },
+        {
+          "text": "Amazon Google Microsoft",
+          "label": "TECH"
+        },
+        {
+          "text": "Utiliser",
+          "label": "MISC"
+        },
+        {
+          "text": "Cloud Internet",
+          "label": "MISC"
+        },
+        {
+          "text": "Gmail",
+          "label": "MISC"
+        },
+        {
+          "text": "Dropbox 2",
+          "label": "MISC"
+        },
+        {
+          "text": "Netflix",
+          "label": "TECH"
+        },
+        {
+          "text": "Google",
+          "label": "TECH"
+        },
+        {
+          "text": "OneDrive",
+          "label": "MISC"
+        },
+        {
+          "text": "Office 365 Internet Acces Internet",
+          "label": "MISC"
+        },
+        {
+          "text": "Accessibilit e mondiale",
+          "label": "MISC"
+        },
+        {
+          "text": "Cloud Origine",
+          "label": "MISC"
+        },
+        {
+          "text": "Utilis",
+          "label": "PER"
+        },
+        {
+          "text": "Symbolise un domaine inconnu",
+          "label": "ORG"
+        },
+        {
+          "text": "Andy Hertzfeld",
+          "label": "PER"
+        },
+        {
+          "text": "Macintosh",
+          "label": "MISC"
+        },
+        {
+          "text": "Pourquoi",
+          "label": "PER"
+        },
+        {
+          "text": "Historique et Evolution du Cloud Computing",
+          "label": "MISC"
+        },
+        {
+          "text": "Historique du Cloud",
+          "label": "PER"
+        },
+        {
+          "text": "Ordinateurs",
+          "label": "MISC"
+        },
+        {
+          "text": "Seules",
+          "label": "ORG"
+        },
+        {
+          "text": "John McCarthy",
+          "label": "PER"
+        },
+        {
+          "text": "CPU",
+          "label": "TECH"
+        },
+        {
+          "text": "Concept",
+          "label": "LOC"
+        },
+        {
+          "text": "Time sharing",
+          "label": "MISC"
+        },
+        {
+          "text": "Permettre",
+          "label": "MISC"
+        },
+        {
+          "text": "Objectif",
+          "label": "MISC"
+        },
+        {
+          "text": "Apport",
+          "label": "LOC"
+        },
+        {
+          "text": "Mutualisation",
+          "label": "PER"
+        },
+        {
+          "text": "Virtualisation 1960s-1970s",
+          "label": "MISC"
+        },
+        {
+          "text": "multiples OS",
+          "label": "MISC"
+        },
+        {
+          "text": "Premi",
+          "label": "LOC"
+        },
+        {
+          "text": "Time sharing avanc e Les mainframes",
+          "label": "MISC"
+        },
+        {
+          "text": "Economies de co ut Virtualisation 1960s-1970s Abstraction",
+          "label": "ORG"
+        },
+        {
+          "text": "Economies de co",
+          "label": "ORG"
+        },
+        {
+          "text": "TCP",
+          "label": "TECH"
+        },
+        {
+          "text": "J.C.R. Licklider",
+          "label": "PER"
+        },
+        {
+          "text": "ARPANET",
+          "label": "MISC"
+        },
+        {
+          "text": "Internet 1991",
+          "label": "MISC"
+        },
+        {
+          "text": "World Wide",
+          "label": "MISC"
+        },
+        {
+          "text": "Internet",
+          "label": "MISC"
+        },
+        {
+          "text": "Acc ` es distant",
+          "label": "MISC"
+        },
+        {
+          "text": "Infrastructure",
+          "label": "LOC"
+        },
+        {
+          "text": "Mod ` ele",
+          "label": "PER"
+        },
+        {
+          "text": "Base du web",
+          "label": "MISC"
+        },
+        {
+          "text": "Gestion centralis",
+          "label": "ORG"
+        },
+        {
+          "text": "Serveur",
+          "label": "PER"
+        },
+        {
+          "text": "Mod",
+          "label": "PER"
+        },
+        {
+          "text": "Interconnexion de nombreuses machines PC",
+          "label": "ORG"
+        },
+        {
+          "text": "Utilise",
+          "label": "ORG"
+        },
+        {
+          "text": "Communication",
+          "label": "LOC"
+        },
+        {
+          "text": "Mutualisation de ressources distribu ees Mutualisation",
+          "label": "MISC"
+        },
+        {
+          "text": "Grid Computing",
+          "label": "MISC"
+        },
+        {
+          "text": "Client serveur vs",
+          "label": "MISC"
+        },
+        {
+          "text": "Partage de services",
+          "label": "MISC"
+        },
+        {
+          "text": "Relation 1",
+          "label": "ORG"
+        },
+        {
+          "text": "R eseaux d ecentralis",
+          "label": "TECH"
+        },
+        {
+          "text": "Pas de serveur",
+          "label": "MISC"
+        },
+        {
+          "text": "Echange",
+          "label": "PER"
+        },
+        {
+          "text": "Exemples c el ` ebres",
+          "label": "MISC"
+        },
+        {
+          "text": "Napster BitTorrent",
+          "label": "MISC"
+        },
+        {
+          "text": "R esilience absolue M ecanismes de d ecouverte automatique de services",
+          "label": "TECH"
+        },
+        {
+          "text": "Utility Computing",
+          "label": "MISC"
+        },
+        {
+          "text": "IBM",
+          "label": "TECH"
+        },
+        {
+          "text": "Amazon",
+          "label": "TECH"
+        },
+        {
+          "text": "Facturation",
+          "label": "LOC"
+        },
+        {
+          "text": "Utility",
+          "label": "MISC"
+        },
+        {
+          "text": "IaaS PaaS SaaS",
+          "label": "MISC"
+        },
+        {
+          "text": "Convergence",
+          "label": "LOC"
+        },
+        {
+          "text": "Du Mainframe",
+          "label": "PER"
+        },
+        {
+          "text": "De la Virtualisation",
+          "label": "MISC"
+        },
+        {
+          "text": "Du Client Serveur L’",
+          "label": "MISC"
+        },
+        {
+          "text": "Du Grid L’",
+          "label": "PER"
+        },
+        {
+          "text": "P2P",
+          "label": "ORG"
+        },
+        {
+          "text": "De l’Utility Computing",
+          "label": "MISC"
+        },
+        {
+          "text": "MainFrame Mutualisation",
+          "label": "MISC"
+        },
+        {
+          "text": "Acc ` es la demande",
+          "label": "MISC"
+        },
+        {
+          "text": "Centralisation de la gestion G eographie",
+          "label": "MISC"
+        },
+        {
+          "text": "Acc ` es et r eseau r eseau",
+          "label": "TECH"
+        },
+        {
+          "text": "Naissance",
+          "label": "ORG"
+        },
+        {
+          "text": "Terme Cloud",
+          "label": "MISC"
+        },
+        {
+          "text": "Compaq Computer George Favaloro",
+          "label": "ORG"
+        },
+        {
+          "text": "Sean O’Sullivan",
+          "label": "PER"
+        },
+        {
+          "text": "Amazon Web Services",
+          "label": "TECH"
+        },
+        {
+          "text": "Pionnier 2000",
+          "label": "MISC"
+        },
+        {
+          "text": "Benjamin Black",
+          "label": "PER"
+        },
+        {
+          "text": "Chris Pinkham",
+          "label": "PER"
+        },
+        {
+          "text": "Lancement",
+          "label": "PER"
+        },
+        {
+          "text": "Amazon S3",
+          "label": "TECH"
+        },
+        {
+          "text": "Amazon EC2",
+          "label": "TECH"
+        },
+        {
+          "text": "Amazon SQS(files d’attente)Innovation",
+          "label": "TECH"
+        },
+        {
+          "text": "L’Expansion",
+          "label": "PER"
+        },
+        {
+          "text": "SaaS",
+          "label": "ORG"
+        },
+        {
+          "text": "Nouveaux acteurs",
+          "label": "ORG"
+        },
+        {
+          "text": "Microsoft",
+          "label": "TECH"
+        },
+        {
+          "text": "Red Dog Google",
+          "label": "TECH"
+        },
+        {
+          "text": "OpenNebula",
+          "label": "MISC"
+        },
+        {
+          "text": "Cloud Computing",
+          "label": "MISC"
+        },
+        {
+          "text": "Maturation",
+          "label": "LOC"
+        },
+        {
+          "text": "Oracle Cloud",
+          "label": "TECH"
+        },
+        {
+          "text": "Apple iCloud",
+          "label": "TECH"
+        },
+        {
+          "text": "Adoption massive",
+          "label": "ORG"
+        },
+        {
+          "text": "Docker",
+          "label": "TECH"
+        },
+        {
+          "text": "Hybridation",
+          "label": "PER"
+        },
+        {
+          "text": "Innovation",
+          "label": "MISC"
+        },
+        {
+          "text": "Nouvelles",
+          "label": "LOC"
+        },
+        {
+          "text": "Kubernetes",
+          "label": "TECH"
+        },
+        {
+          "text": "Lambda",
+          "label": "LOC"
+        },
+        {
+          "text": "Machine Learning",
+          "label": "TECH"
+        },
+        {
+          "text": "Cloud aujourd’hui Impact de la Pand",
+          "label": "ORG"
+        },
+        {
+          "text": "Acc el eration massive",
+          "label": "LOC"
+        },
+        {
+          "text": "T el etravail",
+          "label": "ORG"
+        },
+        {
+          "text": "Visioconf",
+          "label": "LOC"
+        },
+        {
+          "text": "Zoom",
+          "label": "LOC"
+        },
+        {
+          "text": "Commerce electronique",
+          "label": "MISC"
+        },
+        {
+          "text": "Transformation digitale",
+          "label": "MISC"
+        },
+        {
+          "text": "Nouveaux besoins",
+          "label": "ORG"
+        },
+        {
+          "text": "Le Cloud Computing",
+          "label": "MISC"
+        },
+        {
+          "text": "Tendances actuelles",
+          "label": "MISC"
+        },
+        {
+          "text": "Multi",
+          "label": "LOC"
+        },
+        {
+          "text": "Serverless",
+          "label": "ORG"
+        },
+        {
+          "text": "Containers",
+          "label": "LOC"
+        },
+        {
+          "text": "Nouveaux d efis",
+          "label": "MISC"
+        },
+        {
+          "text": "Souverainet e des donn",
+          "label": "MISC"
+        },
+        {
+          "text": "Durabilit e environnementale",
+          "label": "ORG"
+        },
+        {
+          "text": "AutoML",
+          "label": "MISC"
+        },
+        {
+          "text": "AI Service Computing",
+          "label": "TECH"
+        },
+        {
+          "text": "Edge AI IA",
+          "label": "TECH"
+        },
+        {
+          "text": "Les Principaux Avantages R",
+          "label": "TECH"
+        },
+        {
+          "text": "Economies",
+          "label": "MISC"
+        },
+        {
+          "text": "Maintenance",
+          "label": "LOC"
+        },
+        {
+          "text": "Gestion",
+          "label": "LOC"
+        },
+        {
+          "text": "Elasticit e",
+          "label": "MISC"
+        },
+        {
+          "text": "Scalabilit e",
+          "label": "MISC"
+        },
+        {
+          "text": "Flexibilit e D",
+          "label": "MISC"
+        },
+        {
+          "text": "Accessibilit e",
+          "label": "MISC"
+        },
+        {
+          "text": "Collaboration elior ee Travail",
+          "label": "MISC"
+        },
+        {
+          "text": "march e. Mod",
+          "label": "LOC"
+        },
+        {
+          "text": "Pay",
+          "label": "MISC"
+        },
+        {
+          "text": "Maintenance r eduite Les fournisseurs cloud",
+          "label": "TECH"
+        },
+        {
+          "text": "Les organisations",
+          "label": "LOC"
+        },
+        {
+          "text": "Elasticit",
+          "label": "MISC"
+        },
+        {
+          "text": "Le syst ` eme retourne ` son etat initial lorsque la pression",
+          "label": "MISC"
+        },
+        {
+          "text": "L elasticit e s’appuie",
+          "label": "MISC"
+        },
+        {
+          "text": "Lascalabilit e verticale",
+          "label": "MISC"
+        },
+        {
+          "text": "Collaboration",
+          "label": "LOC"
+        },
+        {
+          "text": "Les Principaux Inconv",
+          "label": "MISC"
+        },
+        {
+          "text": "Confidentialit e Risques",
+          "label": "PER"
+        },
+        {
+          "text": "Vuln",
+          "label": "MISC"
+        },
+        {
+          "text": "Difficult",
+          "label": "PER"
+        },
+        {
+          "text": "Contr",
+          "label": "LOC"
+        },
+        {
+          "text": "Co uts cach",
+          "label": "LOC"
+        },
+        {
+          "text": "Frais",
+          "label": "LOC"
+        },
+        {
+          "text": "Conformit e r",
+          "label": "TECH"
+        },
+        {
+          "text": "Confidentialit e Les organisations",
+          "label": "MISC"
+        },
+        {
+          "text": "Panne",
+          "label": "MISC"
+        },
+        {
+          "text": "Vendor lock D",
+          "label": "PER"
+        },
+        {
+          "text": "Les technologies propri etaires",
+          "label": "MISC"
+        },
+        {
+          "text": "Formats de donn",
+          "label": "MISC"
+        },
+        {
+          "text": "Les utilisateurs n’",
+          "label": "MISC"
+        },
+        {
+          "text": "Les mises ` jour et maintenance sont subies",
+          "label": "MISC"
+        },
+        {
+          "text": "Co uts cach es Le mod ` ele",
+          "label": "MISC"
+        },
+        {
+          "text": "Les co uts cach es transferts de donn ees stockage",
+          "label": "MISC"
+        },
+        {
+          "text": "Les d efis de conformit e2r",
+          "label": "MISC"
+        },
+        {
+          "text": "Respecter",
+          "label": "PER"
+        },
+        {
+          "text": "France).3 2 Compliance",
+          "label": "MISC"
+        },
+        {
+          "text": "Jouer",
+          "label": "PER"
+        },
+        {
+          "text": "Un utilisateur",
+          "label": "MISC"
+        },
+        {
+          "text": "Cr eer",
+          "label": "ORG"
+        },
+        {
+          "text": "Large",
+          "label": "LOC"
+        },
+        {
+          "text": "Acc",
+          "label": "MISC"
+        },
+        {
+          "text": "Mise en commun des ressources",
+          "label": "MISC"
+        },
+        {
+          "text": "Un m eme serveur physique",
+          "label": "MISC"
+        },
+        {
+          "text": "Un site e commerce",
+          "label": "MISC"
+        },
+        {
+          "text": "Distinction Premise vs Cloud Premise",
+          "label": "ORG"
+        },
+        {
+          "text": "pay Avantages",
+          "label": "MISC"
+        }
+      ],
+      "pii": []
+    }
+  ],
+  "embeddings": {
+    "paragraph_0": [
+      -0.12570030987262726,
+      0.1632133573293686,
+      -0.05666377395391464,
+      -0.1059155985713005,
+      -0.03003293089568615,
+      -0.035266000777482986,
+      -0.14301440119743347,
+      -0.02504901960492134,
+      -0.02755489945411682,
+      0.005019963253289461,
+      0.0967501774430275,
+      -0.02331233210861683,
+      0.13005782663822174,
+      -0.14515385031700134,
+      -0.04720497876405716,
+      -0.08351989090442657,
+      -0.18571753799915314,
+      -0.005651223007589579,
+      -0.08400094509124756,
+      -0.12794280052185059,
+      0.012838583439588547,
+      -0.0982498899102211,
+      -0.012912806123495102,
+      -0.07398228347301483,
+      -0.13355319201946259,
+      -0.0006179893389344215,
+      -0.10394889116287231,
+      -0.051851145923137665,
+      0.09299639612436295,
+      -0.16430160403251648,
+      0.17279933393001556,
+      0.058020368218421936,
+      0.19227993488311768,
+      0.052446819841861725,
+      -0.09961222857236862,
+      -0.051304347813129425,
+      -0.054217539727687836,
+      -0.04367569088935852,
+      -0.10661391168832779,
+      -0.07445400953292847,
+      -0.11259200423955917,
+      0.009930228814482689,
+      0.09168438613414764,
+      -0.014233684167265892,
+      0.11770646274089813,
+      0.10886769741773605,
+      -0.04266049712896347,
+      -0.10368803143501282,
+      -0.226518452167511,
+      -0.03523513674736023,
+      -0.10389461368322372,
+      -0.20631161332130432,
+      -0.0361514613032341,
+      -0.08887521177530289,
+      -0.027512235566973686,
+      0.01723291352391243,
+      0.14382842183113098,
+      0.06639817357063293,
+      -0.1602548360824585,
+      -0.0709560364484787,
+      -0.09875006973743439,
+      -0.03211399167776108,
+      -0.11144876480102539,
+      0.050973888486623764,
+      0.03418919816613197,
+      0.0309080109000206,
+      0.1584613025188446,
+      -0.08798153698444366,
+      0.1429852843284607,
+      -0.09650179743766785,
+      -0.19594427943229675,
+      -0.06529591232538223,
+      -0.24626897275447845,
+      -0.01929527521133423,
+      0.0002308021066710353,
+      0.16558264195919037,
+      -0.011161464266479015,
+      0.04638504236936569,
+      0.21401524543762207,
+      -0.12292499840259552,
+      0.20808672904968262,
+      -0.08917295187711716,
+      -0.015911245718598366,
+      0.07927127182483673,
+      -0.05645648017525673,
+      -0.10941945761442184,
+      0.008201062679290771,
+      0.05858349800109863,
+      0.04895710572600365,
+      -0.014784197323024273,
+      0.1640889048576355,
+      -0.14505742490291595,
+      0.05050864815711975,
+      -0.012882493436336517,
+      0.2882690727710724,
+      0.12334422022104263,
+      -0.017478467896580696,
+      -0.11815882474184036,
+      0.1618218719959259,
+      0.3724447786808014,
+      -0.11206598579883575,
+      -0.05900075286626816,
+      -0.22108310461044312,
+      0.022259142249822617,
+      -0.0231761634349823,
+      0.07460696995258331,
+      0.14428196847438812,
+      -0.24804338812828064,
+      0.029632627964019775,
+      -0.15171462297439575,
+      0.06812258064746857,
+      -0.06412021815776825,
+      0.11211128532886505,
+      -0.0525151789188385,
+      0.10918314009904861,
+      -0.07920142263174057,
+      0.01584005542099476,
+      0.08002696931362152,
+      0.026867270469665527,
+      0.004188175313174725,
+      0.04981456324458122,
+      -0.028269728645682335,
+      0.25634631514549255,
+      0.10670387744903564,
+      0.270171195268631,
+      -0.10528673231601715,
+      0.04648497328162193,
+      -0.027957061305642128,
+      -0.1052694171667099,
+      -0.21423637866973877,
+      0.1749773770570755,
+      0.01884745992720127,
+      -0.126442551612854,
+      0.09507616609334946,
+      0.003168317489326,
+      -0.04254022613167763,
+      0.18684940040111542,
+      -0.1677255928516388,
+      -0.037263136357069016,
+      0.08889661729335785,
+      -0.05831906944513321,
+      0.06739773601293564,
+      0.19469088315963745,
+      0.18083134293556213,
+      0.12000041455030441,
+      0.3097604215145111,
+      0.0816814973950386,
+      0.02567780390381813,
+      0.17348429560661316,
+      -0.15852028131484985,
+      0.07682295143604279,
+      -0.15983079373836517,
+      0.258383572101593,
+      0.05717755854129791,
+      0.05384395644068718,
+      0.06989734619855881,
+      0.11663256585597992,
+      0.02266763523221016,
+      0.016292646527290344,
+      -0.09574180841445923,
+      -0.24371860921382904,
+      0.17446303367614746,
+      0.02791418880224228,
+      0.060491759330034256,
+      0.19564570486545563,
+      -0.03453667461872101,
+      0.010725884698331356,
+      -0.07735656946897507,
+      0.07083719968795776,
+      0.25793129205703735,
+      0.05011243000626564,
+      -0.1680186539888382,
+      -0.0759037435054779,
+      -0.13705316185951233,
+      0.18965579569339752,
+      -0.034534186124801636,
+      0.05317877233028412,
+      0.021804895251989365,
+      -0.015918470919132233,
+      0.014066644012928009,
+      0.011846449226140976,
+      -0.1732693761587143,
+      0.09957393258810043,
+      0.10068842768669128,
+      0.00882874894887209,
+      0.04759986326098442,
+      -0.013296135701239109,
+      0.14339464902877808,
+      -0.06293032318353653,
+      0.1622443050146103,
+      -0.2671065926551819,
+      -0.018880505114793777,
+      0.11091214418411255,
+      0.16342319548130035,
+      -0.03721669316291809,
+      -0.06640258431434631,
+      0.22099001705646515,
+      0.07821481674909592,
+      0.003480041865259409,
+      -0.2053542584180832,
+      -0.2365698218345642,
+      0.019260860979557037,
+      -0.22667741775512695,
+      -0.07860567420721054,
+      -0.10405759513378143,
+      -0.046123623847961426,
+      -0.16770507395267487,
+      -0.004244804382324219,
+      0.05266132578253746,
+      0.11272488534450531,
+      -0.10218879580497742,
+      -0.09925220906734467,
+      -0.04075074568390846,
+      -0.10261131078004837,
+      0.09909091889858246,
+      0.09896940737962723,
+      -0.04035963863134384,
+      0.016826972365379333,
+      0.07393874228000641,
+      0.05790335312485695,
+      0.1234983280301094,
+      0.020776692777872086,
+      0.12006737291812897,
+      -0.10844282805919647,
+      -0.2639564871788025,
+      -0.06834370642900467,
+      -0.39828628301620483,
+      0.06907323747873306,
+      0.024957159534096718,
+      0.029678918421268463,
+      -0.11931242048740387,
+      0.11040202528238297,
+      0.13063731789588928,
+      0.035715408623218536,
+      0.06068280339241028,
+      -0.10300102829933167,
+      0.10276675969362259,
+      0.09953142702579498,
+      -0.06897294521331787,
+      -0.13230261206626892,
+      0.03074430674314499,
+      -0.09788280725479126,
+      -0.037176623940467834,
+      0.10216215997934341,
+      0.10558836907148361,
+      0.08273452520370483,
+      -0.19818106293678284,
+      0.0702592134475708,
+      -0.059866271913051605,
+      0.15764333307743073,
+      -0.1528281569480896,
+      0.02810611203312874,
+      -0.022555172443389893,
+      -0.08310549706220627,
+      0.015320738777518272,
+      -0.07675204426050186,
+      -0.13961161673069,
+      0.18526044487953186,
+      -0.0067764148116111755,
+      0.016341805458068848,
+      0.1831149160861969,
+      -0.07142918556928635,
+      0.03595106676220894,
+      0.1562156081199646,
+      0.005710952449589968,
+      0.013087139464914799,
+      -0.29688146710395813,
+      -0.11201171576976776,
+      -0.03541002795100212,
+      -0.06921011209487915,
+      -0.21247394382953644,
+      0.12276767939329147,
+      0.13951800763607025,
+      -0.04208103194832802,
+      0.02244757115840912,
+      -0.033260125666856766,
+      0.091861292719841,
+      -0.21390856802463531,
+      0.003377703484147787,
+      -0.04433855414390564,
+      0.13184495270252228,
+      0.1937585175037384,
+      0.06086554378271103,
+      -0.022876670584082603,
+      -0.04681193456053734,
+      -0.02042532153427601,
+      0.08981999009847641,
+      0.07148029655218124,
+      -0.33236512541770935,
+      -0.018807344138622284,
+      -0.04047524929046631,
+      0.11034003645181656,
+      -0.2544618248939514,
+      -0.019458146765828133,
+      0.12075312435626984,
+      0.024041082710027695,
+      -0.14476630091667175,
+      -0.15976083278656006,
+      -0.20804888010025024,
+      -0.12120779603719711,
+      -0.07258403301239014,
+      0.09143049269914627,
+      0.13293173909187317,
+      -0.12004850059747696,
+      -0.1360333412885666,
+      -0.013247539289295673,
+      0.10843290388584137,
+      -0.018891818821430206,
+      0.021676627919077873,
+      -0.023846808820962906,
+      -0.002789837773889303,
+      -0.3061996102333069,
+      0.06803057342767715,
+      -0.05040516331791878,
+      -0.06770418584346771,
+      -0.018821166828274727,
+      -0.15529000759124756,
+      0.07893894612789154,
+      -0.043822888284921646,
+      -0.12082599103450775,
+      0.05989725887775421,
+      -0.049903348088264465,
+      0.055483561009168625,
+      0.2917834222316742,
+      0.25306373834609985,
+      0.07700864970684052,
+      -0.16724231839179993,
+      0.010937543585896492,
+      0.013128839433193207,
+      -0.07189856469631195,
+      0.150989830493927,
+      -0.031506575644016266,
+      0.03430228307843208,
+      0.0776691734790802,
+      0.19636116921901703,
+      0.06495199352502823,
+      0.11508578062057495,
+      0.09412023425102234,
+      -0.008804934099316597,
+      -0.19160504639148712,
+      0.26800739765167236,
+      0.06774543225765228,
+      -0.02924409508705139,
+      -0.07570907473564148,
+      -0.10130919516086578,
+      0.13763368129730225,
+      0.04439043253660202,
+      0.16552455723285675,
+      -0.11321069300174713,
+      -0.007407187484204769,
+      0.014812804758548737,
+      0.08664557337760925,
+      -0.06121247261762619,
+      -0.1752503216266632,
+      0.16887342929840088,
+      0.08864781260490417,
+      -0.07523979246616364,
+      0.10060310363769531,
+      0.011380533687770367,
+      0.08229505270719528,
+      0.03570874035358429,
+      0.05356978997588158,
+      -0.03750687837600708,
+      0.057418759912252426,
+      0.17568685114383698,
+      0.0033043664880096912,
+      -0.08900061994791031,
+      -0.18869508802890778,
+      -0.039655737578868866,
+      0.06898104399442673,
+      -0.16637496650218964,
+      -0.03207569569349289,
+      0.14281749725341797,
+      0.034115977585315704,
+      0.11903298646211624,
+      0.15598981082439423,
+      0.05518442392349243,
+      -0.10801400244235992,
+      -0.0417676605284214,
+      0.13627395033836365,
+      0.01640033908188343,
+      0.05964086204767227,
+      -0.050027795135974884,
+      -0.08123567700386047
+    ]
+  },
+  "subtopics": [
+    {
+      "subtopic_id": "S1",
+      "name": "document_content",
+      "paragraph_ids": [
+        0
+      ]
+    }
+  ],
+  "global_entities": [
+    {
+      "text": "Plan D",
+      "label": "MISC"
+    },
+    {
+      "text": "Inconv enients",
+      "label": "MISC"
+    },
+    {
+      "text": "Caract eristiques",
+      "label": "LOC"
+    },
+    {
+      "text": "Master 1 Intelligence Artificielle",
+      "label": "MISC"
+    },
+    {
+      "text": "I2A Module Cloud Computing",
+      "label": "MISC"
+    },
+    {
+      "text": "Big Data D",
+      "label": "MISC"
+    },
+    {
+      "text": "Universit e M’",
+      "label": "MISC"
+    },
+    {
+      "text": "Mode d evaluation UE",
+      "label": "MISC"
+    },
+    {
+      "text": "VHS",
+      "label": "TECH"
+    },
+    {
+      "text": "Coefficient 2",
+      "label": "ORG"
+    },
+    {
+      "text": "Mode d evaluation",
+      "label": "MISC"
+    },
+    {
+      "text": "Evaluation",
+      "label": "MISC"
+    },
+    {
+      "text": "R ef erences",
+      "label": "TECH"
+    },
+    {
+      "text": "Duncan D.",
+      "label": "PER"
+    },
+    {
+      "text": "Hybrid Cloud",
+      "label": "PER"
+    },
+    {
+      "text": "T. Monroy E. B. 2023",
+      "label": "PER"
+    },
+    {
+      "text": "Confident Cloud",
+      "label": "MISC"
+    },
+    {
+      "text": "Essentials Cloud",
+      "label": "PER"
+    },
+    {
+      "text": "Stockage",
+      "label": "MISC"
+    },
+    {
+      "text": "Second edistion",
+      "label": "MISC"
+    },
+    {
+      "text": "Chapitre 1 Introduction",
+      "label": "MISC"
+    },
+    {
+      "text": "Cloud",
+      "label": "LOC"
+    },
+    {
+      "text": "Chapitre 4",
+      "label": "MISC"
+    },
+    {
+      "text": "Chapitre 7",
+      "label": "MISC"
+    },
+    {
+      "text": "Cloud 2Historique",
+      "label": "LOC"
+    },
+    {
+      "text": "Le Cloud",
+      "label": "MISC"
+    },
+    {
+      "text": "Informatique",
+      "label": "MISC"
+    },
+    {
+      "text": "Nuage",
+      "label": "LOC"
+    },
+    {
+      "text": "Les",
+      "label": "MISC"
+    },
+    {
+      "text": "Amazon Google Microsoft",
+      "label": "TECH"
+    },
+    {
+      "text": "Utiliser",
+      "label": "MISC"
+    },
+    {
+      "text": "Cloud Internet",
+      "label": "MISC"
+    },
+    {
+      "text": "Gmail",
+      "label": "MISC"
+    },
+    {
+      "text": "Dropbox 2",
+      "label": "MISC"
+    },
+    {
+      "text": "Netflix",
+      "label": "TECH"
+    },
+    {
+      "text": "Google",
+      "label": "TECH"
+    },
+    {
+      "text": "OneDrive",
+      "label": "MISC"
+    },
+    {
+      "text": "Office 365 Internet Acces Internet",
+      "label": "MISC"
+    },
+    {
+      "text": "Accessibilit e mondiale",
+      "label": "MISC"
+    },
+    {
+      "text": "Cloud Origine",
+      "label": "MISC"
+    },
+    {
+      "text": "Utilis",
+      "label": "PER"
+    },
+    {
+      "text": "Symbolise un domaine inconnu",
+      "label": "ORG"
+    },
+    {
+      "text": "Andy Hertzfeld",
+      "label": "PER"
+    },
+    {
+      "text": "Macintosh",
+      "label": "MISC"
+    },
+    {
+      "text": "Pourquoi",
+      "label": "PER"
+    },
+    {
+      "text": "Historique et Evolution du Cloud Computing",
+      "label": "MISC"
+    },
+    {
+      "text": "Historique du Cloud",
+      "label": "PER"
+    },
+    {
+      "text": "Ordinateurs",
+      "label": "MISC"
+    },
+    {
+      "text": "Seules",
+      "label": "ORG"
+    },
+    {
+      "text": "John McCarthy",
+      "label": "PER"
+    },
+    {
+      "text": "CPU",
+      "label": "TECH"
+    },
+    {
+      "text": "Concept",
+      "label": "LOC"
+    },
+    {
+      "text": "Time sharing",
+      "label": "MISC"
+    },
+    {
+      "text": "Permettre",
+      "label": "MISC"
+    },
+    {
+      "text": "Objectif",
+      "label": "MISC"
+    },
+    {
+      "text": "Apport",
+      "label": "LOC"
+    },
+    {
+      "text": "Mutualisation",
+      "label": "PER"
+    },
+    {
+      "text": "Virtualisation 1960s-1970s",
+      "label": "MISC"
+    },
+    {
+      "text": "multiples OS",
+      "label": "MISC"
+    },
+    {
+      "text": "Premi",
+      "label": "LOC"
+    },
+    {
+      "text": "Time sharing avanc e Les mainframes",
+      "label": "MISC"
+    },
+    {
+      "text": "Economies de co ut Virtualisation 1960s-1970s Abstraction",
+      "label": "ORG"
+    },
+    {
+      "text": "Economies de co",
+      "label": "ORG"
+    },
+    {
+      "text": "TCP",
+      "label": "TECH"
+    },
+    {
+      "text": "J.C.R. Licklider",
+      "label": "PER"
+    },
+    {
+      "text": "ARPANET",
+      "label": "MISC"
+    },
+    {
+      "text": "Internet 1991",
+      "label": "MISC"
+    },
+    {
+      "text": "World Wide",
+      "label": "MISC"
+    },
+    {
+      "text": "Internet",
+      "label": "MISC"
+    },
+    {
+      "text": "Acc ` es distant",
+      "label": "MISC"
+    },
+    {
+      "text": "Infrastructure",
+      "label": "LOC"
+    },
+    {
+      "text": "Mod ` ele",
+      "label": "PER"
+    },
+    {
+      "text": "Base du web",
+      "label": "MISC"
+    },
+    {
+      "text": "Gestion centralis",
+      "label": "ORG"
+    },
+    {
+      "text": "Serveur",
+      "label": "PER"
+    },
+    {
+      "text": "Mod",
+      "label": "PER"
+    },
+    {
+      "text": "Interconnexion de nombreuses machines PC",
+      "label": "ORG"
+    },
+    {
+      "text": "Utilise",
+      "label": "ORG"
+    },
+    {
+      "text": "Communication",
+      "label": "LOC"
+    },
+    {
+      "text": "Mutualisation de ressources distribu ees Mutualisation",
+      "label": "MISC"
+    },
+    {
+      "text": "Grid Computing",
+      "label": "MISC"
+    },
+    {
+      "text": "Client serveur vs",
+      "label": "MISC"
+    },
+    {
+      "text": "Partage de services",
+      "label": "MISC"
+    },
+    {
+      "text": "Relation 1",
+      "label": "ORG"
+    },
+    {
+      "text": "R eseaux d ecentralis",
+      "label": "TECH"
+    },
+    {
+      "text": "Pas de serveur",
+      "label": "MISC"
+    },
+    {
+      "text": "Echange",
+      "label": "PER"
+    },
+    {
+      "text": "Exemples c el ` ebres",
+      "label": "MISC"
+    },
+    {
+      "text": "Napster BitTorrent",
+      "label": "MISC"
+    },
+    {
+      "text": "R esilience absolue M ecanismes de d ecouverte automatique de services",
+      "label": "TECH"
+    },
+    {
+      "text": "Utility Computing",
+      "label": "MISC"
+    },
+    {
+      "text": "IBM",
+      "label": "TECH"
+    },
+    {
+      "text": "Amazon",
+      "label": "TECH"
+    },
+    {
+      "text": "Facturation",
+      "label": "LOC"
+    },
+    {
+      "text": "Utility",
+      "label": "MISC"
+    },
+    {
+      "text": "IaaS PaaS SaaS",
+      "label": "MISC"
+    },
+    {
+      "text": "Convergence",
+      "label": "LOC"
+    },
+    {
+      "text": "Du Mainframe",
+      "label": "PER"
+    },
+    {
+      "text": "De la Virtualisation",
+      "label": "MISC"
+    },
+    {
+      "text": "Du Client Serveur L’",
+      "label": "MISC"
+    },
+    {
+      "text": "Du Grid L’",
+      "label": "PER"
+    },
+    {
+      "text": "P2P",
+      "label": "ORG"
+    },
+    {
+      "text": "De l’Utility Computing",
+      "label": "MISC"
+    },
+    {
+      "text": "MainFrame Mutualisation",
+      "label": "MISC"
+    },
+    {
+      "text": "Acc ` es la demande",
+      "label": "MISC"
+    },
+    {
+      "text": "Centralisation de la gestion G eographie",
+      "label": "MISC"
+    },
+    {
+      "text": "Acc ` es et r eseau r eseau",
+      "label": "TECH"
+    },
+    {
+      "text": "Naissance",
+      "label": "ORG"
+    },
+    {
+      "text": "Terme Cloud",
+      "label": "MISC"
+    },
+    {
+      "text": "Compaq Computer George Favaloro",
+      "label": "ORG"
+    },
+    {
+      "text": "Sean O’Sullivan",
+      "label": "PER"
+    },
+    {
+      "text": "Amazon Web Services",
+      "label": "TECH"
+    },
+    {
+      "text": "Pionnier 2000",
+      "label": "MISC"
+    },
+    {
+      "text": "Benjamin Black",
+      "label": "PER"
+    },
+    {
+      "text": "Chris Pinkham",
+      "label": "PER"
+    },
+    {
+      "text": "Lancement",
+      "label": "PER"
+    },
+    {
+      "text": "Amazon S3",
+      "label": "TECH"
+    },
+    {
+      "text": "Amazon EC2",
+      "label": "TECH"
+    },
+    {
+      "text": "Amazon SQS(files d’attente)Innovation",
+      "label": "TECH"
+    },
+    {
+      "text": "L’Expansion",
+      "label": "PER"
+    },
+    {
+      "text": "SaaS",
+      "label": "ORG"
+    },
+    {
+      "text": "Nouveaux acteurs",
+      "label": "ORG"
+    },
+    {
+      "text": "Microsoft",
+      "label": "TECH"
+    },
+    {
+      "text": "Red Dog Google",
+      "label": "TECH"
+    },
+    {
+      "text": "OpenNebula",
+      "label": "MISC"
+    },
+    {
+      "text": "Cloud Computing",
+      "label": "MISC"
+    },
+    {
+      "text": "Maturation",
+      "label": "LOC"
+    },
+    {
+      "text": "Oracle Cloud",
+      "label": "TECH"
+    },
+    {
+      "text": "Apple iCloud",
+      "label": "TECH"
+    },
+    {
+      "text": "Adoption massive",
+      "label": "ORG"
+    },
+    {
+      "text": "Docker",
+      "label": "TECH"
+    },
+    {
+      "text": "Hybridation",
+      "label": "PER"
+    },
+    {
+      "text": "Innovation",
+      "label": "MISC"
+    },
+    {
+      "text": "Nouvelles",
+      "label": "LOC"
+    },
+    {
+      "text": "Kubernetes",
+      "label": "TECH"
+    },
+    {
+      "text": "Lambda",
+      "label": "LOC"
+    },
+    {
+      "text": "Machine Learning",
+      "label": "TECH"
+    },
+    {
+      "text": "Cloud aujourd’hui Impact de la Pand",
+      "label": "ORG"
+    },
+    {
+      "text": "Acc el eration massive",
+      "label": "LOC"
+    },
+    {
+      "text": "T el etravail",
+      "label": "ORG"
+    },
+    {
+      "text": "Visioconf",
+      "label": "LOC"
+    },
+    {
+      "text": "Zoom",
+      "label": "LOC"
+    },
+    {
+      "text": "Commerce electronique",
+      "label": "MISC"
+    },
+    {
+      "text": "Transformation digitale",
+      "label": "MISC"
+    },
+    {
+      "text": "Nouveaux besoins",
+      "label": "ORG"
+    },
+    {
+      "text": "Le Cloud Computing",
+      "label": "MISC"
+    },
+    {
+      "text": "Tendances actuelles",
+      "label": "MISC"
+    },
+    {
+      "text": "Multi",
+      "label": "LOC"
+    },
+    {
+      "text": "Serverless",
+      "label": "ORG"
+    },
+    {
+      "text": "Containers",
+      "label": "LOC"
+    },
+    {
+      "text": "Nouveaux d efis",
+      "label": "MISC"
+    },
+    {
+      "text": "Souverainet e des donn",
+      "label": "MISC"
+    },
+    {
+      "text": "Durabilit e environnementale",
+      "label": "ORG"
+    },
+    {
+      "text": "AutoML",
+      "label": "MISC"
+    },
+    {
+      "text": "AI Service Computing",
+      "label": "TECH"
+    },
+    {
+      "text": "Edge AI IA",
+      "label": "TECH"
+    },
+    {
+      "text": "Les Principaux Avantages R",
+      "label": "TECH"
+    },
+    {
+      "text": "Economies",
+      "label": "MISC"
+    },
+    {
+      "text": "Maintenance",
+      "label": "LOC"
+    },
+    {
+      "text": "Gestion",
+      "label": "LOC"
+    },
+    {
+      "text": "Elasticit e",
+      "label": "MISC"
+    },
+    {
+      "text": "Scalabilit e",
+      "label": "MISC"
+    },
+    {
+      "text": "Flexibilit e D",
+      "label": "MISC"
+    },
+    {
+      "text": "Accessibilit e",
+      "label": "MISC"
+    },
+    {
+      "text": "Collaboration elior ee Travail",
+      "label": "MISC"
+    },
+    {
+      "text": "march e. Mod",
+      "label": "LOC"
+    },
+    {
+      "text": "Pay",
+      "label": "MISC"
+    },
+    {
+      "text": "Maintenance r eduite Les fournisseurs cloud",
+      "label": "TECH"
+    },
+    {
+      "text": "Les organisations",
+      "label": "LOC"
+    },
+    {
+      "text": "Elasticit",
+      "label": "MISC"
+    },
+    {
+      "text": "Le syst ` eme retourne ` son etat initial lorsque la pression",
+      "label": "MISC"
+    },
+    {
+      "text": "L elasticit e s’appuie",
+      "label": "MISC"
+    },
+    {
+      "text": "Lascalabilit e verticale",
+      "label": "MISC"
+    },
+    {
+      "text": "Collaboration",
+      "label": "LOC"
+    },
+    {
+      "text": "Les Principaux Inconv",
+      "label": "MISC"
+    },
+    {
+      "text": "Confidentialit e Risques",
+      "label": "PER"
+    },
+    {
+      "text": "Vuln",
+      "label": "MISC"
+    },
+    {
+      "text": "Difficult",
+      "label": "PER"
+    },
+    {
+      "text": "Contr",
+      "label": "LOC"
+    },
+    {
+      "text": "Co uts cach",
+      "label": "LOC"
+    },
+    {
+      "text": "Frais",
+      "label": "LOC"
+    },
+    {
+      "text": "Conformit e r",
+      "label": "TECH"
+    },
+    {
+      "text": "Confidentialit e Les organisations",
+      "label": "MISC"
+    },
+    {
+      "text": "Panne",
+      "label": "MISC"
+    },
+    {
+      "text": "Vendor lock D",
+      "label": "PER"
+    },
+    {
+      "text": "Les technologies propri etaires",
+      "label": "MISC"
+    },
+    {
+      "text": "Formats de donn",
+      "label": "MISC"
+    },
+    {
+      "text": "Les utilisateurs n’",
+      "label": "MISC"
+    },
+    {
+      "text": "Les mises ` jour et maintenance sont subies",
+      "label": "MISC"
+    },
+    {
+      "text": "Co uts cach es Le mod ` ele",
+      "label": "MISC"
+    },
+    {
+      "text": "Les co uts cach es transferts de donn ees stockage",
+      "label": "MISC"
+    },
+    {
+      "text": "Les d efis de conformit e2r",
+      "label": "MISC"
+    },
+    {
+      "text": "Respecter",
+      "label": "PER"
+    },
+    {
+      "text": "France).3 2 Compliance",
+      "label": "MISC"
+    },
+    {
+      "text": "Jouer",
+      "label": "PER"
+    },
+    {
+      "text": "Un utilisateur",
+      "label": "MISC"
+    },
+    {
+      "text": "Cr eer",
+      "label": "ORG"
+    },
+    {
+      "text": "Large",
+      "label": "LOC"
+    },
+    {
+      "text": "Acc",
+      "label": "MISC"
+    },
+    {
+      "text": "Mise en commun des ressources",
+      "label": "MISC"
+    },
+    {
+      "text": "Un m eme serveur physique",
+      "label": "MISC"
+    },
+    {
+      "text": "Un site e commerce",
+      "label": "MISC"
+    },
+    {
+      "text": "Distinction Premise vs Cloud Premise",
+      "label": "ORG"
+    },
+    {
+      "text": "pay Avantages",
+      "label": "MISC"
+    }
+  ],
+  "global_pii": []
+}

@@ -1,0 +1,32 @@
+{
+  "dataset_type": "multilingual_dataset",
+  "topics": {
+    "accountant_accounting": [
+      "doc_0",
+      "doc_1",
+      "doc_7",
+      "doc_14",
+      "doc_15",
+      "doc_16"
+    ],
+    "cloud_computing": [
+      "doc_2",
+      "doc_3",
+      "doc_9"
+    ],
+    "unknown_topic": [
+      "doc_4",
+      "doc_12"
+    ],
+    "true_data": [
+      "doc_5",
+      "doc_6",
+      "doc_8"
+    ],
+    "والعربية_للطالب": [
+      "doc_10",
+      "doc_11",
+      "doc_13"
+    ]
+  }
+}

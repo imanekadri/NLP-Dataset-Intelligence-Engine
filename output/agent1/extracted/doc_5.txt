@@ -1,0 +1,996 @@
+Chapter 3: Python Programming
+Essentials_part 02
+This part 2 covers Object Oriented Programming (OOP) with magic methods generators and iterators,
+and exception handling.
+10. Object Oriented Programming (OOP) in
+Python
+Object - Oriented Programming (OOP) is a programming paradigm based on the concept of objects
+which contain data (attributes) and behavior (methods)
+Main OOP Concepts
+Class  A blueprint (model) for creating objects
+Object (Instance): A specific instance of a class
+Attribute: A variable that
+belongs to an object
+Method: A function that belongs to a class
+10.2. Defining a Class and Creating Objects
+In [1]:
+class
+Person
+# Constructor
+de٦
+init
+( self,
+name ,
+age ) 
+self
+name
+name
+self
+age
+age
+# Method
+def greet (self) :
+print (f"Hello,
+١٧
+name
+is {self name }
+and
+I
+al
+{self.age } years
+٥1d. 
+)
+#
+Creating objects
+p1
+Person
+Ali
+25)
+p2
+Person ( " Ahmed '
+30)
+pl.greet
+p2. greet ( )
+Hello,
+١y
+name
+i5
+Ali
+and
+I
+am
+25 years
+0ld
+Hello,
+١٧
+name
+i5
+Ahmed
+and
+I
+4/11
+30
+0ld.
+10.3. Class and Instance Attributes
+In
+[2]:
+class Student 
+speciality
+"AI"
+# Cluss attribute
+(shured by
+dLt instances )
+def
+init
+( self,
+name
+age )
+self
+name
+name
+# Instunce
+attribute
+self.age
+age
+#
+Instunce attribute
+# Create
+two Student objects
+student1
+Student
+Aminadvaneod Python for Data Science
+Amel Boustil
+years
+student2
+Student
+" Sara
+22)
+#
+Access
+cLuss
+and
+instance
+attributes
+print (Student  speciality)
+#
+Access vid cLuss
+print (student1 
+name
+studentl.age,
+studentl speciality)
+print (student2 
+name
+student2 .age,
+student2  speciality)
+AI
+Amine
+20
+AI
+Sara
+22
+AI
+10. 4. Encapsulation (Data Hiding)
+Encapsulation restricts direct access to some of an objects data.
+In
+[3]:
+class BankAccount
+def
+init
+( self,
+balance)=
+self
+balance
+balance
+# Private attribute
+def deposit(self
+amount ) :
+self_
+balance
++=
+amount
+def get _balance (self):
+return
+selع
+balance
+account
+BankAccount (1000)
+account  deposit(500)
+print (account get balance())
+#
+print(account
+baLance )
+#
+AttributeError
+1500
+10.5. Inheritance
+Inheritance allows a class to use
+properties and methods from another
+class.
+In
+[4]:
+class
+Student :
+def
+init
+( self,
+name )
+self
+name
+name
+def study(self):
+print (f" {self name }
+is studying 
+# Subctass for undergraduate students
+class UndergraduateStudent (Student )
+def study(self):
+print
+f" {self.name }
+is studying basic
+AI
+concepts. " )
+# Subclass For gruduate students
+class GraduateStudent (Student )
+def study(self)=
+print
+f" {self
+name }
+is
+working
+0n
+AI research.
+)
+#
+Create instonces
+51
+UndergraduateStudent (
+Amine " )
+$2
+GraduateStudent ( "Sara")
+$3
+Student ( "Yassine" )
+#
+CoL
+methods
+sl.study( )
+Advanced Python for Data Science
+Amel Boustil
+s2.study
+s3.study()
+Amine is
+studying basic
+AI
+concepts
+Sara
+is working
+0n
+AI
+research.
+Yassine
+i5
+studying
+10.6. Polymorphism
+Polymorphism allows different classes to use the same interface with
+different implementations
+In [5]:
+#
+Buse
+cLuss
+(optionat
+in
+Python,
+but helps structure)
+class Student 
+def study(self):
+pass
+# Each subctass wiLl implement
+its
+0w٨
+version
+#
+SubcLass for undergraduate students
+class UndergraduateStudent (Student )
+def
+init
+( self,
+name )
+self
+name
+name
+# Override study() method
+def study(self)
+print (f" {self name }
+studies introductory
+AI
+courses -
+)
+# Subctuss For grudunte students
+class GraduateStudent (Student )
+de٤
+init
+( self,
+name )
+self
+name
+name
+# Override study()
+method
+def study(self) :
+print
+f"{self.name } conducts
+AI
+research
+and
+writes
+papers 
+# Create
+List of students of different
+LeveLs
+students
+[UndergraduateStudent (
+Amine " ),
+GraduateStudent ( " Sara" )]
+#
+Potymorphism in action :
+sume
+method (study)
+but different implementations
+for
+student in
+students :
+student  study( )
+Amine studies introductory
+AI
+courses 
+Sara
+conducts
+AI
+research
+and
+writes
+papers 
+10.7. Abstraction
+Abstraction hides internal details and shows only the necessary
+features 
+In [6]:
+from abc import ABC,
+abstractmethod
+#
+Abstract
+base
+cLuss
+class Student (ABC) :
+@abstractmethod
+def get final_grade self):
+pass
+# Each subcLass
+wiLL provide
+its
+Own
+imptementution
+#
+Concrete
+subclass for undergruduate students
+class UndergraduateStudent ( Student ) =
+def
+init
+( self,
+name
+midterm,
+final)=
+self
+name
+name
+Advanced Python for Data Science
+Amel Boustil
+self midterm
+midterm
+self final
+final
+def get final_grade(self) :
+return (self midterm
+0.4)
+(self final
+0.6)
+#
+Concrete
+subctass for graduate
+students
+class GraduateStudent (Student) :
+de٤
+init
+( self,
+name
+research_score 
+exam _score )
+self
+nam٤
+name
+self
+research_score
+research_score
+self
+exam_score
+exam
+|_score
+def
+final_grade(self)=
+return (self researchscore
+0. 5)
+( self . exam_score
+0. 5)
+#
+Create objects and display resutts
+51
+UndergraduateStudent (
+Amine 
+14,
+16)
+52
+GraduateStudent ( "Sara
+18,
+15)
+print
+f" {sl.name }
+final grade:
+{51.
+final_grade()}")
+print
+f" {s2.name }
+final
+grade :
+{s2.get_final_grade()}")
+Amine
+5
+final grade:
+15. 2
+Sara
+final grade:
+16. 5
+10.8. Magic Methods (init str, etc )
+Magic methods (also called dunder methods) define special behaviors
+of objects.
+In [7]:
+#
+Define
+Student
+cLuss
+class Student :
+init
+1s
+the
+constructor :
+caLLed dutomaticalLy when creating
+٥٨
+object
+def
+init
+( self,
+name
+grade) :
+self
+name
+name
+self .grade
+#
+numeric grade (e٠g٠,
+0-20)
+str
+defines
+how
+the object qppears
+when printed
+de٤
+str
+( sel٦):
+return
+f"Student : {self name },
+Grade : {self grade}
+#
+udd
+defines
+the behavior of the
+operutor between
+two
+Student objects
+de٤
+add
+( self,
+other ) 
+# Returns
+new Student
+with the averuge
+of the
+two
+grudes
+avg_grade
+(self.grade
+other . grade )
+2
+return
+Student (f"{self name }
+& {other .name }
+avg_grade )
+#
+Create
+two
+students
+51
+Student ( "Amine '
+15)
+$2
+Student
+" Sara
+17)
+#
+Use
+operutor
+between
+two
+students (catts
+ndd)
+group
+51
+52
+#
+Print
+the resutt
+(caLLs
+_str )
+print (group )
+# Output :
+Student :
+Amine
+& Surd,
+Grude :
+16.0
+Student :
+Amine
+& Sara,
+Grade :
+16.0
+Python Magic Methods Examples
+Advanced Python for Data Science
+Amel Boustil
+get_
+get_
+grade
+Magic Method
+Role
+Quand Python Iappelle
+Exemple _
+Usage
+init
+( self,
+name
+Constructeur
+appele lors de la creation dun
+Student (
+Amel
+17)
+grade )
+etudiant
+Retourne une chaine lisible pour
+print(s )
+Student :
+Amel 
+str
+( self)
+print (obj)
+Grade :
+17
+Representation officielle (souvent utilisee en
+repr (s )
+Student (
+Amel
+repr
+( self)
+debogage)
+17)
+add_
+(self,
+Definit le comportement de
+entre deux
+$1
+$2
+moyenne des notes
+other )
+etudiants (ex: moyenne de leurs notes)
+Definit le comportement de
+$1
+$2
+True
+si la note de
+1t
+self,
+other )
+(comparaison de notes)
+$1
+est inferieure
+1e
+(self, other )
+Definit le comportement de
+(
+$1
+<=
+$2
+gt
+( self,
+other )
+Definit le comportement de
+$1
+$2
+ge
+( self,
+other )
+Definit le comportement de
+)=
+$1
+)=
+$2
+Definit le comportement de
+(egalite de
+٥q
+self ,
+other )
+51
+==
+52
+notes)
+10.9. Composition
+In [8]:
+class
+StudentCard 
+def
+init
+( self,
+card id)
+self card_id
+card_id
+def
+show(self)
+print (f"Student Card
+I0:
+{self.card_id}")
+class
+Student :
+def
+init
+( self,
+name
+card_id):
+self
+name
+name
+self.card
+StudentCard(card_id)
+#
+Composition :
+Student
+HAS
+StudentCard
+def show
+info(self)
+print (f"Name :
+{self.name } ")
+self.card. show( )
+#
+Create
+student
+51
+Student ( 
+Amine 
+"A12025-001")
+sl. show_info( )
+Name
+Amine
+Student Card ID:
+4[2025-001
+10.10. Aggregation
+In [9]:
+class
+Student -
+def
+init
+( self,
+name )
+self
+name
+name
+class
+Teacher =
+def
+init
+( self,
+name )
+self
+name
+name
+self students
+[]
+#
+Aggregution :
+Teucher HAS muny Students
+def add_student (selfAdvaeePython for Data Science
+Amel Boustil
+self students append(student )
+def show_students (self)
+print (f"Teacher : {self name}")
+print ( "Students : '
+for
+in
+self students :
+print(f"
+{s.name }
+)
+#
+Create students (independent of any
+teacher )
+51
+Student ( "Amine 
+)
+$2
+Student ( " Sara " )
+#
+Create teacher
+dnd
+associnte existing students
+t1
+Teacher ( "Dr _
+BOUSTIL " )
+tl.add_student(sl)
+tl.add_student(s2)
+1
+show_students ()
+Teacher :
+Dr 
+BOUSTIL
+Students :
+Amine
+Sara
+11. Iterators and Generators in Python
+Iterators and generators are advanced Python features that allow efficient and
+(on-demand) data
+processing 
+are particularly useful when working with large datasets that cannot fit entirely into memory
+11. 1. Problem statement
+In data science or healthcare projects for example, we often deal with very large CSV files
+sometimes
+millions of patient records
+If we try to load everything at once using a list the program may become slow or crash due to memory
+exhaustion 
+We need a way to read the file line by line, process each patient and never
+the whole dataset in
+memory
+That s where iterators and generators (yield) become essential
+11.2. Iterators
+An iterator is an object that represents a stream of data; it returns elements one at a time
+Anything that can be looped over using a
+for   loop is called iterable
+In
+[10]:
+##
+Busic Exumpte
+create
+0n
+iterator by
+iter
+nums
+[1,
+2 ,
+3]
+it
+iter (nums 
+# Create
+٥٨
+iterator from
+the
+List
+print(it
+next
+())# 1,
+here
+15
+the
+some synatx
+05
+print(next (it))
+print (next (it))
+#  2
+print (next (it))
+#  3
+#
+print(next(it))
+# X StopIteration (no more
+eLements )
+Advanced Python for Data Science
+Amel Boustil
+lazy
+They
+keep
+2
+3
+11.3. Generators
+The yield keyword is used in a function to make it a generator
+
+generator produces
+sequence of values one at a time instead of returning them all at once
+Unlike
+return
+which ends a function
+yield
+pauses the function and remembers its state,
+so it can continue from where it left off next time
+In
+[11]:
+## ExumpLe :
+create
+0n
+iterator
+by
+generator using yietd
+def
+countdown (n)
+while
+yield
+n+4
+Produce
+one
+vaLue,
+then
+pquse
+-
+print ( "Done ! 
+)
+#
+Using the generator
+for
+number
+in countdown (3):
+print (number )
+print ( "yes " )
+yes
+6
+5
+yes
+Done !
+Problem: Processing 1 Million Patients
+Memory Explosion
+Imagine a file patients csv with 1 OOOOOO lines like this 
+name age blood _pressure
+Patient_1,30,120
+Patient_2,45,155
+Patient_1000000,50,140
+In
+[ ]:
+## Bad solution
+Louds
+entire Fite
+import
+C5٧
+def
+read allpatients (filename):
+with
+open ( filename 
+a5
+٤:
+reader
+C5٧
+DictReader (f)
+return list(reader )
+#
+Louds aLt
+rowS
+patients
+read all patients ( "patients. csv" )
+for
+٥
+in patients
+print (p[ "name " ])
+Advanced Python for Data Science
+Amel Boustil
+yes
+In
+[ ]:
+## Correct solution
+use
+generutor (yietd)
+import
+CSV
+de٤
+read patients (filename )
+with open(filename =
+newline=
+)
+a5
+٦:
+reader
+CS٧
+DictReader(f)
+for
+rOW
+in
+reader :
+yield
+row
+#
+returns
+one
+patient
+0t
+time
+for
+٥
+in
+read patients ( "patients. csv")
+print (p[
+name " ] )
+12. Error Handling and Exceptions
+In data science, errors are common
+especially when dealing with
+missing files
+invalid values Or
+messy data.
+Handling errors gracefully helps build robust and reliable data pipelines
+What Are Exceptions?
+Exceptions are runtime errors that interrupt the normal
+of a program 
+In
+[ ]:
+# ExampLe :
+data
+open
+patients. cSv" )
+#
+Raises FileNotFoundError if fite doesn t
+exist
+12.1. Try-Except Blocks
+Use try-except to catch and handle exceptions safely
+In
+[12]:
+#
+generic except
+data
+open ( "patients. csv")
+except
+print (
+Something went
+wrong
+Something
+went
+wrong
+In [13]:
+# specefic except
+try :
+data
+open ( "patients.
+)
+except FileNotFoundError
+print ( 
+Data
+file
+not
+found !
+Please check the file path.")
+Data
+file
+not
+found !
+Please
+check the file path.
+In  [14]:
+#
+Cotching MuttipLe
+Errors
+#
+You
+cqn
+hundLe different
+errors
+in
+٥ne
+btock :
+result
+int ( "abc" )
+except ValueError
+print (
+Invalid data type
+conversion
+failed. 
+)
+Advanced Python for Data Science
+Amel Boustil
+flow
+try:
+cS٧"
+try:
+except ZeroDivisionError
+print ( "Division
+by
+zero
+detected ! " )
+Invalid data type
+conversion
+failed.
+12.2. Finally and Else
+else runs if no
+exception occurs
+finally runs no matter what try
+In [15]:
+try =
+ع
+open ( "patients. csv" )
+except FileNotFoundError =
+print( "File missing
+else :
+print ( "File opened successfully!")
+finally:
+print ( "Process completed. ")
+File missing 
+Process
+completed .
+Best Practices
+Use specific exceptions instead of a generic except
+Use finally to release resources
+Validate user input before processing
+Advanced Python for Data Science
+Amel Boustil
