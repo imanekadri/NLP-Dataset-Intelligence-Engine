@@ -9,7 +9,7 @@ import pandas as pd
 from pathlib import Path
 
 from .config import config
-from .utils import FileUtils, TextExtractor
+from .utils import FileUtils, TextExtractor, TextCleaner
 
 class TextIngestionAgent:
     """
@@ -130,6 +130,9 @@ class TextIngestionAgent:
     def _analyze_text(self, text_data: Dict, file_path: str, file_ext: str) -> None:
         """Analyse un texte extrait"""
         text = text_data['text']
+        
+        # Appliquer le nettoyage automatique
+        text = TextCleaner.clean(text)
         
         if not text or len(text.strip()) < 10:  # Ignorer les textes trop courts
             return

@@ -2,6 +2,7 @@
 
 import hashlib
 import chardet
+import re
 from langdetect import detect, DetectorFactory
 from langdetect.lang_detect_exception import LangDetectException
 import pandas as pd
@@ -199,3 +200,30 @@ class TextExtractor:
                     }
                 })
         return texts
+
+class TextCleaner:
+    """Nettoyage avancé du texte pour éliminer le bruit et les artefacts"""
+    
+    @staticmethod
+    def clean(text: str) -> str:
+        if not text:
+            return ""
+        
+        # 1. Supprimer les artefacts de Jupyter Notebook (In [1]:, Out [1]:)
+        text = re.sub(r'In\s*\[\d+\]:\s*', '', text)
+        text = re.sub(r'Out\s*\[\d+\]:\s*', '', text)
+        
+        # 2. Supprimer les URLs
+        text = re.sub(r'https?://\S+|www\.\S+', ' ', text)
+        
+        # 3. Supprimer les chemins de fichiers (Windows/Linux)
+        text = re.sub(r'[a-zA-Z]:\\[\\\w\s.-]+', ' ', text)
+        text = re.sub(r'/\w+/\w+/\S+', ' ', text)
+        
+        # 4. Supprimer les balises HTML résiduelles
+        text = re.sub(r'<.*?>', '', text)
+        
+        # 5. Normaliser les espaces et sauts de ligne
+        text = re.sub(r'\s+', ' ', text).strip()
+        
+        return text

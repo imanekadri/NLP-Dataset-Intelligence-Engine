@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+
+# Output and generated files
+output/
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+
+# Jupyter
+*.ipynb_checkpoints
+.env
