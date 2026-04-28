@@ -166,6 +166,11 @@ class Agent3Config:
     MIN_SUBDOMAIN_SIZE = 2
     MIN_DOCS_FOR_SUBDOMAINS = 10
 
+    # Intra-document subtopic clustering
+    SUBTOPIC_SIMILARITY_THRESHOLD = 0.6
+    PARAGRAPH_MIN_LEN = 40
+    EMBEDDING_BATCH_SIZE = 32
+
 
 #######################
 # Instantiate configs

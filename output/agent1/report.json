@@ -1,21 +1,21 @@
 {
   "agent": "TextIngestionAgent",
-  "timestamp": "2026-04-27T00:11:31.851798",
+  "timestamp": "2026-04-27T20:12:30.631051",
   "stats": {
     "total_docs": 17,
     "languages": [
-      "ar",
       "cy",
+      "ar",
       "ca",
-      "en",
-      "fr"
+      "fr",
+      "en"
     ],
     "formats": [
       ".html",
-      ".jpg",
-      ".json",
       ".csv",
       ".pdf",
+      ".json",
+      ".jpg",
       ".png"
     ],
     "duplicates": 1,

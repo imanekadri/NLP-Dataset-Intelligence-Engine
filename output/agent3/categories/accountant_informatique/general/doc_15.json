@@ -1,0 +1,671 @@
+{
+  "doc_id": "doc_15.txt",
+  "paragraphs": [
+    {
+      "paragraph_id": 0,
+      "text": "STAFF ACCOUNTANT Highly analytical detail oriented professional possessing extensive financial statement background quality assurance compliance auditing customer service regulatory requirements Thorough knowledge financial reporting cash accrual basis accounting fund basis reporting GAAP accounting standards Adapt quickly new software systems installed Proficient QuickBooks MAS ADP Condo Manager Adobe Microsoft applications software Excel problem solving strategic planning skills Quick Books MAS Sage Software Microsoft Excel ADP Drive Microsoft Access Condo Manager Bachelor Science University North Carolina Bachelor Science Business Administration Finance Business Administration Finance Staff Accountant Performed month end functions produce financial statements functions include reconciliation operating payroll bank accounts recorded sales month recorded payroll journals accrued payroll recorded sales tax submitted sales tax NC department revenue recorded inventory adjustments recorded balance sheet month end entries Entered payables receivables 7 franchise locations Worked vendors resolve situations arose Reviewed maintained needed franchise document file date Worked directly controller year end review Assembled requested financial legal documentation presentable formats Maintained weekly spreadsheet collected franchise royalties advertising fees spreadsheet year end audit Managed company owned rented 12 commercial properties shopping center approved businesses Responsible negotiating rent rates new renewing tenants writing leases collecting rent cash flow management payables resolving tenant complaints inquires Managed company small farming entity Responsible maintaining cash flow payables setting credit accounts vendors Entered payroll journals maintained cash flow company employed labor work farming entity Filed North Carolina Annual Report companies managed Cary Keisler Inc. verified current filings Collect daily deposits newly entered SOs balance completed job status report ran Interact directly customers outstanding deposits balances Responsible PO non PO payable entry coding companies Work directly vendors resolve discrepancy payables Pull weekly unpaid bills reports cash flow projections Complete weekly check run companies Reconcile monthly purchasing American Express credit card ranges $ 60,000.00 $ 100,000.00 + Helped facilitate roll purchasing manager turnover period September 2013 December 2013 Responsible ordering needed materials supplies factory production floor Worked directly VP Finance members production floor collection data develop unit valuation information combined continued data collection future bills materials job costing Lead reconciliation Balance Sheet ensure discrepancy General Ledger Research resolve transaction deviating ordinary operations Run Project Cost Reconciliation month end ensure billable expenses posted project ensures enries posted correct project General Ledger account provides billing information correct line project Design Excel Spreadsheet prepaid employee benefits EOM reconciliation purposes Reconcile American Express accounts SDI Battleware 10 Accounts Responsible entry custodial book keeping SDI fixed assets depreciation purposes Daily reconciliation SDI Operating Interest Sweep Line Credit accounts accurate cash projections Responsible coding entry Payables items SDI Battleware Prepare monthly Sales Use Tax Financial Management Partner Identified reported tracked resolved subsidiary ledger discrepancies phases revenues receivables accounting Provide end financial statement assurance accurate presentation aiding completing areas operations performing monthly bank reconciliations applying required financial regulations preparing delivery financial statements Provided Support clients employees email implementations software support financial reporting issues aspects day operations Trained new accounting department employees functionality demonstration assist proficient accounting support software transitioning i.e. QuickBooks Peachtree excel transitioning Able perform duties departments accounting including accounts payable accounts receivable legal coordination transactional audit review Coordinate Lien Foreclosure preparations research ownership status balance histories order accurately file legal claims behalf cliental Constant analysis clients interim financial reports comparative statements verify validity monitor inconsistency Prepare variance reports explanations quickly summarize areas increased variances expenses Assist areas management fund accounting budget preparations presentation annual monthly board meetings Coordinate prepare materials audits review tax returns Assist annual budget preparations prepare billings cycles perform adjusting month end transactions required G L posting entries required correct errors balance discrepancies Alpha Sigma Phi Officer Chair positions January 2006- 2010 Vice President Social Chair Greek Week Delegate Livestrong Foundation Bike thon accounting accounts payable Accounts Receivable ADP advertising AR balance sheet balance bank reconciliations benefits billing billings book keeping budget cash flow projections cash flow controller Credit clients data collection delivery documentation email Finance financial reporting financial statements fixed assets General Ledger inventory job costing ledger legal materials meetings Microsoft Access Microsoft Excel Microsoft Word negotiating DBA Payables payroll Peachtree processes coding purchasing Express Quick Books QuickBooks Research Sage Sales Spreadsheet Tax software support valuation year end Additional Information Activities Alpha Sigma Phi Officer Chair positions January 2006- 2010 Vice President Social Chair Greek Week Delegate Livestrong Foundation Bike thon",
+      "sentiment": "NEGATIVE",
+      "entities": [
+        {
+          "text": "Adapt",
+          "label": "ORG"
+        },
+        {
+          "text": "Adobe Microsoft",
+          "label": "TECH"
+        },
+        {
+          "text": "Excel",
+          "label": "TECH"
+        },
+        {
+          "text": "Quick Books MAS Sage Software Microsoft Excel ADP",
+          "label": "TECH"
+        },
+        {
+          "text": "Worked",
+          "label": "ORG"
+        },
+        {
+          "text": "North Carolina",
+          "label": "GPE"
+        },
+        {
+          "text": "Cary Keisler Inc.",
+          "label": "ORG"
+        },
+        {
+          "text": "Collect",
+          "label": "ORG"
+        },
+        {
+          "text": "SOs",
+          "label": "PRODUCT"
+        },
+        {
+          "text": "Interact",
+          "label": "ORG"
+        },
+        {
+          "text": "Responsible PO",
+          "label": "PRODUCT"
+        },
+        {
+          "text": "American Express",
+          "label": "ORG"
+        },
+        {
+          "text": "$ 60,000.00 $",
+          "label": "MONEY"
+        },
+        {
+          "text": "September 2013 December 2013",
+          "label": "DATE"
+        },
+        {
+          "text": "General Ledger Research",
+          "label": "ORG"
+        },
+        {
+          "text": "General Ledger",
+          "label": "ORG"
+        },
+        {
+          "text": "Design Excel Spreadsheet",
+          "label": "TECH"
+        },
+        {
+          "text": "EOM",
+          "label": "TECH"
+        },
+        {
+          "text": "Reconcile American Express",
+          "label": "ORG"
+        },
+        {
+          "text": "Daily",
+          "label": "DATE"
+        },
+        {
+          "text": "Provide",
+          "label": "PRODUCT"
+        },
+        {
+          "text": "QuickBooks Peachtree",
+          "label": "ORG"
+        },
+        {
+          "text": "Constant",
+          "label": "ORG"
+        },
+        {
+          "text": "Prepare",
+          "label": "ORG"
+        },
+        {
+          "text": "Assist",
+          "label": "NORP"
+        },
+        {
+          "text": "Alpha Sigma Phi Officer Chair",
+          "label": "WORK_OF_ART"
+        },
+        {
+          "text": "January 2006- 2010",
+          "label": "DATE"
+        },
+        {
+          "text": "Credit",
+          "label": "ORG"
+        },
+        {
+          "text": "Microsoft Access Microsoft Excel Microsoft Word",
+          "label": "TECH"
+        },
+        {
+          "text": "DBA Payables",
+          "label": "ORG"
+        },
+        {
+          "text": "Peachtree",
+          "label": "NORP"
+        }
+      ],
+      "pii": [
+        {
+          "text": "North Carolina",
+          "type": "LOCATION"
+        }
+      ]
+    }
+  ],
+  "embeddings": {
+    "paragraph_0": [
+      0.012708119116723537,
+      0.10487350821495056,
+      -0.1663711965084076,
+      0.16199010610580444,
+      -0.1809239536523819,
+      -0.03438403084874153,
+      0.01042128074914217,
+      0.04039124771952629,
+      0.006222959142178297,
+      -0.006625561974942684,
+      -0.35063987970352173,
+      -0.24916473031044006,
+      -0.02809479646384716,
+      -0.21441234648227692,
+      0.046384893357753754,
+      -0.10721133649349213,
+      0.1225934699177742,
+      0.08338027447462082,
+      0.1143471971154213,
+      0.11855700612068176,
+      -0.17168010771274567,
+      -0.071151502430439,
+      -0.17715343832969666,
+      -0.013371357694268227,
+      -0.18358540534973145,
+      0.17563654482364655,
+      0.1499689519405365,
+      -0.0034303332213312387,
+      -0.02991224266588688,
+      -0.16080275177955627,
+      0.060907501727342606,
+      -0.13024361431598663,
+      0.45804446935653687,
+      0.04800007864832878,
+      0.006597582250833511,
+      0.20715434849262238,
+      -0.10163659602403641,
+      0.08024619519710541,
+      0.2602943181991577,
+      0.01606374979019165,
+      -0.15632155537605286,
+      -0.13619272410869598,
+      0.1444479525089264,
+      0.04767988622188568,
+      -0.09633766114711761,
+      -0.21400460600852966,
+      -0.1945379376411438,
+      0.1306697130203247,
+      -0.34807687997817993,
+      -0.16478955745697021,
+      -0.19569388031959534,
+      -0.32096830010414124,
+      0.14808709919452667,
+      -0.053744107484817505,
+      -0.12589329481124878,
+      0.020598510280251503,
+      0.1552106738090515,
+      0.07179610431194305,
+      -0.07212011516094208,
+      -0.10807698965072632,
+      0.06584180146455765,
+      0.11513000726699829,
+      -0.12328541278839111,
+      -0.13873113691806793,
+      0.03657625988125801,
+      0.3422517478466034,
+      0.05015592649579048,
+      0.1880030781030655,
+      -0.03289323300123215,
+      -0.3497353494167328,
+      -0.05548561364412308,
+      -0.12165606021881104,
+      -0.09352608025074005,
+      0.06578677147626877,
+      0.06981264799833298,
+      0.08882631361484528,
+      0.08335315436124802,
+      -0.016944002360105515,
+      -0.002231336198747158,
+      0.10127425938844681,
+      0.08368263393640518,
+      -0.06590111553668976,
+      -0.11754211783409119,
+      0.165291428565979,
+      -0.0011699981987476349,
+      0.03723308444023132,
+      0.058104485273361206,
+      -0.022466594353318214,
+      0.09646901488304138,
+      0.09275352209806442,
+      0.32430970668792725,
+      -0.02614833600819111,
+      0.017520669847726822,
+      -0.11924195289611816,
+      -0.1923922300338745,
+      0.0938490778207779,
+      -0.13417288661003113,
+      -0.010039173997938633,
+      0.014071350917220116,
+      0.29809531569480896,
+      -0.07448004186153412,
+      0.22027382254600525,
+      -0.14537447690963745,
+      -0.2060902714729309,
+      -0.028374141082167625,
+      0.17736200988292694,
+      0.1602649688720703,
+      -0.06893804669380188,
+      0.014216681942343712,
+      -0.036516718566417694,
+      -0.026785265654325485,
+      0.07617828994989395,
+      -0.44320106506347656,
+      -0.12634310126304626,
+      0.31864407658576965,
+      0.0326678529381752,
+      -0.20290282368659973,
+      0.21435260772705078,
+      0.0019516563042998314,
+      0.17590926587581635,
+      0.1752665489912033,
+      0.2108655869960785,
+      -0.0027904026210308075,
+      -0.029951712116599083,
+      0.2054406702518463,
+      0.1233612671494484,
+      -0.09343370795249939,
+      -0.09514600783586502,
+      -0.1226089745759964,
+      -0.2287619560956955,
+      0.14854729175567627,
+      -0.03919857740402222,
+      0.055492792278528214,
+      0.08645357191562653,
+      -0.02915807068347931,
+      0.04509871453046799,
+      0.07115798443555832,
+      -0.05909842252731323,
+      0.22967314720153809,
+      0.14304259419441223,
+      -0.04586917161941528,
+      -0.05194810777902603,
+      0.04348449781537056,
+      0.09113127738237381,
+      -0.006634744815528393,
+      0.15547190606594086,
+      -0.2448987066745758,
+      0.1000833660364151,
+      0.11412879079580307,
+      -0.04906286671757698,
+      0.0143291549757123,
+      -0.18517698347568512,
+      0.25272518396377563,
+      0.16948893666267395,
+      -0.02510964870452881,
+      0.06657381355762482,
+      0.1647774577140808,
+      0.032829102128744125,
+      0.030364645645022392,
+      -0.18514695763587952,
+      -0.15461255609989166,
+      0.07641393691301346,
+      0.051409896463155746,
+      0.08542881906032562,
+      -0.0817156583070755,
+      -0.25663644075393677,
+      0.13685493171215057,
+      -0.07842712104320526,
+      0.04626930132508278,
+      0.08343476802110672,
+      0.021972855553030968,
+      0.014817899093031883,
+      0.019295167177915573,
+      -0.10828977823257446,
+      0.12370356917381287,
+      -0.15616390109062195,
+      0.27104854583740234,
+      0.03137561306357384,
+      -0.05883849039673805,
+      -0.29460883140563965,
+      0.09331812709569931,
+      0.11603720486164093,
+      0.06147867441177368,
+      -0.11553184688091278,
+      0.05880817770957947,
+      0.11781282722949982,
+      0.011773090809583664,
+      0.07544604688882828,
+      0.06180727109313011,
+      0.3013061285018921,
+      -0.2758796513080597,
+      0.1013679951429367,
+      -0.03858132287859917,
+      -0.08825265616178513,
+      0.006263479590415955,
+      -0.049166079610586166,
+      0.3277989625930786,
+      0.005337589420378208,
+      -0.18808266520500183,
+      0.07485262304544449,
+      -0.09369628876447678,
+      0.12763939797878265,
+      -0.40143725275993347,
+      -0.1791672706604004,
+      -0.03793393075466156,
+      0.049706052988767624,
+      0.0624295249581337,
+      0.2137187123298645,
+      0.027118252590298653,
+      0.027839399874210358,
+      -0.1307920217514038,
+      0.053516190499067307,
+      -0.18082883954048157,
+      0.030500266700983047,
+      0.05309688672423363,
+      0.01583136059343815,
+      0.057523440569639206,
+      0.20708759129047394,
+      -0.11806733161211014,
+      -0.076688751578331,
+      -0.002865877468138933,
+      0.1475004255771637,
+      -0.08020053803920746,
+      -0.06525309383869171,
+      -0.2304651439189911,
+      -0.08435513079166412,
+      -0.12351992726325989,
+      -0.16650037467479706,
+      -0.04278798773884773,
+      0.0016343090683221817,
+      -0.16386018693447113,
+      -0.23579630255699158,
+      -0.04327814653515816,
+      -0.0601949505507946,
+      -0.07184924185276031,
+      -0.020461464300751686,
+      0.04733125492930412,
+      -0.06697799265384674,
+      -0.1444423496723175,
+      -0.19796766340732574,
+      0.005086217075586319,
+      -0.2234630584716797,
+      -0.14359095692634583,
+      0.03009561449289322,
+      0.10581285506486893,
+      0.13176895678043365,
+      0.12473910301923752,
+      -0.04854030907154083,
+      -0.05444743484258652,
+      0.08951952308416367,
+      -0.18131864070892334,
+      -0.17441603541374207,
+      0.3083094656467438,
+      0.021149959415197372,
+      -0.09203958511352539,
+      0.032177913933992386,
+      -0.056401852518320084,
+      0.010709891095757484,
+      -0.040873557329177856,
+      -0.2537893056869507,
+      -0.11682362854480743,
+      -0.24773763120174408,
+      0.1933150291442871,
+      0.3057926297187805,
+      0.16869187355041504,
+      -0.09342460334300995,
+      -0.1386873424053192,
+      -0.1940917670726776,
+      0.013645963743329048,
+      0.01684657856822014,
+      -0.10688800364732742,
+      -0.2739139795303345,
+      0.020058782771229744,
+      0.003927720710635185,
+      0.11531708389520645,
+      -0.19412949681282043,
+      0.09689255803823471,
+      0.06276800483465195,
+      -0.10241692513227463,
+      0.1923084259033203,
+      0.27360954880714417,
+      -0.14312352240085602,
+      -0.052518460899591446,
+      0.015181120485067368,
+      -0.1315203309059143,
+      0.012333602644503117,
+      0.23431050777435303,
+      0.2160716950893402,
+      0.03555958345532417,
+      0.0019240276888012886,
+      0.08762970566749573,
+      0.032979462295770645,
+      -0.037621673196554184,
+      -0.10325822234153748,
+      0.1002756804227829,
+      -0.2654801309108734,
+      -0.10989892482757568,
+      0.0766049325466156,
+      -0.20992496609687805,
+      -0.056800782680511475,
+      -0.3587284982204437,
+      -0.2816961109638214,
+      -0.020157795399427414,
+      -0.010794936679303646,
+      0.05767533928155899,
+      0.24222084879875183,
+      0.050528381019830704,
+      -0.0326029509305954,
+      -0.04133155196905136,
+      0.11277543753385544,
+      0.09979774057865143,
+      -0.1617799550294876,
+      0.20475080609321594,
+      -0.07642976939678192,
+      -0.03242068737745285,
+      0.018248561769723892,
+      0.24982114136219025,
+      0.015316829085350037,
+      -0.14496377110481262,
+      0.015631385147571564,
+      -0.2283884435892105,
+      -0.16538889706134796,
+      0.024903301149606705,
+      0.08881751447916031,
+      0.10482338815927505,
+      -0.3408719301223755,
+      -0.354282021522522,
+      -0.1032513976097107,
+      0.12883538007736206,
+      0.00921662151813507,
+      0.08629845082759857,
+      -0.07504896074533463,
+      -0.21297886967658997,
+      -0.11769667267799377,
+      0.3329882025718689,
+      -0.09617633372545242,
+      -0.008667373098433018,
+      0.20302681624889374,
+      -0.08460690081119537,
+      -0.21724234521389008,
+      0.08909190446138382,
+      0.03158032149076462,
+      -0.2453429102897644,
+      0.03422186151146889,
+      -0.023598384112119675,
+      0.0011137534165754914,
+      -0.016049465164542198,
+      0.6491870880126953,
+      -0.2237151563167572,
+      0.2537447512149811,
+      0.027960704639554024,
+      0.18662574887275696,
+      0.276253879070282,
+      -0.2591303884983063,
+      0.22296957671642303,
+      0.14858925342559814,
+      0.09811103343963623,
+      0.07479625195264816,
+      -0.12011568993330002,
+      0.012614492326974869,
+      -0.03554714843630791,
+      0.03401318937540054,
+      0.07825349271297455,
+      0.13118965923786163,
+      0.017344538122415543,
+      -0.10996635258197784,
+      -0.0034093554131686687,
+      0.2695382237434387,
+      0.21064898371696472,
+      0.05175504460930824,
+      -0.058870382606983185,
+      -0.16891852021217346,
+      0.11349805444478989,
+      0.18268033862113953,
+      -0.12965558469295502,
+      0.14991244673728943,
+      0.2385535091161728,
+      0.03387637808918953,
+      0.11457569897174835,
+      0.03469197079539299,
+      -0.0029783938080072403,
+      0.11552492529153824,
+      0.09669515490531921,
+      0.09597548842430115
+    ]
+  },
+  "subtopics": [
+    {
+      "subtopic_id": "S1",
+      "name": "document_content",
+      "paragraph_ids": [
+        0
+      ]
+    }
+  ],
+  "global_entities": [
+    {
+      "text": "Adapt",
+      "label": "ORG"
+    },
+    {
+      "text": "Adobe Microsoft",
+      "label": "TECH"
+    },
+    {
+      "text": "Excel",
+      "label": "TECH"
+    },
+    {
+      "text": "Quick Books MAS Sage Software Microsoft Excel ADP",
+      "label": "TECH"
+    },
+    {
+      "text": "Worked",
+      "label": "ORG"
+    },
+    {
+      "text": "North Carolina",
+      "label": "GPE"
+    },
+    {
+      "text": "Cary Keisler Inc.",
+      "label": "ORG"
+    },
+    {
+      "text": "Collect",
+      "label": "ORG"
+    },
+    {
+      "text": "SOs",
+      "label": "PRODUCT"
+    },
+    {
+      "text": "Interact",
+      "label": "ORG"
+    },
+    {
+      "text": "Responsible PO",
+      "label": "PRODUCT"
+    },
+    {
+      "text": "American Express",
+      "label": "ORG"
+    },
+    {
+      "text": "$ 60,000.00 $",
+      "label": "MONEY"
+    },
+    {
+      "text": "September 2013 December 2013",
+      "label": "DATE"
+    },
+    {
+      "text": "General Ledger Research",
+      "label": "ORG"
+    },
+    {
+      "text": "General Ledger",
+      "label": "ORG"
+    },
+    {
+      "text": "Design Excel Spreadsheet",
+      "label": "TECH"
+    },
+    {
+      "text": "EOM",
+      "label": "TECH"
+    },
+    {
+      "text": "Reconcile American Express",
+      "label": "ORG"
+    },
+    {
+      "text": "Daily",
+      "label": "DATE"
+    },
+    {
+      "text": "Provide",
+      "label": "PRODUCT"
+    },
+    {
+      "text": "QuickBooks Peachtree",
+      "label": "ORG"
+    },
+    {
+      "text": "Constant",
+      "label": "ORG"
+    },
+    {
+      "text": "Prepare",
+      "label": "ORG"
+    },
+    {
+      "text": "Assist",
+      "label": "NORP"
+    },
+    {
+      "text": "Alpha Sigma Phi Officer Chair",
+      "label": "WORK_OF_ART"
+    },
+    {
+      "text": "January 2006- 2010",
+      "label": "DATE"
+    },
+    {
+      "text": "Credit",
+      "label": "ORG"
+    },
+    {
+      "text": "Microsoft Access Microsoft Excel Microsoft Word",
+      "label": "TECH"
+    },
+    {
+      "text": "DBA Payables",
+      "label": "ORG"
+    },
+    {
+      "text": "Peachtree",
+      "label": "NORP"
+    }
+  ],
+  "global_pii": [
+    {
+      "text": "North Carolina",
+      "type": "LOCATION"
+    }
+  ]
+}

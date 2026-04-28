@@ -1,67 +1,53 @@
 {
-  "accountant_accounting": {
+  "accountant_informatique": {
     "general": [
       {
         "doc": "doc_0.txt",
-        "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\accountant_accounting\\general\\doc_0.json",
+        "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\accountant_informatique\\general\\doc_0.json",
         "sentiment": "NEUTRAL"
       },
       {
         "doc": "doc_1.txt",
-        "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\accountant_accounting\\general\\doc_1.json",
-        "sentiment": "NEGATIVE"
-      },
-      {
-        "doc": "doc_7.txt",
-        "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\accountant_accounting\\general\\doc_7.json",
-        "sentiment": "NEGATIVE"
-      },
-      {
-        "doc": "doc_14.txt",
-        "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\accountant_accounting\\general\\doc_14.json",
-        "sentiment": "NEGATIVE"
-      },
-      {
-        "doc": "doc_15.txt",
-        "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\accountant_accounting\\general\\doc_15.json",
-        "sentiment": "NEGATIVE"
-      },
-      {
-        "doc": "doc_16.txt",
-        "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\accountant_accounting\\general\\doc_16.json",
-        "sentiment": "NEGATIVE"
-      }
-    ]
-  },
-  "cloud_space": {
-    "general": [
-      {
-        "doc": "doc_2.txt",
-        "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\cloud_space\\general\\doc_2.json",
-        "sentiment": "NEGATIVE"
-      },
-      {
-        "doc": "doc_9.txt",
-        "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\cloud_space\\general\\doc_9.json",
-        "sentiment": "NEUTRAL"
-      }
-    ]
-  },
-  "unknown_topic": {
-    "general": [
-      {
-        "doc": "doc_3.txt",
-        "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\unknown_topic\\general\\doc_3.json",
+        "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\accountant_informatique\\general\\doc_1.json",
         "sentiment": "NEGATIVE"
       },
       {
         "doc": "doc_4.txt",
-        "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\unknown_topic\\general\\doc_4.json",
+        "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\accountant_informatique\\general\\doc_4.json",
         "sentiment": "NEUTRAL"
       },
       {
-        "doc": "doc_12.txt",
-        "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\unknown_topic\\general\\doc_12.json",
+        "doc": "doc_14.txt",
+        "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\accountant_informatique\\general\\doc_14.json",
+        "sentiment": "NEGATIVE"
+      },
+      {
+        "doc": "doc_15.txt",
+        "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\accountant_informatique\\general\\doc_15.json",
+        "sentiment": "NEGATIVE"
+      },
+      {
+        "doc": "doc_16.txt",
+        "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\accountant_informatique\\general\\doc_16.json",
+        "sentiment": "NEGATIVE"
+      }
+    ]
+  },
+  "cloud_computing": {
+    "general": [
+      {
+        "doc": "doc_2.txt",
+        "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\cloud_computing\\general\\doc_2.json",
+        "sentiment": "NEGATIVE"
+      },
+      {
+        "doc": "doc_3.txt",
+        "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\cloud_computing\\general\\doc_3.json",
+        "sentiment": "NEGATIVE"
+      },
+      {
+        "doc": "doc_9.txt",
+        "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\cloud_computing\\general\\doc_9.json",
         "sentiment": "NEUTRAL"
       }
     ]
@@ -81,6 +67,20 @@
       {
         "doc": "doc_8.txt",
         "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\true_data\\general\\doc_8.json",
+        "sentiment": "NEUTRAL"
+      }
+    ]
+  },
+  "unknown_topic": {
+    "general": [
+      {
+        "doc": "doc_7.txt",
+        "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\unknown_topic\\general\\doc_7.json",
+        "sentiment": "NEGATIVE"
+      },
+      {
+        "doc": "doc_12.txt",
+        "path": "C:\\Users\\KM-USER\\Downloads\\nlp\\core\\../output\\agent3\\categories\\unknown_topic\\general\\doc_12.json",
         "sentiment": "NEUTRAL"
       }
     ]

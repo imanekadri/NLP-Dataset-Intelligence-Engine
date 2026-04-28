@@ -2,17 +2,17 @@
   "probable_dataset_type": "multilingual_dataset",
   "total_documents": 17,
   "topics_detected": [
-    "accountant_accounting",
-    "cloud_space",
-    "unknown_topic",
+    "accountant_informatique",
+    "cloud_computing",
     "true_data",
+    "unknown_topic",
     "والعربية_للطالب"
   ],
   "cluster_sizes": {
-    "accountant_accounting": 6,
-    "cloud_space": 2,
-    "unknown_topic": 3,
+    "accountant_informatique": 6,
+    "cloud_computing": 3,
     "true_data": 3,
+    "unknown_topic": 2,
     "والعربية_للطالب": 3
   },
   "avg_noise_ratio": 0.159,

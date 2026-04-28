@@ -1,0 +1,2157 @@
+{
+  "doc_id": "doc_2.txt",
+  "paragraphs": [
+    {
+      "paragraph_id": 0,
+      "text": "Cours pour Master 1 Intelligence Artiﬁcielle Appliquée I2A Cloud Computing et Big Data Département d'informatique Université M'Hamed Bougara 2Modèles de services et modèles de déploiement de Cloud 1.Architecture d’une infrastructure 2.Modèles de services Cloud a. Infrastructure Service b. Platform Service PaaS c. Software Service SaaS 3.Notion de responsabilités 34.Modèles de déploiement a. Modèle publique c. Modèle hybride d. Modèle communautaire Architecture du Cloud L’architecture du Cloud Computing désigne l’ensemble des composants physiques et virtuels qui permettent le bon fonctionnement du Cloud et l’exécution et hébergement des services Elle repose sur une infrastructure hiérarchisée allant des ressources matérielles situées dans les datacenters jusqu’aux services accessibles aux utilisateurs ﬁnaux 5Architecture d’une infrastructure Cloud Le moyen de communication entre les composants frontend et backend leur permettant d’échanger et d’interagir 7interface graphique GUI permettant aux utilisateurs d’interagir avec le cloud 8Logiciels finaux utilisés par les clients pour accéder aux 9Fournit les fonctions les programmes et les outils que l’utilisateur consomme administration stockage programmation et services 10Couche d’exécution virtuelle Avec les hyperviseurs elle exploite différentes ressources virtuelles CPU RAM stockage réseaux pour exécuter des tâches 11offre un espace de stockage dans le cloud pour gérer et conserver 12Il comprend les composants matériels Datacenter et logiciels virtualisation nécessaires au fonctionnement du cloud computing middlewares ou logiciels de gestion qui sert de pont entre les applications les systèmes d’exploitation et les services du Le middleware permet à différentes applications ou composants de communiquer d’échanger des données et de fonctionner ensemble sans que l’utilisateur ait à gérer les détails techniques de l’infrastructure 14Garantit la protection des applications et des plateformes gestion des accès chiffrement authentification pare feu L infrastructure sous jacente représente l’ensemble des ressources matérielles logicielles réseaux et services fondamentaux qui supportent et permettent le fonctionnement des systèmes et applications supérieurs Elle peut être classé en deux couches L infrastructure physique le matériel réel L infrastructure virtuelle créée par la virtualisation Infrastructure sous jacente du Cloud Computing 15le terme sous jacent signiﬁe ce qui se trouve en dessous ou ce qui constitue le fondement essentiel de l'infrastructure visible et fonctionnelle c'est à dire les éléments cachés les composants de base ou les principes fondamentaux sur lesquels l'infrastructure repose infrastructure physique 16C’est la base matérielle du cloud tout ce qui existe réellement dans les Data Rôle Fournir la puissance de calcul le stockage et la connectivité de base nécessaires à l’ensemble du cloud Infrastructure sous jacente du Cloud Computing L infrastructure physique 17 Data Centers Bâtiments sécurisés abritant tous les équipements physiques du cloud serveurs stockage réseau climatisation sécurité etc Serveurs physiques Hosts Machines puissantes hébergeant des ressources et services utilisés à distance sites web bases de données machines virtuelles etc Se compose de Processeur CPU Mémoire Vive RAM disques de Stockage Cartes réseau etc Stockage physique Disques durs et SSD utilisés pour stocker les données des utilisateurs et des systèmes Réseau physique Routeurs commutateurs câbles et pare feux qui connectent les serveurs entre eux et à Internet Infrastructure sous jacente du Cloud Computing serveurs entre eux et à Internet Systèmes d’alimentation et refroidissement Maintiennent la disponibilité et la température idéale des équipements Infrastructure sous jacente du Cloud Computing serveurs entre eux et à Internet Systèmes d’alimentation et refroidissement Maintiennent la disponibilité et la température idéale des équipements Sécurité physique Contrôle d’accès vidéosurveillance détection incendie etc Infrastructure sous jacente du Cloud Computing infrastructure virtuelle 23La virtualisation transforme les ressources physiques en ressources virtuelles accessibles aux utilisateurs du cloud Rôle Abstraire le matériel physique pour oﬀrir des ressources ﬂexibles et isolées aux utilisateurs L infrastructure virtuelle Hyperviseur Virtual Machine Monitor Logiciel qui divise un serveur physique en plusieurs machines virtuelles indépendantes ex VMware KVM Hyper V Machines virtuelles VM Instance logicielle simulant un ordinateur complet CPU RAM disque réseau exécutant son propre OS et ses applications Conteneurs Environnements légers par ex Docker regroupe une application avec ces dépendances bibliothèques ﬁchiers de conﬁguration etc plus rapides à déployer que les VMs déployer que les VMs Cluster Ensemble de serveurs interconnectés travaillant comme une seule entité logique pour améliorer la disponibilité la performance et la tolérance aux pannes déployer que les VMs Cluster Ensemble de serveurs interconnectés travaillant comme une seule entité logique pour améliorer la disponibilité la performance et la tolérance aux pannes Nœuds Nodes Unité de base du cluster Chaque nœud exécute une ou plusieurs VMs ou conteneurs et participe à la distribution des charges de travail 28 Stockage virtuel Espaces de stockage logiques attribués dynamiquement aux VM Réseau virtuel vLAN SDN Réseaux logiciels permettant aux machines virtuelles de communiquer entre elles ou avec Internet Gestionnaire de cloud Management Platform Interface d’administration et d’orchestration ex OpenStack VMware vCloud AWS Management Console Gestionnaire de cloud Management Platform Interface d’administration et d’orchestration ex OpenStack VMware vCloud AWS Management Console Images systèmes OS templates Fichiers préconﬁgurés contenant des systèmes d’exploitation prêts à être déployés sur les VM Le cloud repose sur une base physique réelle mais les utilisateurs n’interagissent qu’avec une couche virtuelle gérée et automatisée par des logiciels spécialisés Modèles de services Cloud 35 Le Cloud fournit des services à la demande IaaS Infrastructure Service Fournit un accès à l'infrastructure informatique de base comme les machines virtuelles le stockage et les PaaS Platform Service Oﬀre un environnement complet pour le développement l'exécution et la gestion d'applications SaaS Software Service Fournit des applications logicielles sur Infrastructure Service IaaS L'IaaS constitue la couche de base du modèle de service Il sert de support aux deux autres modèles de service le PaaS et le SaaS. Il permet l’accès à la demande aux ressources de calcul de stockage de mise en réseau et de virtualisation Le fournisseur cloud met à disposition l’infrastructure informatique de base serveurs stockage réseau virtualisation L’utilisateur peut créer et conﬁgurer ses machines virtuelles VM librement stocker des données et lancer des calculs intensifs L’IaaS utilise la technologie de virtualisation pour convertir les ressources physiques en ressources logiques et les allouer ou désallouer selon les besoins du client Infrastructure Service IaaS Ce modèle oﬀre le plus haut niveau de contrôle sur l'infrastructure Le fournisseur ne fournit que les ressources matérielles serveurs les dispositifs de stockage et leur virtualisation le système d'exploitation hôte et L utilisateur gère tout le reste système d’exploitation applications déployées données 39IaaS est idéal pour les entreprises qui veulent contrôler totalement leur infrastructure ou héberger leurs propres applications personnalisées Flexibilité maximale personnalisation l’utilisateur peut choisir et conﬁgurer librement son système d’exploitation ses logiciels et ses ressources Scalabilité il est facile d’augmenter ou de réduire les ressources selon les Coût initial faible inutile d’acheter des serveurs physiques Contrôle total l’utilisateur garde la main sur r les ressources virtuelles serveurs Haute disponibilité et sauvegarde assurées par le fournisseur Gestion complexe l’utilisateur doit administrer lui même les systèmes sécurité mises à jour etc Compétences techniques nécessaires devops conﬁguration de serveurs Risque d’erreur utilisateur une mauvaise conﬁguration peut compromettre la Facturation variable et imprévue dépend fortement de l’usage CPU stockage bande passante et risque de mal gestion Exemples de fournisseurs IaaS Amazon Web Service AWS Microsoft Azure Virtual Machines Google Cloud Compute Engine OpenStack solution open source Exemples d’utilisation Héberger un site web personnalisé sur une machine virtuelle Déployer un serveur de base de données ou un serveur d’applications Créer un cluster Kubernetes pour tester le déploiement de conteneurs Lancer une machine virtuelle pour le calcul intensif ou la simulation 42 Cas d’usage 1 AWS EC2 Un enseignant en informatique souhaite héberger une application web de gestion de notes pour ses étudiants Au lieu d’acheter un serveur physique il utilise AWS EC2 un service IaaS. Étapes principales Il crée une machine virtuelle instance EC2 sur AWS Il choisit le système d’exploitation ex Ubuntu Linux Il installe manuellement le serveur web Apache ou Nginx la base de données MySQL et le code de son application Il conﬁgure la sécurité pare feu accès SSH et les sauvegardes L’application devient accessible une adresse IP publique 43 44Cas d’usage 2 AWS EC2 Une entreprise de streaming vidéo comme Netﬂix doit héberger des serveurs capables de diﬀuser des milliers de vidéos simultanément à travers le monde Problème disposer d’une infrastructure physique mondiale est trop coûteux Solution Cloud en utilisant AWS EC2 l’entreprise loue à la demande des serveurs virtuels ajuste la capacité selon le traﬁc et ne paye que ce qu’elle consomme modèle pay 45Cas d’usage 2 AWS EC2 Une entreprise de streaming vidéo comme Netﬂix doit héberger des serveurs capables de diﬀuser des milliers de vidéos simultanément à travers le monde Problème disposer d’une infrastructure physique mondiale est trop coûteux Solution Cloud en utilisant AWS EC2 l’entreprise loue à la demande des serveurs virtuels ajuste la capacité selon le traﬁc et ne paye que ce qu’elle consomme modèle pay Apport concret AWS EC2 fournit une machine virtuelle dans le cloud que l’utilisateur administre comme son propre serveur avec une scalabilité et une gestion ﬂexible des ressources Platform Service PaaS Platform Service PaaS Dans PaaS le fournisseur Cloud fournit une plateforme complète et prête à l’emploi pour développer tester et déployer des applications sans gérer l’infrastructure sous jacente ni l’OS Le service PaaS permet de développer compiler et d’exécuter son propre code sans se soucier de la conﬁguration système La plateforme comprend des outils de développement Compilateurs et Runtimes La plateforme inclut déjà tous les compilateurs interpréteurs et environnements d'exécution runtimes pour les langages de programmation supportés Bibliothèques et Frameworks pour faciliter le développement d'applications Les Services de Base de Données 47 PaaS oﬀre un contrôle réduit sur l’environnement sous jacent Le fournisseur de cloud gère l’infrastructure physique la virtualisation le système d’exploitation et le middleware L utilisateur se concentre uniquement sur le code et la logique applicative Le développement de l’application le code source La gestion des données le contenu de la base de données par exemple La conﬁguration spéciﬁque à l’application variables d'environnement règles de mise à l'échelle ou scaling Platform Service PaaS 48PaaS est idéal pour les équipes de développement qui veulent créer et déployer rapidement des applications sans gérer l’infrastructure Platform Service SaaS Aucune gestion d’infrastructure le fournisseur gère serveurs OS et middleware Gain de temps pour le développement les développeurs se concentrent uniquement sur le code Déploiement rapide les applications peuvent être mises en ligne en quelques Scalabilité automatique la plateforme ajuste les ressources selon la charge garantissant ainsi l'eﬃcacité de la charge de travail de l'application Collaboration facilitée environnement partagé entre plusieurs développeurs Moins de contrôle sur l’environnement sous jacent versions d’OS conﬁgurations Dépendance au fournisseur vendor lock diﬃcile de migrer vers une autre Limites de personnalisation certains frameworks langages ou bases de données peuvent ne pas être supportés Problèmes de compatibilité possibles lors de migrations d’applications Moins de ﬂexibilité si le besoin dépasse les possibilités de la plateforme Exemples de fournisseurs Google App Engine Azure App Service Exemples d’utilisations typiques Développement et déploiement d'applications Analyse de données et décisionnel traitement visualisation et génération de rapports sur les données Utilisation de bases de données managées prêtes à l’emploi Cas d’usage 1 Déploiement d’une application web sur Heroku Un étudiant développe une application web de gestion d’étudiants avec Python Flask sur son ordinateur En local il doit installer Python un serveur web une base de données et tout conﬁgurer manuellement Avec Heroku il Crée un compte et un projet sur Heroku Envoie son code Git push heroku main Heroku installe automatiquement les dépendances conﬁgure le serveur et déploie Il ajoute une base de données PostgreSQL un simple add L’application est immédiatement accessible en ligne une URL publique 52 Cas d’usage 2 Déploiement d’une application mobile en temps réel Une startup développe une application mobile d’analyse en temps réel Problème elle ne veut pas perdre de temps à conﬁgurer des serveurs bases de données et middlewares Solution Cloud elle choisit Google App Engine ou Heroku qui lui permettent de déployer directement son code source la plateforme gère automatiquement la montée en charge les mises à jour et la sécurité Cas d’usage 2 Déploiement d’une application mobile en temps réel Une startup développe une application mobile d’analyse en temps réel Problème elle ne veut pas perdre de temps à conﬁgurer des serveurs bases de données et middlewares Solution Cloud elle choisit Google App Engine ou Heroku qui lui permettent de déployer directement son code source la plateforme gère automatiquement la montée en charge les mises à jour et la sécurité 54Apport concret aucun serveur à gérer déploiement rapide base de données intégrée et scalabilité automatique -le PaaS accélère l’innovation et simpliﬁe le cycle de développement.- Software Service SaaS Le SaaS constitue la couche supérieure du modèle de service Il est directement utilisé par l’utilisateur ﬁnal Le fournisseur oﬀre une application logicielle complète accessible Les utilisateurs accèdent à l’application web un navigateur web ou une interface web éliminant le besoin d'installation et de maintenance locale Ainsi le SaaS est un logiciel à la demande demand software qui fonctionne selon le modèle pay paiement à l’usage Software Service SaaS Le client n’a aucun contrôle sur l’infrastructure Cloud Le fournisseur gère tous les niveaux matériel OS plateforme et L utilisateur ne gère rien ni code ni infrastructure Il utilise simplement le logiciel ou l’application prête à l’emploi Conﬁgurer l’application pour répondre à ses besoins spéciﬁques Gérer les utilisateurs et les données 57SaaS est idéal pour les utilisateurs finaux ou entreprises qui veulent utiliser un logiciel clé en main sans gérer la technique Aucune installation accessible directement depuis un navigateur web Mises à jour automatiques toujours la dernière version du logiciel Coût réduit pas d’achat de licence ni de matériel Accessibilité universelle disponible depuis n’importe quel appareil connecté Haute disponibilité et sauvegarde assurées par le fournisseur Support technique intégré maintenance et assistance incluses Software Service SaaS Aucune personnalisation profonde possible Dépendance forte à la connexion Internet et au fournisseur Risque de confidentialité les données sont hébergées chez un tiers Faible contrôle sur la sécurité et la sauvegarde Problèmes d’intégration avec d’autres logiciels internes parfois Software Service SaaS Email et productivité bureautique Gmail Google Docs Office 365 Canva Réseaux sociaux et plateforme de streaming Facebook Netflix Spotify Facturation Billing Ces services gèrent la facturation les abonnements et les paiements de manière automatisé Chargebee Stripe Billing etc Gestion de la relation client CRM Ces logiciels permettent de suivre les clients les ventes le support etc Salesforce → Leader mondial du CRM cloud Finances Ces applications gèrent la comptabilité les dépenses la paie et les rapports financiers Wave Accounting Xero etc Cas d’usage Google Workspace Une université utilise Google Workspace pour Permettre aux enseignants et étudiants d’accéder à Gmail Docs Sheets et Drive un navigateur Collaborer en temps réel sur les documents partagés Stocker et organiser les fichiers dans le cloud Planifier les réunions et cours Google Calendar et Meet Cas d’usage Google Workspace Une université utilise Google Workspace pour Permettre aux enseignants et étudiants d’accéder à Gmail Docs Sheets et Drive un navigateur Collaborer en temps réel sur les documents partagés Stocker et organiser les fichiers dans le cloud Planifier les réunions et cours Google Calendar et Meet 62Apport concret aucun logiciel à installer collaboration instantanée données sauvegardées dans le cloud accessible depuis n’importe Notion de responsabilités partagées Notion de Responsabilités Partagées Dans le cloud responsabilités entre fournisseur et client sont partagées Le fournisseur gère la sécurité physique l'infrastructure réseau la maintenance Le client doit gérer la sécurité de ses applications la conﬁguration la gestion des accès et des données Cela signiﬁe que la sécurité du cloud est assurée par le fournisseur tandis que la sécurité dans le cloud est assurée par le client Cette séparation est fondamentale pour comprendre où interviennent les risques et garanties pour chaque partie La répartition de responsabilité IaaS Fournisseur gère Sécurité physique des data centers Serveurs physiques stockage réseau Virtualisation et hyperviseur Client gère Système d’exploitation mises à jour correctifs Applications installées Sécurité réseau pare feu ports VPN Données et accès utilisateurs Exemple sur AWS EC2 le fournisseur protège le matériel et la virtualisation mais le client doit sécuriser son Ubuntu et son site web La répartition de responsabilité PaaS Tout ce que gère l’IaaS + Le système d’exploitation le middleware le runtime Java Python Node.js Sécurité des mises à jour automatiques de la plateforme Le code de l’application Les données et la gestion des utilisateurs Les droits d’accès et les clés API Exemple sur Heroku la plateforme gère le système et la sécurité serveur Mais si ton code contient une faille c’est ta responsabilité 66 La répartition de responsabilité SaaS Infrastructure réseau serveurs OS applications Sécurité des mises à jour et de la plateforme L accès utilisateur mots de passe double authentiﬁcation La conﬁdentialité de ses données ce qu’il stocke dans l’application Les autorisations internes rôles partages etc Exemple sur Google Drive Google gère toute la sécurité technique Mais si un utilisateur partage un dossier sensible en public c’est sa faute Code et application Matériel physique Géré par le fournisseur Données le fournisseur Données Modèle de Service Cloud Serveur Modèles de déploiement Modèles de déploiements Un modèle de déploiement cloud désigne la manière nt l'infrastructure cloud est structurée et mise à disposition Ces modèles déterminent les règles de partage de sécurité de contrôle et de coûts des ressources cloud comme les serveurs le stockage et les applications Il existe quatre grands modèles de déploiement du cloud communautaire 72 Un modèle dans lequel un fournisseur de services met des ressources des applications du stockage serveurs etc à la disposition du grand public L'hébergement et la gestion sont assurés par un tiers depuis un ou plusieurs L'infrastructure Cloud est partagée mutualisée entre plusieurs clients ce qui peut réduire les coûts pour un client individuel servant plusieurs clients 73 Les applications de diﬀérents clients sont susceptibles d'être mélangées sur les serveurs les systèmes de stockage et les réseaux du cloud Des VM de diﬀérents clients peuvent être déployées sur un même serveurs Les données des client peuvent être dispersées et fragmentées sur plusieurs Qu'est ce que cela implique pour les données d'un client Modèle ﬂexible et économique coûts initiaux réduits pay maintenance par le fournisseur scalabilité rapide Moins de contrôle sur la sécurité et la localisation des données Risque de performance variable dû au partage des ressources Le cloud public peut être utilisé chaque fois que les conditions suivantes Les besoins en ressources sont importantes et variables Pas d’infrastructure physique disponible L’entreprise des contraintes ﬁnancières Par ailleurs le cloud public ne convient pas dans les cas suivants La sécurité est importante et les données sont considérées critiques L’organisation souhaite être autonome L’organisation dispose des moyens nécessaire pour la mise en place d’un cloud Cas d'usage concret Un étudiant déploie son application sur Heroku hébergé sur un cloud public Une startup d’e commerce comme Airbnb à ses débuts veut lancer rapidement sa plateforme à l’international Problème besoin d’une infrastructure mondiale scalable sans coûts ﬁxes Solution Cloud usage d’un fournisseur public AWS Google Cloud ou Azure Ces plateformes gèrent stockage disponibilité cybersécurité et distribution Bénéﬁces idéale pour des services accessibles mondialement scalables et évolutifs Cloud Public Un étudiant déploie son application sur Heroku hébergé sur un cloud public Une startup d’e commerce comme Airbnb à ses débuts veut lancer rapidement sa plateforme à l’international Problème besoin d’une infrastructure mondiale scalable sans coûts ﬁxes Solution Cloud usage d’un fournisseur public AWS Google Cloud ou Azure Ces plateformes gèrent stockage disponibilité cybersécurité et distribution Bénéﬁces idéale pour des services accessibles mondialement scalables et évolutifs Cloud Public 77Permet Rapidité simplicité et faible coût Idéal pour les projets web les tests le e commerce ou l’hébergement d’applications grand public Le cloud privé est une infrastructure uniquement réservée à une seule organisation oﬀrant un contrôle et une sécurité accrus mais des coûts plus Le cloud privé peut être hébergé en interne dans les locaux de l’entreprise un cloud privé virtuel également appelé réseau privé chez un fournisseur mais reste exclusivement dédiée à cette organisation parle alors de cloud privé externalisé Les fournisseurs de cloud public proposent des solutions permettant de créer une partie isolée de leur cloud accessible à un seul client qui est le comportement par défaut de nombreux fournisseurs de cloud public Les clouds privés peuvent être construits et gérés par la propre équipe informatique d'une entreprise ou par un fournisseur de cloud Le cloud est de taille limité et facile à entretenir Sécurité élevée les données restent sous le contrôle complet de l’organisation Personnalisation totale selon les besoins Contraintes budgétaire pour les petites entreprises achat maintenance et gestion de l’infrastructure Mise en place plus longue Gestion plus complexe Nécessite des experts internes pour la gestion Le cloud privé est préférable dans les cas suivants L’organisation dispose des moyens nécessaire matériel et local pour le d éploiement du cloud L’organisation dispose d’un personnel qualiﬁé pour la gestion et la maintenance du cloud L’organisation considère que la sécurité des données est importante ou critique L’organisation veut un contrôle complet sur le cloud Le cloud privé n’est pas préférable dans les cas suivants L’organisation des contraintes ﬁnancières L’organisation ne dispose pas de suﬃsamment de main d oeuvre pour maintenir et gérer le cloud L’organisation n’a pas une infrastructure pré établie 82 Exemple de fournisseurs OpenStack VMware vCloud IBM Cloud Private Microsoft Azure Stack Exemple d’utilisation Une banque ou un hôpital utilise un cloud privé pour gérer ses données sensibles et conﬁdentielles aﬁn de respecter des normes de sécurité strictes tout en conservant la propriété de l'infrastructure Cloud Privé 83Permet contrôle total sur les données et la sécurité Adapté aux secteurs réglementés ﬁnance santé gouvernement Cas d’usage concret Université avec un cloud privé pour les étudiants Étapes générales Installation d’OpenStack sur les serveurs internes de l’université Création d’un portail web pour que les étudiants puissent créer leurs machines Mise en place d’un stockage privé pour sauvegarder leurs projets Gestion des accès chaque étudiant un compte et un quota Maintenance par l’équipe informatique de l’université Valeur réelle Les étudiants peuvent pratiquer le cloud computing dans un environnement contrôlé sans exposer leurs données à l’extérieur Le cloud hybride combine un cloud public et un cloud privé Une entreprise peut garder ses données sensibles sur un cloud privé et utiliser le cloud public pour d’autres applications moins critiques ou pour augmenter sa capacité temporairement Une architecture de cloud hybride permet aux entreprises de basculer facilement entre les environnements public et privé pour exécuter leurs charges de travail en fonction de leurs besoins spéciﬁques Les deux systèmes communiquent entre eux et peuvent échanger des données ou des services Équilibre entre sécurité et ﬂexibilité Scalabilité intelligente peut utiliser le cloud public en cas de pic d’activité Optimisation des coûts seules les ressources nécessaires sont payées Protection des données sensibles sur la partie privée Complexité de gestion déterminer comment répartir les applications entre un cloud public et un cloud privé Capacité de communication diﬃcile connexion et synchronisation Coût plus élevé qu’un cloud public seul 87 L’environnement de cloud hybride convient à Les organisations qui souhaitent un environnement de cloud privé avec l’évolutivité du Les organisations qui nécessitent plus de sécurité En second lieu ce cloud n’est pas préférable pour les organisations qui Considèrent la sécurité comme un objectif prioritaire Ne peuvent pas maintenir l’entretien gestion du cloud hybride 88Les architectures de cloud hybride sont souvent privilégiées par les entreprises qui cherchent à garder le contrôle de leurs données tout en tirant parti des avantages des services de cloud public permettant une gestion optimale des ressources et sécurité Exemple de fournisseurs Microsoft Azure Arc Google Anthos AWS Outposts Exemple d’utilisations Une entreprise de e commerce stocke ses données clients sur son cloud privé mais héberge son site web et ses images sur un cloud public AWS Une université garde ses données administratives en interne mais utilise le cloud public pour héberger les plateformes pédagogiques 89Permet Un meilleur compromis entre sécurité coût et performance Très utilisé dans les entreprises en transformation numérique Cas d'usage concret Hôpital avec données médicales Les données médicales sensibles sont stockées dans un cloud privé sécurisé sur Le cloud public Azure est utilisé pour analyser les données anonymisées l’IA Les deux environnements sont connectés un réseau sécurisé VPN Les rapports générés sont renvoyés dans le cloud privé Valeur réelle L’hôpital bénéﬁcie de la puissance du cloud public tout en préservant la conﬁdentialité des dossiers patients Cloud Hybride Cloud Communautaire Un cloud communautaire oﬀre une infrastructure partagée entre plusieurs organisations avec des intérêts communs et exigences similaires Les coûts et les ressources sont mutualisés entre les participants Les ressources sont proposées dans un environnement contrôlé accessible uniquement à la communauté des entreprises qui se font généralement Le cloud communautaire peut être géré par une organisation tierce ou par les membres eux mêmes C’est un modèle souvent utilisé dans le secteur public ou la recherche Il permet d’établir un cloud privé avec un coût réduit Partage des coûts et des ressources Collaboration simpliﬁée entre organisations partenaires Il permet le partage des responsabilités entre l’organisation Il est plus sécurisé que le cloud public Mise en place lente coordination entre plusieurs acteurs Gouvernance complexe qui décide qui paie Moins ﬂexible que le cloud public Les fonctionnalités de sécurité ne sont pas aussi eﬃcaces que le cloud privé 93 Ce type de cloud convient aux organisations qui Souhaite établir un cloud privé mais elle des contraintes ﬁnancières Ne veut pas assumer la responsabilité complète de la maintenance et l’entretien Veut établir un cloud pour collaborer avec d’autre clouds Souhaite avoir un cloud collaboratif avec plus de sécurité que propose le cloud En second lieu ce cloud n’est pas préférable pour les organisations qui Privilégie l’autonomie et le contrôle sur le cloud Ne souhaite pas collaborer avec d’autres organisations Cloud Communautaire Exemple de fournisseurs Government Cloud par AWS ou Google EduCloud pour les universités GAIA X Plusieurs universités d’un même pays partagent une plateforme de calcul intensif pour leurs projets de recherche des plateformes d’enseignement collaboratif et des données de recherche Des hôpitaux régionaux utilisent un cloud commun pour échanger les dossiers médicaux sécurisés 95Permet une coopération et partage des coûts Infrastructure commune et sécurisée Adaptée aux organisations ayant des objectifs communs Exemple concret Réseau d’universités partageant une plateforme de recherche Les universités se regroupent et créent un cloud commun ex EduCloud Chaque établissement dispose d’un espace sécurisé mais connecté aux Les chercheurs partagent des données des applications et des calculs lourds Les ressources sont ﬁnancées collectivement et gérées par un comité Valeur réelle Les universités économisent et coopèrent sur des projets de recherche massifs ex climat santé IA Cloud Communautaire",
+      "sentiment": "NEGATIVE",
+      "entities": [
+        {
+          "text": "Master 1 Intelligence",
+          "label": "MISC"
+        },
+        {
+          "text": "Cloud",
+          "label": "MISC"
+        },
+        {
+          "text": "34.Modèles",
+          "label": "MISC"
+        },
+        {
+          "text": "Modèle",
+          "label": "MISC"
+        },
+        {
+          "text": "Cloud L’",
+          "label": "MISC"
+        },
+        {
+          "text": "Cloud Computing",
+          "label": "MISC"
+        },
+        {
+          "text": "GUI",
+          "label": "TECH"
+        },
+        {
+          "text": "CPU",
+          "label": "TECH"
+        },
+        {
+          "text": "Le middleware",
+          "label": "MISC"
+        },
+        {
+          "text": "L infrastructure sous jacente représente l’ensemble des ressources matérielles logicielles réseaux",
+          "label": "MISC"
+        },
+        {
+          "text": "L infrastructure physique",
+          "label": "MISC"
+        },
+        {
+          "text": "L infrastructure virtuelle",
+          "label": "MISC"
+        },
+        {
+          "text": "Infrastructure",
+          "label": "LOC"
+        },
+        {
+          "text": "Data Rôle Fournir la puissance",
+          "label": "MISC"
+        },
+        {
+          "text": "Cloud Computing L",
+          "label": "MISC"
+        },
+        {
+          "text": "Serveurs physiques Hosts Machines",
+          "label": "MISC"
+        },
+        {
+          "text": "Processeur CPU",
+          "label": "PER"
+        },
+        {
+          "text": "Stockage Cartes",
+          "label": "PER"
+        },
+        {
+          "text": "Stockage physique Disques",
+          "label": "MISC"
+        },
+        {
+          "text": "SSD",
+          "label": "TECH"
+        },
+        {
+          "text": "Réseau physique",
+          "label": "ORG"
+        },
+        {
+          "text": "Internet Infrastructure",
+          "label": "MISC"
+        },
+        {
+          "text": "Internet Systèmes",
+          "label": "MISC"
+        },
+        {
+          "text": "Maintiennent",
+          "label": "LOC"
+        },
+        {
+          "text": "Sécurité physique",
+          "label": "ORG"
+        },
+        {
+          "text": "Contrôle d’",
+          "label": "MISC"
+        },
+        {
+          "text": "Abstraire",
+          "label": "MISC"
+        },
+        {
+          "text": "VMware",
+          "label": "MISC"
+        },
+        {
+          "text": "Docker",
+          "label": "TECH"
+        },
+        {
+          "text": "VMs",
+          "label": "MISC"
+        },
+        {
+          "text": "VMs Cluster Ensemble",
+          "label": "ORG"
+        },
+        {
+          "text": "Stockage",
+          "label": "MISC"
+        },
+        {
+          "text": "Internet Gestionnaire",
+          "label": "MISC"
+        },
+        {
+          "text": "Management Platform Interface",
+          "label": "ORG"
+        },
+        {
+          "text": "OpenStack VMware vCloud AWS",
+          "label": "TECH"
+        },
+        {
+          "text": "Console Gestionnaire",
+          "label": "MISC"
+        },
+        {
+          "text": "Fichiers préconﬁgurés",
+          "label": "ORG"
+        },
+        {
+          "text": "Modèles de services",
+          "label": "MISC"
+        },
+        {
+          "text": "Cloud 35 Le Cloud",
+          "label": "MISC"
+        },
+        {
+          "text": "IaaS Infrastructure Service",
+          "label": "MISC"
+        },
+        {
+          "text": "IaaS",
+          "label": "MISC"
+        },
+        {
+          "text": "PaaS",
+          "label": "MISC"
+        },
+        {
+          "text": "SaaS.",
+          "label": "LOC"
+        },
+        {
+          "text": "L’IaaS",
+          "label": "PER"
+        },
+        {
+          "text": "L utilisateur gère tout le reste système d’exploitation applications déployées données 39IaaS",
+          "label": "MISC"
+        },
+        {
+          "text": "Flexibilité maximale personnalisation l’utilisateur",
+          "label": "ORG"
+        },
+        {
+          "text": "Scalabilité il est facile d’augmenter",
+          "label": "MISC"
+        },
+        {
+          "text": "Coût",
+          "label": "LOC"
+        },
+        {
+          "text": "Contrôle total",
+          "label": "ORG"
+        },
+        {
+          "text": "Haute",
+          "label": "LOC"
+        },
+        {
+          "text": "Gestion complexe l’utilisateur",
+          "label": "MISC"
+        },
+        {
+          "text": "Compétences techniques nécessaires devops conﬁguration de serveurs",
+          "label": "MISC"
+        },
+        {
+          "text": "Risque",
+          "label": "MISC"
+        },
+        {
+          "text": "Facturation",
+          "label": "LOC"
+        },
+        {
+          "text": "Exemples",
+          "label": "MISC"
+        },
+        {
+          "text": "IaaS Amazon Web Service",
+          "label": "TECH"
+        },
+        {
+          "text": "Microsoft",
+          "label": "TECH"
+        },
+        {
+          "text": "Virtual Machines Google",
+          "label": "TECH"
+        },
+        {
+          "text": "OpenStack",
+          "label": "MISC"
+        },
+        {
+          "text": "Exemples d’utilisation",
+          "label": "MISC"
+        },
+        {
+          "text": "Déployer",
+          "label": "ORG"
+        },
+        {
+          "text": "Créer",
+          "label": "PER"
+        },
+        {
+          "text": "Kubernetes",
+          "label": "TECH"
+        },
+        {
+          "text": "Lancer",
+          "label": "PER"
+        },
+        {
+          "text": "Cas d’",
+          "label": "MISC"
+        },
+        {
+          "text": "EC2",
+          "label": "TECH"
+        },
+        {
+          "text": "Au lieu d’acheter un serveur physique",
+          "label": "MISC"
+        },
+        {
+          "text": "Étapes",
+          "label": "PER"
+        },
+        {
+          "text": "Ubuntu",
+          "label": "MISC"
+        },
+        {
+          "text": "Apache",
+          "label": "MISC"
+        },
+        {
+          "text": "Nginx",
+          "label": "ORG"
+        },
+        {
+          "text": "MySQL",
+          "label": "TECH"
+        },
+        {
+          "text": "Il conﬁgure",
+          "label": "MISC"
+        },
+        {
+          "text": "SSH",
+          "label": "TECH"
+        },
+        {
+          "text": "Netﬂix doit héberger des serveurs capables",
+          "label": "MISC"
+        },
+        {
+          "text": "Problème",
+          "label": "MISC"
+        },
+        {
+          "text": "Solution Cloud",
+          "label": "PER"
+        },
+        {
+          "text": "Apport",
+          "label": "MISC"
+        },
+        {
+          "text": "La plateforme",
+          "label": "MISC"
+        },
+        {
+          "text": "Compilateurs",
+          "label": "PER"
+        },
+        {
+          "text": "Runtimes",
+          "label": "PER"
+        },
+        {
+          "text": "Bibliothèques",
+          "label": "ORG"
+        },
+        {
+          "text": "Frameworks",
+          "label": "LOC"
+        },
+        {
+          "text": "Les Services de Base de Données",
+          "label": "MISC"
+        },
+        {
+          "text": "Le développement de l’application",
+          "label": "MISC"
+        },
+        {
+          "text": "La gestion des données le contenu de la base de données",
+          "label": "MISC"
+        },
+        {
+          "text": "La conﬁguration spéciﬁque",
+          "label": "MISC"
+        },
+        {
+          "text": "serveurs OS",
+          "label": "MISC"
+        },
+        {
+          "text": "middleware Gain de temps",
+          "label": "MISC"
+        },
+        {
+          "text": "Déploiement",
+          "label": "ORG"
+        },
+        {
+          "text": "Scalabilité automatique",
+          "label": "MISC"
+        },
+        {
+          "text": "Collaboration",
+          "label": "MISC"
+        },
+        {
+          "text": "Moins",
+          "label": "ORG"
+        },
+        {
+          "text": "d’OS conﬁgurations",
+          "label": "MISC"
+        },
+        {
+          "text": "Dépendance",
+          "label": "MISC"
+        },
+        {
+          "text": "Limites",
+          "label": "LOC"
+        },
+        {
+          "text": "Problèmes de compatibilité possibles",
+          "label": "MISC"
+        },
+        {
+          "text": "Google",
+          "label": "TECH"
+        },
+        {
+          "text": "App Engine",
+          "label": "PER"
+        },
+        {
+          "text": "App Service",
+          "label": "PER"
+        },
+        {
+          "text": "Analyse de données et décisionnel",
+          "label": "MISC"
+        },
+        {
+          "text": "Utilisation de bases",
+          "label": "MISC"
+        },
+        {
+          "text": "Heroku",
+          "label": "LOC"
+        },
+        {
+          "text": "Python Flask",
+          "label": "TECH"
+        },
+        {
+          "text": "En local il doit installer",
+          "label": "MISC"
+        },
+        {
+          "text": "Python",
+          "label": "TECH"
+        },
+        {
+          "text": "Crée",
+          "label": "LOC"
+        },
+        {
+          "text": "Git",
+          "label": "TECH"
+        },
+        {
+          "text": "Il ajoute une base de données",
+          "label": "MISC"
+        },
+        {
+          "text": "PostgreSQL",
+          "label": "TECH"
+        },
+        {
+          "text": "Cas d’usage 2",
+          "label": "MISC"
+        },
+        {
+          "text": "Une startup développe une application mobile",
+          "label": "MISC"
+        },
+        {
+          "text": "Problème elle ne veut pas perdre de temps",
+          "label": "MISC"
+        },
+        {
+          "text": "SaaS",
+          "label": "MISC"
+        },
+        {
+          "text": "Les",
+          "label": "LOC"
+        },
+        {
+          "text": "L utilisateur",
+          "label": "MISC"
+        },
+        {
+          "text": "Conﬁgurer",
+          "label": "ORG"
+        },
+        {
+          "text": "Gérer",
+          "label": "PER"
+        },
+        {
+          "text": "Mises",
+          "label": "LOC"
+        },
+        {
+          "text": "Accessibilité",
+          "label": "LOC"
+        },
+        {
+          "text": "Support",
+          "label": "MISC"
+        },
+        {
+          "text": "Internet",
+          "label": "MISC"
+        },
+        {
+          "text": "Faible",
+          "label": "MISC"
+        },
+        {
+          "text": "Problèmes d’intégration",
+          "label": "MISC"
+        },
+        {
+          "text": "Gmail",
+          "label": "MISC"
+        },
+        {
+          "text": "Office 365 Canva Réseaux sociaux",
+          "label": "MISC"
+        },
+        {
+          "text": "Facebook",
+          "label": "TECH"
+        },
+        {
+          "text": "Chargebee Stripe Billing",
+          "label": "PER"
+        },
+        {
+          "text": "Gestion",
+          "label": "MISC"
+        },
+        {
+          "text": "CRM",
+          "label": "TECH"
+        },
+        {
+          "text": "Salesforce",
+          "label": "TECH"
+        },
+        {
+          "text": "Finances",
+          "label": "MISC"
+        },
+        {
+          "text": "Google Workspace",
+          "label": "TECH"
+        },
+        {
+          "text": "Permettre",
+          "label": "MISC"
+        },
+        {
+          "text": "Gmail Docs",
+          "label": "PER"
+        },
+        {
+          "text": "Drive",
+          "label": "MISC"
+        },
+        {
+          "text": "Collaborer",
+          "label": "MISC"
+        },
+        {
+          "text": "Stocker",
+          "label": "MISC"
+        },
+        {
+          "text": "Planifier",
+          "label": "PER"
+        },
+        {
+          "text": "Meet 62Apport",
+          "label": "MISC"
+        },
+        {
+          "text": "Notion de responsabilités partagées Notion",
+          "label": "MISC"
+        },
+        {
+          "text": "Responsabilités Partagées",
+          "label": "ORG"
+        },
+        {
+          "text": "Cela signiﬁe que la sécurité du cloud",
+          "label": "MISC"
+        },
+        {
+          "text": "IaaS Fournisseur",
+          "label": "PER"
+        },
+        {
+          "text": "Serveurs physiques",
+          "label": "MISC"
+        },
+        {
+          "text": "Virtualisation",
+          "label": "MISC"
+        },
+        {
+          "text": "Système d’exploitation mises",
+          "label": "MISC"
+        },
+        {
+          "text": "Applications",
+          "label": "MISC"
+        },
+        {
+          "text": "Sécurité réseau pare feu ports",
+          "label": "ORG"
+        },
+        {
+          "text": "Données",
+          "label": "PER"
+        },
+        {
+          "text": "Java Python Node.js",
+          "label": "TECH"
+        },
+        {
+          "text": "Le code de l’application",
+          "label": "MISC"
+        },
+        {
+          "text": "API Exemple",
+          "label": "MISC"
+        },
+        {
+          "text": "Sécurité",
+          "label": "MISC"
+        },
+        {
+          "text": "Google Drive Google",
+          "label": "TECH"
+        },
+        {
+          "text": "Code et application",
+          "label": "MISC"
+        },
+        {
+          "text": "Matériel physique",
+          "label": "MISC"
+        },
+        {
+          "text": "Géré",
+          "label": "MISC"
+        },
+        {
+          "text": "Modèles",
+          "label": "PER"
+        },
+        {
+          "text": "Un modèle de déploiement cloud",
+          "label": "MISC"
+        },
+        {
+          "text": "L'infrastructure Cloud",
+          "label": "MISC"
+        },
+        {
+          "text": "Qu'",
+          "label": "MISC"
+        },
+        {
+          "text": "Le cloud public",
+          "label": "MISC"
+        },
+        {
+          "text": "Pas d’infrastructure physique disponible",
+          "label": "MISC"
+        },
+        {
+          "text": "Cas d'usage concret",
+          "label": "MISC"
+        },
+        {
+          "text": "Un étudiant déploie son application",
+          "label": "MISC"
+        },
+        {
+          "text": "Une startup d’e commerce",
+          "label": "MISC"
+        },
+        {
+          "text": "Airbnb",
+          "label": "PER"
+        },
+        {
+          "text": "l’international Problème besoin",
+          "label": "ORG"
+        },
+        {
+          "text": "Azure",
+          "label": "TECH"
+        },
+        {
+          "text": "Bénéﬁces idéale pour des services accessibles mondialement scalables",
+          "label": "MISC"
+        },
+        {
+          "text": "Cloud Public",
+          "label": "MISC"
+        },
+        {
+          "text": "Idéal",
+          "label": "LOC"
+        },
+        {
+          "text": "Personnalisation",
+          "label": "ORG"
+        },
+        {
+          "text": "Contraintes budgétaire pour les petites entreprises achat maintenance et gestion",
+          "label": "MISC"
+        },
+        {
+          "text": "Mise",
+          "label": "PER"
+        },
+        {
+          "text": "Nécessite des experts internes",
+          "label": "MISC"
+        },
+        {
+          "text": "OpenStack VMware",
+          "label": "MISC"
+        },
+        {
+          "text": "Une banque ou un hôpital",
+          "label": "MISC"
+        },
+        {
+          "text": "Cloud Privé",
+          "label": "MISC"
+        },
+        {
+          "text": "Adapté",
+          "label": "MISC"
+        },
+        {
+          "text": "Université",
+          "label": "MISC"
+        },
+        {
+          "text": "Étapes générales",
+          "label": "MISC"
+        },
+        {
+          "text": "université Création",
+          "label": "ORG"
+        },
+        {
+          "text": "Gestion des accès chaque",
+          "label": "ORG"
+        },
+        {
+          "text": "Maintenance",
+          "label": "LOC"
+        },
+        {
+          "text": "université Valeur",
+          "label": "ORG"
+        },
+        {
+          "text": "Une entreprise",
+          "label": "MISC"
+        },
+        {
+          "text": "Équilibre",
+          "label": "ORG"
+        },
+        {
+          "text": "Scalabilité intelligente",
+          "label": "ORG"
+        },
+        {
+          "text": "Optimisation",
+          "label": "ORG"
+        },
+        {
+          "text": "Protection",
+          "label": "MISC"
+        },
+        {
+          "text": "Complexité",
+          "label": "MISC"
+        },
+        {
+          "text": "Capacité",
+          "label": "MISC"
+        },
+        {
+          "text": "Considèrent",
+          "label": "LOC"
+        },
+        {
+          "text": "Ne peuvent pas maintenir l’entretien gestion du cloud hybride",
+          "label": "MISC"
+        },
+        {
+          "text": "Arc Google",
+          "label": "TECH"
+        },
+        {
+          "text": "Une entreprise de e commerce stocke ses données clients",
+          "label": "MISC"
+        },
+        {
+          "text": "Une université garde ses données administratives",
+          "label": "MISC"
+        },
+        {
+          "text": "Cas d'usage concret Hôpital",
+          "label": "MISC"
+        },
+        {
+          "text": "Le cloud public Azure",
+          "label": "TECH"
+        },
+        {
+          "text": "Valeur",
+          "label": "ORG"
+        },
+        {
+          "text": "Hybride Cloud",
+          "label": "PER"
+        },
+        {
+          "text": "Le cloud communautaire",
+          "label": "MISC"
+        },
+        {
+          "text": "Partage des coûts et des ressources",
+          "label": "MISC"
+        },
+        {
+          "text": "Gouvernance",
+          "label": "PER"
+        },
+        {
+          "text": "Souhaite",
+          "label": "PER"
+        },
+        {
+          "text": "Ne veut pas assumer la responsabilité complète de la maintenance et l’",
+          "label": "MISC"
+        },
+        {
+          "text": "Veut",
+          "label": "PER"
+        },
+        {
+          "text": "Privilégie l’autonomie",
+          "label": "MISC"
+        },
+        {
+          "text": "Cloud Communautaire",
+          "label": "MISC"
+        },
+        {
+          "text": "Government Cloud",
+          "label": "PER"
+        },
+        {
+          "text": "Google EduCloud",
+          "label": "TECH"
+        },
+        {
+          "text": "GAIA X",
+          "label": "MISC"
+        },
+        {
+          "text": "Infrastructure commune",
+          "label": "LOC"
+        },
+        {
+          "text": "sécurisée Adaptée",
+          "label": "LOC"
+        },
+        {
+          "text": "Réseau d’",
+          "label": "MISC"
+        },
+        {
+          "text": "EduCloud",
+          "label": "LOC"
+        }
+      ],
+      "pii": []
+    }
+  ],
+  "embeddings": {
+    "paragraph_0": [
+      0.040979307144880295,
+      -0.07360335439443588,
+      0.013256476260721684,
+      -0.041223958134651184,
+      -0.034729160368442535,
+      -0.0600307434797287,
+      -0.22849678993225098,
+      -0.15982413291931152,
+      -0.09350627660751343,
+      0.20219379663467407,
+      0.054715901613235474,
+      0.05201791599392891,
+      0.23855552077293396,
+      -0.23331385850906372,
+      0.24625585973262787,
+      -0.03931994363665581,
+      -0.05895381420850754,
+      -0.05933040380477905,
+      0.0551626980304718,
+      -0.00834102462977171,
+      -0.05815068632364273,
+      -0.17289024591445923,
+      -0.05947780981659889,
+      -0.08019158989191055,
+      -0.08873192220926285,
+      -0.034314028918743134,
+      -0.15214475989341736,
+      -0.12489544600248337,
+      0.041324835270643234,
+      -0.2315617799758911,
+      0.16546472907066345,
+      0.08695226907730103,
+      0.017232801765203476,
+      0.14429786801338196,
+      -0.06173022463917732,
+      0.07033495604991913,
+      0.14305227994918823,
+      0.0014158047270029783,
+      -0.2893179953098297,
+      -0.05316644161939621,
+      0.062406398355960846,
+      -0.01305308286100626,
+      0.16522276401519775,
+      0.006318116560578346,
+      0.0848521739244461,
+      -0.03667373210191727,
+      -0.09651446342468262,
+      -0.11986252665519714,
+      -0.15892429649829865,
+      -0.21961988508701324,
+      -0.045548658818006516,
+      -0.054755136370658875,
+      -0.00434951763600111,
+      0.06536531448364258,
+      -0.09993773698806763,
+      0.18889756500720978,
+      0.2214602530002594,
+      0.1664924919605255,
+      -0.23907679319381714,
+      -0.06355897337198257,
+      -0.10361002385616302,
+      -0.01479510497301817,
+      0.13773523271083832,
+      0.21864134073257446,
+      0.10932738333940506,
+      0.03580477833747864,
+      0.005823448766022921,
+      -0.029872125014662743,
+      0.004815602209419012,
+      -0.14127278327941895,
+      -0.18812237679958344,
+      -0.06027665361762047,
+      -0.1890808343887329,
+      -0.19270679354667664,
+      0.11209613084793091,
+      0.10458676517009735,
+      -0.06103406101465225,
+      -0.0707721933722496,
+      0.3577117919921875,
+      0.01343651581555605,
+      0.022775236517190933,
+      0.12112933397293091,
+      0.06151125952601433,
+      0.24821537733078003,
+      -0.18591099977493286,
+      -0.06337807327508926,
+      -0.06284263730049133,
+      0.08256938308477402,
+      0.05107253044843674,
+      -0.12370458990335464,
+      -0.031479887664318085,
+      0.036601148545742035,
+      0.07931344211101532,
+      0.0761852040886879,
+      0.21063993871212006,
+      -0.09259986877441406,
+      0.05117824301123619,
+      -0.29801085591316223,
+      0.12327471375465393,
+      0.3685958683490753,
+      -0.1836683750152588,
+      -0.1536150574684143,
+      0.0225906353443861,
+      -0.1618725210428238,
+      0.17203745245933533,
+      0.02716888301074505,
+      0.30898964405059814,
+      -0.302012175321579,
+      0.09825323522090912,
+      -0.04609488695859909,
+      0.1442619413137436,
+      -0.010623367503285408,
+      -0.1252846121788025,
+      -0.025353623554110527,
+      0.006418848875910044,
+      -0.10386946052312851,
+      -0.11737072467803955,
+      0.11164151132106781,
+      -0.08250286430120468,
+      -0.2315775454044342,
+      -0.029384726658463478,
+      -0.0804814025759697,
+      0.22327753901481628,
+      -0.08666585385799408,
+      0.13511160016059875,
+      -0.13202810287475586,
+      -0.11256242543458939,
+      0.028529059141874313,
+      -0.1367018073797226,
+      -0.16014137864112854,
+      0.09231199324131012,
+      -0.004142896272242069,
+      0.08516264706850052,
+      0.04603935778141022,
+      0.11723117530345917,
+      -0.0687512457370758,
+      0.022427130490541458,
+      -0.20599785447120667,
+      -0.061583224684000015,
+      0.3092324435710907,
+      0.09361647814512253,
+      0.19301380217075348,
+      0.16509762406349182,
+      0.1531236618757248,
+      0.018018968403339386,
+      0.2785784602165222,
+      -0.0015797792002558708,
+      -0.01429665181785822,
+      -0.013402663171291351,
+      0.011923427693545818,
+      0.12555009126663208,
+      -0.22408649325370789,
+      0.21923556923866272,
+      -0.06038033962249756,
+      0.05517382174730301,
+      0.03539359197020531,
+      0.18250936269760132,
+      -0.03797018155455589,
+      0.08628668636083603,
+      -0.0055495621636509895,
+      -0.09768376499414444,
+      0.052953653037548065,
+      -0.10170241445302963,
+      0.08517621457576752,
+      0.14381740987300873,
+      -0.17627570033073425,
+      0.01677396520972252,
+      -0.09313204139471054,
+      0.0063005671836435795,
+      0.19517618417739868,
+      -0.07374517619609833,
+      -0.2616964280605316,
+      -0.017189674079418182,
+      -0.16893088817596436,
+      0.19940955936908722,
+      -0.14337188005447388,
+      -0.17545509338378906,
+      -0.13821667432785034,
+      0.014950957149267197,
+      -0.11325371265411377,
+      0.09723830968141556,
+      -0.2003421038389206,
+      0.1825229972600937,
+      -0.04066036641597748,
+      0.14628633856773376,
+      -0.014546960592269897,
+      0.05938800424337387,
+      0.14699915051460266,
+      -0.2549437880516052,
+      -0.1659191995859146,
+      -0.33330419659614563,
+      0.08655241131782532,
+      0.16181324422359467,
+      -0.05340605974197388,
+      0.0006113280542194843,
+      -0.03530604764819145,
+      0.07748362421989441,
+      -0.12874342501163483,
+      -0.11970972269773483,
+      -0.11658903956413269,
+      -0.15386763215065002,
+      0.22426480054855347,
+      -0.0718330666422844,
+      -0.09063611924648285,
+      -0.2921751141548157,
+      -0.18642692267894745,
+      -0.15414506196975708,
+      0.19469228386878967,
+      -0.06602510809898376,
+      0.1459805965423584,
+      -0.11452656984329224,
+      -0.012416725978255272,
+      -0.1823747456073761,
+      0.05039527267217636,
+      -0.022015061229467392,
+      0.0049896929413080215,
+      0.09489457309246063,
+      -0.014777109026908875,
+      -0.1632678061723709,
+      0.01373794861137867,
+      0.09189437329769135,
+      0.15808764100074768,
+      -0.1756274253129959,
+      -0.11929650604724884,
+      -0.4069586396217346,
+      -0.273517906665802,
+      -0.3422452211380005,
+      0.20833025872707367,
+      0.08841121941804886,
+      0.08109681308269501,
+      0.07181917130947113,
+      -0.12610997259616852,
+      0.1346253752708435,
+      0.28885501623153687,
+      0.01215969119220972,
+      0.02715163491666317,
+      0.13432371616363525,
+      0.0014319713227450848,
+      -0.02213272452354431,
+      -0.10286315530538559,
+      -0.014179689809679985,
+      -0.11344674229621887,
+      -0.07830695807933807,
+      0.19626247882843018,
+      0.1374962478876114,
+      0.054430652409791946,
+      -0.30093351006507874,
+      0.06886378675699234,
+      -0.0014913259074091911,
+      0.13512936234474182,
+      -0.16095790266990662,
+      -0.004494909662753344,
+      0.05193951353430748,
+      0.06748936325311661,
+      0.0906430259346962,
+      0.011963974684476852,
+      -0.09110334515571594,
+      0.015449866652488708,
+      0.1084585189819336,
+      0.1455729603767395,
+      0.10837163031101227,
+      -0.18213006854057312,
+      0.025478005409240723,
+      0.18878662586212158,
+      0.03685207664966583,
+      -0.10913980007171631,
+      -0.09155025333166122,
+      -0.04254898056387901,
+      -0.11821559816598892,
+      0.04502249136567116,
+      -0.07033520936965942,
+      0.16968639194965363,
+      0.06586683541536331,
+      -0.2538467347621918,
+      -0.05714072659611702,
+      0.048485442996025085,
+      0.07484368234872818,
+      -0.2060699611902237,
+      0.19737713038921356,
+      0.08147373795509338,
+      0.16164478659629822,
+      0.20191381871700287,
+      0.07416369020938873,
+      -0.06695375591516495,
+      -0.04939630627632141,
+      -0.04409930482506752,
+      0.09056498855352402,
+      0.12595120072364807,
+      -0.30804651975631714,
+      0.057743314653635025,
+      -0.07912709563970566,
+      0.0107160909101367,
+      -0.2764832377433777,
+      -0.022280585020780563,
+      0.010046393610537052,
+      -0.07440322637557983,
+      0.11130881309509277,
+      0.00936669111251831,
+      -0.0796705037355423,
+      -0.05935440957546234,
+      0.01755942776799202,
+      0.07737407088279724,
+      0.09043397009372711,
+      -0.18224787712097168,
+      -0.08442588150501251,
+      -0.10209958255290985,
+      0.05836597830057144,
+      -0.15995337069034576,
+      0.052143167704343796,
+      -0.004457447677850723,
+      0.08143454790115356,
+      -0.29181623458862305,
+      -0.10468136519193649,
+      -0.11900075525045395,
+      -0.016586508601903915,
+      -0.115134596824646,
+      -0.14972545206546783,
+      0.16186177730560303,
+      0.05708113685250282,
+      -0.2276887595653534,
+      0.045772481709718704,
+      -0.08754810690879822,
+      -0.02341441810131073,
+      0.10343354940414429,
+      0.06918671727180481,
+      0.034920088946819305,
+      0.006450023502111435,
+      0.18966427445411682,
+      -0.01739799976348877,
+      -0.08554361760616302,
+      0.06960627436637878,
+      -0.21385012567043304,
+      0.02187691070139408,
+      0.06970956921577454,
+      0.3647698163986206,
+      0.06989261507987976,
+      0.15087243914604187,
+      0.002023108070716262,
+      0.03703497350215912,
+      -0.25449007749557495,
+      0.40327194333076477,
+      0.08583288639783859,
+      -0.11168316751718521,
+      0.02539907395839691,
+      -0.025416964665055275,
+      0.1448783129453659,
+      0.17027923464775085,
+      0.2841571271419525,
+      0.1361667513847351,
+      -0.07030823826789856,
+      0.033880602568387985,
+      0.05555059015750885,
+      -0.1757621467113495,
+      -0.24623580276966095,
+      0.23417794704437256,
+      0.14613249897956848,
+      -0.06998827308416367,
+      -0.020730555057525635,
+      0.09496290236711502,
+      0.09364056587219238,
+      0.015996500849723816,
+      0.15561896562576294,
+      0.0923769399523735,
+      -0.03221234679222107,
+      0.17656658589839935,
+      0.1711871176958084,
+      -0.17967210710048676,
+      -0.004717351868748665,
+      0.11061462759971619,
+      0.2142745703458786,
+      -0.07985370606184006,
+      -0.05151355639100075,
+      0.13555878400802612,
+      0.04314519837498665,
+      0.22589093446731567,
+      0.08389697968959808,
+      0.09818118065595627,
+      -0.22929415106773376,
+      -0.015309536829590797,
+      0.19166767597198486,
+      0.043283045291900635,
+      0.0876278355717659,
+      0.002132866997271776,
+      -0.05387091636657715
+    ]
+  },
+  "subtopics": [
+    {
+      "subtopic_id": "S1",
+      "name": "document_content",
+      "paragraph_ids": [
+        0
+      ]
+    }
+  ],
+  "global_entities": [
+    {
+      "text": "Master 1 Intelligence",
+      "label": "MISC"
+    },
+    {
+      "text": "Cloud",
+      "label": "MISC"
+    },
+    {
+      "text": "34.Modèles",
+      "label": "MISC"
+    },
+    {
+      "text": "Modèle",
+      "label": "MISC"
+    },
+    {
+      "text": "Cloud L’",
+      "label": "MISC"
+    },
+    {
+      "text": "Cloud Computing",
+      "label": "MISC"
+    },
+    {
+      "text": "GUI",
+      "label": "TECH"
+    },
+    {
+      "text": "CPU",
+      "label": "TECH"
+    },
+    {
+      "text": "Le middleware",
+      "label": "MISC"
+    },
+    {
+      "text": "L infrastructure sous jacente représente l’ensemble des ressources matérielles logicielles réseaux",
+      "label": "MISC"
+    },
+    {
+      "text": "L infrastructure physique",
+      "label": "MISC"
+    },
+    {
+      "text": "L infrastructure virtuelle",
+      "label": "MISC"
+    },
+    {
+      "text": "Infrastructure",
+      "label": "LOC"
+    },
+    {
+      "text": "Data Rôle Fournir la puissance",
+      "label": "MISC"
+    },
+    {
+      "text": "Cloud Computing L",
+      "label": "MISC"
+    },
+    {
+      "text": "Serveurs physiques Hosts Machines",
+      "label": "MISC"
+    },
+    {
+      "text": "Processeur CPU",
+      "label": "PER"
+    },
+    {
+      "text": "Stockage Cartes",
+      "label": "PER"
+    },
+    {
+      "text": "Stockage physique Disques",
+      "label": "MISC"
+    },
+    {
+      "text": "SSD",
+      "label": "TECH"
+    },
+    {
+      "text": "Réseau physique",
+      "label": "ORG"
+    },
+    {
+      "text": "Internet Infrastructure",
+      "label": "MISC"
+    },
+    {
+      "text": "Internet Systèmes",
+      "label": "MISC"
+    },
+    {
+      "text": "Maintiennent",
+      "label": "LOC"
+    },
+    {
+      "text": "Sécurité physique",
+      "label": "ORG"
+    },
+    {
+      "text": "Contrôle d’",
+      "label": "MISC"
+    },
+    {
+      "text": "Abstraire",
+      "label": "MISC"
+    },
+    {
+      "text": "VMware",
+      "label": "MISC"
+    },
+    {
+      "text": "Docker",
+      "label": "TECH"
+    },
+    {
+      "text": "VMs",
+      "label": "MISC"
+    },
+    {
+      "text": "VMs Cluster Ensemble",
+      "label": "ORG"
+    },
+    {
+      "text": "Stockage",
+      "label": "MISC"
+    },
+    {
+      "text": "Internet Gestionnaire",
+      "label": "MISC"
+    },
+    {
+      "text": "Management Platform Interface",
+      "label": "ORG"
+    },
+    {
+      "text": "OpenStack VMware vCloud AWS",
+      "label": "TECH"
+    },
+    {
+      "text": "Console Gestionnaire",
+      "label": "MISC"
+    },
+    {
+      "text": "Fichiers préconﬁgurés",
+      "label": "ORG"
+    },
+    {
+      "text": "Modèles de services",
+      "label": "MISC"
+    },
+    {
+      "text": "Cloud 35 Le Cloud",
+      "label": "MISC"
+    },
+    {
+      "text": "IaaS Infrastructure Service",
+      "label": "MISC"
+    },
+    {
+      "text": "IaaS",
+      "label": "MISC"
+    },
+    {
+      "text": "PaaS",
+      "label": "MISC"
+    },
+    {
+      "text": "SaaS.",
+      "label": "LOC"
+    },
+    {
+      "text": "L’IaaS",
+      "label": "PER"
+    },
+    {
+      "text": "L utilisateur gère tout le reste système d’exploitation applications déployées données 39IaaS",
+      "label": "MISC"
+    },
+    {
+      "text": "Flexibilité maximale personnalisation l’utilisateur",
+      "label": "ORG"
+    },
+    {
+      "text": "Scalabilité il est facile d’augmenter",
+      "label": "MISC"
+    },
+    {
+      "text": "Coût",
+      "label": "LOC"
+    },
+    {
+      "text": "Contrôle total",
+      "label": "ORG"
+    },
+    {
+      "text": "Haute",
+      "label": "LOC"
+    },
+    {
+      "text": "Gestion complexe l’utilisateur",
+      "label": "MISC"
+    },
+    {
+      "text": "Compétences techniques nécessaires devops conﬁguration de serveurs",
+      "label": "MISC"
+    },
+    {
+      "text": "Risque",
+      "label": "MISC"
+    },
+    {
+      "text": "Facturation",
+      "label": "LOC"
+    },
+    {
+      "text": "Exemples",
+      "label": "MISC"
+    },
+    {
+      "text": "IaaS Amazon Web Service",
+      "label": "TECH"
+    },
+    {
+      "text": "Microsoft",
+      "label": "TECH"
+    },
+    {
+      "text": "Virtual Machines Google",
+      "label": "TECH"
+    },
+    {
+      "text": "OpenStack",
+      "label": "MISC"
+    },
+    {
+      "text": "Exemples d’utilisation",
+      "label": "MISC"
+    },
+    {
+      "text": "Déployer",
+      "label": "ORG"
+    },
+    {
+      "text": "Créer",
+      "label": "PER"
+    },
+    {
+      "text": "Kubernetes",
+      "label": "TECH"
+    },
+    {
+      "text": "Lancer",
+      "label": "PER"
+    },
+    {
+      "text": "Cas d’",
+      "label": "MISC"
+    },
+    {
+      "text": "EC2",
+      "label": "TECH"
+    },
+    {
+      "text": "Au lieu d’acheter un serveur physique",
+      "label": "MISC"
+    },
+    {
+      "text": "Étapes",
+      "label": "PER"
+    },
+    {
+      "text": "Ubuntu",
+      "label": "MISC"
+    },
+    {
+      "text": "Apache",
+      "label": "MISC"
+    },
+    {
+      "text": "Nginx",
+      "label": "ORG"
+    },
+    {
+      "text": "MySQL",
+      "label": "TECH"
+    },
+    {
+      "text": "Il conﬁgure",
+      "label": "MISC"
+    },
+    {
+      "text": "SSH",
+      "label": "TECH"
+    },
+    {
+      "text": "Netﬂix doit héberger des serveurs capables",
+      "label": "MISC"
+    },
+    {
+      "text": "Problème",
+      "label": "MISC"
+    },
+    {
+      "text": "Solution Cloud",
+      "label": "PER"
+    },
+    {
+      "text": "Apport",
+      "label": "MISC"
+    },
+    {
+      "text": "La plateforme",
+      "label": "MISC"
+    },
+    {
+      "text": "Compilateurs",
+      "label": "PER"
+    },
+    {
+      "text": "Runtimes",
+      "label": "PER"
+    },
+    {
+      "text": "Bibliothèques",
+      "label": "ORG"
+    },
+    {
+      "text": "Frameworks",
+      "label": "LOC"
+    },
+    {
+      "text": "Les Services de Base de Données",
+      "label": "MISC"
+    },
+    {
+      "text": "Le développement de l’application",
+      "label": "MISC"
+    },
+    {
+      "text": "La gestion des données le contenu de la base de données",
+      "label": "MISC"
+    },
+    {
+      "text": "La conﬁguration spéciﬁque",
+      "label": "MISC"
+    },
+    {
+      "text": "serveurs OS",
+      "label": "MISC"
+    },
+    {
+      "text": "middleware Gain de temps",
+      "label": "MISC"
+    },
+    {
+      "text": "Déploiement",
+      "label": "ORG"
+    },
+    {
+      "text": "Scalabilité automatique",
+      "label": "MISC"
+    },
+    {
+      "text": "Collaboration",
+      "label": "MISC"
+    },
+    {
+      "text": "Moins",
+      "label": "ORG"
+    },
+    {
+      "text": "d’OS conﬁgurations",
+      "label": "MISC"
+    },
+    {
+      "text": "Dépendance",
+      "label": "MISC"
+    },
+    {
+      "text": "Limites",
+      "label": "LOC"
+    },
+    {
+      "text": "Problèmes de compatibilité possibles",
+      "label": "MISC"
+    },
+    {
+      "text": "Google",
+      "label": "TECH"
+    },
+    {
+      "text": "App Engine",
+      "label": "PER"
+    },
+    {
+      "text": "App Service",
+      "label": "PER"
+    },
+    {
+      "text": "Analyse de données et décisionnel",
+      "label": "MISC"
+    },
+    {
+      "text": "Utilisation de bases",
+      "label": "MISC"
+    },
+    {
+      "text": "Heroku",
+      "label": "LOC"
+    },
+    {
+      "text": "Python Flask",
+      "label": "TECH"
+    },
+    {
+      "text": "En local il doit installer",
+      "label": "MISC"
+    },
+    {
+      "text": "Python",
+      "label": "TECH"
+    },
+    {
+      "text": "Crée",
+      "label": "LOC"
+    },
+    {
+      "text": "Git",
+      "label": "TECH"
+    },
+    {
+      "text": "Il ajoute une base de données",
+      "label": "MISC"
+    },
+    {
+      "text": "PostgreSQL",
+      "label": "TECH"
+    },
+    {
+      "text": "Cas d’usage 2",
+      "label": "MISC"
+    },
+    {
+      "text": "Une startup développe une application mobile",
+      "label": "MISC"
+    },
+    {
+      "text": "Problème elle ne veut pas perdre de temps",
+      "label": "MISC"
+    },
+    {
+      "text": "SaaS",
+      "label": "MISC"
+    },
+    {
+      "text": "Les",
+      "label": "LOC"
+    },
+    {
+      "text": "L utilisateur",
+      "label": "MISC"
+    },
+    {
+      "text": "Conﬁgurer",
+      "label": "ORG"
+    },
+    {
+      "text": "Gérer",
+      "label": "PER"
+    },
+    {
+      "text": "Mises",
+      "label": "LOC"
+    },
+    {
+      "text": "Accessibilité",
+      "label": "LOC"
+    },
+    {
+      "text": "Support",
+      "label": "MISC"
+    },
+    {
+      "text": "Internet",
+      "label": "MISC"
+    },
+    {
+      "text": "Faible",
+      "label": "MISC"
+    },
+    {
+      "text": "Problèmes d’intégration",
+      "label": "MISC"
+    },
+    {
+      "text": "Gmail",
+      "label": "MISC"
+    },
+    {
+      "text": "Office 365 Canva Réseaux sociaux",
+      "label": "MISC"
+    },
+    {
+      "text": "Facebook",
+      "label": "TECH"
+    },
+    {
+      "text": "Chargebee Stripe Billing",
+      "label": "PER"
+    },
+    {
+      "text": "Gestion",
+      "label": "MISC"
+    },
+    {
+      "text": "CRM",
+      "label": "TECH"
+    },
+    {
+      "text": "Salesforce",
+      "label": "TECH"
+    },
+    {
+      "text": "Finances",
+      "label": "MISC"
+    },
+    {
+      "text": "Google Workspace",
+      "label": "TECH"
+    },
+    {
+      "text": "Permettre",
+      "label": "MISC"
+    },
+    {
+      "text": "Gmail Docs",
+      "label": "PER"
+    },
+    {
+      "text": "Drive",
+      "label": "MISC"
+    },
+    {
+      "text": "Collaborer",
+      "label": "MISC"
+    },
+    {
+      "text": "Stocker",
+      "label": "MISC"
+    },
+    {
+      "text": "Planifier",
+      "label": "PER"
+    },
+    {
+      "text": "Meet 62Apport",
+      "label": "MISC"
+    },
+    {
+      "text": "Notion de responsabilités partagées Notion",
+      "label": "MISC"
+    },
+    {
+      "text": "Responsabilités Partagées",
+      "label": "ORG"
+    },
+    {
+      "text": "Cela signiﬁe que la sécurité du cloud",
+      "label": "MISC"
+    },
+    {
+      "text": "IaaS Fournisseur",
+      "label": "PER"
+    },
+    {
+      "text": "Serveurs physiques",
+      "label": "MISC"
+    },
+    {
+      "text": "Virtualisation",
+      "label": "MISC"
+    },
+    {
+      "text": "Système d’exploitation mises",
+      "label": "MISC"
+    },
+    {
+      "text": "Applications",
+      "label": "MISC"
+    },
+    {
+      "text": "Sécurité réseau pare feu ports",
+      "label": "ORG"
+    },
+    {
+      "text": "Données",
+      "label": "PER"
+    },
+    {
+      "text": "Java Python Node.js",
+      "label": "TECH"
+    },
+    {
+      "text": "Le code de l’application",
+      "label": "MISC"
+    },
+    {
+      "text": "API Exemple",
+      "label": "MISC"
+    },
+    {
+      "text": "Sécurité",
+      "label": "MISC"
+    },
+    {
+      "text": "Google Drive Google",
+      "label": "TECH"
+    },
+    {
+      "text": "Code et application",
+      "label": "MISC"
+    },
+    {
+      "text": "Matériel physique",
+      "label": "MISC"
+    },
+    {
+      "text": "Géré",
+      "label": "MISC"
+    },
+    {
+      "text": "Modèles",
+      "label": "PER"
+    },
+    {
+      "text": "Un modèle de déploiement cloud",
+      "label": "MISC"
+    },
+    {
+      "text": "L'infrastructure Cloud",
+      "label": "MISC"
+    },
+    {
+      "text": "Qu'",
+      "label": "MISC"
+    },
+    {
+      "text": "Le cloud public",
+      "label": "MISC"
+    },
+    {
+      "text": "Pas d’infrastructure physique disponible",
+      "label": "MISC"
+    },
+    {
+      "text": "Cas d'usage concret",
+      "label": "MISC"
+    },
+    {
+      "text": "Un étudiant déploie son application",
+      "label": "MISC"
+    },
+    {
+      "text": "Une startup d’e commerce",
+      "label": "MISC"
+    },
+    {
+      "text": "Airbnb",
+      "label": "PER"
+    },
+    {
+      "text": "l’international Problème besoin",
+      "label": "ORG"
+    },
+    {
+      "text": "Azure",
+      "label": "TECH"
+    },
+    {
+      "text": "Bénéﬁces idéale pour des services accessibles mondialement scalables",
+      "label": "MISC"
+    },
+    {
+      "text": "Cloud Public",
+      "label": "MISC"
+    },
+    {
+      "text": "Idéal",
+      "label": "LOC"
+    },
+    {
+      "text": "Personnalisation",
+      "label": "ORG"
+    },
+    {
+      "text": "Contraintes budgétaire pour les petites entreprises achat maintenance et gestion",
+      "label": "MISC"
+    },
+    {
+      "text": "Mise",
+      "label": "PER"
+    },
+    {
+      "text": "Nécessite des experts internes",
+      "label": "MISC"
+    },
+    {
+      "text": "OpenStack VMware",
+      "label": "MISC"
+    },
+    {
+      "text": "Une banque ou un hôpital",
+      "label": "MISC"
+    },
+    {
+      "text": "Cloud Privé",
+      "label": "MISC"
+    },
+    {
+      "text": "Adapté",
+      "label": "MISC"
+    },
+    {
+      "text": "Université",
+      "label": "MISC"
+    },
+    {
+      "text": "Étapes générales",
+      "label": "MISC"
+    },
+    {
+      "text": "université Création",
+      "label": "ORG"
+    },
+    {
+      "text": "Gestion des accès chaque",
+      "label": "ORG"
+    },
+    {
+      "text": "Maintenance",
+      "label": "LOC"
+    },
+    {
+      "text": "université Valeur",
+      "label": "ORG"
+    },
+    {
+      "text": "Une entreprise",
+      "label": "MISC"
+    },
+    {
+      "text": "Équilibre",
+      "label": "ORG"
+    },
+    {
+      "text": "Scalabilité intelligente",
+      "label": "ORG"
+    },
+    {
+      "text": "Optimisation",
+      "label": "ORG"
+    },
+    {
+      "text": "Protection",
+      "label": "MISC"
+    },
+    {
+      "text": "Complexité",
+      "label": "MISC"
+    },
+    {
+      "text": "Capacité",
+      "label": "MISC"
+    },
+    {
+      "text": "Considèrent",
+      "label": "LOC"
+    },
+    {
+      "text": "Ne peuvent pas maintenir l’entretien gestion du cloud hybride",
+      "label": "MISC"
+    },
+    {
+      "text": "Arc Google",
+      "label": "TECH"
+    },
+    {
+      "text": "Une entreprise de e commerce stocke ses données clients",
+      "label": "MISC"
+    },
+    {
+      "text": "Une université garde ses données administratives",
+      "label": "MISC"
+    },
+    {
+      "text": "Cas d'usage concret Hôpital",
+      "label": "MISC"
+    },
+    {
+      "text": "Le cloud public Azure",
+      "label": "TECH"
+    },
+    {
+      "text": "Valeur",
+      "label": "ORG"
+    },
+    {
+      "text": "Hybride Cloud",
+      "label": "PER"
+    },
+    {
+      "text": "Le cloud communautaire",
+      "label": "MISC"
+    },
+    {
+      "text": "Partage des coûts et des ressources",
+      "label": "MISC"
+    },
+    {
+      "text": "Gouvernance",
+      "label": "PER"
+    },
+    {
+      "text": "Souhaite",
+      "label": "PER"
+    },
+    {
+      "text": "Ne veut pas assumer la responsabilité complète de la maintenance et l’",
+      "label": "MISC"
+    },
+    {
+      "text": "Veut",
+      "label": "PER"
+    },
+    {
+      "text": "Privilégie l’autonomie",
+      "label": "MISC"
+    },
+    {
+      "text": "Cloud Communautaire",
+      "label": "MISC"
+    },
+    {
+      "text": "Government Cloud",
+      "label": "PER"
+    },
+    {
+      "text": "Google EduCloud",
+      "label": "TECH"
+    },
+    {
+      "text": "GAIA X",
+      "label": "MISC"
+    },
+    {
+      "text": "Infrastructure commune",
+      "label": "LOC"
+    },
+    {
+      "text": "sécurisée Adaptée",
+      "label": "LOC"
+    },
+    {
+      "text": "Réseau d’",
+      "label": "MISC"
+    },
+    {
+      "text": "EduCloud",
+      "label": "LOC"
+    }
+  ],
+  "global_pii": []
+}
